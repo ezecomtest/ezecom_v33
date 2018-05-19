@@ -122,7 +122,7 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd-left clear-pd-right ">
 				<div class="ezebiz-work">
 					<h3 class="text-center">How Our EzeBiz Work</h3>
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/Ezebiz-work.png"/>
@@ -143,7 +143,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 no-padding-right">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 no-padding-right clear-pd-left">
 				<div class="package-plan">
 					<p class="text-center">Packages Plan</p>
 					<ul>
@@ -153,7 +153,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 no-padding-left">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 no-padding-left clear-pd-right">
 				<div class="special-offer">
 					<p>Special Offer</p>
 					<ul>
@@ -191,7 +191,7 @@
 			<div class="feature">
 				<h3 class="text-center">Features & Benefits</h3>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/download-upload.png"/>
 					<div class="border-bottom"></div>
@@ -205,7 +205,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/double-speed.png"/>
 					<div class="border-bottom"></div>
@@ -218,7 +218,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/bonus-speed.png"/>
 					<div class="border-bottom"></div>
@@ -231,7 +231,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/maximum-available.png"/>
 					<div class="border-bottom"></div>
@@ -248,7 +248,7 @@
 		</div>
 		
 		<div class="row last-row">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/free-modem.png"/>
 					<div class="border-bottom"></div>
@@ -261,7 +261,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/no-deposit.png"/>
 					<div class="border-bottom"></div>
@@ -274,7 +274,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/support.png"/>
 					<div class="border-bottom"></div>

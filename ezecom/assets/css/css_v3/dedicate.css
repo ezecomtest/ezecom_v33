@@ -13,7 +13,7 @@
 .wrapper-top span{
 	position:absolute;
 	top:230px;
-	left:85px;
+	left:70px;
 	z-index:1000;
 }
 
@@ -38,10 +38,11 @@
 }
 .business img, .storage img, .support-customer img{
 	margin:0 auto;
+	padding-bottom:12px;
 }
 .business p, .storage p,.support-customer p{
 	font-family: myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 	padding:25px 0 15px 0;
 }
 .border-bottom{

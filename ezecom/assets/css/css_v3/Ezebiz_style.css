@@ -8,11 +8,13 @@
 .col-img-padding{
 	padding:0;
 }
-
+.wrapper-top{
+	margin-top:-1px;
+}
 .wrapper-top span{
 	position:absolute;
 	top:230px;
-	left:85px;
+	left:72px;
 	z-index:1000;
 	
 }
@@ -25,34 +27,20 @@
 .about-ezebiz h3{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 23px;
+    font-size:30px;
     font-family: myNeutra,serif,sans-serif;
-	padding-top:40px;
-	padding-bottom:20px;
+	padding:20px;
 }
 .ezebiz-work{
 	margin-bottom:30px;
-}
-.ezebiz-work h3{
-	color: #7961AA;
-    font-weight: bold;
-    font-size: 23px;
-    font-family: myNeutra,serif,sans-serif;
-	padding-top:40px;
-	padding-bottom:50px;
-}
-
-.ezebiz-work{
 	background-color:#F4F4F4;
-	padding-bottom:40px;
+	padding:20px
 }
 .ezebiz-work h3{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 23px;
+    font-size:30px;
     font-family: myNeutra,serif,sans-serif;
-	padding-top:40px;
-	padding-bottom:20px;
 }
 
 .pricing{
@@ -79,20 +67,22 @@
 .package-plan{
 	background-color:#F4F4F4;
 	padding-bottom:86px;
+	min-height:339px;
 }
 .special-offer{
 	background-color:#7961A9;
-	padding-bottom:44px;
+	padding:30px 30px 0 40px;
+	min-height:439px;
 }
 .package-plan p{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 23px;
+    font-size:30px;
     font-family: myNeutra,serif,sans-serif;
 	padding-top:60px;
 }
 .package-plan ul{
-	padding:70px 10px 0 20px;
+	padding:70px 10px 0 42px;
 	list-style-type:none;
 }
 .package-plan ul li{
@@ -103,11 +93,10 @@
 	color:#ffffff;
 	font-size:18px;
     font-family: myNeutra,serif,sans-serif;
-    padding:20px 0 5px 60px;
 }
 .special-offer ul{
 	list-style-type:none;
-	padding-left:70px;
+	padding-left:10px;
 }
 .special-offer ul li{
 	color:#ffffff;
@@ -134,7 +123,7 @@
 .feature h3{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 23px;
+    font-size:30px;
     font-family: myNeutra,serif,sans-serif;
 	padding-top:40px;
 	padding-bottom:60px;
@@ -142,7 +131,9 @@
 
 .wrapper-feature{
 	background:#F4F4F4;
-	min-height:300px;
+	min-width:270px;
+	min-height:321px;
+	padding: 10px 10px 0 10px;
 }
 .wrapper-feature img{
 	margin:0 auto;
@@ -151,13 +142,13 @@
 .wrapper-feature h4{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     font-family:myNeutra,serif,sans-serif;
-	padding-top:10px;
+	padding-top:20px;
 }
 
 .wrapper-feature p{
-	font-size:14px;
+	font-size:16px;
     font-family: myNeutra,serif,sans-serif;
 }
 .text{
@@ -166,11 +157,11 @@
 .border-bottom{
 	border-bottom:1px solid #E6E7E8;
 	width:80%;
-	margin:0 auto;
+	margin-left:10px;
 }
 
 .last-row{
-	margin-top:30px;
+	margin-top:16px;
 	margin-bottom:50px;
 }
 
@@ -193,7 +184,7 @@
 
 
 /* Zoom In Features */
-.wrapper-feature{
+/* .wrapper-feature{
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -202,7 +193,7 @@
 .wrapper-feature:hover{
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
-}
+} */
 
 
 .no-padding-left{
@@ -302,6 +293,15 @@ div#emailform label{
 	
 	} 
 	
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-right{
+		padding-right:0;
+	}
+	.clear-pd-left{
+		padding-left:0;
+	}
 }
 
 

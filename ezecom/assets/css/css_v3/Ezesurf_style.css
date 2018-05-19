@@ -13,7 +13,7 @@
 .wrapper-top span{
 	position:absolute;
 	top:230px;
-	left:85px;
+	left:66px;
 	z-index:1000;
 }
 .about-ezesurf p{
@@ -111,6 +111,9 @@
 	font-family:myNeutra,serif,sans-serif;
     color:#404041;
 	font-weight:bold;
+}
+.term-condition ul{
+	padding-left:15px;
 }
 .term-condition ul li{
 	list-style-image:url('../../../images/our-services/Ezesurf/ezesuf_list.gif');
