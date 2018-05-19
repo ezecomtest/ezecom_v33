@@ -1,0 +1,44 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.container-top-mar{
+	margin-top:-1px;
+}
+.col-img-padding{
+	padding:0;
+}
+.wrapper-career{
+	padding:10px 0 10px 0;
+}
+p{
+	font-size:18px;
+	font-family:myNeutra,serif,sans-serif;
+	padding-top:30px;
+}
+.color-for-p{
+	font-size:18px;
+	font-family:myNeutra,serif,sans-serif;
+	color:#7961AA;
+}
+
+div.dataTables_paginate{
+	text-align:center;
+}
+
+.job-title{
+	font-family:myNeutra,serif,sans-serif !important;
+	font-weight: 530;
+    font-family:myNeutra,serif,sans-serif;
+    color: #7961AA;
+    font-size: 18px;
+}
+
+label{
+	font-family:myNeutra,serif,sans-serif !important;
+}
+strong{
+	font-family:myNeutra,serif,sans-serif !important;
+}

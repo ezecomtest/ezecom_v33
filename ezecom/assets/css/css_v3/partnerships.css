@@ -1,0 +1,132 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.wrapper-partnerships h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size:50px;
+    font-family: myNeutra,serif,sans-serif;
+	padding-top:80px;
+	padding-bottom:20px;
+	margin:0;
+}
+
+.wrapper-partnerships p{
+	font-size:18px;
+	font-family:myNeutra,serif,sans-serif;
+}
+
+.row-margin-bt{
+	margin-bottom:30px
+}
+.wrapper-text{
+	border:1px solid #BBCAD2;
+	margin-bottom:20px;
+	background-color:#F6F5F4;
+}
+.padding-bt-EzeCampus{
+	padding-bottom:29px;
+}
+
+.wrapper-text h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: myNeutra,serif,sans-serif;
+	padding: 25px 30px 12px 30px;
+	margin:0;
+}
+.wrapper-text p{
+	font-size:16px;
+	font-family:myNeutra,serif,sans-serif;
+	padding: 0 30px 10px 30px;
+}
+.wrapper-text h5{
+	margin:0 0 10px 0;
+}
+.wrapper-text h5 strong{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:18px;
+	padding-left:30px;
+}
+.wrapper-text img{
+	margin:0 auto;
+}
+.wrapper-text a{
+	color:#7961AA;
+}
+.wrapper-text a:hover{
+	font-weight:bold;
+	text-decoration:none;
+}
+.padding-img{
+	padding-top:30px;
+}
+.di{
+	padding-top:40px;
+}
+.padding-bt-development-invo{
+	padding-bottom:48px;
+}
+.btmar-nearfooter{
+	margin-bottom:50px;
+	margin-top:10px;
+}
+
+/* Update 17-05-2018 EzeCampus */
+.bg-color{
+	background:#D6D4D4;
+	margin-bottom:20px;
+}
+.ezecampus-desc h2{
+	color: #7961AA;
+	font-weight:bold;
+    font-size: 50px;
+    font-family:myNeutra,serif,sans-serif;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0;
+}
+.ezecampus-desc p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:18px;
+	padding-bottom:10px;
+}
+.content-left, .content-right{
+	background:#F6F5F4;
+	margin-bottom:20px;
+}
+.content-right{
+	padding-bottom:49px;
+}
+.content-left h3,.content-right h3{
+	font-family:myNeutra,serif,sans-serif;
+	color: #7961AA;
+	font-size:30px;
+	font-weight:bold;
+	padding: 25px 30px 12px 30px;
+	margin:0;
+}
+.content-left p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+	padding: 0 30px 25px 30px;
+}
+.content-right p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+	padding-bottom:23px;
+	padding: 0 30px 10px 30px;
+}
+
+@media screen and (min-width:1025px){
+	.clear-pd-right{
+		padding-right:0;
+	}
+	.clear-pd-left{
+		padding-left:0;
+	}
+}

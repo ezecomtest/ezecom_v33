@@ -1,0 +1,27 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.wrapper-text{
+	font-family:myNeutra;
+	font-size:18px;
+	padding:10px 0 10px 0;
+}
+.wrapper-text a{
+	font-family:myNeutra;
+	color:#7961a9;
+}
+
+h3{
+	font-family:myNeutra;
+	font-size:20px;
+	color:#7961a9;
+	font-weight:bold;
+}
+
+.event_title a{
+	font-family:myNeutra;
+	color:#7961a9;
+	text-decoration:none;
+}

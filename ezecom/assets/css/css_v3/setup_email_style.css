@@ -1,0 +1,27 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.form-wrapper{
+	min-height:500px;
+}
+
+.form-wrapper p{
+	color:#7961a9;
+	font-size:20px;
+	font-weight:bold;
+	font-family:myNeutra;
+	padding:20px 0 10px 0;
+}
+.form-wrapper label{
+	font-size:12px;
+}
+.form-wrapper label.red{
+	color:red
+}
+.btn-default:hover{
+	background-color:#7961a9;
+	color:white;
+}

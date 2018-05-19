@@ -1,0 +1,202 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.clear-pd{
+	padding:0;
+}
+.top-mg{
+	margin-top:-1px;
+}
+.mg-bt{
+	margin-bottom:30px;
+}
+.tab-content{
+	margin-bottom:10px;
+}
+.wrapper-text p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:18px;
+	padding:50px 0 2px 0;
+	text-align:center;
+}
+
+.active-now{
+	background-color:#7961AA;
+	color:white !important;
+	text-decoration:none !important;
+}
+
+.text-position{
+	position:relative;
+	top:40px;
+	text-align:center;
+	font-weight:500;
+	font-size:13px;
+	font-family:myNeutra,serif,sans-serif;
+}
+
+.Head,.customer-service,.Siem-Reap,.Sihanouk,.Koh-Kong,.Battambang,.Bavet,.Poipet{
+	padding:20px 30px 40px 30px;
+	border:1px solid #D1D2D4;
+	text-align:center;
+	color:#636363;
+	
+}
+a{
+	text-decoration:none !important;
+}
+.wrapper-branch a:hover{
+	text-decoration:none;
+}
+.Head{
+	min-height:150px;
+}
+
+.Head:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.customer-service{
+	min-height:150px;
+}
+.customer-service:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Siem-Reap{
+	min-height:150px;
+}
+.Siem-Reap:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Sihanouk{
+	min-height:150px;
+}
+.Sihanouk:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Koh-Kong{
+	min-height:150px;
+}
+.Koh-Kong:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Battambang{
+	min-height:150px;
+}
+.Battambang:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Poipet{
+	min-height:150px;
+}
+.Poipet:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Bavet{
+	min-height:150px;
+}
+.Bavet:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+
+.top-header{
+	color:#7961a9;
+	font-family:myNeutra,serif,sans-serif;
+	font-weight:bold;
+	font-size:50px;
+	margin:0;
+	padding-top:50px;
+	padding-bottom:20px;
+}
+.address p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:14px;
+	line-height:18px;
+}
+.address img{
+	padding-right:10px;
+}
+.phone p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:14px;
+	line-height:18px;
+}
+.phone{
+	padding-left:100px;
+}
+.phone img{
+	padding-right:10px;
+}
+.clock p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:14px;
+	line-height:18px;
+}
+
+.clock img{
+	padding-right:10px;
+}
+
+.contact-bg{
+	background-color:#F7F7F7;
+	padding:10px 0 5px 0;
+	margin:0;
+}
+.bd-right{
+	border-right:1px solid #D1D2D4;
+}
+
+.wrapper-content{
+	max-width:81em;
+	height:50%;
+	width:100%;
+	margin:0 auto;
+	background-color:#F7F7F7;
+}
+
+.pd{ padding:0 !important;}
+
+.map-mg-bt{
+	margin-top:10px;
+}
+
+#map-canvas-head,#map-canvas-BKK,
+#map-canvas-Siem-Reap,#map-canvas-Sihanouk,
+#map-canvas-Koh-Kong,#map-canvas-Battambang,
+#map-canvas-Bavet,#map-canvas-Bavet,#map-canvas-Poipet{
+    min-width:50%; 
+	height:640px; 
+}
+
+
+@media screen and (max-width:1000px){
+	.mg-bt-location{
+		margin-bottom:30px;
+	}
+	.bd-right{
+		border-right:none;
+	}
+	.phone{
+		padding:0;
+	}
+	.bd-right{
+		border-bottom:1px solid #D1D2D4;
+	}
+}

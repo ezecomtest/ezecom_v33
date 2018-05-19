@@ -1,0 +1,148 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.pd-right{
+	padding-right:0;
+}
+.pd-left{
+	padding-left:0;
+}
+.VoIP-Contact{
+	background-color:#7961A9;
+	min-height:497px;
+}
+.VoIP-Contact h3{
+	font-family:myNeutra;
+	font-size:45px;
+	font-weight:bold;
+	color:white;
+	padding:46px 0 0 38px;
+	margin-top:0;
+}
+.VoIP-Contact p{
+	font-family:myNeutra;
+	font-size:16px;
+	color:white;
+	line-height:30px;
+	padding:0 40px 20px 50px;
+}
+.VoIP-Contact img{
+	margin-left:40px;
+}
+.VoIP-Contact .phone{
+	padding:30px 20px 0px 40px;
+}
+.internet-phone{
+	background-color:#F7F7F7;
+	padding:15px 0 6px 0;
+}
+.internet-phone img{
+	margin:0 auto;
+	padding-top: 14px;
+}
+.internet-phone h3{
+	font-family:myNeutra;
+	font-size:45px;
+	color:#7961a9;
+	font-weight:bold;
+	padding: 0px 25px 0 38px;
+}
+.internet-phone p{
+	font-family:myNeutra;
+	font-size:18px;
+	padding: 0 40px 15px 40px;
+}
+.internet-phone .detail{
+	font-family:myNeutra;
+	font-size:18px;
+	color:#7961a9;
+	font-weight:bold;
+}
+
+.mg-top{
+	margin-top:50px;
+}
+.mg-bt{
+	margin-bottom:40px;
+}
+.img-internet-call{
+	min-height:392px;
+	margin-top:-3px;
+}
+.bg-color p{
+	font-family:myNeutra;
+	font-size:18px;
+	text-align:center;
+}
+.bg-color{
+	background-color:#F7F7F7;
+	padding:20px 40px 100px 40px;
+}
+.bg-color h3{
+	font-family:myNeutra;
+	font-size:25px;
+	color:#7961a9;
+	font-weight:500;
+}
+.destination-rate{
+	overflow:hidden;
+}
+.destination-rate p{
+	padding:5px 2px 5px 2px;
+	background-color:#A3A3A3;
+	border-radius:5px;
+	text-align:center;
+	color:white;
+	margin: 0 0px 0 1px;
+}
+.rate-by-country h3{
+	font-family:myNeutra;
+	font-size:25px;
+	color:#7961a9;
+}
+/* Table */
+.nav-tabs{
+	border-bottom:none;
+}
+.rl_tabs.outline_content>.tab-content>.tab-pane{
+	max-width:100%;
+}
+.table{
+	position:relative;
+	left:6%;
+}
+.nav-tabs {
+	padding-left:25px;
+}
+.table tbody tr td {
+    border:none;
+}
+.table tbody tr th{
+	border-top:none;
+}
+@media screen and (max-width:1000px){
+	.table{
+		position:relative;
+		left:0;
+	}
+	.pd-left{
+		padding-left:15px;
+	}
+	.pd-right{
+		padding-right:15px;
+	}
+	.destination-rate p{
+		margin: 0 10px 25px 10px;
+	}
+	.mg-bt{
+		margin-bottom:0;
+	}
+	.bg-color{
+		padding: 20px 0 34px 0;
+	}
+	.img-internet-call{
+		min-height: 308px;
+	}
+}

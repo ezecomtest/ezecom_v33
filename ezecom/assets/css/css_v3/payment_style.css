@@ -1,0 +1,221 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.top-mg{
+	margin-top:-1px;
+}
+.mg-top{
+	margin-top:50px;
+}
+.pd-right{
+	padding-right:0;
+}
+
+.pd-left{
+	padding-left:0;
+}
+
+.payment-option{
+	background-color:#7961A9;
+	min-height:200px;
+	padding:0 50px 0 50px;
+}
+.payment-detail p{
+	font-family:myNeutra;
+	font-size:18px;
+	padding:0 0 50px 0;
+}
+
+.max-size{
+	width:100%;
+}
+
+.payment-option p.ezeBill{
+	font-family:myNeutra;
+	color:white;
+	font-size:30px;
+	padding-top:15px;
+	padding-left:25px;
+	
+}
+.payment-option p.first{
+	font-family:myNeutra;
+	font-size:25px;
+	color:white;
+	padding-left:25px;
+}
+
+.payment-option p.second{
+	font-family:myNeutra;
+	font-size:17px;
+	color:white;
+	line-height:30px;
+	padding:5px 10px 28px 30px;
+}
+
+.aba,.anz,.acleda,.cellcard,.Maybank,.wing,.wing-app,.download{
+	padding:20px 30px 40px 30px;
+	border:1px solid #D1D2D4;
+	text-align:center;
+	color:#636363;
+}
+.aba{
+	background-image:url('../../../images/support/payment/aba.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+
+.aba:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.anz{
+	background-image:url('../../../images/support/payment/anz-royal.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.anz:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.acleda{
+	background-image:url('../../../images/support/payment/acleda.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.acleda:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.cellcard{
+	background-image:url('../../../images/support/payment/cellcard.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.cellcard:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Maybank{
+	background-image:url('../../../images/support/payment/Maybank.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.Maybank:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.wing{
+	background-image:url('../../../images/support/payment/wing.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.wing:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.wing-app{
+	background-image:url('../../../images/support/payment/wing-app.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.wing-app:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.download{
+	background-image:url('../../../images/support/payment/download.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.download:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+	background-image:url('../../../images/support/payment/hover-download.png') !important;
+}
+.bg-color{
+	background-color:#F6F6F6;
+}
+.clear-mg{
+	margin:0;
+}
+
+.wrapper-content{
+	min-height:500px;
+	padding:20px 5px 50px 5px;
+}
+
+.header{
+	color:#7961a9;
+	font-family:myNeutra;
+}
+.top-header{
+	color:#7961a9;
+	font-family:myNeutra;
+	padding-bottom:30px;
+}
+
+.wrapper-content p{
+	font-family:myNeutra;
+	font-size:18px;
+	padding-top:15px;
+}
+.wrapper-content ol{
+	padding-left:50px;
+	font-family:myNeutra;
+	font-size:18px;
+}
+
+.active-now{
+	background-color:#7961AA;
+	color:white;
+}
+.text-position{
+	position:relative;
+	top:80px;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+}
+.mg-bt{
+	margin-bottom:30px;
+}
+a{
+	text-decoration:none !important;
+}
+@media screen and (max-width:1000px){
+	.pd-right{
+		padding-right:15px;
+	}
+
+	.pd-left{
+		padding-left:15px;
+	}
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-left{
+		padding-left:0;
+	}
+	.clear-pd-right{
+		padding-right:0;
+	}
+}

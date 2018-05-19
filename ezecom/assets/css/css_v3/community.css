@@ -1,0 +1,46 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.clear-pd{
+	padding:0;
+}
+
+.container-top-mar{
+	margin-top:-1px;
+}
+.wrapper-text{
+	border:1px solid #BBCAD2;
+	padding: 25px 30px 0 30px;
+	margin-bottom:20px;
+}
+.wrapper-text .p-left{
+	padding:20px 0  10px 0;
+}
+.wrapper-text .p-right{
+	padding:20px 0  10px 0;
+}
+.wrapper-text img{
+	margin:0 auto;
+}
+.row-margin-bt{
+	margin-bottom:100px
+}
+.row-margin-top{
+	margin-top:100px;
+}
+
+.wrapper-text p{
+	font-size:18px;
+	font-family:myNeutra,serif,sans-serif;
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-left{
+		padding-left:0;
+	}
+	.clear-pd-right{
+		padding-right:0;
+	}
+}

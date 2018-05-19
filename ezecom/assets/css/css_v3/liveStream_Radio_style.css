@@ -1,0 +1,61 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+h2{
+	font-family:myNeutra;
+	font-size:30px;
+	color:#7961a9;
+	font-weight:bold;
+	padding-top:40px;
+	padding-bottom:20px;
+	margin-top:0;
+}
+h3,h4{
+	font-family:myNeutra;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.radio-schedule-list{
+	padding-left:20px;
+}
+.radio-schedule-list li{
+	list-style-type:none;
+	list-style-image:url("../../../images/radio/FAQ-bullet.png");
+	text-decoration:none;
+	line-height:25px;
+	
+}
+
+.radio-schedule-list li a{
+	color:gray;
+	font-family:myNeutra;
+	font-size:15px;
+}
+
+.radio-schedule-list li a:hover{
+	text-decoration:none;
+	color:#7961a9;
+}
+
+p{
+	font-family:myNeutra;
+	font-size:16px;
+}
+
+.logo-station img {
+    margin: 0px 0px 15px 0;
+    cursor: pointer;
+}
+
+.logo-station .mg-right{
+	margin-right: -25px;
+}
+
+@media screen and (max-width:1024px){
+	.logo-station .mg-right{
+		margin-right:15px;
+	}
+}

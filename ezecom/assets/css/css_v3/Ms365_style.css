@@ -1,0 +1,203 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+/*-- to-top --*/
+.title-365{
+	color:#000;
+	font-weight:bold;
+	font-size:50px;
+	line-height:55px;
+	font-family: myNeutra, serif,sans-serif;
+}
+.text-365{
+	 font-family: myNeutra, serif,sans-serif;
+	 font-size:16px;
+	 line-height:25px;
+}
+.package-plan{
+	color: #7961ab;
+	font-family: myNeutra, serif,sans-serif;
+	font-weight:bold;
+	font-size:30px;
+}
+.feature{
+	color:#7961ab;
+	font-family: myNeutra, serif,sans-serif;
+	font-weight:bold;
+	font-size:30px;
+}
+
+.all-features{
+	text-align:center;
+	color:#7961ab;
+	font-weight:bold;
+	font-size:19px;
+	font-family: myNeutra, serif,sans-serif;
+}
+.all-desc-features{
+	text-align: center;
+	font-size: 16px;
+	font-family: myNeutra, serif,sans-serif;
+}
+
+.form-wrapper{
+	display:none;
+	position:absolute;
+	background-color:#FFFFFF;
+	box-shadow: 4px 4px 4px 4px #EEEFEF;
+	z-index:1000;
+	right:10px;
+	width:40%;
+}
+.form-wrapper{
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.form-wrapper h4{
+	color:#7961a9;
+	font-weight:500;
+}
+
+.form-wrapper .package-info{
+	padding:50px;
+}
+
+.formEmail .resize-textbox{
+	width:100%;
+}
+.formEmail h5{
+    font-size: 15px;
+    color: #7961a9;
+	font-weight:bold;
+    border-bottom: 1px solid #ccc;
+	padding-bottom:5px;
+}
+.formEmail p{
+	padding:10px 0 10px 0;
+	font-family: myNeutra, serif,sans-serif;
+	font-size:18px;
+}
+
+.signup-block span img:hover{
+	cursor:pointer;
+}
+
+
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 5%;
+	right: 2%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/arrow.png") no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.video_block{
+    background: #e7e7e8;
+    min-height: 300px;
+    font-family: myNeutra, sans-serif;
+    font-style: normal;
+}
+
+
+.container .video-container iframe{
+	width:100%;
+	min-height:340px;
+	margin-top:30px;
+}
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1600px){
+	 .container .video-container iframe{
+		width:100%;
+		height:40%;
+	}
+}
+
+@media only screen and (max-width: 1680px) and (min-width: 1600px){
+	 .container .video-container iframe{
+		width:100%;
+		height:40%;
+	}
+}
+
+/* @media screen and (max-width: 1920px){
+   .container .video-container iframe{
+		/* width:100%;
+		height:40%; 
+	}
+} */
+
+
+.learn_more{
+	margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#discount-opt{
+	margin-top: -20px;
+}
+
+.modal-content{
+	position: absolute;
+    top: 358px;
+}
+
+@media screen and (max-width: 375px){
+    .modal-content{
+		position: absolute;
+		top: 950px;
+	}
+}
+
+.img_sign_up{
+	width:380px;
+	float:right;
+	cursor:pointer;
+	position:relative;
+    left:40;
+}
+#sign_up_now{
+	width:75%;
+	margin: 0 auto;
+}
+#sign_up_discount{
+	margin:0 auto;
+	width:80%;
+}
+
+#all_img_features_what_include{
+	width:40%;
+	margin:0 auto;
+}
+#all_h_feature_and_include{
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+}
+.t3-copyright{
+	/*margin-bottom:-28px !important;*/
+	overflow:hidden !important;
+	margin-bottom:0;
+}

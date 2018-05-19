@@ -1,0 +1,69 @@
+/* Footer Style */
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.bg-navigation-footer{
+	background:#d1d2d4;
+	padding-bottom:20px;
+}
+.wrapper-navig-footer{
+	overflow:hidden;
+	padding-top:20px;
+}
+
+@media screen and (max-width:1000px){
+	.wrapper-navig-footer{
+		overflow:hidden;
+		margin-left:0;
+	}
+}
+.section-footer{
+	padding-right:20px;
+}
+.set-padding{
+	padding-left:20px;
+}
+.wrapper-navig-footer .section-footer h6{
+	color:#404041;
+    font-weight:bold;
+    font-size:18px;
+    font-family: myNeutra,serif,sans-serif; 
+}
+.wrapper-navig-footer .section-footer ul{
+	padding:0;
+	margin:0 auto;
+}
+
+.wrapper-navig-footer .section-footer ul li{
+	list-style-type:none;
+	font-size:12px;
+}
+.wrapper-navig-footer .section-footer ul li a{
+	list-style-type:none;
+	font-family: myNeutra,serif,sans-serif; 
+	color:#404041;
+	font-size:14px;
+	line-height:25px;
+}
+
+.wrapper-navig-footer .section-footer ul li a:hover{
+	color:#7961AA;
+	text-decoration:none;
+}
+.wrapper-navig-footer .section-footer ul li img{
+	width:25px;
+	padding-right:5px;
+}
+
+.bg-footer{
+	background:#6b53a2;
+}
+.txt-copyright{
+	color:#f1f1f2;
+	font-family:myNeutra,serif,sans-serif; 
+	padding:10px 0 10px 0;
+	font-size:15px !important;
+}

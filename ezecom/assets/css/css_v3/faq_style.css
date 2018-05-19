@@ -1,0 +1,199 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.wrapper-top{
+	margin-top:-1px;
+}
+
+.ibizcloud{
+	background-image:url('../../../images/support/faq/ibizcloud.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:190px;
+}
+.ibizcloud:hover{
+	background-color:#7961AA;
+	color:white;
+	background-image:none;
+	background-image:url('../../../images/support/faq/hover-ibizcloud.png')!important;
+}
+
+.general{
+	background-image:url('../../../images/support/faq/general.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:190px;
+}
+
+.general:hover{
+	background-color:#7961AA;
+	color:white;
+	background-image:url('../../../images/support/faq/hover-general.png') !important;
+}
+
+
+.internet-connection{
+	background-image:url('../../../images/support/faq/internet-connection.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:190px;
+}
+
+.internet-connection:hover{
+	background-color:#7961AA;
+	color:white;
+	background-image:url('../../../images/support/faq/hover-internet-connection.png') !important;
+}
+
+.email{
+	background-image:url('../../../images/support/faq/email.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:190px;
+}
+.email:hover{
+	background-color:#7961AA;
+	color:white;
+	background-image:url('../../../images/support/faq/hover-email.png') !important;
+}
+
+.email-problems{
+	background-image:url('../../../images/support/faq/email-problem.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:190px;
+}
+
+.email-problems:hover{
+	background-color:#7961AA;
+	color:white;
+	background-image:url('../../../images/support/faq/hover-email-problem.png') !important;
+}
+
+.security{
+	background-image:url('../../../images/support/faq/security.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:190px;
+}
+.security:hover{
+	background-color:#7961AA;
+	color:white;
+	background-image:url('../../../images/support/faq/hover-security.png') !important;
+}
+
+.text-position{
+	position:relative;
+	top:100px;
+	text-align:center;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:14px;
+}
+
+
+
+.general,.ibizcloud,.internet-connection,.email,.email-problems,.security{
+	padding:20px 30px 40px 30px;
+	background-color:#EFEFEF;
+	text-align:center;
+	color:#636363;
+}
+/*
+.general img,.ibizcloud img,.internet-connection img,.email img,.email-problems img,.security img{
+	margin:0 auto;
+}
+
+.general:hover,.ibizcloud:hover,.internet-connection:hover,.email:hover,.email-problems:hover,.security:hover{
+	background-color:#7961AA;
+	color:white;
+}*/
+
+.active-now{
+	background-color:#7961AA;
+	color:white;
+}
+
+.tab-content h2{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:25px;
+	color:#7961a9;
+	font-weight:bold;
+}
+.tab-content h1{
+	font-family:myNeutra,serif,sans-serif;
+	line-height:25px;
+}
+
+.tab-content p{
+	font-family:myNeutra,serif,sans-serif;
+	padding-left:50px;
+	font-size:18px;
+}
+
+.tab-content ul{
+	padding-left:80px;
+}
+.tab-content ul li{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:15px;
+}
+
+.mg-bt{
+	margin-bottom:30px;
+}
+.mg-bt-last{
+	margin-bottom:70px;
+}
+
+.khmer h2, .english h2{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+.working-hour{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 18px;
+}
+.phone-num{
+	color: #7961A9;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.desk-num{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.khmer,.english{
+	background-color:#F4F4F4;
+}
+.khmer{
+	padding-bottom:19px;
+}
+
+.mg-top{
+	margin-top:50px;
+}
+.bd-bt{
+	border-bottom:1px solid #EFEFEF;
+	padding:20px 0 20px 0;
+}
+
+@media screen and (max-width:1000px){
+	.general,.ibizcloud,.internet-connection,.email,.email-problems,.security{
+		margin-bottom:20px;
+	}
+	.mg-bt{
+		margin-bottom:0;
+	}
+	.bd-bt{
+		padding:10px 0 0px 0;
+	}
+	
+}

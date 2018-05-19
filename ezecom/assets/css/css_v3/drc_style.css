@@ -1,0 +1,16 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.mg-top{
+	margin-top:50px;
+}
+.mg-bt{
+	margin-bottom:150px;
+}
+h3{
+	font-family:myNeutra,serif,sans-serif;
+	color:#7961AA;
+}

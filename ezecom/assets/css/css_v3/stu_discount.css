@@ -1,0 +1,30 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.discount-wrapper h2{
+	color: #7961AA;
+    font-size: 25px;
+    font-family:myNeutra,serif,sans-serif;
+	padding-top:10px;
+}
+.discount-wrapper p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:18px;
+	padding-bottom:20px;
+}
+
+.discount-wrapper p.Ezecampust-University{
+	padding-bottom:0;
+}
+
+.discount-wrapper ul{
+	list-style-type:square;
+	padding-left:30px;
+	font-family:myNeutra,serif,sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	line-height:30px;
+}

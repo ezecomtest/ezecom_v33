@@ -1,0 +1,10 @@
+.EZECOM-logo img{
+	float:left;
+	max-width:232px;
+	max-height:35px;
+}
+.language img{
+	cursor:pointer;
+	max-width:36px;
+	max-height:35px;
+}

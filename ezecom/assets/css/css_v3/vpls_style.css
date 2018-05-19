@@ -1,0 +1,117 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.VPLS_wrapper h2{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 50px;
+    font-family:myNeutra,serif,sans-serif;
+	padding-top:10px;
+	text-align:center;
+}
+.VPLS-img img{
+	margin-top:50px;
+	position:relative;
+	left:50px;
+}
+
+.price p{
+	color:#7961AA;
+    font-size:18px;
+    font-family:myNeutra,serif,sans-serif;
+	margin-left:30px;
+	margin-top:10px;
+}
+
+.VPLS_wrapper{
+	margin-top:110px;
+}
+.VPLS_wrapper p span{
+	color: #7961AA;
+	font-family:myNeutra,serif,sans-serif;
+	font-weight:bold;
+}
+.VPLS_wrapper p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+}
+
+.form-wrapper{
+	display:none;
+	position:absolute;
+	background-color:#FFFFFF;
+	box-shadow: 4px 4px 4px 4px #EEEFEF;
+	z-index:1000;
+	width:100%;
+}
+.form-wrapper{
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.form-wrapper h4{
+	color:#7961a9;
+	font-weight:500;
+}
+
+.form-wrapper .package-info{
+	padding:50px;
+}
+
+.formEmail .resize-textbox{
+	width:100%;
+}
+.formEmail h5{
+    font-size: 15px;
+    color: #7961a9;
+	font-weight:bold;
+    border-bottom: 1px solid #ccc;
+	padding-bottom:5px;
+}
+.formEmail p{
+	padding:10px 0 10px 0;
+}
+.signup img{
+	width:125px;
+}
+.signup{
+	margin-left:30px;
+	margin-top:30px;
+}
+/* Zoom In Sign Up */
+.signup span img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.signup span img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor:pointer;
+}
+.mg-bt{
+	margin-bottom:100px;
+}
+
+
+@media screen and (max-width:1024px){
+	.form-wrapper{
+		width:100%;
+		padding-right:50px;
+	}
+	.first ul, .b-first ul, .b-second ul, .b-third ul ,.second ul,.third ul{
+		padding-left:20px;
+	}
+	.VPLS-img img{
+		margin-top:50px;
+		position:relative;
+		left:0;
+	}
+	.VPLS_wrapper{
+		margin-top:10px;
+	}
+}

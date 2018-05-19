@@ -1,0 +1,97 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.pd-right{
+	padding-right:0;
+}
+
+.pd-left{
+	padding-left:0;
+}
+.max-size{
+	width:100%;
+}
+
+.customer-service{
+	background-color:#7961A9;
+	min-height:445px;
+}
+
+.customer-service p.first{
+	font-family:myNeutra;
+	font-size:17px;
+	color:white;
+	line-height:30px;
+	padding:80px 10px 20px 30px;
+}
+
+.customer-service p.second{
+	font-family:myNeutra;
+	font-size:17px;
+	color:white;
+	line-height:30px;
+	padding:15px 10px 20px 30px;
+}
+
+.mg-top{
+	margin-top:50px;
+}
+.mg-bt{
+	margin-bottom:70px;
+}
+.khmer{
+	padding-bottom:19px;
+}
+.khmer,.english{
+	background-color:#F4F4F4;
+}
+.khmer h2,.english h2{
+	font-family:myNeutra;
+	font-size:25px;
+	font-weight:bold;
+	padding:20px 0 0 0;
+}
+.desk-num{
+	font-family:myNeutra;
+	font-size:20px;
+	font-weight:700;
+}
+
+.phone-num{
+	color:#7961A9;
+	font-weight:bold;
+	font-size:30px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.working-hour{
+	font-family:myNeutra;
+	font-size:18px;
+}
+
+@media screen and (max-width:1000px){
+	.pd-right{
+		padding-right:15px;
+	}
+
+	.pd-left{
+		padding-left:15px;
+	}
+	
+	.mg-top{
+		margin-top:0;
+	}
+	.mg-bt{
+		margin-bottom:10px;
+	}
+	
+	.customer-service p.first{
+		font-family:myNeutra;
+		font-size:16px;
+		color:white;
+		line-height:30px;
+		padding:50px 10px 20px 30px;
+	}
+}

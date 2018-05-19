@@ -1,0 +1,18 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.wrapper-CSR img{
+	margin:0 auto;
+	padding:80px 0 50px 0;
+}
+.wrapper-CSR-text p{
+	font-size:18px;
+	font-family:myNeutra,serif,sans-serif;
+	padding-bottom:10px;
+}
+.clear-pd{
+	padding:0;
+}

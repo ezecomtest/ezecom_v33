@@ -1,0 +1,42 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.mg-top {
+	margin-top:17px
+}
+.mg-bt{
+	margin-bottom:30px;
+}
+
+.myLocation{
+	font-family:myNeutra;
+	padding-top:8px;
+	color:#AAAAAA;
+	font-size:15px
+}
+.locationMap{
+	font-family:myNeutra;
+	font-size:20px
+}
+body{
+	padding-right:0 !important;
+}
+#camera-block h2{
+	font-family: myNeutra;
+    font-size: 30px;
+    color: #7961a9;
+    font-weight: bold;
+}
+@media screen and (max-width:1000px){
+	#camera-block .myMap{
+		float: right;
+		position: relative;
+		cursor: pointer;
+		top: 9px;
+		margin-bottom: 20px;
+	}
+	
+}
