@@ -7,14 +7,11 @@
 .MPLS_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 50px;
+    font-size:64px;
     font-family:myNeutra,serif,sans-serif;
 	padding-top:10px;
-	text-align:center;
 }
-.MPLS_wrapper .full-title{
-	text-align:center;
-}
+
 .MPLS-img img{
 	margin-top:50px;
 	position:relative;
@@ -52,9 +49,10 @@
 }
 .MPLS-structure{
 	background-color:#F6F6F6;
+	padding:20px;
 }
 .mg-top-bt{
-	margin-bottom:60px;
+	margin-bottom:20px;
 	margin-top:60px;
 }
 .signmeup{
@@ -66,17 +64,29 @@
 	font-weight:bold;
 	font-size:30px;
 }
+.benefit{
+	color: #7961AA;
+    font-family: myNeutra,serif,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
 .first ul,.b-first ul, .b-second ul,.b-third ul ,.second ul,.third ul{
 	list-style-image:url('../../../images/our-services/IPLC/bullet.png');
 	padding-top:20px;
 	line-height:30px;
 	font-family:myNeutra,serif,sans-serif;
 	font-size:15px;
-	padding-left:20px;
+	padding: 20px 40px 0 40px;
 }
 
 .mg-bt{
 	margin-bottom:60px;
+}
+.block-feature{
+	padding:20px;
+	min-height:300px;
 }
 
 .form-wrapper{
@@ -131,8 +141,9 @@
 
 .benefits-bg{
 	background-color:#F2F3F4;
+	min-height:300px;
 	overflow:hidden;
-	padding:20px 0 60px 0;
+	padding:20px;
 }
 
 .mg-bt-benefit{
@@ -151,5 +162,14 @@
 		margin-top:50px;
 		position:relative;
 		left:0;
+	}
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-left{
+		padding-left:0;
+	}
+	.clear-pd-right{
+		padding-right:0;
 	}
 }

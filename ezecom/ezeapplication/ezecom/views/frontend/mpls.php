@@ -108,13 +108,14 @@
 		</div>
 		
 		<div class="row mg-top-bt">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="MPLS-structure">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/MPLS/MPLS-process.png"/>
 				</div>
 			</div>
 		</div>
-		<div class="row mg-bt">
+		<div class="row">
+			<div class="block-feature">
 			<h2 class="text-center features">Features</h2>
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="first">
@@ -138,10 +139,11 @@
 					</ul>
 				</div>
 			</div>
+			</div>
 		</div>
 		<div class="row mg-bt-benefit">
 			<div class="benefits-bg">
-				<h2 class="text-center features">Benefits of MPLS</h2>
+				<h2 class="text-center benefit">Benefits of MPLS</h2>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-first">
 						<ul>

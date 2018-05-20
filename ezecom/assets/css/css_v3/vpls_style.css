@@ -7,10 +7,9 @@
 .VPLS_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 50px;
+    font-size:64px;
     font-family:myNeutra,serif,sans-serif;
 	padding-top:10px;
-	text-align:center;
 }
 .VPLS-img img{
 	margin-top:50px;
