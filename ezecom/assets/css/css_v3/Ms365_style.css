@@ -6,7 +6,7 @@
 
 /*-- to-top --*/
 .title-365{
-	color:#000;
+	color:#404041;
 	font-weight:bold;
 	font-size:50px;
 	line-height:55px;
@@ -117,7 +117,7 @@
 
 .video_block{
     background: #e7e7e8;
-    min-height: 300px;
+    min-height: 540px;
     font-family: myNeutra, sans-serif;
     font-style: normal;
 }
@@ -126,7 +126,7 @@
 .container .video-container iframe{
 	width:100%;
 	min-height:340px;
-	margin-top:30px;
+	margin-top:100px;
 }
 
 
@@ -174,11 +174,12 @@
 }
 
 .img_sign_up{
-	width:380px;
+	width:475px;
 	float:right;
 	cursor:pointer;
 	position:relative;
-    left:40;
+	top:31px;
+	left:70px;
 }
 #sign_up_now{
 	width:75%;
@@ -186,6 +187,7 @@
 }
 #sign_up_discount{
 	margin:0 auto;
+	padding-bottom:30px;
 	width:80%;
 }
 

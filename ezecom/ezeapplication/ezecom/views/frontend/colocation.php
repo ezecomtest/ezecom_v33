@@ -99,7 +99,9 @@
 		</div>
 		<div class="row mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-left pd-right">
-				<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-server.jpg"/>
+				<div class="colocation">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-server.jpg"/>
+				</div>
 			</div>
 		</div>
 		<div class="row mg-bt mg-top">

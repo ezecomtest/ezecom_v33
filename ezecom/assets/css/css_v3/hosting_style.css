@@ -9,16 +9,17 @@
     font-weight: bold;
     font-size: 50px;
     font-family:myNeutra,serif,sans-serif;
-	padding-top:40px;
+	padding: 20px 0 20px 16px;
+	margin:0;
 }
 .Hosting_wrapper img{
-	float:left;
 	width:180px;
 }
 
 .Hosting-img img{
 	position:relative;
 	left:20px;
+	top:40px;
 }
 
 .Hosting_wrapper{
@@ -34,19 +35,15 @@
 	font-family:myNeutra,serif,sans-serif;
 	font-size:16px;
 	padding-left:22px;
-	padding-top:20px;
-	clear:both;
 }
 
 .Hosting-bg{
 	background-image:url("../../../images/our-services/Web-Hosting/hosting-bg.jpg");
-	background-repeat:no-repeat;
-	padding-bottom:30px;
-	
+	padding:30px 10px 30px 0px;
 }
 
 .exclusive-vat{
-	margin-bottom:40px;
+	
 }
 .exclusive-vat h3{
 	font-family:myNeutra,serif,sans-serif;
@@ -68,13 +65,31 @@
 }
 
 
-.basic-package,.standard-package,.pro-package{
+.basic-package{
+	background-color:#F7F7F7;
+	padding:5px 20px 5px 20px;
+	border-radius:10px;
+	margin:60px 20px 20px 50px;
+	opacity: 0.7;
+    filter: alpha(opacity=70)
+}
+
+.pro-package{
+	background-color:#F7F7F7;
+	padding:5px 20px 5px 20px;
+	border-radius:10px;
+	margin:60px 50px 20px 20px;
+	opacity: 0.7;
+    filter: alpha(opacity=70)
+}
+
+.standard-package{
 	background-color:#F7F7F7;
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	margin:60px 20px 20px 20px;
 	opacity: 0.7;
-    filter: alpha(opacity=70)
+    filter: alpha(opacity=70);
 }
 .standard-package{
 	background-color:#58595B;
@@ -119,10 +134,24 @@
 .pro-package table.table-bordered > tbody > tr > td{
     border:1px solid #9085AF;
 }
-.img-position{
+.img-position-basic{
+	position:absolute;
+	z-index:1000;
+	left:42%;
+	top:1%;
+}
+
+.img-position-standard{
 	position:absolute;
 	z-index:1000;
 	left:38%;
+	top:1%;
+}
+
+.img-position-professional{
+	position:absolute;
+	z-index:1000;
+	left:35%;
 	top:1%;
 }
 
@@ -226,10 +255,10 @@
 	cursor:pointer;
 }
 .mg-bt{
-	margin-bottom:20px;
+	margin-bottom:80px;
 }
 .mg-top{
-	margin-top:30px;
+	margin-top:80px;
 }
 
 
@@ -281,4 +310,10 @@
 		font-size:17px;
 	}
 	
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-left{
+		padding-left:0;
+	}
 }

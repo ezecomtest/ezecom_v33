@@ -298,7 +298,7 @@
 <div class="col-xm-12 col-sm-12 col-md-12">
 	<div style="width:100%;overflow:hidden">
 		<div class="col-xm-2 col-sm-2 col-md-2"></div>
-		<div class="col-xs-12 col-md-4" style="padding:7% 5% 5% 5%">
+		<div class="col-xs-12 col-md-4" style="padding:7% 5% 7% 5%">
 			<img src="<?php echo base_url()?>images/our-services/365/administration.png" id="all_img_features_what_include" alt="Administration and Deployment" class="img-responsive">
 			<h3 class="all-features">Administration and Deployment</h3>
 			<p class="all-desc-features">
@@ -306,7 +306,7 @@
 			</p>
 		</div>
 	
-		<div class="col-xs-12 col-md-4" style="padding:7% 5% 5% 5%">
+		<div class="col-xs-12 col-md-4" style="padding:7% 5% 7% 5%">
 			<img src="<?php echo base_url()?>images/our-services/365/dependability.png" id="all_img_features_what_include" alt="Dependability and Support" class="img-responsive">
 			<h3 class="all-features">Dependability and Support</h3>
 			<p class="all-desc-features">
