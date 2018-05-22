@@ -22,12 +22,14 @@
 	font-family: myNeutra, serif,sans-serif;
 	font-weight:bold;
 	font-size:30px;
+	padding:60px 0 20px 0;
 }
 .feature{
 	color:#7961ab;
 	font-family: myNeutra, serif,sans-serif;
 	font-weight:bold;
 	font-size:30px;
+	padding-top:60px;
 }
 
 .all-features{

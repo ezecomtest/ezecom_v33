@@ -23,7 +23,7 @@
 <h3 class="product-price"><img src="<?php echo base_url()?>images/our-services/365/artwork-microsoft-365.png" alt="" class="img-responsive"></h3>
 </div>
 <div class="col-xs-12 col-sm-4 col-md-6" style="padding-top: 8%;">
-	<h3 class="title-365">MOVE YOUR BUSINESS FORWARD, ANYWHERE, ANYTIME, ANY DEVICE</h3>
+	<h3 class="title-365">Move Your Business Forward, Anywhere, Anytime, Any Device</h3>
 	<br>
 	<p class="text-365">
 		Office 365 is a cloud-based subscription service that brings together the best 
