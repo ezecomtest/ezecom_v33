@@ -580,12 +580,12 @@ $(document).ready(function () {
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN_KbE6yYEz98eIIRzWacJEm-kkm6K__8" type="text/javascript"></script>
 <script>
-      var zoomLevel = 13;
+      var zoomLevel = 7;
 	  var image = "<?php echo base_url()?>images/contact/pin.png";
 	  // EZECOM Head Office
       function initialize_Head() {
 		
-		var centerPos = new google.maps.LatLng(11.562108,104.888535);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -595,8 +595,15 @@ $(document).ready(function () {
           ['EZECOM Head Office', 11.568866, 104.895207]
         ];
 		
-		var location_branch = [
-			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411]
+		var all_branch = [
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			['Poipet Branch', 13.645153, 102.573624],
+			
 		];
         
         for (i = 0; i < locations.length; i++) {  
@@ -610,25 +617,25 @@ $(document).ready(function () {
         }
 		
 		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
-		for (i = 0; i < location_branch.length; i++) {  
+		for (i = 0; i < all_branch.length; i++) {  
           marker = new google.maps.Marker({
-            position: new google.maps.LatLng(location_branch[i][1], location_branch[i][2]),
-            title: location_branch[i][0],
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
             map: map ,
 			icon:image_branch,
 			
           });
-
-        
         }
-
+		
+		
+		
       }
       
 	google.maps.event.addDomListener(window, 'load', initialize_Head);
 	
 	// EZECOM BKK
 	function initialize_BKK() {
-		var centerPos = new google.maps.LatLng(11.562108,104.888535);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -638,6 +645,17 @@ $(document).ready(function () {
           ['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			['Poipet Branch', 13.645153, 102.573624],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -647,7 +665,17 @@ $(document).ready(function () {
 			icon:image
           });
 
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }
@@ -656,7 +684,7 @@ $(document).ready(function () {
 	 
 	 // EZECOM Siem Reap
 	 function initialize_Siem_Reap() {
-		var centerPos = new google.maps.LatLng(13.364047,103.860313);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -666,6 +694,17 @@ $(document).ready(function () {
           ['Siem Reap Branch', 13.358326, 103.854435]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			['Poipet Branch', 13.645153, 102.573624],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -674,8 +713,17 @@ $(document).ready(function () {
             map: map ,
 			icon:image
           });
-
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }
@@ -684,7 +732,7 @@ $(document).ready(function () {
 	  
 	  //Sihanouk
 	  function initialize_Sihanouk() {
-		var centerPos = new google.maps.LatLng(10.60932,103.52958);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -694,6 +742,17 @@ $(document).ready(function () {
           ['Sihanouk Branch', 10.6215995, 103.5262875]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			['Poipet Branch', 13.645153, 102.573624],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -702,8 +761,17 @@ $(document).ready(function () {
             map: map ,
 			icon:image
           });
-
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }
@@ -712,8 +780,7 @@ $(document).ready(function () {
 	  
 	  // Koh Kong
 	  function initialize_Koh_Kong() {
-		var zoomLevel = 10;
-		var centerPos = new google.maps.LatLng(11.61531,103.52958);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -723,6 +790,17 @@ $(document).ready(function () {
           ['Koh Kong Branch', 11.610422, 102.9838]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			['Poipet Branch', 13.645153, 102.573624],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -731,8 +809,17 @@ $(document).ready(function () {
             map: map ,
 			icon:image
           });
-
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }
@@ -741,7 +828,7 @@ $(document).ready(function () {
 	  
 	  // Battambang
 	  function initialize_Battambang() {
-		var centerPos = new google.maps.LatLng(13.10271,103.19822);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -751,6 +838,17 @@ $(document).ready(function () {
           ['Battambang Branch', 13.094526, 103.198304]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			['Poipet Branch', 13.645153, 102.573624],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -759,8 +857,17 @@ $(document).ready(function () {
             map: map ,
 			icon:image
           });
-
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }
@@ -769,7 +876,7 @@ $(document).ready(function () {
 	  
 	  // Bavet
 	  function initialize_Bavet() {
-		var centerPos = new google.maps.LatLng(11.0629,106.137296);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -779,6 +886,17 @@ $(document).ready(function () {
           ['Bavet Branch', 11.0674579, 106.1492428]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Poipet Branch', 13.645153, 102.573624],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -787,8 +905,17 @@ $(document).ready(function () {
             map: map ,
 			icon:image
           });
-
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }
@@ -797,7 +924,7 @@ $(document).ready(function () {
 	  
 	  //map-canvas-Poipet
 	  function initialize_Poipet() {
-		var centerPos = new google.maps.LatLng(13.657905,102.580903);
+		var centerPos = new google.maps.LatLng(11.9879665,104.9806145);
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
@@ -807,6 +934,17 @@ $(document).ready(function () {
           ['Poipet Branch', 13.645153, 102.573624]
           
         ];
+		
+		var all_branch = [
+			['EZECOM Head Office', 11.568866, 104.895207],
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411],
+			['Siem Reap Branch', 13.358326, 103.854435],
+			['Sihanouk Branch', 10.6215995, 103.5262875],
+			['Koh Kong Branch', 11.610422, 102.9838],
+			['Battambang Branch', 13.094526, 103.198304],
+			['Bavet Branch', 11.0674579, 106.1492428],
+			
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
@@ -815,8 +953,17 @@ $(document).ready(function () {
             map: map ,
 			icon:image
           });
-
-        
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < all_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(all_branch[i][1], all_branch[i][2]),
+            title: all_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
+          });
         }
 
       }

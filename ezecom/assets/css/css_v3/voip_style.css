@@ -3,15 +3,45 @@
     font-family: myNeutra;
     src: url(../fonts/NeutraText-Book.otf);
 }
+.top-voip{
+	width:100%;
+	height:auto;
+}
+.top-voip .voip-img{
+	width:50%;
+	height:auto;
+	float:left;
+	margin-top:-1px;
+}
+
+.voip-internet-phone{
+	width:100%;
+	height:auto;
+}
+
+.voip-internet-phone .internet-img{
+	width:50%;
+	height:auto;
+	float:left;
+	margin-top:-4px;
+}
+
+.resize-voip-img{
+	width:100%;
+}
 .pd-right{
-	padding-right:0;
+	padding-right:0px;
 }
 .pd-left{
 	padding-left:0;
 }
 .VoIP-Contact{
 	background-color:#7961A9;
-	min-height:497px;
+	width:50%;
+	margin-top:-1px;
+	min-height:509px;
+	height:auto;
+	float:left;
 }
 .VoIP-Contact h3{
 	font-family:myNeutra;
@@ -29,12 +59,15 @@
 	padding:0 40px 20px 50px;
 }
 .VoIP-Contact img{
-	margin-left:40px;
+	margin-left:47px;
 }
 .VoIP-Contact .phone{
-	padding:30px 20px 0px 40px;
+	padding:30px 20px 0px 50px;
 }
-.internet-phone{
+.voip-internet-phone .internet-phone{
+	width:50%;
+	min-height:499px;
+	float:left;
 	background-color:#F7F7F7;
 	padding:15px 0 6px 0;
 }
@@ -65,7 +98,7 @@
 	margin-top:50px;
 }
 .mg-bt{
-	margin-bottom:40px;
+	margin-bottom:60px;
 }
 .img-internet-call{
 	min-height:392px;
@@ -78,13 +111,13 @@
 }
 .bg-color{
 	background-color:#F7F7F7;
-	padding:20px 40px 100px 40px;
+	padding:40px;
 }
 .bg-color h3{
 	font-family:myNeutra;
-	font-size:25px;
+	font-size:30px;
 	color:#7961a9;
-	font-weight:500;
+	font-weight:bold;
 }
 .destination-rate{
 	overflow:hidden;
@@ -99,8 +132,9 @@
 }
 .rate-by-country h3{
 	font-family:myNeutra;
-	font-size:25px;
+	font-size:30px;
 	color:#7961a9;
+	font-weight:bold;
 }
 /* Table */
 .nav-tabs{
@@ -146,3 +180,14 @@
 		min-height: 308px;
 	}
 }
+
+@media screen and (min-width:1024px){
+	.clear-pd-left{
+		padding-left:0;
+	}
+	.clear-pd-right{
+		padding-right:0;
+	}
+}
+
+

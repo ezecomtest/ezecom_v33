@@ -17,13 +17,23 @@
 	margin-right:0 auto;
 }
 	
-.ddos-services h3,.ddos-attacks h3,.impact h3{
+.ddos-services h3,.impact h3{
 	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
-	font-size:27px;
-	padding:10px 0 15px 0px;
+	font-size:30px;
+	padding:60px 0 20px 0px;
+	margin-bottom:0;
+}
+.how-ddos-attacks h3{
+	font-family:myNeutra,serif,sans-serif;
+	font-weight:bold;
+	color:#7961AA;
+	text-align:center;
+	font-size:30px;
+	padding:20px 0 20px 0px;
+	margin-bottom:0;
 }
 .ddos-attacks h4{
 	font-family:myNeutra,serif,sans-serif;
@@ -33,22 +43,34 @@
 	font-size:27px;
 	padding:10px 0 2px 0px;
 }
+.ddos-mitigation{
+	padding-bottom:30px;
+}
+.ddos-mitigation h4{
+	font-family:myNeutra,serif,sans-serif;
+	font-weight:bold;
+	color:#7961AA;
+	text-align:center;
+	font-size:30px;
+	padding:40px 0 11px 0px;
+	margin:0;
+}
 .features-benefits h4{
 	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
 	font-size:27px;
-	padding:10px 0 20px 0px;
+	padding:80px 0 20px 0px;
 }
 .mg-bt-benefit {
-	margin-bottom:30px;
+	margin-bottom:80px;
 }
 .world-attack h4,.hybrid-protecting h4{
 	font-family: myNeutra;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
-    padding-top: 10px;
+    padding-top: 18px;
 }
 .world-attack p,.hybrid-protecting p{
 	font-family: myNeutra;
@@ -58,17 +80,16 @@
 .ddos-services p{
 	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
-	padding-bottom:12px;
 	line-height:30px;
 }
 .revenue{
-	margin:20px 0 20px 0;
+	margin:26px 0 20px 0;
 }
 .revenue h4{
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:17px;
 	font-weight:600;
-	padding-top:10px;
+	padding-top:18px;
 }
 .revenue p{
 	font-family:myNeutra,serif,sans-serif;
@@ -80,9 +101,12 @@
 
 .ddos-attacks{
 	background-color:#F3F3F4;
-	margin-bottom:30px;
+	margin-top:80px;
 }
 
+.how-ddos-attacks{
+	padding-bottom:40px;
+}
 .ddos-attacks p{
 	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
@@ -92,8 +116,8 @@
 
 .wrapper-top span{
 	position:absolute;
-	right:28%;
-	top:70%;
+	right:42%;
+	top:72%;
 }
 
 .wrapper-top span img{

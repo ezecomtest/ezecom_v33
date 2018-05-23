@@ -113,7 +113,7 @@
 		<div class="row ddos-attacks">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
-				<div class="ddos-attacks">
+				<div class="how-ddos-attacks">
 					<h3>How DDoS Attacks</h3>
 					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/DDoS-attack-chart.png"/>
 				</div>
@@ -159,7 +159,7 @@
 		<div class="row ddos-attacks">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
-				<div class="ddos-attacks">
+				<div class="ddos-mitigation">
 					<h4>How our DDoS Mitigation Works</h4>
 					<p>
 						DDoS Mitigation Service Prevents the Loss of Your Business’s Revenue and Reputation

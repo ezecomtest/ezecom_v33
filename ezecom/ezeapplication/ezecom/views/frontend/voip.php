@@ -16,7 +16,24 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
+			<div class="top-voip">
+				<div class="voip-img">
+					<img  class="img-responsive resize-voip-img" src="<?php echo base_url()?>images/our-services/VoIP/VoIP.jpg"/>
+				</div>
+				<div class="VoIP-Contact">
+					<h3>VoIP On Your Phone</h3>
+					<p>
+						EZECOM offers an easy way to stay in touch with the world at the lowest cost. 
+						Just dial 177 before you call abroad with your fixed line or 
+						mobile phone with only 15 cents a minute to any country. 
+						If you are a Camintel or Mobitel customer, it will cost 20 cents a minute per call. 
+						So for the cheapest international calls dial:
+					</p>
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/contact.png"/>
+					<p class="phone">This service is available across the phone networks: <br/>012 092 089 & Camintel</p>
+				</div>
+			</div>
+			<!--<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right ">
 				<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/VoIP.jpg"/>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
@@ -32,10 +49,26 @@
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/contact.png"/>
 					<p class="phone">This service is available across the phone networks: <br/>012 092 089 & Camintel</p>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		<div class="row mg-top">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
+			<div class="voip-internet-phone">
+				<div class="internet-phone">
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/phone-icon.png"/>
+					<h3>VoIP Through Your Internet Phone</h3>
+					<p>
+						Ezecom offers international VoIP calling to pre and postpaid customers and third party telecommunication providers. 
+						For even cheaper calls, you can use our EzeCall VoIP service with only 1 cent a minute. 
+						You have the choice of renting an EzeCall VoIP phone for $4 a month, or purchasing one for $70. 
+						Our phones are available at all our offices and work over your internet connection.
+					</p>
+					<p class="detail">Please contact us for more details.</p>
+				</div>
+				<div class="internet-img">
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/internet-phone.jpg"/>
+				</div>
+			</div>
+			<!--<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
 				<div class="internet-phone">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/phone-icon.png"/>
 					<h3>VoIP Through Your Internet Phone</h3>
@@ -52,10 +85,10 @@
 				<div class="img-internet-call">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VoIP/internet-phone.jpg"/>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		<div class="row mg-top">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="bg-color">
 					<p>
 					See our rates below: these rates apply when using our EzeCall VoIP phones available at
@@ -66,7 +99,7 @@
 					<div class="row mg-top mg-bt">
 						<div class="destination-rate">
 							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-								<p>USA- Other mainland : $0.0175</p>
+								<p>USA mainland : $0.0175</p>
 							</div>
 							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
 								<p>Thailand : $0.055</p>
