@@ -12,27 +12,29 @@
 }
 .max-size{
 	width:100%;
+	margin-top:-1px;
 }
 
 .customer-service{
 	background-color:#7961A9;
 	min-height:445px;
+	margin-top:-1px;
 }
 
 .customer-service p.first{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:17px;
 	color:white;
 	line-height:30px;
-	padding:80px 10px 20px 30px;
+	padding:50px 40px 20px 50px;
 }
 
 .customer-service p.second{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:17px;
 	color:white;
 	line-height:30px;
-	padding:15px 10px 20px 30px;
+	padding: 15px 40px 20px 50px;
 }
 
 .mg-top{
@@ -48,13 +50,13 @@
 	background-color:#F4F4F4;
 }
 .khmer h2,.english h2{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:25px;
 	font-weight:bold;
 	padding:20px 0 0 0;
 }
 .desk-num{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:20px;
 	font-weight:700;
 }
@@ -65,9 +67,10 @@
 	font-size:30px;
 	padding-top:10px;
 	padding-bottom:20px;
+	font-family:myNeutra,serif,sans-serif;
 }
 .working-hour{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
 }
 
@@ -88,7 +91,7 @@
 	}
 	
 	.customer-service p.first{
-		font-family:myNeutra;
+		font-family:myNeutra,serif,sans-serif;
 		font-size:16px;
 		color:white;
 		line-height:30px;

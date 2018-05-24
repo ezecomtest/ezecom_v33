@@ -89,7 +89,8 @@
 	top:100px;
 	text-align:center;
 	font-family:myNeutra,serif,sans-serif;
-	font-size:14px;
+	font-size:16px;
+	font-weight:500;
 }
 
 
@@ -163,6 +164,7 @@
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 20px;
+	font-family:myNeutra,serif,sans-serif;
 }
 .desk-num{
 	font-family:myNeutra,serif,sans-serif;

@@ -21,7 +21,7 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left clear-pd-right">
 				<div class="payment-option">
-					<p class="ezeBill">PAYMENT EZECOM BILL</p>
+					<h3 class="ezeBill">PAYMENT EZECOM BILL</h3>
 					<p class="first">just mouse click away</p>
 					<p class="second">
 						For our customers convenience we offer a number of different payment optins. 
