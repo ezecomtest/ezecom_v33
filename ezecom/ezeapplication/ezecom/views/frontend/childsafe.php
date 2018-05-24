@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
-		<div class="row">
+		<div class="row mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-childsafe">
 					<img class="img-responsive" src="<?php echo base_url()?>images/childsafe/child-photo.jpg" alt="Childsafe" title="Childsafe"/>

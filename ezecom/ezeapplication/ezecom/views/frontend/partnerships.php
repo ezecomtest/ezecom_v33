@@ -107,7 +107,7 @@
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			</div>
-			<div class="row btmar-nearfooter">
+			<div class="row mg-bt">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="content-left">
 							<h3>The first step in the EzeCampus gave 65,000 students access to high speed internet.</h3>

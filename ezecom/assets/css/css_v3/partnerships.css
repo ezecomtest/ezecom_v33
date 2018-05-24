@@ -122,6 +122,10 @@
 	padding: 0 30px 10px 30px;
 }
 
+.mg-bt{
+	margin-bottom:80px;
+}
+
 @media screen and (min-width:1025px){
 	.clear-pd-right{
 		padding-right:0;
