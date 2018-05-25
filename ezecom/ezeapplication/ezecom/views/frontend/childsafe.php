@@ -21,7 +21,7 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
 				<div class="wrapper-childsafe">
-					<img class="img-responsive" src="<?php echo base_url()?>images/childsafe/childsafe.png" alt="Childsafe" title="Childsafe"/>
+					<img class="img-responsive childsafe-logo" src="<?php echo base_url()?>images/childsafe/childsafe.png" alt="Childsafe" title="Childsafe"/>
 				</div>
 			</div>
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
@@ -60,7 +60,7 @@
 		<div class="row mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-childsafe">
-					<img class="img-responsive" src="<?php echo base_url()?>images/childsafe/child-photo.jpg" alt="Childsafe" title="Childsafe"/>
+					<img class="img-responsive webchlaat" src="<?php echo base_url()?>images/childsafe/child-photo.jpg" alt="Childsafe" title="Childsafe"/>
 				</div>
 			</div>
 		</div>

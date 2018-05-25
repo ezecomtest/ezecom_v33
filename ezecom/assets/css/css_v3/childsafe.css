@@ -4,11 +4,14 @@
     src: url(../fonts/NeutraText-Book.otf);
 }
 
-.wrapper-childsafe img{
+.wrapper-childsafe .childsafe-logo{
 	margin:0 auto;
-	padding:50px 0 0 0;
+	padding:50px 0 40px 0;
 }
 
+.wrapper-childsafe .webchlaat{ 
+	margin-top:40px;
+}
 .wrapper-childsafe p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;

@@ -12,7 +12,7 @@
 			<div class="button"></div>
 			<ul>
 				<li class="<?php if($this->uri->segment(1)=="" or $this->uri->segment(1)=="homepage"){echo "active";} ?>"><a href="<?php echo base_url()?>">Home</a></li>
-				<li ><a href="<?php echo base_url()?>"><span style="<?php if($this->uri->segment(1)=="our-company"){echo "color:#7961a9";} ?>">Our Company</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+				<li ><a><span style="<?php if($this->uri->segment(1)=="our-company"){echo "color:#7961a9";} ?>">Our Company</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
 					<ul>
 						<li><a href="<?php echo base_url()?>our-company/company-profile">Company Profile</a></li>
 						<li><a href="<?php echo base_url()?>our-company/quality-management-system">Quality Management System</a></li>
@@ -29,16 +29,16 @@
 						<li><a href="<?php echo base_url()?>our-company/career-opportunities">Career Opportunities</a></li>
 					</ul>
 				</li>
-				<li><a href="<?php echo base_url()?>"><span style="<?php if($this->uri->segment(1)=="our-services"){echo "color:#7961a9";} ?>">Our Services</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+				<li><a><span style="<?php if($this->uri->segment(1)=="our-services"){echo "color:#7961a9";} ?>">Our Services</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
 				   <ul>
-					  <li><a href="<?php echo base_url()?>">Internet Access <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Internet Access <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 						 </ul>
 					  </li>
-					  <li><a href="<?php echo base_url()?>">Enterprise Network <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Enterprise Network <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
 							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
@@ -46,13 +46,13 @@
 							<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
 						 </ul>
 					  </li>
-					  <li><a href="<?php echo base_url()?>">Cloud Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Cloud Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='<?php echo base_url()?>'>Data Center & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Data Center & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Colocation</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
@@ -60,14 +60,14 @@
 							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='<?php echo base_url()?>'>Cyber Security <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Cyber Security <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/cyber-security/ddos'>DDoS Mitigation Service</a></li>
 							<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>
 							<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='<?php echo base_url()?>'>Value Added Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Value Added Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/value-added-service/voice-over-ip'>VoIP</a></li>
 							<li><a href='<?php echo base_url()?>our-services/value-added-service/EzeTV'>EzeTV</a></li>
@@ -75,7 +75,7 @@
 					  </li>
 				   </ul>
 				</li>
-				<li><a href='<?php echo base_url()?>'><span style="<?php if($this->uri->segment(1)=="support"){echo "color:#7961a9";} ?>">Support</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+				<li><a><span style="<?php if($this->uri->segment(1)=="support"){echo "color:#7961a9";} ?>">Support</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
 					<ul>
 						<li><a href='<?php echo base_url()?>support/faq'>FAQ'S</a></li>
 						<li><a href='<?php echo base_url()?>support/customer-service'>Customer Service</a></li>
@@ -86,7 +86,7 @@
 						<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
 					</ul>
 				</li>
-				<li><a href='<?php echo base_url()?>'><span style="<?php if($this->uri->segment(1)=="media-center"){echo "color:#7961a9";} ?>">Media Center</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+				<li><a><span style="<?php if($this->uri->segment(1)=="media-center"){echo "color:#7961a9";} ?>">Media Center</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
 					<ul>
 						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>

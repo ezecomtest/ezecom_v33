@@ -17,6 +17,7 @@ nav{position:relative;}
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	max-height:50px;
+	cursor:pointer;
 }
 #cssmenu:after,#cssmenu > ul:after{
 	content:".";
@@ -98,7 +99,7 @@ nav{position:relative;}
 	font-family: myNeutra, sans-serif;
 	text-decoration:none;
 	color:#404041;
-	
+	cursor:pointer;
 	
 }
 #cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
