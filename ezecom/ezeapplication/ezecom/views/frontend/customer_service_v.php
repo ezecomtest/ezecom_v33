@@ -16,10 +16,10 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right clear-pd-left">
 				<img  class="img-responsive max-size" src="<?php echo base_url()?>images/support/customer-service/customer-service.jpg"/>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left clear-pd-right">
 				<div class="customer-service">
 					<p class="first">
 						It is our pleasure to provide you with the best and most reliable internet connection in Cambodia, supported by our world-class customer service team. With EZECOM as a partner, you and your organization can benefit from our robust communication infrastructures.
@@ -35,7 +35,7 @@ If you have any questions regarding our connection or if you are in need of tech
 			</div>
 		</div>
 		<div class="row mg-top mg-bt">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
 				<div class="khmer">
 					<h2 class="text-center">Khmer / English speaking</h2>
 					<p class="text-center desk-num">help desk number (24/7)</p>
@@ -45,7 +45,7 @@ If you have any questions regarding our connection or if you are in need of tech
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
 				<div class="english">
 					<h2 class="text-center">English speaking </h2>
 					<p class="text-center desk-num">help desk number</p>

@@ -17,7 +17,7 @@
 
 .customer-service{
 	background-color:#7961A9;
-	min-height:445px;
+	min-height:457px;
 	margin-top:-1px;
 }
 
@@ -96,5 +96,14 @@
 		color:white;
 		line-height:30px;
 		padding:50px 10px 20px 30px;
+	}
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-right{
+		padding-right:0;
+	}
+	.clear-pd-left{
+		padding-left:0;
 	}
 }
