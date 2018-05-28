@@ -6,14 +6,15 @@
 
 .form-wrapper{
 	min-height:500px;
+	margin-bottom:40px;
 }
 
 .form-wrapper p{
 	color:#7961a9;
-	font-size:20px;
+	font-size:40px;
 	font-weight:bold;
-	font-family:myNeutra;
-	padding:20px 0 10px 0;
+	font-family:myNeutra,serif,sans-serif;
+	padding:40px 0 40px 0;
 }
 .form-wrapper label{
 	font-size:12px;
