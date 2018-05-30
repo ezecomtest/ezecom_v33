@@ -186,10 +186,10 @@
 										</li>
 										<li>
 											<strong>Value Added Services</strong>
-											<ul class="add_services">
+											<!--<ul class="add_services">
 												<li><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip">VoIP</a></li>
 												<li><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV">EzeTV</a></li>
-											</ul>
+											</ul>-->
 										</li>
 									</ul>
 								</div>

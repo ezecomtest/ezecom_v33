@@ -86,11 +86,11 @@
 							<div class="tab-content">
 									<div id="general" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
 									<h2>General</h2>
-									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's Internet Service Coverage in the country?</h1>
+									<h1  onclick="disable_general_q1()" id="q1" class="faqheading q1"  style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's Internet Service Coverage in the country?</h1>
 									<div id="a1" class="panel-collapse collapse">
 									<p style="font-size: 16px;">Our fiber Internet and network infrastructures covers 25 cities and provinces throughout the Kingdom of Cambodia.</p>
 									</div>
-									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest Internet option I can purchase from EZECOM?</h1>
+									<h1 onclick="disable_general_q2()" id="q2" class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest Internet option I can purchase from EZECOM?</h1>
 									<div id="a2" class="panel-collapse collapse">
 									<p style="font-size: 16px;">Our FTTX infrastructure offers high-speed gigabit transit performance. Please contact our sales team if you have a specific inquiry.</p>
 									</div>
@@ -682,4 +682,28 @@ $(document).ready(function () {
 		});
 		
 	}); 
+	
+	
+	function disable_general_q1() {
+		var value_q1 = document.getElementById("q1").innerHTML;
+		if(value_q1=="What is EZECOM's Internet Service Coverage in the country?"){
+			var hide_a2 = document.getElementById("a2");
+			//var hide_a3 = document.getElementById("a3");
+			hide_a2.style.display = "none";
+			//hide_a3.style.display = "none";
+			
+		}
+		
+	}
+	
+	function disable_general_q2() {
+		var value_q2 = document.getElementById("q2").innerHTML;
+		if(value_q2=="What is the fastest Internet option I can purchase from EZECOM?"){
+			var hide_a1 = document.getElementById("a1");
+			var hide_a2 = document.getElementById("a2");
+			hide_a1.style.display = "none";
+			hide_a2.style.display = "block";
+		}
+	}
+	
 </script>
