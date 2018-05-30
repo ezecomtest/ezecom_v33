@@ -240,7 +240,7 @@
  
 <div class="col-xm-12 col-sm-12 col-md-12">
 
-	<h1 class="text-center package-plan">WHAT’S INCLUDED</h1>
+	<h1 class="text-center package-plan">What’s Included</h1>
 	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
 		<img src="<?php echo base_url()?>images/our-services/365/come-with-office.png" id="all_img_features_what_include" alt="Comes with Office" class="img-responsive">
 		<h3 class="all-features">Comes with Office</h3>

@@ -169,7 +169,7 @@
 							<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/fb-icon.png"/></li>
 							<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/youtube-icon.png"/></li>
 							<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/skype-icon.png"/></li>
-							<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/TV-icon.png"/></li>
+							<!--<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/TV-icon.png"/></li>-->
 							<li>More</li>
 							
 						</ul>

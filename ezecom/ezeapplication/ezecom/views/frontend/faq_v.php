@@ -127,7 +127,7 @@
 									<h1 class="faqheading q5" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#b5">What is the support plan for EZECOM ibizCloud Service?</h1>
 									<div id="b5" class="panel-collapse collapse">
 									<p style="font-size: 17px;">For technical support, a 7x24x365 Call Center had been set up by EZECOM and International</p>
-									<p style="font-size: 17px;">Network Operation Centre to response customers by email (websales@ezecom.com.kh) and phone call (023 888 181).</p>
+									<p style="font-size: 17px;">Network Operation Centre to response customers by email (websales@ezecom.com.kh) and phone call (023 238 181).</p>
 									</div>
 									<h1 class="faqheading q6" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#b6">If my VM does not work, will EZECOM provide backup points for restoration?</h1>
 									<div id="b6" class="panel-collapse collapse">

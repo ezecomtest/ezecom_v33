@@ -154,9 +154,12 @@
 					<div class="our_services">
 						<h3>Our Services</h3>
 						<p>
-							EZECOM offers you the best available packages to fulfill your needs, from specially designed packages 
-							for your resident to international dedicated 
-							connections and your global enterprise solutions - click here for more packages information.
+							EZECOM offers you the best 
+							available packages to fulfill your needs, from 
+							specially designed packages for your personal 
+							business or home to international level, dedicated 
+							connections for global enterprises- discover below the full 
+							range of our services.
 						</p>
 					</div>
 				</div>
@@ -241,7 +244,7 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Colocation</a></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Data Co-location</a></li>
 							<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>
 							<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
 							<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
@@ -300,13 +303,13 @@
 					<div id="help_more-btn-over" class="pull-left">
 						<div class="imghelphover"></div>
 						<h3 class="text-center">Help Me Choose</h3>
-						<p class="text-center">Tell us your requirements to get the <br/>best available internet package.</p>
+						<p class="text-center">Tell us what you’re looking <br/>for, and our system will suggest <br/>an appropriate package!</p>
 					</div>
 					<div id="more-btn-over" class="pull-right">
 						<div class="imghover"></div>
 						<h3 class="text-center">Sign Me Up</h3>
 						<p class="text-center">
-						Click here to get update and <br/>access to important part of <br/>the whole website.
+						Click here to let us know <br/>you’re interested, and we <br/>will contact you back!
 						</p>
 					</div>
 				</div>
@@ -325,56 +328,49 @@
 						<div class="col-xs-7 col-sm-6">
 						   <p>Which packages interest you:</p>
 						   <div class="packagebox">
-							   <h5>Corporate</h5>
+							   <h5>Dedicate Packages</h5>
 							   <table border="0" cellspacing="0" cellpadding="0">
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="1mbps $59 per month" id="corp1mbps"  /></td>
-										<td><label for="corp1mbps"><strong>1mbps</strong> $40 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="package" value="20Mbps $640 per month" id="corp1mbps"  /></td>
+										<td><label for="corp1mbps"><strong>20Mbps</strong> $640 per month</label></td>
 									</tr>
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="2mbps $118 per month" id="corp2mbps"  /></td>
-										<td><label for="corp2mbps"><strong>2mbps</strong> $80 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="package" value="30Mbps $900 per month" id="corp2mbps"  /></td>
+										<td><label for="corp2mbps"><strong>30Mbps</strong> $900 per month</label></td>
 									</tr>
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="3mbps $177 per month" id="corp3mbps"  /></td>
-										<td><label for="corp3mbps"><strong>3mbps</strong> $120 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="package" value="40Mbps $1,120 per month" id="corp3mbps"  /></td>
+										<td><label for="corp3mbps"><strong>40Mbps</strong> $1,120 per month</label></td>
 									</tr>
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="4mbps $236 per month" id="corp4mbps"  /></td>
-										<td><label for="corp4mbps"><strong>4mbps</strong> $152 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="package" value="50Mbps $1,300 per month" id="corp4mbps"  /></td>
+										<td><label for="corp4mbps"><strong>50Mbps</strong> $1,300 per month</label></td>
 									</tr>
-									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="5mbps $285 per month" id="corp5mbps"  /></td>
-										<td><label for="corp5mbps"><strong>5mbps</strong> $190 per month</label></td>
-									</tr>
+									
 								</table>
 								<div class="clearleft"></div>
 							</div>
 							<div class="packagebox" style="margin:0;">
-								<h5>Premium</h5>
+								<h5>EzeBiz Packages</h5>
 								<table border="0" cellspacing="0" cellpadding="0">
 									
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="prempackage" value="1mbps $40 per month" id="prem1mbps"  /></td>
-										<td><label for="prem1mbps"><strong>1mbps</strong> $30 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="5Mbps $60 per month" id="prem1mbps"  /></td>
+										<td><label for="prem1mbps"><strong>5Mbps</strong> $60 per month</label></td>
 									</tr>
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="prempackage" value="2mbps $80 per month" id="prem2mbps"  /></td>
-										<td><label for="prem2mbps"><strong>2mbps</strong> $60 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="10Mbps $118 per month" id="prem2mbps"  /></td>
+										<td><label for="prem2mbps"><strong>10Mbps</strong> $118 per month</label></td>
 									</tr>
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="prempackage" value="3mbps  $120 per month" id="prem3mbps"  /></td>
-										<td><label for="prem3mbps"><strong>3mbps</strong> $90 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="20Mbps  $230 per month" id="prem3mbps"  /></td>
+										<td><label for="prem3mbps"><strong>20Mbps</strong> $230 per month</label></td>
 									</tr>
 									<tr>
-										<td><input class="chkbox" type="checkbox" name="prempackage" value="4mbps $160 per month" id="prem4mbps"  /></td>
-										<td><label for="prem4mbps"><strong>4mbps</strong> $108 per month</label></td>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="30Mbps $338 per month" id="prem4mbps"  /></td>
+										<td><label for="prem4mbps"><strong>30Mbps</strong> $338 per month</label></td>
 									</tr>
 									
-									 <tr>
-										<td><input class="chkbox" type="checkbox" name="prempackage" value="5mbps $200 per month" id="prem5mbps"  /></td>
-										<td><label for="prem5mbps"><strong>5mbps</strong> $135 per month</label></td>
-									</tr>
 								</table>
 							
 							<div class="clearleft"></div>
@@ -385,7 +381,7 @@
 						  <div id="emailform">
 							  <h5>Contact Us</h5>
 							  
-							  <p>Call us now on <strong>‎023 888 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+							  <p>Call us now on <strong>‎023 238 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
 							   <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
 							   <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
 							   <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
@@ -482,7 +478,7 @@
                             <div id="emailform" class="col-sm-6" style="width:390px!important;margin-top:-10px !important;padding:5px -1px;">
                             <div class="row">
                               <h5>Yes I am interested!</h5>
-                                <p>Call us now on <strong>028 888 181/ 095 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+                                <p>Call us now on <strong>023 238 181/ 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
                                 
                                 <form action="" name="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
                                  <div class="form-group">
@@ -699,8 +695,7 @@
 			<div class="col-md-10 col-sm-10 col-xs-10">
 				<div class="wrapper-looking">
 					<h3 class="text-center">What are you looking for?</h3>
-					<p class="text-center">In this section you can access to some 
-					important part of the whole <br/>website by mouse click away.</p>
+					<p class="text-center">In this section, you can access some interesting parts <br/>of our website only a mouse click away.</p>
 					<div class="row">
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-news">
@@ -711,7 +706,7 @@
 								</a>
 								<h3 class="text-center">News and Events</h3>
 								<p class="text-center txt-decr">
-									Check out EZECOM latest events activities both sponsorship & partnerships.
+									Check out EZECOM’s latest events and activities, our sponsorships and partnerships.
 								</p>
 							</div>
 							
@@ -725,7 +720,7 @@
 								</a>
 								<h3 class="text-center">Live Traﬃc Camera</h3>
 								<p class="text-center">
-									Click here for EZECOM’s Live traffic camera in Phnom Penh.
+									Click here for EZECOM’s live traffic cameras dotted through out Phnom Penh.
 								</p>
 							</div>
 						</div>
@@ -738,7 +733,7 @@
 								</a>
 								<h3 class="text-center">Live Radio</h3>
 								<p class="text-center">
-									Listen to your favourite radio stations live stream in Cambodia. 
+									Listen to live streams of your favourite radio stations in Cambodia. 
 								</p>
 							</div>
 						</div>

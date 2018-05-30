@@ -16,7 +16,7 @@
 					<ul>
 						<li><a href="<?php echo base_url()?>our-company/company-profile">Company Profile</a></li>
 						<li><a href="<?php echo base_url()?>our-company/quality-management-system">Quality Management System</a></li>
-						<li><a href="<?php echo base_url()?>our-company/childsafe-certification">Childsafe Certification</a></li>
+						<li><a href="<?php echo base_url()?>our-company/childsafe-certification">ChildSafe Certification</a></li>
 						<li><a href="<?php echo base_url()?>our-company/our-partnerships">Our Partnerships</a>
 							<!--<ul>
 								<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
@@ -52,9 +52,9 @@
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 						 </ul>
 					  </li>
-					  <li><a>Data Center & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+					  <li><a>Data Centre & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
-							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Colocation</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Data Co-location</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/cpanel-web-hosting'>Web Hosting</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
@@ -77,7 +77,7 @@
 				</li>
 				<li><a><span style="<?php if($this->uri->segment(1)=="support"){echo "color:#7961a9";} ?>">Support</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
 					<ul>
-						<li><a href='<?php echo base_url()?>support/faq'>FAQ'S</a></li>
+						<li><a href='<?php echo base_url()?>support/faq'>FAQ's</a></li>
 						<li><a href='<?php echo base_url()?>support/customer-service'>Customer Service</a></li>
 						<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
 						<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
@@ -86,11 +86,11 @@
 						<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
 					</ul>
 				</li>
-				<li><a><span style="<?php if($this->uri->segment(1)=="media-center"){echo "color:#7961a9";} ?>">Media Center</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+				<li><a><span style="<?php if($this->uri->segment(1)=="media-center"){echo "color:#7961a9";} ?>">Media Centre</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
 					<ul>
 						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>
-						<li><a href='<?php echo base_url()?>media-center/live-traffic-camera'>Traffic Live Camera</a></li>
+						<li><a href='<?php echo base_url()?>media-center/live-traffic-camera'>Live Traffic Camera</a></li>
 					</ul>
 				</li>
 				<li class="<?php if($this->uri->segment(1)=="contact-us"){echo "active";} ?>" ><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
@@ -115,7 +115,7 @@
 									<ul>
 										<li><a href="<?php echo base_url();?>our-company/company-profile">Company Profile</a></li>
 										<li><a href="<?php echo base_url();?>our-company/quality-management-system">Quality Management System</a></li>
-										<li><a href="<?php echo base_url();?>our-company/childsafe-certification">Childsafe Certification</a></li>
+										<li><a href="<?php echo base_url();?>our-company/childsafe-certification">ChildSafe Certification</a></li>
 										<li><a href="<?php echo base_url()?>our-company/our-partnerships">Our Partnerships</a></li>
 										<!--<li>
 											<strong>Our Partnerships</strong>
@@ -161,9 +161,9 @@
 											</ul>
 										</li>
 										<li>
-											<strong>Data Center & Hosting</strong>
+											<strong>Data Centre & Hosting</strong>
 											<ul class="hosting">
-												<li><a href="<?php echo base_url();?>our-services/hosting/colocation">Colocation</a></li>
+												<li><a href="<?php echo base_url();?>our-services/hosting/colocation">Data Co-location</a></li>
 												<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>
 												<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
 												<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
@@ -200,14 +200,14 @@
 									<ul>
 										<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
 										<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
-										<li><a href="<?php echo base_url();?>media-center/live-traffic-camera">Traffic Live Camera</a></li>							
+										<li><a href="<?php echo base_url();?>media-center/live-traffic-camera">Live Traffic Camera</a></li>							
 																						   
 									</ul>
 								</div>
 								<h4>Support</h4>
 								<div class="support-block">
 									<ul>
-										<li><a href="<?php echo base_url();?>support/faq">FAQ'S</a></li>
+										<li><a href="<?php echo base_url();?>support/faq">FAQ's</a></li>
 										<li><a href="<?php echo base_url();?>support/customer-service">Customer Service</a></li>
 										<li><a href="<?php echo base_url();?>support/payment">Payment Options</a></li>
 										<li><a href="<?php echo base_url();?>support/setup-email">EzeMail Setup</a></li>

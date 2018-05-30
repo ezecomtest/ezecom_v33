@@ -21,14 +21,15 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left clear-pd-right">
 				<div class="payment-option">
-					<h3 class="ezeBill">PAYMENT EZECOM BILL</h3>
-					<p class="first">just mouse click away</p>
+					<h3 class="ezeBill">Pay Your EZECOM Bill</h3>
+					<p class="first">Just a Few Mouse Clicks Away</p>
 					<p class="second">
-						For our customers convenience we offer a number of different payment optins. 
-						Besides paying your bill online or via your mobile phone, at all our 
-						offices and e-café’s you can pay your bill in cash. This page gives you and overview of 
-						all methods, with a step by step instruction. 
-						So you can choose what fits best for you or your company.
+						For our customer’s convenience, we offer a number of 
+						different payment options. Besides paying your bill online 
+						or via your smartphone, at all our offices you can pay your 
+						bill in cash. This page gives you an overview of all methods, 
+						with step-by-step instructions ,so you can choose what works 
+						best for you or your company.
 					</p>
 				</div>
 			</div>
@@ -129,7 +130,7 @@
 								<h1 class="header">Pay your EZECOM bill with ABA iBANKING</h1>
 								<p>As an <b>ABA</b> account holder you can manage your finances from the comfort of your own home, or anywhere in the world.</p>
 								<ol>
-									<li>Go to <b>www.ababank.com</b> and click on the iBank button</li>
+									<li>Go to <a href="https://www.ababank.com/" target="_blank">www.ababank.com</a> and click on the iBanking button</li>
 									<li>Login to your iBanking account with your <b>username</b> and <b>password</b></li>
 									<li>Go to <b>"Payments"</b> menu and click <b>"Quick Payment"</b> in the submenu</li>
 									<li>Select <b>"Internet Providers"</b> and click <b>"EZECOM"</b></li>
@@ -155,7 +156,7 @@
 									<li>Enter your <b>"Invoice Number"</b></li>
 									<li>Enter the US dollar amount of your bill</li>
 									<li>Confirm or decline a printed receipt</li>
-									<li>Confirm if the enter information is correct (<b>Yes</b>=process transaction, <b>No</b>=cancell transaction, you can then start the procedure again.</li>
+									<li>Confirm if the enter information is correct (<b>Yes</b>=process transaction, <b>No</b>=cancel transaction, you can then start the procedure again.</li>
 									<li>Your payment is processed We recommend you keep your printed receipts for future references.</li>
 								</ol>
 							</div>
@@ -172,7 +173,7 @@
 								<h1 class="header">Pay your EZECOM bill with ANZ Royal bank</h1>
 								<p>Pay your <b>EZECOM</b> bill with your <b>ANZ Royal</b> Account in a few easy steps from your home or anywhere in the world.</p>
 								<ol>
-									<li>Go to <b>www.anzroyal.com</b></li>
+									<li>Go to <a href="http://www.anzroyal.com/en/Personal/" target="_blank">www.anzroyal.com</a></li>
 									<li>Login your <b>Internet Banking</b> account</li>
 									<li>Go to <b>"Funds Transfer"</b>& Click <b>"Bill Payment"</b></li>
 									<li>In <b>"From Account"</b> drop down list, select the <b>"account you want to debit from"</b></li>
@@ -194,7 +195,7 @@
 									<li>Your invoice will be processed by <b>ANZ Royal</b></li>
 								</ol>
 								<p>
-									For full information on how to sign up for an ANZ Royal account. please go to your nearest ANZ Royal outlet or visit the website.
+									For full information on how to sign up for an ANZ Royal account, please go to your nearest ANZ Royal outlet or visit their website.
 								</p>
 							</div>
 						</div>
@@ -373,7 +374,7 @@
 								</ol>
 								<p>
 									For full information on how to sign up for WING 
-									account please go to your nearest WING outlet or visit www.wingmoney.com
+									account please go to your nearest WING outlet or visit <a href="https://www.wingmoney.com/en/" target="_blank">www.wingmoney.com</a>
 								</p>
 							</div>
 						</div>
@@ -400,7 +401,7 @@
 								</ol>
 								<p>
 									For full information on how to sign up for WING 
-									account please go to your nearest WING outlet or visit www.wingmoney.com
+									account, please go to your nearest WING outlet or visit <a href="https://www.wingmoney.com/en/" target="_blank">www.wingmoney.com</a>
 								</p>
 							</div>
 						</div>

@@ -49,9 +49,9 @@
 					</p>
 					<p>
 						If you would like more information on the ChildSafe programme, 
-						please visit www.childsafe-international.org or if you 
+						please visit <a href="http://thinkchildsafe.org/" target="_blank">www.childsafe-international.org</a> or if you 
 						would like more information about the work of Friends-International, 
-						visit <a href="https://friends-international.org/">www.friends-international.org</a>!
+						visit <a href="https://friends-international.org/" target="_blank">www.friends-international.org</a>!
 					</p>
 				</div>
 			</div>
