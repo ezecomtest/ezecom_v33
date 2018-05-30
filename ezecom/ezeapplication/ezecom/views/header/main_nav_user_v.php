@@ -67,11 +67,11 @@
 							<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>
 						 </ul>
 					  </li>
-					  <li><a>Value Added Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
-						 <ul>
+					  <li><a>Value Added Services <!--<span class="glyphicon glyphicon-menu-right resize-font"></span>--></a>
+						 <!--<ul>
 							<li><a href='<?php echo base_url()?>our-services/value-added-service/voice-over-ip'>VoIP</a></li>
 							<li><a href='<?php echo base_url()?>our-services/value-added-service/EzeTV'>EzeTV</a></li>
-						 </ul>
+						 </ul>-->
 					  </li>
 				   </ul>
 				</li>
