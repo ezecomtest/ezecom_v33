@@ -127,12 +127,12 @@
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
 								<h1 class="header">Pay your EZECOM bill with ABA iBANKING</h1>
-								<p><b>As an ABA account holder you can manage your finances from the comfort of your own home, or anywhere in the world.</b></p>
+								<p>As an <b>ABA</b> account holder you can manage your finances from the comfort of your own home, or anywhere in the world.</p>
 								<ol>
-									<li>Go to www.ababank.com and click on the iBank button</li>
-									<li>Login to your iBanking account with your username and password</li>
+									<li>Go to <b>www.ababank.com</b> and click on the iBank button</li>
+									<li>Login to your iBanking account with your <b>username</b> and <b>password</b></li>
 									<li>Go to <b>"Payments"</b> menu and click <b>"Quick Payment"</b> in the submenu</li>
-									<li>Select "Internet Providers" and click <b>"EZECOM"</b></li>
+									<li>Select <b>"Internet Providers"</b> and click <b>"EZECOM"</b></li>
 									<li>Enter your <b>"Invoice Number"</b>, the amount of your bill and the currency (US Dollar)</li>
 									<li>Click <b>"Pay"</b></li>
 									<li>Click <b>"OK"</b> to confirm the payment</li>
@@ -144,9 +144,9 @@
 									Please go to your nearest ABA Bank or check the details on ABA Bank website.
 								</p>
 								<h1 class="header">Pay your EZECOM bill with ABA ATM</h1>
-								<p><b>If you are an ABA account holder you can pay your EZECOM bill at all ABA ATM's.</b></p>
+								<p>If you are an ABA account holder you can pay your <b>EZECOM</b> bill at all <b>ABA ATM</b></p>
 								<ol>
-									<li>Insert your ABA Bank card in the ABA ATM</li>
+									<li>Insert your <b>ABA Bank</b> card in the <b>ABA ATM</b></li>
 									<li>Choose your preferred language</li>
 									<li>Enter your PIN code</li>
 									<li>Select the <b>"More Services"</b> menu</li>
@@ -170,14 +170,14 @@
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
 								<h1 class="header">Pay your EZECOM bill with ANZ Royal bank</h1>
-								<p><b>Pay your EZECOM bill with your ANZ Royal Account in a few easy steps from your home or anywhere in the world.</b></p>
+								<p>Pay your <b>EZECOM</b> bill with your <b>ANZ Royal</b> Account in a few easy steps from your home or anywhere in the world.</p>
 								<ol>
-									<li>Go to www.anzroyal.com</li>
-									<li>Login your internet banking account</li>
+									<li>Go to <b>www.anzroyal.com</b></li>
+									<li>Login your <b>Internet Banking</b> account</li>
 									<li>Go to <b>"Funds Transfer"</b>& Click <b>"Bill Payment"</b></li>
-									<li>In <b>"From Account"</b> drop down list, select the account you want to debit from</li>
+									<li>In <b>"From Account"</b> drop down list, select the <b>"account you want to debit from"</b></li>
 									<li>In <b>"Biller Name"</b> drop down list, select <b>"EZECOM"</b></li>
-									<li>Enter your 6 digit EZECOM <b>"invoice number"</b></li>
+									<li>Enter your 6 digit EZECOM <b>"Invoice Number"</b></li>
 									<li>Enter the bill amount you want to pay</li>
 									<li>Select <b>"Now"</b> if you want to pay immediately. Or, Select <b>"Once On"</b> and Choose the future date, you want to pay</li>
 									<li>When your transaction is processed a confirmation will be displayed</li>
@@ -186,12 +186,12 @@
 									For full information on how to sign up for an ANZ Royal Internet banking account please go to your nearest ANZ Royal outlet or visit the website.
 								</p>
 								<h1 class="header">Pay your EZECOM bill with ANZ Royal Branch Deposit</h1>
-								<p><b>You can pay your EZECOM invoice at all ANZ Royal branch offices, at no cost to you.</b></p>
+								<p>You can pay your <b>EZECOM</b> invoice at all <b>ANZ Royal</b> branch offices, at no cost to you.</p>
 								<ol>
-									<li>Go to an ANZ Royal Office of your choice</li>
-									<li>Go to the transfers counter</li>
-									<li>Hand the cashier your invoice and the cash amount.</li>
-									<li>Your invoice will be processed by ANZ Royal</li>
+									<li>Go to an <b>ANZ Royal</b> Office of your choice</li>
+									<li>Go to the <b>Transfers counter</b></li>
+									<li>Hand the cashier your <b>Invoice</b> and the cash amount.</li>
+									<li>Your invoice will be processed by <b>ANZ Royal</b></li>
 								</ol>
 								<p>
 									For full information on how to sign up for an ANZ Royal account. please go to your nearest ANZ Royal outlet or visit the website.
@@ -208,14 +208,17 @@
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
 								<h1 class="header">Follow these easy steps to pay your bill via ACLEDA with your mobile phone.</h1>
+								<p>
+									You can pay your <b>EZECOM</b> invoice via <b>ACLEDA Unity</b> on your mobile phone.
+								</p>
 								<ol>
-									<li>Go to ACLEDA Unity menu</li>
+									<li>Go to <b>ACLEDA Unity</b> menu</li>
 									<li>Select <b>“Bill Payment”</b> for bill payment</li>
 									<li>Select <b>“Make Bill Payment”</b></li>
 									<li>Select <b>“EZECOM”</b></li>
 									<li>Select the account which you wish to make the payment.</li>
-									<li>Select Consumer Number for your payment.If you don’t have one, Select <b>“Create New Consumer Number”</b> to enter your Ezecom Customer ID.</li>
-									<li>Enter your Customer ID (Eg. 14523) and press <b>“NEXT”</b></li>
+									<li>Select <b>Consumer Number</b> for your payment.If you don’t have one, Select <b>“Create New Consumer Number”</b> to enter your Ezecom Customer ID.</li>
+									<li>Enter your <b>Customer ID</b> (Eg. 14523) and press <b>“NEXT”</b></li>
 									<li>Enter the US dollar amount of your bill, and press <b>“NEXT”</b></li>
 									<li>Please verify your payment details, then press <b>“YES”.</b></li>
 									<li>Your payment is successfully processed</li>
@@ -298,17 +301,17 @@
 					</div>
 			</div> <!-- End Cellcard -->
 			<div id="Maybank" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-					<div class="row"><h1 class="text-center top-header">Maybank Branch Deposit</h1></div>
+					<div class="row"><h1 class="text-center top-header">Maybank Branch Bill Payment</h1></div>
 					<div class="row bg-color clear-mg">
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
-								<p><b>All maybank customers can pay their EZECOM invoice at all branch offices of Maybank.</b></p>
+								<p>You can pay your <b>EZECOM</b> or <b>TELCOTECH</b> invoice at all <b>Maybank</b> branch offices, at no cost to you.</p>
 								<ol>
-									<li>Go to the Maybank branch of your choice</li>
+									<li>Go to the <b>Maybank branch of your choice</b></li>
 									<li>Go to the transfers counter</li>
 									<li>Hand the cashier your invoice and the cash amount.</li>
-									<li>Your invoice will be processed by Maybank</li>
+									<li>Your invoice will be processed by <b>Maybank</b></li>
 								</ol>
 								<p>
 									For full information on how to sign up for an Maybank account. Pease go to your nearest Maybank outlet or visit the website.
@@ -357,15 +360,16 @@
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
-								<p><b>Follow these easy steps to pay your bill via WING with your mobile phone.</b></p>
+								<p>Follow these easy steps to pay your bill via WING with your mobile phone.</p>
 								<ol>
-									<li>Dial *989# to go to WING menu</li>
-									<li>Enter your WING Account No, and press <b>Send</b></li>
-									<li>Enter <b>“5”</b> and press <b>Send</b></li>
-									<li>Enter <b>“8”</b> and press <b>Send</b></li>
-									<li>Enter your Customer ID, and press <b>Send</b></li>
-									<li>Enter Amount in USD, and press <b>Send</b></li>
-									<li>Enter PIN code (4 digits) of your WING account, and press <b>Send</b></li>
+									<li>Dial <b>*989#</b> to go to WING menu</li>
+									<li>Enter your WING Account No, and press Send </li>
+									<li>Enter <b>“5”</b> and press Send </li>
+									<li>Enter <b>“6”</b> and press Send </li>
+									<li>Enter <b>“3”</b> and press Send </li>
+									<li>Enter your <b>Customer ID</b>, and press Send </li>
+									<li>Enter <b>Amount</b> in USD, and press Send </li>
+									<li>Enter <b>PIN code</b> (4 digits) of your WING account, and press Send </li>
 								</ol>
 								<p>
 									For full information on how to sign up for WING 
@@ -378,20 +382,20 @@
 			
 			<!-- Wing App -->
 			<div id="wing-app" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-					<div class="row"><h1 class="text-center top-header">Wing App Payment</h1></div>
+					<div class="row"><h1 class="text-center top-header">Wing App Bill Payment</h1></div>
 					<div class="row bg-color clear-mg">
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
-								<p><b>Follow these easy steps to pay your bill via WING APP on your mobile phone.</b></p>
+								<p>More convenient with mobile <b>Wing Money App</b> for <b>Android</b> and <b>IOS.</b> To pay your bill by following these </p>
 								<ol>
-									<li>Download WING Money from Play store (Android Phone) App Store (IOS phone)</li>
-									<li>Register your WING APP account</li>
-									<li>Log in to your WING APP account</li>
+									<li>Download <b>WING Money</b> from Play store (Android Phone) App Store (IOS phone)</li>
+									<li>Register your <b>WING APP</b> account</li>
+									<li>Log in to your <b>WING APP</b> account</li>
 									<li>Select <b>“Bill payment”</b> in <b>“Biller List”</b> select <b>“INTERNET”</b> and select <b>“EZECOM”</b></li>
 									<li>Enter you <b>“Customer ID”</b> and <b>“Amount”</b> in USD and select <b>“PAY”</b></li>
 									<li>Check the payment information and select <b>“Confirm”</b></li>
-									<li>Enter PIN CODE(4digits) of your WING ACCOUNT, and select <b>“Continue”</b></li>
+									<li>Enter <b>PIN CODE</b>(4digits) of your WING ACCOUNT, and select <b>“Continue”</b></li>
 									<li>You will receive an SMS notification for successful bill payment</li>
 								</ol>
 								<p>
