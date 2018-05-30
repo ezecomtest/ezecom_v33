@@ -360,12 +360,12 @@
 								<p><b>Follow these easy steps to pay your bill via WING with your mobile phone.</b></p>
 								<ol>
 									<li>Dial *989# to go to WING menu</li>
-									<li>Enter your WING Account No, and press Send</li>
-									<li>Enter “5” and press Send</li>
-									<li>Enter “8” and press Send</li>
-									<li>Enter your Customer ID, and press Send</li>
-									<li>Enter Amount in USD, and press Send</li>
-									<li>Enter PIN code (4 digits) of your WING account, and press Send</li>
+									<li>Enter your WING Account No, and press <b>Send</b></li>
+									<li>Enter <b>“5”</b> and press <b>Send</b></li>
+									<li>Enter <b>“8”</b> and press <b>Send</b></li>
+									<li>Enter your Customer ID, and press <b>Send</b></li>
+									<li>Enter Amount in USD, and press <b>Send</b></li>
+									<li>Enter PIN code (4 digits) of your WING account, and press <b>Send</b></li>
 								</ol>
 								<p>
 									For full information on how to sign up for WING 
@@ -388,10 +388,10 @@
 									<li>Download WING Money from Play store (Android Phone) App Store (IOS phone)</li>
 									<li>Register your WING APP account</li>
 									<li>Log in to your WING APP account</li>
-									<li>Select “Bill payment” in “Biller List” select “INTERNET” and select “EZECOM”</li>
-									<li>Enter you “Customer ID” and “Amount” in USD and select “PAY”</li>
-									<li>Check the payment information and select “Confirm”</li>
-									<li>Enter PIN CODE(4digits) of your WING ACCOUNT, and select “Continue”</li>
+									<li>Select <b>“Bill payment”</b> in <b>“Biller List”</b> select <b>“INTERNET”</b> and select <b>“EZECOM”</b></li>
+									<li>Enter you <b>“Customer ID”</b> and <b>“Amount”</b> in USD and select <b>“PAY”</b></li>
+									<li>Check the payment information and select <b>“Confirm”</b></li>
+									<li>Enter PIN CODE(4digits) of your WING ACCOUNT, and select <b>“Continue”</b></li>
 									<li>You will receive an SMS notification for successful bill payment</li>
 								</ol>
 								<p>

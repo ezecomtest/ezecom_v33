@@ -700,7 +700,7 @@
 				<div class="wrapper-looking">
 					<h3 class="text-center">What are you looking for?</h3>
 					<p class="text-center">In this section you can access to some 
-					important part of the whole <br/>website by mouce click away.</p>
+					important part of the whole <br/>website by mouse click away.</p>
 					<div class="row">
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-news">

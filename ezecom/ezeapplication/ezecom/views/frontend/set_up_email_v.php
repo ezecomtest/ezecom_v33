@@ -88,7 +88,7 @@
 								<input type="submit" class=" pull-right btn btn-default" value="Sign up" name="cmdsubmit"/>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<input type="reset" class="btn btn-default" value="RESET" name="cmdclear"/>
+								<input type="reset" class="btn btn-default" value="Reset" name="cmdclear"/>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
 						</div>

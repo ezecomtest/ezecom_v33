@@ -117,7 +117,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>#7D Russian Boulevard Cambodia Chamber of Commerce Building, Phnom Penh, Cambodia</b>
+								#7D Russian Boulevard Cambodia Chamber of Commerce Building, Phnom Penh, Cambodia
 							</p>
 						</div>
 					</div>
@@ -125,8 +125,8 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel : 023 238 181</b> <br/>
-								<b>Fax : 023 882 961</b>
+								Tel : 023 238 181<br/>
+								Fax : 023 882 961
 							</p>
 						</div>
 					</div>
@@ -134,8 +134,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 7:30AM - 5:30PM</b>
+								Customer Service Hours: <br/>
+								Monday - Friday @ 7:30AM - 5:30PM
 							</p>
 						</div>
 					</div>
@@ -157,7 +157,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>#17, Street 322, Sangkat Boeung Kengkang I</b>
+								#17, Street 322, Sangkat Boeung Kengkang I
 							</p>
 						</div>
 					</div>
@@ -165,8 +165,8 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 023 5000 466 </b> <br/>
-								<b>Fax: 023 882 961</b>
+								Tel: 023 5000 466 <br/>
+								Fax: 023 882 961
 							</p>
 						</div>
 					</div>
@@ -174,10 +174,10 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 7:30AM - 5:30PM</b>
-								<b>Saturday Morning  8:00AM - 12:00PM</b>
-								<b>Afternoon  1:30PM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 7:30AM - 5:30PM
+								Saturday Morning  8:00AM - 12:00PM
+								Afternoon  1:30PM - 5:30PM
 							</p>
 						</div>
 					</div>
@@ -200,7 +200,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>#36, street Sivutha, Mondul II, Svay DangKum, Siem Reap </b>
+								#36, street Sivutha, Mondul II, Svay DangKum, Siem Reap
 							</p>
 						</div>
 					</div>
@@ -208,8 +208,8 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 063 768 181 </b> <br/>
-								<b>Fax: 063 764 081</b>
+								Tel: 063 768 181<br/>
+								Fax: 063 764 081
 							</p>
 						</div>
 					</div>
@@ -217,8 +217,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 8:00AM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 8:00AM - 5:30PM
 								
 							</p>
 						</div>
@@ -242,7 +242,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>#145, St. Ekareach, Sangkat 2, Group 17, Mondul 1, Sihanouk City</b>
+								#145, St. Ekareach, Sangkat 2, Group 17, Mondul 1, Sihanouk City
 							</p>
 						</div>
 					</div>
@@ -250,8 +250,8 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 034 934 625 </b> <br/>
-								<b>Fax: 034 934 625</b>
+								Tel: 034 934 625 <br/>
+								Fax: 034 934 625
 							</p>
 						</div>
 					</div>
@@ -259,8 +259,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 8:00AM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 8:00AM - 5:30PM
 								
 							</p>
 						</div>
@@ -284,7 +284,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b># 123 Main Street, Village 3, Smach Meanchey, Koh Kong</b>
+								# 123 Main Street, Village 3, Smach Meanchey, Koh Kong
 							</p>
 						</div>
 					</div>
@@ -292,7 +292,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 035 936 381 / 035 936 281 </b> <br/>
+								Tel: 035 936 381 / 035 936 281<br/>
 							</p>
 						</div>
 					</div>
@@ -300,8 +300,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 8:00AM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 8:00AM - 5:30PM
 								
 							</p>
 						</div>
@@ -325,7 +325,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>#07, Street 1, Kamakor Village, Svay Por Commune, Battambang District, Battambang City </b>
+								#07, Street 1, Kamakor Village, Svay Por Commune, Battambang District, Battambang City
 							</p>
 						</div>
 					</div>
@@ -333,7 +333,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 053 952 481 / 053 952 381 </b> <br/>
+								Tel: 053 952 481 / 053 952 381<br/>
 							</p>
 						</div>
 					</div>
@@ -341,8 +341,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 8:00AM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 8:00AM - 5:30PM
 								
 							</p>
 						</div>
@@ -366,7 +366,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>#7-8, Sangkat Bavet, Bavet City, Svay Rieng Province </b>
+								#7-8, Sangkat Bavet, Bavet City, Svay Rieng Province 
 							</p>
 						</div>
 					</div>
@@ -374,7 +374,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 044 715 783 </b> <br/>
+								Tel: 044 715 783<br/>
 							</p>
 						</div>
 					</div>
@@ -382,8 +382,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 8:00AM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 8:00AM - 5:30PM
 								
 							</p>
 						</div>
@@ -407,7 +407,7 @@
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>
-								<b>National Road 5, Phum Kilo 4, Poipet commune, Poipet City, Banteay Meanchey Province </b>
+								National Road 5, Phum Kilo 4, Poipet commune, Poipet City, Banteay Meanchey Province 
 							</p>
 						</div>
 					</div>
@@ -415,7 +415,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel: 054 967 769 </b> <br/>
+								Tel: 054 967 769<br/>
 							</p>
 						</div>
 					</div>
@@ -423,8 +423,8 @@
 						<div class="clock">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
 							<p>
-								<b>Customer Service Hours:</b> <br/>
-								<b>Monday - Friday @ 8:00AM - 5:30PM</b>
+								Customer Service Hours:<br/>
+								Monday - Friday @ 8:00AM - 5:30PM
 								
 							</p>
 						</div>

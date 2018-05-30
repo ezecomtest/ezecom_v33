@@ -17,7 +17,9 @@
 	padding:40px 0 40px 0;
 }
 .form-wrapper label{
-	font-size:12px;
+	font-size:14px;
+	font-family:myNeutra,serif,sans-serif;
+	font-weight:1 !important;
 }
 .form-wrapper label.red{
 	color:red
