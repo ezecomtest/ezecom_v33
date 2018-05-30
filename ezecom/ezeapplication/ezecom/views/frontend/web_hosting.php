@@ -92,7 +92,7 @@
 				
 			</div>
 		</div>
-		<div class="row mg-top mg-bt">
+		<div class="row mg-top-price mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-left pd-right">
 				<div class="Hosting-bg">
 					<div class="container">

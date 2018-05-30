@@ -123,7 +123,7 @@
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/fb.png"/></li>
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/playstore.png"/></li>
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/appstore.png"/></li>
-						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/ezetv.png"/></li>
+						<!--<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/ezetv.png"/></li>-->
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/more.png"/></li>
 					</ul>
 				</div>
