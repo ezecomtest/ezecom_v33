@@ -156,7 +156,7 @@ a{
 
 .contact-bg{
 	background-color:#F7F7F7;
-	padding:10px 0 5px 0;
+	padding:10px 0 10px 0;
 	margin:0;
 }
 .bd-right{
@@ -176,6 +176,10 @@ a{
 .map-mg-bt{
 	margin-top:10px;
 	margin-bottom:80px;
+}
+
+.address,.phone,.clock{
+	margin-top:10px;
 }
 
 #map-canvas-head,#map-canvas-BKK,

@@ -19,8 +19,16 @@
 
 .payment-option{
 	background-color:#7961A9;
-	min-height:325px;
+	min-height:381px;
 }
+.payment-option-img{
+	min-height:381px;
+}
+
+.max-size{
+	
+}
+
 .payment-detail p{
 	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;

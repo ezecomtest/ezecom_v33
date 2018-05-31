@@ -17,7 +17,12 @@
 
 .customer-service{
 	background-color:#7961A9;
-	min-height:457px;
+	min-height:401px;
+	margin-top:-1px;
+}
+
+.customer-service-img{
+	min-height:401px;
 	margin-top:-1px;
 }
 
@@ -26,7 +31,7 @@
 	font-size:17px;
 	color:white;
 	line-height:30px;
-	padding:50px 40px 20px 50px;
+	padding:40px 40px 20px 50px;
 }
 
 .customer-service p.second{

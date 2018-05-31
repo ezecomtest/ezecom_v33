@@ -16,10 +16,12 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row top-mg">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right clear-pd-left">
-				<img  class="img-responsive max-size" src="<?php echo base_url()?>images/support/payment/payment.jpg"/>
+			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 pd-right clear-pd-left">
+				<div class="payment-option-img">
+					<img class="img-responsive" src="<?php echo base_url()?>images/support/payment/support-payment.jpg"/>
+				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left clear-pd-right">
+			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 pd-left clear-pd-right">
 				<div class="payment-option">
 					<h3 class="ezeBill">Pay Your EZECOM Bill</h3>
 					<p class="first">Just a Few Mouse Clicks Away</p>
