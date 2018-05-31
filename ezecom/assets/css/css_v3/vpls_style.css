@@ -92,10 +92,12 @@
 	transform: scale(1.1);
 	cursor:pointer;
 }
-.mg-bt{
+/* .mg-bt{
 	margin-bottom:100px;
+} */
+.mg-bt{
+	margin-bottom:300px;
 }
-
 
 @media screen and (max-width:1024px){
 	.form-wrapper{

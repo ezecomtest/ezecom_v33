@@ -106,7 +106,7 @@
 		</div>
 		<div class="row mg-bt mg-top">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
-				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-1.png"/>
+				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-1.svg"/>
 				<div class="wrapper-package">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -131,7 +131,7 @@
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
-				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-2.png"/>
+				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-2.svg"/>
 				<div class="wrapper-setup">
 					<h3>Set Up Fees Apply</h3>
 					<p>

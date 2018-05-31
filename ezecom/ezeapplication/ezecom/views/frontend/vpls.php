@@ -16,6 +16,19 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row mg-bt">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+				<h1 class="text-center">VPLS</h1>
+				<h1 class="text-center">“Page is Under Construction” </h1>
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+		</div>
+	</div>
+</div>  
+
+<!--<div class="container-fluid">
+	<div class="container">
+		<div class="row mg-bt">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="VPLS-img">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VPLS/VPLS.jpg"/>
@@ -41,7 +54,7 @@
 				</div>
 				
 					<!-- Contact Form Dedicate -->
-					<div class="container">
+					<!--<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
 									<form class="form-horizontal" action="<?php echo base_url()?>MPLS/sending.php" method="post">
@@ -93,19 +106,19 @@
 								</div>
 							</div>
 					</div> <!-- end container -->
-			</div>
+			<!--</div>
 		
 		</div>
 		
 	</div>
-</div>          
+</div>       -->
 <!-- FOOTER -->
 <?php $this->load->view("footer/footer_user_v")?> 
 
 <!-- BACK TOP TOP BUTTON -->
-<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+<!--<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
   <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
-</div>
+</div>-->
  
 </body>
 </html>

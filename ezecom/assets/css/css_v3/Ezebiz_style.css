@@ -135,10 +135,54 @@
 	min-height:321px;
 	padding: 10px 10px 0 10px;
 }
-.wrapper-feature img{
+.wrapper-feature .img-download{
 	margin:0 auto;
 	padding-top:10px;
+	width:70px;
 }
+
+.wrapper-feature .img-double-speed{
+	margin:0 auto;
+	padding-top:10px;
+	width:117px;
+}
+
+.wrapper-feature .img-popular-content{
+	margin:0 auto;
+	padding-top:10px;
+	width:117px;
+}
+
+.wrapper-feature .img-availability{
+	margin:0 auto;
+	padding-top:15px;
+	width:108px;
+}
+
+.wrapper-feature .img-modem-rental{
+	margin:0 auto;
+	padding-top:10px;
+	width:120px;
+}
+
+.wrapper-feature .img-no-deposit{
+	margin:0 auto;
+	padding-top:10px;
+	width:130px;
+}
+
+.wrapper-feature .img-support{
+	margin:0 auto;
+	padding-top:10px;
+	width:130px;
+}
+
+.wrapper-feature .img-flexibility{
+	margin:0 auto;
+	padding-top:10px;
+	width:130px;
+}
+
 .wrapper-feature h4{
 	color: #7961AA;
     font-weight: bold;

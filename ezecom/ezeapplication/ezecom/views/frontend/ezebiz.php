@@ -193,7 +193,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/download-upload.png"/>
+					<img class="img-responsive img-download" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-up-download.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Equal Upload/Download</h4>
@@ -207,7 +207,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/double-speed.png"/>
+					<img class="img-responsive img-double-speed" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-x500.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Off-Peak Double Speed</h4>
@@ -220,7 +220,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/bonus-speed.png"/>
+					<img class="img-responsive img-popular-content" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-speed-50Mbps.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Bonus Speed for Popular Content </h4>
@@ -233,7 +233,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/maximum-available.png"/>
+					<img class="img-responsive img-availability" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-maximum-availability.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Maximum Availability</h4>
@@ -250,7 +250,7 @@
 		<div class="row last-row">
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/free-modem.png"/>
+					<img class="img-responsive img-modem-rental" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-modem.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Free Modem Rental</h4>
@@ -263,7 +263,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/no-deposit.png"/>
+					<img class="img-responsive img-no-deposit" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-no-deposit.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>No Deposit Required</h4>
@@ -276,7 +276,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/support.png"/>
+					<img class="img-responsive img-support" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-call-24hours.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>24/7 Support</h4>
@@ -289,7 +289,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="wrapper-feature">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/flexibility.png"/>
+					<img class="img-responsive img-flexibility" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-flexibility.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Flexibility</h4>

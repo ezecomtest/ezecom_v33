@@ -42,7 +42,7 @@
 		<div class="row row-margin-bt">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
 				<div class="wrapper-technology">
-					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/technology.png" alt="Technology" title="Technology"/>
+					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/technology.svg" alt="Technology" title="Technology"/>
 					<h3>Technology</h3>
 					<p>
 						Our company has incorporated its own fibre optic, VoIP, VPN and a custom-built, 
@@ -55,7 +55,7 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
 				<div class="wrapper-technology">
-					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/social-network.png" alt="Corporate Social Responsibility" title="Corporate Social Responsibility"/>
+					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/social-network.svg" alt="Corporate Social Responsibility" title="Corporate Social Responsibility"/>
 					<h3>Corporate Social Responsibility</h3>
 					<p>
 						Besides our strong technical foundation, EZECOM is actively stimulating the growth of the 

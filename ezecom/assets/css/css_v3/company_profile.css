@@ -44,6 +44,7 @@ p span{
 
 .wrapper-technology img{
 	margin:0 auto;
+	width:107px;
 }
 @media screen and (max-width:1024px){
 	.wrapper-technology{

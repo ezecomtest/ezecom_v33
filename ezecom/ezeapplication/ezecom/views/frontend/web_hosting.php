@@ -98,7 +98,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-							<img class="img-responsive img-position-basic" src="<?php echo base_url()?>images/our-services/Web-Hosting/basic-price.png"/>
+							<img class="img-responsive img-position-basic" src="<?php echo base_url()?>images/our-services/Web-Hosting/basic-price.svg"/>
 								<div class="basic-package">
 									<p class="text-center title">BASIC</p>
 									<table class="table table-bordered">
@@ -136,7 +136,7 @@
 								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-								<img class="img-responsive img-position-standard" src="<?php echo base_url()?>images/our-services/Web-Hosting/standard-price.png"/>
+								<img class="img-responsive img-position-standard" src="<?php echo base_url()?>images/our-services/Web-Hosting/standard-price.svg"/>
 								<div class="standard-package">
 									<p class="text-center title">STANDARD</p>
 									<table class="table table-bordered">
@@ -174,7 +174,7 @@
 								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-								<img class="img-responsive img-position-professional" src="<?php echo base_url()?>images/our-services/Web-Hosting/professional-price.png"/>
+								<img class="img-responsive img-position-professional" src="<?php echo base_url()?>images/our-services/Web-Hosting/professional-price.svg"/>
 								<div class="pro-package">
 									<p class="text-center title">PROFESSIONAL</p>
 									<table class="table table-bordered">
