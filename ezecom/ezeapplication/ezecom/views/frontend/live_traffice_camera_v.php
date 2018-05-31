@@ -25,7 +25,7 @@
 		<div class="row mg-top mg-bt">
 		<h2 class="text-center">Live Traffic Camera</h2>
 		  <div class="col-sm-4">
-			<p class="myLocation">Which location do you want to see ? 
+			<p class="myLocation">Which location do you want to see? 
 				<span><img src="<?php echo base_url()?>/images/livetraffic/camera_live.png"/></span>
 			</p>
 			
@@ -119,6 +119,19 @@
 								<td id="<?php echo $camera->traffic_cam_id?>" title="<?php echo $camera->name ?>" onclick='display_camera(this.id,this.title,"<?php echo $camera->secure_token; ?>")'><?php echo $camera->name; ?><span class="linetd">|</span></td>
 							
 						<?php }if($i==15){break;}
+							}
+						?>
+						</tr>
+						<tr>
+						<?php 
+							$i=0;
+							foreach($get_cameras as $camera){
+							$i++;
+							if($i >= 16){
+						?>
+								<td id="<?php echo $camera->traffic_cam_id?>" title="<?php echo $camera->name ?>" onclick='display_camera(this.id,this.title,"<?php echo $camera->secure_token; ?>")'><?php echo $camera->name; ?><span class="linetd">|</span></td>
+							
+						<?php }if($i==18){break;}
 							}
 						?>
 						</tr>

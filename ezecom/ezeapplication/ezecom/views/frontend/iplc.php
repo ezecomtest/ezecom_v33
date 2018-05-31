@@ -42,7 +42,7 @@
 										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="formEmail">
 												  <h5>Contact Us</h5>
-												  <p>Call us now on <strong>‎023 888 181 / 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+												  <p>Call us now on <strong>‎023 238 181 / 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
 												  <div class="form-group">
 													<label class="control-label col-sm-4">Full Name:</label>
 													<div class="col-sm-8">

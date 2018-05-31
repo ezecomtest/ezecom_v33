@@ -28,7 +28,7 @@
 						different payment options. Besides paying your bill online 
 						or via your smartphone, at all our offices you can pay your 
 						bill in cash. This page gives you an overview of all methods, 
-						with step-by-step instructions ,so you can choose what works 
+						with step-by-step instructions, so you can choose what works 
 						best for you or your company.
 					</p>
 				</div>
@@ -37,12 +37,12 @@
 		<div class="row mg-top">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-				<div class="payment-detail">
+				<!--<div class="payment-detail">
 					<p>For your convenience we offer a number of different payment options. 
 					Besides paying your bill online or via your mobile phone, at all our offices you can pay your bill in cash.
 					This page gives you an overview of all methods, with a step by step instruction.
 					So you can choose what fits best for you or your business.</p>
-				</div>
+				</div>-->
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		</div>
@@ -157,7 +157,7 @@
 									<li>Enter the US dollar amount of your bill</li>
 									<li>Confirm or decline a printed receipt</li>
 									<li>Confirm if the enter information is correct (<b>Yes</b>=process transaction, <b>No</b>=cancel transaction, you can then start the procedure again.</li>
-									<li>Your payment is processed We recommend you keep your printed receipts for future references.</li>
+									<li>Your payment is processed! We recommend you keep your printed receipts for future references.</li>
 								</ol>
 							</div>
 						</div>
@@ -347,7 +347,7 @@
 									<li>Click <b>“Confirm”</b> to proceed Successful Payment Status appear</li>
 								</ol>
 								<p>
-									We recommend you print the receipt for reference For full information on how to sign up for M2U account please go to your nearest Maybank Branch or visit the website.
+									We recommend you print the receipt for reference. For full information on how to sign up for M2U account, please go to your nearest Maybank branch or visit their website.
 								</p>
 							</div>
 						</div>
@@ -388,7 +388,7 @@
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
-								<p>More convenient with mobile <b>Wing Money App</b> for <b>Android</b> and <b>IOS.</b> To pay your bill by following these </p>
+								<p>More convenient with mobile <b>Wing Money App</b> for <b>Android</b> and <b>iOS.</b> To pay your bill by following these </p>
 								<ol>
 									<li>Download <b>WING Money</b> from Play store (Android Phone) App Store (IOS phone)</li>
 									<li>Register your <b>WING APP</b> account</li>

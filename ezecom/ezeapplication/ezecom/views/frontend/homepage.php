@@ -158,7 +158,7 @@
 							available packages to fulfill your needs, from 
 							specially designed packages for your personal 
 							business or home to international level, dedicated 
-							connections for global enterprises- discover below the full 
+							connections for global enterprises! Discover below the full 
 							range of our services.
 						</p>
 					</div>
@@ -720,7 +720,7 @@
 								</a>
 								<h3 class="text-center">Live Traﬃc Camera</h3>
 								<p class="text-center">
-									Click here for EZECOM’s live traffic cameras dotted through out Phnom Penh.
+									Click here for EZECOM’s live traffic cameras dotted throughout Phnom Penh.
 								</p>
 							</div>
 						</div>
@@ -777,7 +777,7 @@
 								<a href="<?php echo base_url()?>our-company/childsafe-certification">
 									<img src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
 								</a>
-								<h4> Child Safe <br/>Certified</h4>
+								<h4> ChildSafe <br/>Certified</h4>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">

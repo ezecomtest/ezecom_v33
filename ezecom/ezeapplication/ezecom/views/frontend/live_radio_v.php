@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h2 class="text-center">Cambodia Live Radio</h2>
+				<h2 class="text-center">Radio Live Stream</h2>
 			</div>
 		</div>
 		<div class="row mg-bt">
@@ -51,7 +51,7 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				 <h3>Radio Station</h3>
-				 <p> Click on a station to start listening</p>
+				 <p> Click on a station to start listening!</p>
 				 
 				 		<?php foreach ($radio_group as $group) { ?>
 							<div class="col-xs-12 col-sm-12 col-md-12">
