@@ -112,8 +112,11 @@
 								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						
-							<img class="img-responsive" src="elFindermaster/files/slides/img-slide-1.jpg" style="width:100%"/>			
+						<div class="tag-text-slide">
+							<h3>MS 365</h3>
+						</div>
+							<img class="img-responsive" src="elFindermaster/files/slides/img-slide-1.jpg" style="width:100%"/>
+							
 						
 					</div>
 

@@ -21,6 +21,18 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	background: #7961a9 !important;
 }
 
+.tag-text-slide{
+	z-index:1000;
+	position:absolute;
+	right:0;
+}
+.tag-text-slide h3{
+	color:red;
+	font-size:64px !important;
+	color: #6b53a2;
+}
+
+
 /* help me choose and sign me up */
 .wrapper-signme-hlepme{
 	margin:60px 0 0 0;
