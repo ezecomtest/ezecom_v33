@@ -33,12 +33,20 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<!--<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#ibizcloud" data-toggle="tab" data-id="ibizcloud">
 								<div class="ibizcloud">
 									<p class="text-position">ibizCloud</p>
 								</div>
 							</a>
+						</div>-->
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<a href="<?=base_url();?>support/faq#email" data-toggle="tab" data-id="email">
+								<div class="email">
+									<p class="text-position">Email</p>
+								</div>
+							</a>
+							
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#internet-connection" data-toggle="tab" data-id="internet-connection">
@@ -49,14 +57,14 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<!--<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#email" data-toggle="tab" data-id="email">
 								<div class="email">
 									<p class="text-position">Email</p>
 								</div>
 							</a>
 							
-						</div>
+						</div>-->
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#email-problems" data-toggle="tab" data-id="email-problems">
 								<div class="email-problems">
@@ -86,11 +94,11 @@
 							<div class="tab-content">
 									<div id="general" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
 									<h2>General</h2>
-									<h1  onclick="disable_general_q1()" id="q1" class="faqheading q1"  style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's Internet Service Coverage in the country?</h1>
+									<h1 id="q1" class="faqheading q1"  style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's Internet Service Coverage in the country?</h1>
 									<div id="a1" class="panel-collapse collapse">
 									<p style="font-size: 16px;">Our fiber Internet and network infrastructures covers 25 cities and provinces throughout the Kingdom of Cambodia.</p>
 									</div>
-									<h1 onclick="disable_general_q2()" id="q2" class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest Internet option I can purchase from EZECOM?</h1>
+									<h1 id="q2" class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest Internet option I can purchase from EZECOM?</h1>
 									<div id="a2" class="panel-collapse collapse">
 									<p style="font-size: 16px;">Our FTTX infrastructure offers high-speed gigabit transit performance. Please contact our sales team if you have a specific inquiry.</p>
 									</div>
@@ -156,7 +164,6 @@
 									<div id="c1" class="panel-collapse collapse">
 									<p style="font-size: 17px;">Slow Internet access can be the result of several factors, for example:</p>
 									<ul style="font-size: 17px;">
-									<li>The network equipment is overheated and need to cool down</li>
 									<li>In some case designated web/Internet server is overloaded or linked to a congested/populated-route Internetwork</li>
 									<li>Your computer and/or devices need to be checked for hardware upgrade and/or software optimization. In many cases, slow computers leads to a slow internet experience.</li>
 									<li>Global/continental Internet upstream connection is disrupted/damaged caused by other marine activity such as fishing, marine research or marine development.</li>
@@ -173,15 +180,26 @@
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#c3">How can I optimize my office Internet usage?</h1>
 									<div id="c3" class="panel-collapse collapse">
-									<p style="font-size: 17px;">We highly recommend our customers to assess their office network setup and the business needs. Monitor and measure the usage so you will get you an idea on how to improve your network and Internet setup. There are several technical tools on the Internet that can be used to shape netflow traffic graph. In addition, implementing a firewall policy is a good routine. The most important aspect to improving Internet access is user’s education. Encourage users to use the Internet responsibly, productively and safely.</p>
+									<p style="font-size: 17px;">We highly recommend our customers to assess their 
+									office network setup and the business needs. Monitor and measure the usage so 
+									you will get you an idea on how to improve your network and Internet setup. 
+									There are several technical tools on the Internet that can be used to shape net 
+									flow traffic graph. In addition, implementing a firewall policy is a good routine. 
+									The most important aspect to improving Internet access is user’s education. 
+									Encourage users to use the Internet responsibly, productively and safely.
+									</p>
 									</div>
 									</div>
 									<div id="email" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 									<h2 class="rl_tabs-title nn_tabs-title"><a id="anchor-email" class="anchor"></a>Email</h2>
 									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d1">How can I manage my email via Webmail?</h1>
 									<div id="d1" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Many people are mostly using laptop or smartphone to access their email. However, there are times when you need to quickly access your email on a temporary computer. For instance, your devices ran out of battery and you forgot your charger. That’s when a webmail will be useful.</p>
-									<p style="font-size: 17px;">Here is the link to how to access your email. <a href="http://webmail.ezecom.com.kh%20/" target="_blank">http://webmail.ezecom.com.kh</a></p>
+									<p style="font-size: 17px;">Many people are mostly using laptop or smartphone to 
+									access their email. However, there are times when you need to 
+									quickly access your email on a temporary computer. 
+									For instance, your devices ran out of battery and you forgot your 
+									charger. That’s when a webmail will be useful.Here is the link to how to 
+									access your email. <a href="http://webmail.ezecom.com.kh" target="_blank">webmail.ezecom.com.kh</a></p>
 									<p style="font-size: 17px;">Once you have signed in to your webmail, you can also manage Autoreply, forwarding to another address and change password.</p>
 									</div>
 									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d2">What email clients are compatible EZECOM email server?</h1>
@@ -196,10 +214,16 @@
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d3">What are best practices for email?</h1>
 									<div id="d3" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Here are recommendations to ensure delivery of your business email communication. Due to increasing problems with spam and malicious email developed by hackers attempting to exploit access to computer systems, today’s email server system are equipped with sophisticated tools and rules (sender policies) to counter malicious attacks. Occasionally an email cannot be delivered to a recipient because the sender server does not meet the receiver sender policy framework (SPF). Here are the do’s and don’t.</p>
+									<p style="font-size: 17px;">Here are recommendations to ensure delivery of your 
+									business email communication. Due to increasing problems with spam and malicious 
+									email developed by hackers attempting to exploit access to computer systems, 
+									today’s email server system are equipped with sophisticated tools and 
+									rules (sender policies) to counter malicious attacks. Occasionally an email 
+									cannot be delivered to a recipient because the sender server does not meet 
+									the receiver sender policy framework (SPF). Here are the do’s and don’t.</p>
 									<p style="font-size: 17px;"><strong>Do:</strong></p>
 									<ul style="font-size: 17px;">
-									<li>Ensure your email delivery server meets standard SPF (see <a href="http://openspf.org/" target="_blank">http://openspf.org</a>)</li>
+									<li>Ensure your email delivery server meets standard SPF (see <a href="http://openspf.org/" target="_blank">openspf.org</a>)</li>
 									<li>Keep the server secured by applying updates and security fixes</li>
 									<li>Keep your email simple and unique</li>
 									<li>Protect your system from virus and malware attacks</li>
@@ -209,25 +233,35 @@
 									<p style="font-size: 17px;"><strong>Don't:</strong></p>
 									<ul style="font-size: 17px;">
 									<li>Use your business email system to send advertising emails</li>
-									<li>Send many recipients (more than 10) at once</li>
-									<li>Send large files (larger than 5Mb)</li>
+									<li>Send to too many recipients (more than 50) at once</li>
+									<li>Send large files (larger than 10Mb)</li>
 									<li>Include pictures in your email signature</li>
 									</ul>
 									</div>
 									<h1 class="faqheading q4" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d4">I have a problem accessing my EZECOM email account. Help!</h1>
 									<div id="d4" class="panel-collapse collapse">
-									<p style="font-size: 17px;">If you are using webmail to read and send emails following the URL <a href="http://webmail.ezecom.com.kh/" target="_blank">http://webmail.ezecom.com.kh</a>, ensure that your username (email address) and password are correct.</p>
-									<p style="font-size: 17px;">If you forgot your password, contact our call center number 023 888 181 and be sure to have your EZECOM customer ID details and your national ID card/international passport to verify your ownership of the account. If the email account is registered with your company, ensure relevant documents are present. The other way to resolve this issue is to contact our sales personnel assigned to your account directly.</p>
+									<p style="font-size: 17px;">If you are using webmail to read and send emails following the URL <a href="http://webmail.ezecom.com.kh/" target="_blank">webmail.ezecom.com.kh</a>, ensure that your username (email address) and password are correct.</p>
+									<p style="font-size: 17px;">If you forgot your password, contact our call 
+									center number 023 888 181 and be sure to have your EZECOM customer ID 
+									details and your national ID card/international passport to verify your 
+									ownership of the account. If the email account is registered with your 
+									company, ensure relevant documents are present. The other way to resolve 
+									this issue is to contact our sales personnel assigned to your account directly.</p>
 									</div>
 									<h1 class="faqheading q5" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d5">My company’s email address is not receiving emails. Help!</h1>
 									<div id="d5" class="panel-collapse collapse">
-									<p style="font-size: 17px;">First of all you should check with your colleagues to see if they are experiencing the same issue or not. Most people from a user point of view would try to send a test email from their personal email to verify. This is not a bad approach because you can quickly receive a bounce message, which will include a clue to the problem why your address cannot be reached. A few things could lead to unreachable email:</p>
+									<p style="font-size: 17px;">First of all you should check with your colleagues 
+									to see if they are experiencing the same issue or not. Most people from a user 
+									point of view would try to send a test email from their personal email to verify. 
+									This is not a bad approach because you can quickly receive a bounce message, which 
+									will include a clue to the problem why your address cannot be reached. A few things 
+									could lead to unreachable email:</p>
 									<ul style="font-size: 17px;">
 									<li>Wrong address</li>
 									<li>Sender mail server doesn’t comply with recipient ISP or email hosting company. For example, sender server has low reputable rate or messages are blocked as spam.</li>
 									<li>Receiving email server is not reachable or not available</li>
 									</ul>
-									<p style="font-size: 17px;">Find out more on Sender Policy Framework (<a href="http://openspf.org/" target="_blank">openspf.org</a>) and Domain Keys Identified Mail (<a href="http://dkim.org/" target="_blank">dkim.org</a>) for more information about how to improve your email delivery policies.</p>
+									<p style="font-size: 17px;">Find out more on Sender Policy Framework (openspf.org) and Domain Keys Identified Mail (dkim.org) for more information about how to improve your email delivery policies.</p>
 									<p style="font-size: 17px;">Follow this link to check the EZECOM email server status. Most web and email hosting companies provide backend login to cPanel and WHM interface as a good window to monitor and troubleshoot you email services.</p>
 									</div>
 									<h1 class="faqheading q6" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d6">A few recipients cannot receive my email but others can. Help!</h1>
@@ -239,22 +273,27 @@
 									<li>Recipients’ email systems encounter issues including mail-client program like Outlook, Mail or Thunderbird has issue connecting to the server</li>
 									<li>Your email client program or Antivirus has moved or blocked an email from specific sender as a result of Spam filtering protection</li>
 									</ul>
-									<p style="font-size: 17px;">To quickly proof above prediction of the problem, you could simply try to send a test email from your personal email to further escalate the troubleshooting steps to system administrator level.</p>
+									<p style="font-size: 17px;">To quickly proof above prediction of the problem, you could simply 
+									try to send a test email from your personal email to further escalate the troubleshooting steps 
+									to system administrator level.</p>
 									</div>
 									</div>
 									<div id="email-problems" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 									<h2 class="rl_tabs-title nn_tabs-title"><a id="anchor-email-problems" class="anchor"></a>Email - Problems</h2>
 									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e1">How do spammers affect your IP reputation?</h1>
 									<div id="e1" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Spammers steal user accounts and compromise mail servers exploiting security gaps. Once an account or server has been compromised, large amounts of spam can be sent – all without your knowledge. When email receivers see spam coming from your account or server, they may block you temporarily.</p>
+									<p style="font-size: 17px;">Spammers steal user accounts and compromise mail servers 
+									exploiting security gaps. Once an account or server has been compromised, large amounts of 
+									spam can be sent – all without your knowledge. When email receivers see spam coming from 
+									your account or server, they may block you temporarily.</p>
 									</div>
 									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e2">What can I do if my IP address is blacklisted?</h1>
 									<div id="e2" class="panel-collapse collapse">
 									<p style="font-size: 17px;">You can check your IP against many search tools available for free online. For example:</p>
-									<p style="font-size: 17px;"><a href="http://mxtoolbox.com/" target="_blank">http://mxtoolbox.com</a></p>
-									<p style="font-size: 17px;"><a href="https://www.spamhaus.org/lookup/" target="_blank">https://www.spamhaus.org/lookup/</a></p>
-									<p style="font-size: 17px;"><a href="http://www.sorbs.net/lookup.shtml" target="_blank">http://www.sorbs.net/lookup.shtml</a></p>
-									<p style="font-size: 17px;"><a href="http://www.uceprotect.net/en/rblcheck.php" target="_blank">http://www.uceprotect.net/en/rblcheck.php</a></p>
+									<p style="font-size: 17px;"><a href="http://mxtoolbox.com/" target="_blank">mxtoolbox.com</a></p>
+									<p style="font-size: 17px;"><a href="https://www.spamhaus.org/lookup/" target="_blank">www.spamhaus.org/lookup/</a></p>
+									<p style="font-size: 17px;"><a href="http://www.sorbs.net/lookup.shtml" target="_blank">www.sorbs.net/lookup.shtml</a></p>
+									<p style="font-size: 17px;"><a href="http://www.uceprotect.net/en/rblcheck.php" target="_blank">www.uceprotect.net/en/rblcheck.php</a></p>
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e3">What can I do if my IP address is blacklisted?</h1>
 									<div id="e3" class="panel-collapse collapse">
@@ -293,7 +332,7 @@
 									<h1 class="faqheading q7" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e7">How do I enable Auto Forward and Auto Reply?</h1>
 									<div id="e7" class="panel-collapse collapse">
 									<ul style="font-size: 17px;">
-									<li>Log into your webmail at webmail.ezecom.com.kh</li>
+									<li>Log into your webmail at <a href="http://webmail.ezecom.com.kh/" target="_blank">webmail.ezecom.com.kh</a></li>
 									<li>Click on Settings on the top right side of webmail window</li>
 									<li>Click on Filters in Settings</li>
 									<li>Click on the second (+) plus sign in the third panel from left</li>
@@ -323,7 +362,7 @@
 									</div>
 									<h1 class="faqheading q9" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e9">What to do when my mails get blocked by the Ezecom SpamFilter?</h1>
 									<div id="e9" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Ezecom has multiple layers of SPAM filtering gateway, it prevents spam from leaving the network.</p>
+									<p style="font-size: 17px;">EZECOM has multiple layers of SPAM filtering gateway, it prevents spam from leaving the network.</p>
 									<p style="font-size: 17px;">If the mails you are sending out look like spam, then they will be blocked by our SpamFilter.</p>
 									<p style="font-size: 17px;">Please contact IT Support team if you think your mails have been blocked by Ezecom SpamFilter.</p>
 									</div>
@@ -395,8 +434,8 @@
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f3">What are the ICT security questions I should ask myself?</h1>
 									<div id="f3" class="panel-collapse collapse">
-									<p style="font-size: 17px;">ICT security threats are real so it is important to keep up with the latest information both at work and personally.</p>
-									<p style="font-size: 17px;">Keep your devices, passwords safe and under control</p>
+									<p style="font-size: 17px;">ICT security threats are real so it is important to keep up with the latest information both at work and personally. Keep your devices, passwords safe and under control</p>
+									
 									<ul style="font-size: 17px;">
 									<li>Ensure your passwords are complex so that it’s not easy to guess. If you do have to write it down somewhere or share it with someone, you should be confident that they would not fall into the wrong hand.</li>
 									<li>Because you might have to keep many devices and login accounts, which also need renewing from time to time, using a password management tool might be necessary. Learn about Apple Keychain, KeePass, LastPass and Dashlane.</li>
@@ -683,27 +722,5 @@ $(document).ready(function () {
 		
 	}); 
 	
-	
-	function disable_general_q1() {
-		var value_q1 = document.getElementById("q1").innerHTML;
-		if(value_q1=="What is EZECOM's Internet Service Coverage in the country?"){
-			var hide_a2 = document.getElementById("a2");
-			//var hide_a3 = document.getElementById("a3");
-			hide_a2.style.display = "none";
-			//hide_a3.style.display = "none";
-			
-		}
-		
-	}
-	
-	function disable_general_q2() {
-		var value_q2 = document.getElementById("q2").innerHTML;
-		if(value_q2=="What is the fastest Internet option I can purchase from EZECOM?"){
-			var hide_a1 = document.getElementById("a1");
-			var hide_a2 = document.getElementById("a2");
-			hide_a1.style.display = "none";
-			hide_a2.style.display = "block";
-		}
-	}
 	
 </script>
