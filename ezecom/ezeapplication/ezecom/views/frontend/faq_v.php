@@ -94,15 +94,15 @@
 							<div class="tab-content">
 									<div id="general" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
 									<h2>General</h2>
-									<h1 id="q1" class="faqheading q1"  style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's Internet Service Coverage in the country?</h1>
+									<h1 id="q1" class="faqheading q1"  style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's internet service coverage in the country?</h1>
 									<div id="a1" class="panel-collapse collapse">
-									<p style="font-size: 16px;">Our fiber Internet and network infrastructures covers 25 cities and provinces throughout the Kingdom of Cambodia.</p>
+									<p style="font-size: 16px;">Our fibreinternet and network infrastructures covers all cities and provinces throughout the Kingdom of Cambodia.</p>
 									</div>
-									<h1 id="q2" class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest Internet option I can purchase from EZECOM?</h1>
+									<h1 id="q2" class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest internet option I can purchase from EZECOM?</h1>
 									<div id="a2" class="panel-collapse collapse">
-									<p style="font-size: 16px;">Our FTTX infrastructure offers high-speed gigabit transit performance. Please contact our sales team if you have a specific inquiry.</p>
+									<p style="font-size: 16px;">Our FTTX infrastructure offers high-speed gigabit transit performance. Please contact our sales team if you have specific inquiries. Call us at 023 23 81 81 or 085 888 181, or email us at <a href="mailto:websales@ezecom.com.kh">websales@ezecom.com.kh!</a></p>
 									</div>
-									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a3">How long will it take to sign up and have a new Internet connection working at my office?</h1>
+									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a3">How long will it take to sign up and have a new internet connection working at my office?</h1>
 									<div id="a3" class="panel-collapse collapse">
 									<p style="font-size: 16px;">Depending on where your office is and availabilities of the installation team, our new customer connection shall be activated within 3 to 7 business days after payment has been received.</p>
 									</div>
@@ -164,43 +164,42 @@
 									<div id="c1" class="panel-collapse collapse">
 									<p style="font-size: 17px;">Slow Internet access can be the result of several factors, for example:</p>
 									<ul style="font-size: 17px;">
-									<li>In some case designated web/Internet server is overloaded or linked to a congested/populated-route Internetwork</li>
+									<li>In some case designated web/Internet server is overloaded or linked to a congested/populated-route Internetwork.</li>
 									<li>Your computer and/or devices need to be checked for hardware upgrade and/or software optimization. In many cases, slow computers leads to a slow internet experience.</li>
 									<li>Global/continental Internet upstream connection is disrupted/damaged caused by other marine activity such as fishing, marine research or marine development.</li>
 									</ul>
 									</div>
-									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#c2">How can I make my Wifi access more stable?</h1>
+									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#c2">How can I make my WiFi access more stable?</h1>
 									<div id="c2" class="panel-collapse collapse">
-									<p style="font-size: 17px;"><strong>When installing a wireless/Wifi access-point/router it is important to check below recommendations:</strong></p>
+									<p style="font-size: 17px;"><strong>When installing a wireless/WiFi access-point/router it is important to check below recommendations:</strong></p>
 									<ul style="font-size: 17px;">
-									<li>Talk to our sales team or call center to find out the recommended brand and model of Wireless access-point/router suitable for your needs</li>
-									<li>Choose a good central and balanced point of location in a building where wireless access users are going to be working from</li>
-									<li>Keep your AP/Router safe and protected by using strong passwords and keeping regular firmware updates</li>
+									<li>Talk to our sales team or call center to find out the recommended brand and model of wireless access-point/router suitable for your needs.</li>
+									<li>Choose a good central and balanced point of location in a building where wireless access users are going to be working from.</li>
+									<li>Keep your AP/router safe and protected by using strong passwords and keeping regular firmware updates.</li>
 									</ul>
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#c3">How can I optimize my office Internet usage?</h1>
 									<div id="c3" class="panel-collapse collapse">
-									<p style="font-size: 17px;">We highly recommend our customers to assess their 
-									office network setup and the business needs. Monitor and measure the usage so 
-									you will get you an idea on how to improve your network and Internet setup. 
-									There are several technical tools on the Internet that can be used to shape net 
-									flow traffic graph. In addition, implementing a firewall policy is a good routine. 
-									The most important aspect to improving Internet access is user’s education. 
-									Encourage users to use the Internet responsibly, productively and safely.
+									<p style="font-size: 17px;">We highly recommend our customers to assess 
+									their office network setup and business needs. Monitor and measure the 
+									usage so you will get you an idea on how to improve your network and 
+									internet setup. There are several technical tools online that can be 
+									used to shape netflow traffic graph. In addition, implementing a Firewall 
+									policy is a good routine. The most important aspect to improving internet 
+									access is user’s education. Encourage users to use the Internet responsibly, 
+									productively and safely.
 									</p>
 									</div>
 									</div>
 									<div id="email" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 									<h2 class="rl_tabs-title nn_tabs-title"><a id="anchor-email" class="anchor"></a>Email</h2>
-									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d1">How can I manage my email via Webmail?</h1>
+									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d1">How can I manage my email via webmail?</h1>
 									<div id="d1" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Many people are mostly using laptop or smartphone to 
-									access their email. However, there are times when you need to 
-									quickly access your email on a temporary computer. 
-									For instance, your devices ran out of battery and you forgot your 
-									charger. That’s when a webmail will be useful.Here is the link to how to 
-									access your email. <a href="http://webmail.ezecom.com.kh" target="_blank">webmail.ezecom.com.kh</a></p>
-									<p style="font-size: 17px;">Once you have signed in to your webmail, you can also manage Autoreply, forwarding to another address and change password.</p>
+									<p style="font-size: 17px;">Many people are mostly using laptop or smartphone to access their email. However, there are times when you need to quickly access your email on a temporary computer. For instance, your devices ran out of battery and you forgot your charger. That’s when a webmail will be useful.Here is the link to access your email. <a href="http://webmail.ezecom.com.kh" target="_blank">http://webmail.ezecom.com.kh</a>
+Once you have signed in to your webmail, you can also manage Autoreply, forwarding to another address and change password.
+
+									</p>
+									
 									</div>
 									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d2">What email clients are compatible EZECOM email server?</h1>
 									<div id="d2" class="panel-collapse collapse">
@@ -214,16 +213,10 @@
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d3">What are best practices for email?</h1>
 									<div id="d3" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Here are recommendations to ensure delivery of your 
-									business email communication. Due to increasing problems with spam and malicious 
-									email developed by hackers attempting to exploit access to computer systems, 
-									today’s email server system are equipped with sophisticated tools and 
-									rules (sender policies) to counter malicious attacks. Occasionally an email 
-									cannot be delivered to a recipient because the sender server does not meet 
-									the receiver sender policy framework (SPF). Here are the do’s and don’t.</p>
+									<p style="font-size: 17px;">Here are recommendations to ensure delivery of your business email communication. Due to increasing problems with spam and malicious email developed by hackers attempting to exploit access to computer systems, today’s email server system are equipped with sophisticated tools and rules (sender policies) to counter malicious attacks. Occasionally, an email cannot be delivered to a recipient because the sender server does not meet the receiver’s sender policy framework (SPF). Here are the dos and don’ts.</p>
 									<p style="font-size: 17px;"><strong>Do:</strong></p>
 									<ul style="font-size: 17px;">
-									<li>Ensure your email delivery server meets standard SPF (see <a href="http://openspf.org/" target="_blank">openspf.org</a>)</li>
+									<li>Ensure your email delivery server meets standard SPF (see <a href="http://openspf.org/" target="_blank">http://openspf.org</a>)</li>
 									<li>Keep the server secured by applying updates and security fixes</li>
 									<li>Keep your email simple and unique</li>
 									<li>Protect your system from virus and malware attacks</li>
@@ -240,9 +233,9 @@
 									</div>
 									<h1 class="faqheading q4" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d4">I have a problem accessing my EZECOM email account. Help!</h1>
 									<div id="d4" class="panel-collapse collapse">
-									<p style="font-size: 17px;">If you are using webmail to read and send emails following the URL <a href="http://webmail.ezecom.com.kh/" target="_blank">webmail.ezecom.com.kh</a>, ensure that your username (email address) and password are correct.</p>
+									<p style="font-size: 17px;">If you are using webmail to read and send emails following the URL <a href="http://webmail.ezecom.com.kh/" target="_blank">http://webmail.ezecom.com.kh</a>, ensure that your username (email address) and password are correct.</p>
 									<p style="font-size: 17px;">If you forgot your password, contact our call 
-									center number 023 888 181 and be sure to have your EZECOM customer ID 
+									center number 023 23 81 81 and be sure to have your EZECOM customer ID 
 									details and your national ID card/international passport to verify your 
 									ownership of the account. If the email account is registered with your 
 									company, ensure relevant documents are present. The other way to resolve 
@@ -250,12 +243,7 @@
 									</div>
 									<h1 class="faqheading q5" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#d5">My company’s email address is not receiving emails. Help!</h1>
 									<div id="d5" class="panel-collapse collapse">
-									<p style="font-size: 17px;">First of all you should check with your colleagues 
-									to see if they are experiencing the same issue or not. Most people from a user 
-									point of view would try to send a test email from their personal email to verify. 
-									This is not a bad approach because you can quickly receive a bounce message, which 
-									will include a clue to the problem why your address cannot be reached. A few things 
-									could lead to unreachable email:</p>
+									<p style="font-size: 17px;">First of all you should check with your colleagues to see if they are experiencing the same issue or not. Most people from a user point of view would try to send a test email from their personal email to verify. This is not a bad approach because you can quickly receive a bounce message, which will include a clue to the problem why your address cannot be reached. A few things could lead to unreachable email:</p>
 									<ul style="font-size: 17px;">
 									<li>Wrong address</li>
 									<li>Sender mail server doesn’t comply with recipient ISP or email hosting company. For example, sender server has low reputable rate or messages are blocked as spam.</li>
@@ -282,18 +270,15 @@
 									<h2 class="rl_tabs-title nn_tabs-title"><a id="anchor-email-problems" class="anchor"></a>Email - Problems</h2>
 									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e1">How do spammers affect your IP reputation?</h1>
 									<div id="e1" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Spammers steal user accounts and compromise mail servers 
-									exploiting security gaps. Once an account or server has been compromised, large amounts of 
-									spam can be sent – all without your knowledge. When email receivers see spam coming from 
-									your account or server, they may block you temporarily.</p>
+									<p style="font-size: 17px;">Spammers steal user accounts and compromise mail servers exploiting security gaps. Once an account or server has been compromised, large amounts of spam can be sent – all without your knowledge. When email receivers see spam coming from your account or server, they may block you temporarily.</p>
 									</div>
 									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e2">What can I do if my IP address is blacklisted?</h1>
 									<div id="e2" class="panel-collapse collapse">
 									<p style="font-size: 17px;">You can check your IP against many search tools available for free online. For example:</p>
-									<p style="font-size: 17px;"><a href="http://mxtoolbox.com/" target="_blank">mxtoolbox.com</a></p>
-									<p style="font-size: 17px;"><a href="https://www.spamhaus.org/lookup/" target="_blank">www.spamhaus.org/lookup/</a></p>
-									<p style="font-size: 17px;"><a href="http://www.sorbs.net/lookup.shtml" target="_blank">www.sorbs.net/lookup.shtml</a></p>
-									<p style="font-size: 17px;"><a href="http://www.uceprotect.net/en/rblcheck.php" target="_blank">www.uceprotect.net/en/rblcheck.php</a></p>
+									<p style="font-size: 17px;"><a href="http://mxtoolbox.com/" target="_blank">http://mxtoolbox.com</a></p>
+									<p style="font-size: 17px;"><a href="https://www.spamhaus.org/lookup/" target="_blank">https://www.spamhaus.org/lookup/</a></p>
+									<p style="font-size: 17px;"><a href="http://www.sorbs.net/lookup.shtml" target="_blank">http://www.sorbs.net/lookup.shtml</a></p>
+									<p style="font-size: 17px;"><a href="http://www.uceprotect.net/en/rblcheck.php" target="_blank">http://www.uceprotect.net/en/rblcheck.php</a></p>
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e3">What can I do if my IP address is blacklisted?</h1>
 									<div id="e3" class="panel-collapse collapse">
@@ -315,7 +300,7 @@
 									</div>
 									<h1 class="faqheading q5" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e5">How do I know which computer is broadcasting spam within my network?</h1>
 									<div id="e5" class="panel-collapse collapse">
-									<p style="font-size: 17px;">By using a software tool to scan which device is accessing to port 25 continuously. Some examples of tools for this are scanport, wireshark and microtek.</p>
+									<p style="font-size: 17px;">You can know this by using a software tool to scan which device is accessing to port 25 continuously. Some examples of tools for this are Scanport, Wiresharkand Microtek.</p>
 									</div>
 									<h1 class="faqheading q6" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#e6">How can I protect my network from spam?</h1>
 									<div id="e6" class="panel-collapse collapse">
@@ -419,18 +404,18 @@
 									<h2 class="rl_tabs-title nn_tabs-title"><a id="anchor-security" class="anchor"></a>Security</h2>
 									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f1">How can my kids use the Internet safely?</h1>
 									<div id="f1" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Safe Internet access for children is critical. Therefore, we highly recommend our customer to explore continuous education about how to avoid abusive content, exploitation, stolen identity and other cyber crimes. There are also technical solutions in order to protect your computer and devices from such potential issues listed below.</p>
+									<p style="font-size: 17px;">Safe internet access for children is critical. Therefore, we highly recommend our customers to explore continuous education about how to avoid abusive content, exploitation, stolen identity and other cyber-crimes. There are also technical solutions in order to protect your computer and devices from such potential issues listed below.</p>
 									<ul style="font-size: 17px;">
 									<li>Google safe search option – Signin to Google and turn on safe search (here is more info <a href="http://goo.gl/xhJukA" target="_blank">http://goo.gl/xhJukA</a>)</li>
 									<li>OpenDNS (<a href="http://www.opendns.com/home-internet-security/" target="_blank">http://www.opendns.com/home-internet-security/</a>) a comprehensive and easy to setup home and office Internet filtering and protection system</li>
 									<li>NetNanny (<a href="http://www.netnanny.com/" target="_blank">www.netnanny.com</a>) one of the top rated online protection for personal and enterprise Internet content filtering solutions</li>
 									</ul>
 									</div>
-									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f2">How can my kids use the Internet safely?</h1>
+									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f2">What is a phishing email? How can I protect myself from it?</h1>
 									<div id="f2" class="panel-collapse collapse">
-									<p style="font-size: 17px;">A phishing email is created to target a specific group of people with a malicious intention to gather information like username ID and password of a computer user and escalate access to sensitive sites like online banking, email account, social media account and company’s internal system.</p>
-									<p style="font-size: 17px;">Being aware of such unethical intentions, one can predict a phishing email by looking for specify valid detail often not included by the spammer. Credible information like your full name and account detail are usually revealed by your bank, organization or system providers in an email regarding the announcement or campaign. It is also important for you to always verify with the bank about such changes or action needed from your end.</p>
-									<p style="font-size: 17px;">Technically you can have your devices protected by implementing endpoint security software like antivirus suite and email protection system. Last but not least, you should report such suspicious activity by forwarding the email to abuse@ezecom.com.kh for future investigations and contribution to fighting against cyber-fraud in Cambodia.</p>
+									<p style="font-size: 17px;">A phishing email is created to target a specific group of people with a malicious intention to gather information like username ID and password of a computer user, and escalate access to sensitive sites like online banking, email account, social media account and company’s internal system.</p>
+									<p style="font-size: 17px;">Being aware of such unethical intentions, one can predict a phishing email by looking for specific valid details often not included by the spammer. Credible information like your full name and account detail are usually revealed by your bank, organization or system providers in an email regarding the announcement or campaign. It is also important for you to always verify with the bank about such changes or action needed from your end.</p>
+									<p style="font-size: 17px;">Technically, you can have your devices protected by implementing endpoint security software like antivirus suite and email protection system. Last but not least, you should report such suspicious activity by forwarding the email to abuse@ezecom.com.khfor future investigations and contribution to fighting against cyber-fraud in Cambodia.</p>
 									</div>
 									<h1 class="faqheading q3" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f3">What are the ICT security questions I should ask myself?</h1>
 									<div id="f3" class="panel-collapse collapse">
@@ -443,15 +428,15 @@
 									<p style="font-size: 17px;">Get familiar with trusted sources when it comes to installing or accepting a new application onto your devices. Implement more layers of security by using Antivirus or Anti-malware protection system on your devices.</p>
 									<p style="font-size: 17px;">Learn more about information security through the news and how to counter measure against new cyber threads like system vulnerabilities, man-in-the-middle attacks and needs for system patches.</p>
 									</div>
-									<h1 class="faqheading q4" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f4">What are the ICT security questions I should ask myself?</h1>
+									<h1 class="faqheading q4" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f4">How can I maximize security of important information?</h1>
 									<div id="f4" class="panel-collapse collapse">
-									<p style="font-size: 17px;">When the stakes are high, your sensitive information and business can be at risk because of targeted breach attempts. By understanding how your system is structured and its weaknesses will give you a good chance in protecting your system during inconvenient time.</p>
+									<p style="font-size: 17px;">When the stakes are high, your sensitive information and business can be at risk because of targeted breach attempts. Understanding how your system is structured and its weaknesses will give you a good chance in protecting your system during inconvenient time.</p>
 									<p style="font-size: 17px;">Work with your IT personnel to keep a close watch on the system access logs. Ensure the access history is secured for future review and analysis. Contact our representatives once you have substantial information about the upstream attempts. Our technical team will be happy to assist you on specific cases. We also work closely with CamCERT (Cambodia Computer Emergency Response Team) to assist in incident response procedure.</p>
 									</div>
-									<h1 class="faqheading q5" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f5">I have received a certificate error message everyone I login on a website. Should I be worried? How do I get around this problem?</h1>
+									<h1 class="faqheading q5" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f5">I have received a certificate error message every time I login on a website. Should I be worried? How do I get around this problem?</h1>
 									<div id="f5" class="panel-collapse collapse">
-									<p style="font-size: 17px;">Most websites including login and sensitive information protect the transactions by using SSL (Secure Socket Layer) or HTTPS certificate to encrypt information between the users computers and server systems. Previously organizations use VPN (virtual private network) to protect access to information using a public Internet. However, with the growing need for mobile workforce, the shift to HTTPS was adopted widely.</p>
-									<p style="font-size: 17px;">Unfortunately a sophisticated hacker will try to go around the secure line by trying to perform a man-in-the-middle attack usually at the network provider where you connect your wireless device to at the time. The hacker’s machine will operate a counterfeit self-signed certificate to confuse the user. Therefore, an up-to-date browser will alert the danger of to potential threads by generating a certificate error message. You should contact your system administrator to report the incident for better analysis. Your system administrator might suggest a traditional VPN connection as an alternative solution.</p>
+									<p style="font-size: 17px;">Most websites including login and sensitive information protect the transactions by using SSL (Secure Socket Layer) or HTTPS certificate to encrypt information between the users’ computers and server systems. Previously organizations use VPN (Virtual Private Network) to protect access to information using a public Internet. However, with the growing need for mobile workforce, the shift to HTTPS was adopted widely.</p>
+									<p style="font-size: 17px;">Unfortunately, a sophisticated hacker will try to go around the secure line by trying to perform a man-in-the-middle attack, usually at the network provider where you connect your wireless device to at the time. The hacker’s machine will operate a counterfeit self-signed certificate to confuse the user. Therefore, an up-to-date browser will alert the danger of potential threats by generating a certificate error message. You should contact your system administrator to report the incident for better analysis. Your system administrator might suggest a traditional VPN connection as an alternative solution.</p>
 									</div>
 									</div>
 							</div> <!-- End Content -->
