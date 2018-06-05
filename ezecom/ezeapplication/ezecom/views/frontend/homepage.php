@@ -329,49 +329,49 @@
 				<div class="mid">	
 					  <form id="formsignup_form" name="signup" class="thickbox" title="Nice title" method="post">
 						<div class="col-xs-7 col-sm-6">
-						   <p>Which packages interest you:</p>
+						   <p class="help_me_choose"><b>Which packages interest you:</b></p>
 						   <div class="packagebox">
-							   <h5>Dedicate Packages</h5>
+							   <h5 class="help_me_choose">Dedicate Packages</h5>
 							   <table border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="package" value="20Mbps $640 per month" id="corp1mbps"  /></td>
-										<td><label for="corp1mbps"><strong>20Mbps</strong> $640 per month</label></td>
+										<td><label class="help_me_choose" for="corp1mbps"><strong>20Mbps</strong> $640 per month</label></td>
 									</tr>
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="package" value="30Mbps $900 per month" id="corp2mbps"  /></td>
-										<td><label for="corp2mbps"><strong>30Mbps</strong> $900 per month</label></td>
+										<td><label class="help_me_choose" for="corp2mbps"><strong>30Mbps</strong> $900 per month</label></td>
 									</tr>
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="package" value="40Mbps $1,120 per month" id="corp3mbps"  /></td>
-										<td><label for="corp3mbps"><strong>40Mbps</strong> $1,120 per month</label></td>
+										<td><label class="help_me_choose" for="corp3mbps"><strong>40Mbps</strong> $1,120 per month</label></td>
 									</tr>
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="package" value="50Mbps $1,300 per month" id="corp4mbps"  /></td>
-										<td><label for="corp4mbps"><strong>50Mbps</strong> $1,300 per month</label></td>
+										<td><label class="help_me_choose" for="corp4mbps"><strong>50Mbps</strong> $1,300 per month</label></td>
 									</tr>
 									
 								</table>
 								<div class="clearleft"></div>
 							</div>
 							<div class="packagebox" style="margin:0;">
-								<h5>EzeBiz Packages</h5>
+								<h5 class="help_me_choose">EzeBiz Packages</h5>
 								<table border="0" cellspacing="0" cellpadding="0">
 									
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="prempackage" value="5Mbps $60 per month" id="prem1mbps"  /></td>
-										<td><label for="prem1mbps"><strong>5Mbps</strong> $60 per month</label></td>
+										<td><label class="help_me_choose" for="prem1mbps"><strong>5Mbps</strong> $60 per month</label></td>
 									</tr>
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="prempackage" value="10Mbps $118 per month" id="prem2mbps"  /></td>
-										<td><label for="prem2mbps"><strong>10Mbps</strong> $118 per month</label></td>
+										<td><label class="help_me_choose" for="prem2mbps"><strong>10Mbps</strong> $118 per month</label></td>
 									</tr>
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="prempackage" value="20Mbps  $230 per month" id="prem3mbps"  /></td>
-										<td><label for="prem3mbps"><strong>20Mbps</strong> $230 per month</label></td>
+										<td><label class="help_me_choose" for="prem3mbps"><strong>20Mbps</strong> $230 per month</label></td>
 									</tr>
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="prempackage" value="30Mbps $338 per month" id="prem4mbps"  /></td>
-										<td><label for="prem4mbps"><strong>30Mbps</strong> $338 per month</label></td>
+										<td><label class="help_me_choose" for="prem4mbps"><strong>30Mbps</strong> $338 per month</label></td>
 									</tr>
 									
 								</table>
@@ -382,14 +382,14 @@
 
 					   <div class="col-xs-7 col-sm-6">
 						  <div id="emailform">
-							  <h5>Contact Us</h5>
+							  <h5 class="help_me_choose">Contact Us</h5>
 							  
-							  <p>Call us now on <strong>‎023 238 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
-							   <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
-							   <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
-							   <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
-							   <label for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
-							   <label for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
+							  <p class="help_me_choose">Call us now on <strong>‎023 238 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+							   <label class="help_me_choose" for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
+							   <label class="help_me_choose" for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
+							   <label class="help_me_choose" for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
+							   <label class="help_me_choose" for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
+							   <label class="help_me_choose" for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
 							   <input type="button" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" onclick="check_email_verify_signmeup()" /></label>
 							  
 						   </div>
@@ -411,18 +411,18 @@
                 	<?php if($this->session->userdata("step") == "") {?>
                 	<div style="margin-left:auto; margin-left:auto;" class="col-lg-12">
                     	<br/>
-                    	<h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+                    	<h5 class="help_me_choose">HELP ME CHOOSE AN INTERNET PACKAGE</h5>
                         <br/>
                          
-            				    <p><strong>What kind of user are you?</strong><p>
+            				    <p class="help_me_choose"><strong>What kind of user are you?</strong><p>
                                 <div class="col-lg-12">
                               
                                 <form action="" id="step1" name="step1" class="thickbox" title="Nice title" method="post">
                                     
-                                     <label for="home"><input type="radio" name="user" value="home" id="home"/> I use the internet at home</label><br />
-                                     <label for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice"/> I work at home and need the internet for work and leisure</label><br />
-                                     <label for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice"/> I work in a small office (less than 10 people)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice"/> I work in a large office (more than 10 people)</label><br />
+                                     <label class="help_me_choose" for="home"><input type="radio" name="user" value="home" id="home"/> I use the internet at home</label><br />
+                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice"/> I work at home and need the internet for work and leisure</label><br />
+                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice"/> I work in a small office (less than 10 people)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice"/> I work in a large office (more than 10 people)</label><br />
                                     <hr />
                                     
                                     <input type="button" name="submit" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step1()" />
@@ -436,22 +436,22 @@
                 	 <?php if($this->session->userdata("step") == 2) {?>
                         <div style="margin-left:auto; margin-left:auto;" class="col-lg-12">
                      			<br/>
-			                     <h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+			                     <h5 class="help_me_choose">HELP ME CHOOSE AN INTERNET PACKAGE</h5>
 			                        <br/>
 			                         
-			                    <p><strong>As a home user, please select what you use the internet for:</strong><p>
+			                    <p class="help_me_choose"><strong>As a home user, please select what you use the internet for:</strong><p>
                                 <div class="col-lg-12">
                                 <form action="" id="step2" name="formname" class="thickbox" title="Nice title" method="post">
                                     
-                                     <label for="home"><input type="radio" name="user2" value="home" id="home"/> Email</label><br />
-                                     <label for="homeoffice"><input type="radio" name="user2" value="homeoffice" id="homeoffice"/> Web Browsing</label><br />
-                                     <label for="smalloffice"><input type="radio" name="user2" value="smalloffice" id="smalloffice"/> Internet Radio</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Internet Phone(e.g Skype phone calls)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Watching Videos (e.g. Youtube)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Video Chat (e.g. webcam on Skype)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> I download a lot</label><br />
+                                     <label class="help_me_choose" for="home"><input type="radio" name="user2" value="home" id="home"/> Email</label><br />
+                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user2" value="homeoffice" id="homeoffice"/> Web Browsing</label><br />
+                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user2" value="smalloffice" id="smalloffice"/> Internet Radio</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Internet Phone(e.g Skype phone calls)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Watching Videos (e.g. Youtube)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Video Chat (e.g. webcam on Skype)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> I download a lot</label><br />
 
-                                        <p><strong>How many people will use the connection at the same time (on different computers)?</strong><p>
+                                        <p class="help_me_choose"><strong>How many people will use the connection at the same time (on different computers)?</strong><p>
                                         <label for="numberusers" style="clear:left;margin-top:15px;">
                                          <select name="numberusers" id="numberusers">
                                           <option value="1">1</option>
@@ -475,30 +475,30 @@
 
                         <div style="margin-left:auto; margin-right:auto;" class="col-lg-12" style="width:40.333333%">
                      <br>
-                     <h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+                     <h5 class="help_me_choose">HELP ME CHOOSE AN INTERNET PACKAGE</h5>
                         <br>
                                                 
                             <div id="emailform" class="col-sm-6" style="width:390px!important;margin-top:-10px !important;padding:5px -1px;">
                             <div class="row">
-                              <h5>Yes I am interested!</h5>
-                                <p>Call us now on <strong>023 238 181/ 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+                              <h5 class="help_me_choose">Yes I am interested!</h5>
+                                <p class="help_me_choose">Call us now on <strong>023 238 181/ 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
                                 
                                 <form action="" name="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
                                  <div class="form-group">
 
-                                <label for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control"><br>
+                                <label class="help_me_choose" for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control"><br>
                                 </div>
                                  <div class="form-group">
-                                 <label for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control"><br>
+                                 <label class="help_me_choose" for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control"><br>
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control"><br>
+                                 <label class="help_me_choose" for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control"><br>
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
+                                 <label class="help_me_choose" for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_submit">&nbsp;</label>
+                                 <label class="help_me_choose" for="eml_submit">&nbsp;</label>
                                  </div>
                                 
                                  <input type="button" value="SUBMIT" class="btn btn-default submit" id="eml_Help_submit" onclick="check_email_verify()">
@@ -511,14 +511,31 @@
 
                          <div id="help_packagebox" class="col-sm-5" style="padding-top:0%">
                              
-                                <fieldset class="scheduler-border">
-                                <legend><h5>Recommended for you:</h5></legend>     
-                                    <h4>PREMIUM 1mbps</h4>
-                                    <p>Our premium connections are perfect for office, home office, and leisure use.</p>
-                                    <h4>$40 per month</h4>
-                                    <div class="clearleft"></div>
-                                </fieldset>                                 
-                </div>
+											<?php 
+												$package_provide = $this->session->userdata('user'); 
+											?>
+											
+											<?php if($package_provide=="home" OR $package_provide=="homeoffice" OR $package_provide=="smalloffice"){?>
+												<div class="box-recommendation">
+													<h4 class="help_me_choose"><b>Recommended for you:</b></h4>
+													<img class="img-responsive" style="width:100px;margin-left:44px;margin-bottom:10px" src="<?php echo base_url()?>images/homepage/icon-EzeBiz.svg"/>
+													<h4 class="help_me_choose" style="font-size:13px"><b>EzeBiz 5mbps ($60 per month)</b></h4>
+													<p class="help_me_choose" style="font-size:12px">EzeBiz connections are perfect for your small and home office and leisure use.</p>
+												</div>
+											<?php } ?>
+											
+											<?php if($package_provide=="largeoffice"){?>
+											<div class="box-recommendation">
+												<h4><b>Recommended for you:</b></h4>
+												<img class="img-responsive" style="width:100px;margin-left:44px;margin-bottom:10px" src="<?php echo base_url()?>images/homepage/icon-Dedicated.svg"/>
+												<h4 style="font-size:12px"><b>Didecate 5mbps ($175 per month)</b></h4>
+												<p style="font-size:12px">Dedicate connections are fit the need of large corporations, 
+														enterprises and organizations to full fill high-end demand for ultimate speed 
+														reliability and security.
+												</p>
+											</div>
+											<?php } ?>                          
+							</div>
                  </div>
 
                         <?php } ?>
