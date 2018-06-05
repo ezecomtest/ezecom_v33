@@ -112,9 +112,10 @@
 								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<!--<div class="tag-text-slide">
-							<h3>MS 365</h3>
-						</div>-->
+						
+						<div class="tag-text-slide-1"></div>
+						<h3 class="my-heading-1">Your Internet is Everywhere</h3>
+						
 							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>
 							
@@ -123,9 +124,8 @@
 					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<!--<div class="tag-text-slide">
-							<h3>MS 365</h3>
-						</div>-->
+						<div class="tag-text-slide-2"></div>
+						<h3 class="my-heading-2">Best Performance, Better Price</h3>
 							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_2.jpg" style="width:100%"/>
 							
@@ -134,9 +134,9 @@
 					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<!--<div class="tag-text-slide">
-							<h3>MS 365</h3>
-						</div>-->
+						<div class="tag-text-slide-3"></div>
+						<h3 class="my-heading-3">A New and Better Way to Call Us!</h3>
+						<h4 class="phone-number">New Officail Hotline 023 23 81 81</h4>
 							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_3.jpg" style="width:100%"/>
 							
@@ -145,9 +145,8 @@
 					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<!--<div class="tag-text-slide">
-							<h3>MS 365</h3>
-						</div>-->
+						<div class="tag-text-slide-4"></div>
+						<h3 class="my-heading-4">Special, Limited-Time Offer</h3>
 							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_4.jpg" style="width:100%"/>
 							

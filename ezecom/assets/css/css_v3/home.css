@@ -21,15 +21,83 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	background: #7961a9 !important;
 }
 
-.tag-text-slide{
-	z-index:1000;
+.tag-text-slide-1{
 	position:absolute;
-	right:0;
+	bottom:50px;
+	opacity: 0.5;
+	background-color:#bbbdbf; 
+	min-width:780px;
+	height:70px;
+	left:200px;
 }
-.tag-text-slide h3{
-	color:red;
+.my-heading-1{
 	font-size:64px !important;
-	color: #6b53a2;
+	color:white;
+	position:absolute;
+	bottom:44px;
+	font-family:myNeutra,serif,sans-serif; 
+	left:210px;
+}
+
+.tag-text-slide-2{
+	position:absolute;
+	bottom:50px;
+	opacity: 0.7;
+	background-color:#bbbdbf; 
+	min-width:870px;
+	height:70px;
+	left:160px;
+}
+.my-heading-2{
+	font-size:64px !important;
+	color:white;
+	position:absolute;
+	bottom:41px;
+	font-family:myNeutra,serif,sans-serif; 
+	left:170px;
+}
+
+.tag-text-slide-3{
+	position:absolute;
+	bottom:80px;
+	opacity: 0.7;
+	background-color:#bbbdbf; 
+	min-width:920px;
+	height:70px;
+	left:120px;
+}
+.my-heading-3{
+	font-size:64px !important;
+	color:white;
+	position:absolute;
+	bottom:71px;
+	font-family:myNeutra,serif,sans-serif; 
+	left:135px;
+}
+.phone-number{
+	font-size:32px !important;
+	color:white;
+	position:absolute;
+	bottom:35px;
+	font-family:myNeutra,serif,sans-serif; 
+	left:340px;
+}
+
+.tag-text-slide-4{
+	position:absolute;
+	bottom:50px;
+	background-color:#bbbdbf; 
+	min-width:760px;
+	height:70px;
+	left:200px;
+}
+.my-heading-4{
+	font-size:64px !important;
+	color:white;
+	position:absolute;
+	bottom:42px;
+	font-family:myNeutra,serif,sans-serif; 
+	left:210px;
 }
 
 
