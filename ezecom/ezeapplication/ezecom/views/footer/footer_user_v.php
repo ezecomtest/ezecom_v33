@@ -6,7 +6,7 @@
 				<div class="section-footer">
 					<h6>Internet Access</h6>
 					<ul>
-						<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+						<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet</a></li>
 						<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
 						<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 					</ul>
@@ -69,8 +69,8 @@
 						<li><a href="<?php echo base_url()?>support/customer-service">Customer Service</a></li>
 						<li><a href="<?php echo base_url()?>support/payment">Payment Option</a></li>
 						<li><a href="<?php echo base_url()?>support/setup-email">EzeMail Setup</a></li>
-						<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>
-						<li><a href="https://csm.ezecom.com.kh/uam/">User Account Managment</a></li>
+						<li><a href="http://ezecom.speedtest.net/" target="_blank">Speed Test</a></li>
+						<li><a href="https://csm.ezecom.com.kh/uam/" target="_blank">User Account Managment</a></li>
 					</ul>
 				</div>
 			</div>
@@ -78,11 +78,11 @@
 				<div class="section-footer set-padding">
 					<h6>Follow Us</h6>
 					<ul>
-						<li><img  class="fb" src="<?php echo base_url()?>images/footer/social-icon-facebook.svg"/><a href="https://www.facebook.com/ezecom/">Facebook</a></li>
-						<li><img  class="linkin" src="<?php echo base_url()?>images/footer/social-icon-linkedin.svg"/><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFjhPwfnFlbiwAAAWJlRKPgJs3U7q7mghYytI9MJRWEsnw1sMG86SwDviOxfBwfzs8kKhPeHMdlBjxU2zlAI2MomFgP0KaBI2O0prumunLzKWrJIjCf7sZ_S16RHU8g5Lz1ZeE=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fezecom%2F">LinkedIn</a></li>
-						<li><img  class="instagram" src="<?php echo base_url()?>images/footer/social-icon-instagram.svg"/><a href="https://www.instagram.com/ezecommedias/">Instagram</a></li>
-						<li><img  class="youtube" src="<?php echo base_url()?>images/footer/social-icon-youtube.svg"/><a href="https://www.youtube.com/user/EZECOMCambodiaISP">YouTube</a></li>
-						<li><img  class="gplus" src="<?php echo base_url()?>images/footer/social-icon-googleplus.svg"/><a href="https://plus.google.com/109195830334920857995">Google+</a></li>
+						<li><img  class="fb" src="<?php echo base_url()?>images/footer/social-icon-facebook.svg"/><a href="https://www.facebook.com/ezecom/" target="_blank">Facebook</a></li>
+						<li><img  class="linkin" src="<?php echo base_url()?>images/footer/social-icon-linkedin.svg"/><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFjhPwfnFlbiwAAAWJlRKPgJs3U7q7mghYytI9MJRWEsnw1sMG86SwDviOxfBwfzs8kKhPeHMdlBjxU2zlAI2MomFgP0KaBI2O0prumunLzKWrJIjCf7sZ_S16RHU8g5Lz1ZeE=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fezecom%2F" target="_blank">LinkedIn</a></li>
+						<li><img  class="instagram" src="<?php echo base_url()?>images/footer/social-icon-instagram.svg"/><a href="https://www.instagram.com/ezecommedias/" target="_blank" >Instagram</a></li>
+						<li><img  class="youtube" src="<?php echo base_url()?>images/footer/social-icon-youtube.svg"/><a href="https://www.youtube.com/user/EZECOMCambodiaISP" target="_blank">YouTube</a></li>
+						<li><img  class="gplus" src="<?php echo base_url()?>images/footer/social-icon-googleplus.svg"/><a href="https://plus.google.com/109195830334920857995" target="_blank">Google+</a></li>
 					</ul>
 				</div>
 			</div>

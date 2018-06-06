@@ -33,7 +33,7 @@
 				   <ul>
 					  <li><a>Internet Access <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
-							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet</a></li>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 						 </ul>
@@ -139,7 +139,7 @@
 										<li>
 											<strong>Internet Access</strong>
 											<ul class="services">
-												<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+												<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access">Dedicated Internet</a></li>
 												<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
 												<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 											</ul>

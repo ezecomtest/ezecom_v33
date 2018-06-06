@@ -29,12 +29,13 @@
 .wrapper-navig-footer .section-footer h6{
 	color:#404041;
     font-weight:bold;
-    font-size:18px;
+    font-size:17px;
     font-family: myNeutra,serif,sans-serif; 
 }
 .wrapper-navig-footer .section-footer ul{
 	padding:0;
 	margin:0 auto;
+	width:150px;
 }
 
 .wrapper-navig-footer .section-footer ul li{
@@ -45,7 +46,7 @@
 	list-style-type:none;
 	font-family: myNeutra,serif,sans-serif; 
 	color:#404041;
-	font-size:14px;
+	font-size:13px;
 	line-height:25px;
 }
 
