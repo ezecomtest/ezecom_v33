@@ -84,9 +84,11 @@
 				<div class="policy">
 					<h3>Our Quality Policy</h3>
 					<p>
-						EZECOM is committed to meeting or exceeding 
-						customers requirements through continual improvement activities, 
-						including defining, measuring and acting on objectives and targets.
+						EZECOM is committed to 
+						satisfy applicable requirements and meeting
+						or exceeding customers requirements through continual 
+						improvement activities, including defining, measuring and 
+						acting on objectives and targets.
 					</p>
 				</div>
 			</div>

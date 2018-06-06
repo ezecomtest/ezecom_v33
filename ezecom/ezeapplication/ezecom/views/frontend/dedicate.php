@@ -99,15 +99,15 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="about-ezebiz">
-					<h3 class="text-center">About Dedicated Internet Access (DIA)</h3>
+					<h3 class="text-center">About Dedicated Internet</h3>
 					<p>
-						DIA is the highest performance internet package designed to fit the 
+						Dedicated Internet is the highest performance internet package designed to fit the 
 						needs of large corporations, enterprises and organizations. 
-						DIA’s purpose is to fulfill the high-end demand for ultimate speed, 
-						reliability and security. The key term “Dedicated” in DIA refers to 
+						Dedicated Internet’s purpose is to fulfill the high-end demand for ultimate speed, 
+						reliability and security. The key term “Dedicated” in Dedicated Internet refers to 
 						one-on-one internet sharing, which ensures constantly high speed and 
-						stability 24/7. DIA customers enjoy full customer service and technical 
-						support with Service-Level Agreement (SLA). DIA also boasts other benefits 
+						stability 24/7. Dedicated Internet customers enjoy full customer service and technical 
+						support with Service-Level Agreement (SLA). Dedicated Internet also boasts other benefits 
 						such as 200% upload speed, 200% download speed off-peak, massive boost for 
 						local speed, and especially best performance for most destinations in China.				</p>
 				</div>
@@ -117,7 +117,7 @@
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd-left clear-pd-right ">
 				<div class="ezebiz-work">
-					<h3 class="text-center">How DIA Works</h3>
+					<h3 class="text-center">How Dedicated Internet Works</h3>
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezebiz/Ezebiz-work.png"/>
 				</div>
 			</div>
@@ -248,7 +248,7 @@
 					<div class="text">
 						<h4>Ultimate availability</h4>
 						<p>
-							DIA has 99.99% uptime with optional 1+1 protection, 
+							Dedicated Internet has 99.99% uptime with optional 1+1 protection, 
 							which is the ultimate standard for internet. This means you practically 
 							always have a fast and reliable internet connection.
 						</p>

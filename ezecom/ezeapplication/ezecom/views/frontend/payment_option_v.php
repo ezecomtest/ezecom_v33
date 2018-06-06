@@ -363,16 +363,16 @@
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 							<div class="wrapper-content">
-								<p>Follow these easy steps to pay your bill via WING with your mobile phone.</p>
+								<p>Follow these easy steps to pay your bill via Wing with your mobile phone.</p>
 								<ol>
-									<li>Dial <b>*989#</b> to go to WING menu</li>
+									<li>Dial <b>*989#</b> to go to Wing menu</li>
 									<li>Enter your WING Account No, and press Send </li>
 									<li>Enter <b>“5”</b> and press Send </li>
 									<li>Enter <b>“6”</b> and press Send </li>
 									<li>Enter <b>“3”</b> and press Send </li>
 									<li>Enter your <b>Customer ID</b>, and press Send </li>
 									<li>Enter <b>Amount</b> in USD, and press Send </li>
-									<li>Enter <b>PIN code</b> (4 digits) of your WING account, and press Send </li>
+									<li>Enter <b>Pin code</b> (4 digits) of your WING account, and press Send </li>
 								</ol>
 								<p>
 									For full information on how to sign up for WING 
@@ -392,13 +392,13 @@
 							<div class="wrapper-content">
 								<p>More convenient with mobile <b>Wing Money App</b> for <b>Android</b> and <b>iOS.</b> To pay your bill by following these </p>
 								<ol>
-									<li>Download <b>WING Money</b> from Play store (Android Phone) App Store (IOS phone)</li>
-									<li>Register your <b>WING APP</b> account</li>
-									<li>Log in to your <b>WING APP</b> account</li>
-									<li>Select <b>“Bill payment”</b> in <b>“Biller List”</b> select <b>“INTERNET”</b> and select <b>“EZECOM”</b></li>
+									<li>Download <b>Wing Money</b> from Play store (Android Phone) App Store (IOS phone)</li>
+									<li>Register your <b>Wing App</b> account</li>
+									<li>Log in to your <b>Wing App</b> account</li>
+									<li>Select <b>“Bill payment”</b> in <b>“Biller List”</b> select <b>“Internet”</b> and select <b>“EZECOM”</b></li>
 									<li>Enter you <b>“Customer ID”</b> and <b>“Amount”</b> in USD and select <b>“PAY”</b></li>
 									<li>Check the payment information and select <b>“Confirm”</b></li>
-									<li>Enter <b>PIN CODE</b>(4digits) of your WING ACCOUNT, and select <b>“Continue”</b></li>
+									<li>Enter <b>Pin Code</b>(4digits) of your WING ACCOUNT, and select <b>“Continue”</b></li>
 									<li>You will receive an SMS notification for successful bill payment</li>
 								</ol>
 								<p>
