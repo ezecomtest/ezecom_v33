@@ -223,6 +223,7 @@ $route['our-services/cyber-security/managed-network-security'] = 'frontend/our_s
 $route['our-services/cyber-security/web-application-firewall'] = 'frontend/our_services_c/web_appl_firewall';
 $route['our-services/value-added-service/voice-over-ip'] = 'frontend/our_services_c/voip';
 $route['our-services/value-added-service/EzeTV'] = 'frontend/our_services_c/ezetv';
+$route['our-services/value-added-service/live-stream-service'] = 'frontend/our_services_c/live_stream_service';
 
 /* Support */
 $route['support/customer-service'] = 'frontend/customer_service_c/customer_services';

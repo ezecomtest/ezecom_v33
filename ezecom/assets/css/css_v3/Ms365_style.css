@@ -22,7 +22,6 @@
 	font-family: myNeutra, serif,sans-serif;
 	font-weight:bold;
 	font-size:30px;
-	padding:40px 0 40px 0;
 }
 .feature{
 	color:#7961ab;
@@ -38,6 +37,7 @@
 	font-weight:bold;
 	font-size:19px;
 	font-family: myNeutra, serif,sans-serif;
+	margin-top:0;
 }
 .all-desc-features{
 	text-align: center;
@@ -214,15 +214,53 @@
 }
 
 .resize-massive-freestorage{
-	width:80%;
+	width:51%;
 	margin:0 auto;
 }
 
 .resize-cost-efficency{
-	width:80%;
+	width:56%;
+	margin:0 auto;
+}
+.resize-office{
+	width:35%;
 	margin:0 auto;
 }
 
+.resize-email{
+	width:40%;
+	margin:0 auto;
+}
+
+.resize-storage{
+	width:42%;
+	margin:0 auto;
+}
+
+.data-protection{
+	width:35%;
+	margin:0 auto;
+}
+
+.windows{
+	width:37%;
+	margin:0 auto;
+}
+
+.protection{
+	width:45%;
+	margin:0 auto;
+}
+
+.deployment{
+	width:45%;
+	margin:0 auto;
+}
+
+.support{
+	width:42%;
+	margin:0 auto;
+}
 
 
 #all_h_feature_and_include{

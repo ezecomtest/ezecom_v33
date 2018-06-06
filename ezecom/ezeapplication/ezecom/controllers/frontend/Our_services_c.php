@@ -612,5 +612,24 @@ class Our_services_c extends CI_Controller {
 		}
 	}
 	
+	public function live_stream_service(){
+		
+		if($this->session->userdata("language") ==1){
+			$data['title'] = "Live Stream Service";
+			$data['active'] = "Live Stream Service";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/live_stream_service',$data);
+		}
+		
+		if($this->session->userdata("language") == ""){
+			$data['title'] = "Web Application Firewall";
+			$data['active'] = "Web Application Firewall";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/live_stream_service',$data);
+		}
+	}
+	
 	
 }

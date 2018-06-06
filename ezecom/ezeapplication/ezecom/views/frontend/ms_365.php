@@ -203,7 +203,7 @@
 	<div style="width:100%;overflow:hidden">
 		
 		
-		<div class="col-xs-12 col-md-4" style="padding: 7% 5% 5% 5%;margin-top: -2%">
+		<div class="col-xs-12 col-md-4" style="padding: 4% 5% 5% 5%;margin-top: -2%">
 		<img src="<?php echo base_url()?>images/our-services/365/massive-free-storage.svg"  class="img-responsive resize-massive-freestorage" alt="Massive Free Storage"/>
 
 		<h3 class="all-features">Massive Free Storage </h3>
@@ -212,7 +212,7 @@
 		</p>
 		</div>
 
-		<div class="col-xs-12 col-md-4" style="padding: 7% 5% 5% 5%;margin-top: -2%">
+		<div class="col-xs-12 col-md-4" style="padding: 4% 5% 5% 5%;margin-top: -2%">
 		<img src="<?php echo base_url()?>images/our-services/365/hassle-free.svg"  class="img-responsive resize-cost-efficency" alt="Latest Version & Cost Efficiency" />
 		<h3 class="all-features">Latest Version & Cost Efficiency </h3>
 		<p class="all-desc-features">
@@ -238,7 +238,7 @@
 
 	<h1 class="text-center package-plan">What’s Included</h1>
 	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
-		<img src="<?php echo base_url()?>images/our-services/365/come-with-office.svg"  class="img-responsive" alt="Comes with Office" />
+		<img src="<?php echo base_url()?>images/our-services/365/come-with-office.svg"  class="img-responsive resize-office" alt="Comes with Office" />
 		<h3 class="all-features">Comes with Office</h3>
 		<p class="all-desc-features">
 			Stay up-to-date with the latest versions of Word, Excel, PowerPoint, and more.
@@ -246,7 +246,7 @@
 	</div>
 					
 	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
-		<img src="<?php echo base_url()?>images/our-services/365/email-calendering.svg"  class="img-responsive" alt="Email and Calendaring" />
+		<img src="<?php echo base_url()?>images/our-services/365/email-calendering.svg"  class="img-responsive resize-email" alt="Email and Calendaring" />
 		<h3 class="all-features">Email and Calendaring</h3>
 		<p class="all-desc-features">
 			Connect with customers and co-workers using Outlook and Exchange.
@@ -254,7 +254,7 @@
 	</div>
 
 	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
-		<img src="<?php echo base_url()?>images/our-services/365/file-storage.svg" class="img-responsive" alt="File Storage" />
+		<img src="<?php echo base_url()?>images/our-services/365/file-storage.svg" class="img-responsive resize-storage" alt="File Storage" />
 		<h3 class="all-features">File Storage</h3>
 		<p class="all-desc-features">
 			Manage your files from anywhere with 1 TB of storage.
@@ -264,8 +264,8 @@
 </div>
 
 <div class="col-xm-12 col-sm-12 col-md-12">
-	<div class="col-xs-12 col-md-4" style="padding:7% 5% 0 5%">
-		<img src="<?php echo base_url()?>images/our-services/365/data-protection-control.svg"  class="img-responsive" alt="Data Protection" />
+	<div class="col-xs-12 col-md-4" style="padding:3% 5% 0 5%">
+		<img src="<?php echo base_url()?>images/our-services/365/data-protection-control.svg"  class="img-responsive data-protection" alt="Data Protection" />
 		<h3 class="all-features">Data Protection</h3>
 		<p class="all-desc-features">
 			Controls Help secure business data on 
@@ -273,16 +273,16 @@
 		</p>
 	</div>
 	
-	<div class="col-xs-12 col-md-4" style="padding:7% 5% 0 5%">
-		<img src="<?php echo base_url()?>images/our-services/365/icon-safest-windows.svg"  class="img-responsive" alt="Safest Windows Ever" />
+	<div class="col-xs-12 col-md-4" style="padding:3% 5% 0 5%">
+		<img src="<?php echo base_url()?>images/our-services/365/icon-safest-windows.svg"  class="img-responsive windows" alt="Safest Windows Ever" />
 		<h3 class="all-features">Safest Windows Ever</h3>
 		<p class="all-desc-features">
 			Get upgraded to Windows 10 Pro from Windows 7 and 8.1 Pro.
 		</p>
 	</div>
 	
-	<div class="col-xs-12 col-md-4" style="padding:7% 5% 0 5%">
-		<img src="<?php echo base_url()?>images/our-services/365/cyberthreat-protection.svg"  class="img-responsive" alt="Cyberthreat Protection" />
+	<div class="col-xs-12 col-md-4" style="padding:3% 5% 0 5%">
+		<img src="<?php echo base_url()?>images/our-services/365/cyberthreat-protection.svg"  class="img-responsive protection" alt="Cyberthreat Protection" />
 		<h3 class="all-features">Cyberthreat Protection</h3>
 		<p class="all-desc-features">
 			Help protect PCs from malware, viruses, and spyware.
@@ -293,16 +293,16 @@
 
 <div class="col-xm-12 col-sm-12 col-md-12">
 	<div style="width:100%;overflow:hidden">
-		<div class="col-xs-12 col-md-4" style="padding:7% 5% 7% 5%">
-			<img src="<?php echo base_url()?>images/our-services/365/icon-admin-deployment.svg" class="img-responsive" alt="Administration and Deployment" />
+		<div class="col-xs-12 col-md-4" style="padding:3% 5% 7% 5%">
+			<img src="<?php echo base_url()?>images/our-services/365/icon-admin-deployment.svg" class="img-responsive deployment" alt="Administration and Deployment" />
 			<h3 class="all-features">Administration and Deployment</h3>
 			<p class="all-desc-features">
 				Manage new PCs and devices faster and more easily than ever.
 			</p>
 		</div>
 	
-		<div class="col-xs-12 col-md-4" style="padding:7% 5% 7% 5%">
-			<img src="<?php echo base_url()?>images/our-services/365/dependability.svg"  class="img-responsive" alt="Dependability and Support" />
+		<div class="col-xs-12 col-md-4" style="padding:3% 5% 7% 5%">
+			<img src="<?php echo base_url()?>images/our-services/365/dependability.svg"  class="img-responsive support" alt="Dependability and Support" />
 			<h3 class="all-features">Dependability and Support</h3>
 			<p class="all-desc-features">
 				Get 99.9% uptime guaranteed and 24/7 online and phone
