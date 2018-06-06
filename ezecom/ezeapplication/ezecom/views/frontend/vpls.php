@@ -13,7 +13,7 @@
 	    ?>
 	</head>
 <body>
-<div class="container-fluid">
+<!--<div class="container-fluid">
 	<div class="container">
 		<div class="row mg-bt">
 			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
@@ -24,9 +24,9 @@
 			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
 		</div>
 	</div>
-</div>  
+</div> --> 
 
-<!--<div class="container-fluid">
+<div class="container-fluid">
 	<div class="container">
 		<div class="row mg-bt">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -54,7 +54,7 @@
 				</div>
 				
 					<!-- Contact Form Dedicate -->
-					<!--<div class="container">
+					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
 									<form class="form-horizontal" action="<?php echo base_url()?>MPLS/sending.php" method="post">
@@ -106,12 +106,12 @@
 								</div>
 							</div>
 					</div> <!-- end container -->
-			<!--</div>
+			</div>
 		
 		</div>
 		
 	</div>
-</div>       -->
+</div>      
 <!-- FOOTER -->
 <?php $this->load->view("footer/footer_user_v")?> 
 

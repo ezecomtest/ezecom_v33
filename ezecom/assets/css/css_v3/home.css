@@ -25,54 +25,54 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	position:absolute;
 	bottom:50px;
 	opacity: 0.5;
-	background-color:#bbbdbf; 
-	min-width:780px;
-	height:70px;
-	left:200px;
+	background-color:#3d3d3e; 
+	min-width:607px;
+	height:50px;
+	left:280px;
 }
 .my-heading-1{
-	font-size:64px !important;
+	font-size:50px !important;
 	color:white;
 	position:absolute;
-	bottom:44px;
+	bottom:42px;
 	font-family:myNeutra,serif,sans-serif; 
-	left:210px;
+	left:290px;
 }
 
 .tag-text-slide-2{
 	position:absolute;
 	bottom:50px;
-	opacity: 0.7;
-	background-color:#bbbdbf; 
-	min-width:870px;
-	height:70px;
-	left:160px;
+	opacity: 0.5;
+	background-color:#3d3d3e; 
+	min-width:680px;
+	height:53px;
+	left:250px;
 }
 .my-heading-2{
-	font-size:64px !important;
+	font-size:50px !important;
 	color:white;
 	position:absolute;
-	bottom:41px;
+	bottom:42px;
 	font-family:myNeutra,serif,sans-serif; 
-	left:170px;
+	left:258px;
 }
 
 .tag-text-slide-3{
 	position:absolute;
 	bottom:80px;
-	opacity: 0.7;
-	background-color:#bbbdbf; 
-	min-width:920px;
-	height:70px;
-	left:120px;
+	opacity: 0.5;
+	background-color:#3d3d3e; 
+	min-width:720px;
+	height:53px;
+	left:215px;
 }
 .my-heading-3{
-	font-size:64px !important;
+	font-size:50px !important;
 	color:white;
 	position:absolute;
 	bottom:71px;
 	font-family:myNeutra,serif,sans-serif; 
-	left:135px;
+	left:225px;
 }
 .phone-number{
 	font-size:32px !important;
@@ -86,18 +86,19 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .tag-text-slide-4{
 	position:absolute;
 	bottom:50px;
-	background-color:#bbbdbf; 
-	min-width:760px;
-	height:70px;
-	left:200px;
+	opacity: 0.5;
+	background-color:#3d3d3e; 
+	min-width:600px;
+	height:58px;
+	left:290px;
 }
 .my-heading-4{
-	font-size:64px !important;
+	font-size:50px !important;
 	color:white;
 	position:absolute;
-	bottom:42px;
+	bottom:45px;
 	font-family:myNeutra,serif,sans-serif; 
-	left:210px;
+	left:300px;
 }
 
 
