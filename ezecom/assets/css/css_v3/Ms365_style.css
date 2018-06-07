@@ -22,6 +22,10 @@
 	font-family: myNeutra, serif,sans-serif;
 	font-weight:bold;
 	font-size:30px;
+	margin-left:-50px;
+}
+.set-position{
+	margin-top:15px;
 }
 .feature{
 	color:#7961ab;
@@ -32,15 +36,13 @@
 }
 
 .all-features{
-	text-align:center;
 	color:#7961ab;
 	font-weight:bold;
 	font-size:19px;
 	font-family: myNeutra, serif,sans-serif;
-	margin-top:0;
+	margin-top:7px;
 }
 .all-desc-features{
-	text-align: center;
 	font-size: 16px;
 	font-family: myNeutra, serif,sans-serif;
 }
@@ -199,67 +201,54 @@
 }
 
 .resize-anywhere{
-	width:70%;
-	margin:0 auto;
+	width:31%;
 }
 
 .resize-always-security{
-	width:70%;
-	margin:0 auto;
+	width:22%;
 }
 
 .resize-team-collaboration{
-	width:70%;
-	margin:0 auto;
+	width:30%;
 }
 
 .resize-massive-freestorage{
-	width:51%;
-	margin:0 auto;
+	width:35%;
 }
 
 .resize-cost-efficency{
-	width:56%;
-	margin:0 auto;
+	width:45%;
 }
 .resize-office{
-	width:35%;
-	margin:0 auto;
+	width:27%;
 }
 
 .resize-email{
-	width:40%;
-	margin:0 auto;
+	width:31%;
 }
 
 .resize-storage{
-	width:42%;
-	margin:0 auto;
+	width:36%;
 }
 
 .data-protection{
-	width:35%;
-	margin:0 auto;
+	width:24%;
 }
 
 .windows{
-	width:37%;
-	margin:0 auto;
+	width:27%;
 }
 
 .protection{
-	width:45%;
-	margin:0 auto;
+	width:32%;
 }
 
 .deployment{
-	width:45%;
-	margin:0 auto;
+	width:30%;
 }
 
 .support{
-	width:42%;
-	margin:0 auto;
+	width:28%;
 }
 
 

@@ -143,7 +143,7 @@
 <h1 class="text-center package-plan">Package Plans</h1>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="tab-inner-indent">
-	<img class="img-responsive" src="<?php echo base_url()?>images/our-services/365/package-plan-test.png" alt="Package Plan"/>
+	<img class="img-responsive set-position" src="<?php echo base_url()?>images/our-services/365/package-plan-test.png" alt="Package Plan"/>
 	<img class="img-responsive"  id="sign_up_discount" src="<?php echo base_url()?>images/our-services/365/sign-up-discount.png"/>
 
  
