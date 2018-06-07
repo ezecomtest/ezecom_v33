@@ -810,7 +810,7 @@
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="best-employer-award">
 							<a href="<?php echo base_url()?>media-center/news-detail/ezecom-the-first-isp-in-cambodia-to-win-asia’s-best-employer-brands-award-2017">
-								<img src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017"/>
+								<img src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017">
 								<h4>
 									Best Employer <br/>Brand Award 2017
 								</h4>
@@ -837,10 +837,12 @@
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="best-ISP">
+							<a href="<?php echo base_url()?>media-center/news-detail/ezecom-awarded-2017-best-isp-for-business-at-4g-ltd-conference">
 								<img src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
 								<h4>
 									Best ISP <br/>for Business
 								</h4>
+							</a>
 							</div>
 						</div>
 					</div>
