@@ -207,7 +207,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper">
 					<figure>
-						<img class="img-responsive" id="internet-access" src="<?php echo base_url()?>images/homepage/internet-access.png" alt="Internet Access" title="Internet Access"/>
+						<img class="img-responsive image-resize" id="internet-access" src="<?php echo base_url()?>images/homepage/internet-access.png" alt="Internet Access" title="Internet Access"/>
 					</figure>
 					<div class="pro-internet">
 						<!--<ul>
@@ -227,7 +227,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-network">
 					<figure>
-						<img class="img-responsive" id="enterprise-network" src="<?php echo base_url()?>images/homepage/enterprise-network.png" alt="Enterprise Network" title="Enterprise Network"/>
+						<img class="img-responsive image-resize" id="enterprise-network" src="<?php echo base_url()?>images/homepage/enterprise-network.png" alt="Enterprise Network" title="Enterprise Network"/>
 					</figure>
 					<div class="pro-network">
 						<!--<ul>
@@ -249,7 +249,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-cloud">
 					<figure>
-						<img class="img-responsive" id="cloud-services" src="<?php echo base_url()?>images/homepage/cloud-services.png" alt="Cloud Services" title="Cloud Services"/>
+						<img class="img-responsive image-resize" id="cloud-services" src="<?php echo base_url()?>images/homepage/cloud-services.png" alt="Cloud Services" title="Cloud Services"/>
 					</figure>
 					<div class="pro-cloud">
 						<!--<ul>
@@ -270,7 +270,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-hosting">
 					<figure>
-						<img class="img-responsive" id="data-center" src="<?php echo base_url()?>images/homepage/data-center.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
+						<img class="img-responsive image-resize" id="data-center" src="<?php echo base_url()?>images/homepage/data-center.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
 					</figure>
 					<div class="pro-hosting">
 						<!--<ul>
@@ -291,7 +291,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-security">
 					<figure>
-						<img class="img-responsive" id="cyber-security" src="<?php echo base_url()?>images/homepage/cyber-security.png" alt="Cyber Security" title="Cyber Security"/>
+						<img class="img-responsive image-resize" id="cyber-security" src="<?php echo base_url()?>images/homepage/cyber-security.png" alt="Cyber Security" title="Cyber Security"/>
 					</figure>
 					<div class="pro-security">
 						<!--<ul>
@@ -311,7 +311,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-services">
 					<figure>
-						<img class="img-responsive" id="add-services" src="<?php echo base_url()?>images/homepage/add-services.png" alt="Value Added Services" title="Value Added Services"/>
+						<img class="img-responsive image-resize" id="add-services" src="<?php echo base_url()?>images/homepage/add-services.png" alt="Value Added Services" title="Value Added Services"/>
 					</figure>
 					<div class="pro-services">
 						<!--<ul>
