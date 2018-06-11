@@ -24,7 +24,7 @@
 								<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
 							</ul>-->
 						</li>
-						<li><a href="<?php echo base_url()?>our-company/corporate-social-responsibility">CSR</a></li>
+						<li><a href="<?php echo base_url()?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>
 						<li><a href="<?php echo base_url()?>our-company/community">Community</a></li>
 						<li><a href="<?php echo base_url()?>our-company/career-opportunities">Career Opportunities</a></li>
 					</ul>
@@ -54,7 +54,7 @@
 					  </li>
 					  <li><a>Data Centre & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
-							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Data Co-location</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Co-location</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/cpanel-web-hosting'>Web Hosting</a></li>
 							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
@@ -86,7 +86,7 @@
 						<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
 						<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
 						<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
-						<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
+						<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>User Account Management</a></li>
 					</ul>
 				</li>
 				<li><a><span style="<?php if($this->uri->segment(1)=="media-center"){echo "color:#7961a9";} ?>">Media Centre</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
@@ -128,7 +128,7 @@
 												<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
 											</ul>
 										</li>-->
-										<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility">CSR</a></li>
+										<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>
 										<li><a href="<?php echo base_url();?>our-company/community">Community</a></li>
 										<li><a href="<?php echo base_url();?>our-company/career-opportunities">Career Opportunities</a></li>
 										
@@ -166,7 +166,7 @@
 										<li>
 											<strong>Data Centre & Hosting</strong>
 											<ul class="hosting">
-												<li><a href="<?php echo base_url();?>our-services/hosting/colocation">Data Co-location</a></li>
+												<li><a href="<?php echo base_url();?>our-services/hosting/colocation">Co-location</a></li>
 												<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>
 												<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
 												<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
@@ -219,7 +219,7 @@
 										<li><a href="<?php echo base_url();?>support/setup-email">EzeMail Setup</a></li>
 										<li><a target="_blank" href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
 										<li><a target="_blank" href="http://ezecom.speedtest.net/">Speed Test</a></li>	
-										<li><a target="_blank" href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
+										<li><a target="_blank" href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/">User Account Management</a></li>
 																						 
 									</ul>
 								</div>

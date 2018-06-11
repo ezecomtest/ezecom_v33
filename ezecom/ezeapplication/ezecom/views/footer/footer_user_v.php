@@ -28,7 +28,7 @@
 					</ul>
 					<h6>Hosting</h6>
 					<ul>
-						<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Data Co-location</a></li>
+						<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Co-location</a></li>
 						<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>
 						<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
 						<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
@@ -73,7 +73,7 @@
 						<li><a href="<?php echo base_url()?>support/payment">Payment Option</a></li>
 						<li><a href="<?php echo base_url()?>support/setup-email">EzeMail Setup</a></li>
 						<li><a href="http://ezecom.speedtest.net/" target="_blank">Speed Test</a></li>
-						<li><a href="https://csm.ezecom.com.kh/uam/" target="_blank">User Account Managment</a></li>
+						<li><a href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/" target="_blank">User Account Managment</a></li>
 					</ul>
 				</div>
 			</div>

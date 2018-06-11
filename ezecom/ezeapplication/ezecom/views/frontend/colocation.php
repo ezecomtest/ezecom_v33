@@ -24,9 +24,9 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="Colo_wrapper">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/icon-Data_colocation.svg"/>
-					<h2>Data Co-location</h2>
+					<h2>Co-location</h2>
 					<p>
-						EZECOM Data Co-location services offer reliable and resilient 
+						EZECOM Co-location services offer reliable and resilient 
 						world-class data centre facilities for you to host all your mission 
 						critical data. Custom designed to meet global standards, 
 						our data centre employs the latest technologies. 
