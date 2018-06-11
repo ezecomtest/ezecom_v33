@@ -44,10 +44,13 @@
 						<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
 					</ul>
 					<h6>VAS</h6>
-					<ul>
+						<ul>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/live-stream-service'>Live Stream Service</a></li>
+						</ul>
+					<!--<ul>
 						<li><a href="<?php echo base_url()?>our-services/value-added-service/voice-over-ip">VoIP</a></li>
 						<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>
-					</ul>
+					</ul>-->
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">

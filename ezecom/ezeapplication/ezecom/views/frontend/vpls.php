@@ -44,7 +44,7 @@
 					</p>
 				</div>
 				<div class="price">
-					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VPLS/package-price.png"/>
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VPLS/our-service-vpls-5mb10mb20mb.svg"/>
 					<p>All pricings above are exclusive of VAT.<p>
 				</div>
 				<div class="signup">

@@ -2,7 +2,7 @@
 <link href="<?php echo base_url()?>assets/css/css_v3/navigation_menu.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Main Navigation import JS-->
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/js/js_v3/jquery-latest.min.js" type="text/javascript"></script>
 <script src="<?php echo base_url(); ?>assets/js/js_v3/nav_dropdown_menu.js"></script>
 
 <div class="container-fluid" style="background-color:#d1d2d4">
