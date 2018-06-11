@@ -105,6 +105,110 @@
 	</nav>
 	</div>
 </div>
+
+<!-- Menu Fix -->
+<div id="menu-fix">
+	<div class="container middle-menu">
+		<nav id='cssmenu'>
+			<div id="head-mobile"></div>
+			<div class="button"></div>
+			<ul>
+				<li class="<?php if($this->uri->segment(1)=="" or $this->uri->segment(1)=="homepage"){echo "active";} ?>"><a href="<?php echo base_url()?>">Home</a></li>
+				<li ><a><span style="<?php if($this->uri->segment(1)=="our-company"){echo "color:#7961a9";} ?>">Our Company</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+					<ul>
+						<li><a href="<?php echo base_url()?>our-company/company-profile">Company Profile</a></li>
+						<li><a href="<?php echo base_url()?>our-company/quality-management-system">Quality Management System</a></li>
+						<li><a href="<?php echo base_url()?>our-company/childsafe-certification">ChildSafe Certification</a></li>
+						<li><a href="<?php echo base_url()?>our-company/our-partnerships">Our Partnerships</a>
+							<!--<ul>
+								<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
+								<li><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
+								<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
+							</ul>-->
+						</li>
+						<li><a href="<?php echo base_url()?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>
+						<li><a href="<?php echo base_url()?>our-company/community">Community</a></li>
+						<li><a href="<?php echo base_url()?>our-company/career-opportunities">Career Opportunities</a></li>
+					</ul>
+				</li>
+				<li><a><span style="<?php if($this->uri->segment(1)=="our-services"){echo "color:#7961a9";} ?>">Our Services</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+				   <ul>
+					  <li><a>Internet Access <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+						 <ul>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
+						 </ul>
+					  </li>
+					  <li><a>Enterprise Network <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+						 <ul>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
+						 </ul>
+					  </li>
+					  <li><a>Cloud Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+						 <ul>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+						 </ul>
+					  </li>
+					  <li><a>Data Centre & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+						 <ul>
+							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Co-location</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/cpanel-web-hosting'>Web Hosting</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
+						 </ul>
+					  </li>
+					  <li><a>Cyber Security <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+						 <ul>
+							<li><a href='<?php echo base_url()?>our-services/cyber-security/ddos'>DDoS Mitigation Service</a></li>
+							<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>
+							<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>
+						 </ul>
+					  </li>
+					  <li><a>Value Added Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
+							  <ul>
+								<li><a href='<?php echo base_url()?>our-services/value-added-service/live-stream-service'>Live Stream Service</a></li>
+							  </ul>
+						 <!--<ul>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/voice-over-ip'>VoIP</a></li>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/EzeTV'>EzeTV</a></li>
+						 </ul>-->
+					  </li>
+				   </ul>
+				</li>
+				<li><a><span style="<?php if($this->uri->segment(1)=="support"){echo "color:#7961a9";} ?>">Support</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+					<ul>
+						<li><a href='<?php echo base_url()?>support/faq'>FAQ's</a></li>
+						<li><a href='<?php echo base_url()?>support/customer-service'>Customer Service</a></li>
+						<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
+						<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
+						<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
+						<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+						<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>User Account Management</a></li>
+					</ul>
+				</li>
+				<li><a><span style="<?php if($this->uri->segment(1)=="media-center"){echo "color:#7961a9";} ?>">Media Centre</span> <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
+					<ul>
+						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
+						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>
+						<li><a href='<?php echo base_url()?>media-center/live-traffic-camera'>Live Traffic Camera</a></li>
+					</ul>
+				</li>
+				<li class="<?php if($this->uri->segment(1)=="contact-us"){echo "active";} ?>" ><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
+				<li><a href='#' class="collection"><img class="img-responsive burger-menu" src="<?php echo base_url()?>assets/images/menu_v3_icon/burger-menu.svg"/></a></li>
+			</ul>
+			<span>
+				
+			</span>
+	</nav>
+	</div>
+</div>
+
+
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">

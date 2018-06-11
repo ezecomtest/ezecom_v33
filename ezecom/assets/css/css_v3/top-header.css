@@ -8,3 +8,16 @@
 	max-width:36px;
 	max-height:35px;
 }
+
+/* Top Header Fix */
+#top-header-fix{
+	width:100%;
+	height:auto;
+	position:fixed;
+	z-index:1000;
+	top:-80px;
+}
+#top-header-fix .middle-block{
+	height:auto;
+	margin:0 auto;
+}
