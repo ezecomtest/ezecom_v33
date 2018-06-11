@@ -16,7 +16,7 @@
 <div class="container-fluid">
 	<div class="container">	
 		<h1 class="text-center">Web Application Firewall</h1>
-		<h1 class="text-center pd-bt">“Page is Under Construction” </h1>
+		<h2 class="text-center pd-bt">“Potential Service Planned for the Future, But Still in Development or <br/>NOT Developed Yet” </h2>
 	</div>
 </div>          
 <!-- FOOTER -->

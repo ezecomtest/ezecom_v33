@@ -19,7 +19,7 @@
 			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
 			<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 				<h1 class="text-center">Amazon Web Service</h1>
-				<h1 class="text-center">“Page is Under Construction” </h1>
+				<h2 class="text-center">“Potential Service Planned for the Future, But Still in Development or NOT Developed Yet” </h2>
 			</div>
 			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
 		</div>
