@@ -192,7 +192,7 @@
 						<p>
 							EZECOM offers you the best 
 							available packages to fulfill your needs, from 
-							specially designed packages for your personal 
+							specially designed packages for your 
 							business or home to international level, dedicated 
 							connections for global enterprises! Discover below the full 
 							range of our services.

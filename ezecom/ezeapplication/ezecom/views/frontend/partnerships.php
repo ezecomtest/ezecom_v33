@@ -53,7 +53,7 @@
 							top universities in Cambodia, reaching over 65,000 students. 
 							Next, we intend to broaden access to technology and technology 
 							training for high school pupils, thereby expanding this initiative to 
-							the majority of schools in the country. Click here for more details.
+							the majority of schools in the country.
 						</p>
 					</div>
 				</div>
