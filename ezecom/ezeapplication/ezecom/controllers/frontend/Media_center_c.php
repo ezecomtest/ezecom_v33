@@ -213,5 +213,23 @@ class Media_center_c extends CI_Controller {
 		$data['title'] = "News Detail";
 		$this->load->view('frontend/news_events_detail',$data);
 	}
+	
+	public function promotion(){
+		
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Promotion";
+			$data['active']="Promotion";
+			$lan = $this->session->userdata("language");
+			$this->load->view('frontend/promotion',$data);
+		}
+		
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Promotion";
+			$data['active']="Promotion";
+			$lan = $this->session->userdata("language");
+			$this->load->view('frontend/promotion',$data);
+		}
+		
+	}
 
 }

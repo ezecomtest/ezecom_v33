@@ -1,0 +1,22 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.block-promotion{
+	margin:50px 0 50px 0;
+	max-width:400px;
+	height:auto;
+}
+
+.block-promotion h2{
+	font-size:30px;
+	font-family:myNeutra,serif,sans-serif;
+	text-align:center;
+}
+.resize-promotion{
+	max-width:300px;
+	position:relative;
+	left:17%;
+}

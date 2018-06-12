@@ -13,11 +13,21 @@
 	    ?>
 	</head>
 <body>
+
 <div class="container-fluid">
 	<div class="container">
-		<div class="row row-mg-bt">
+		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h2 class="full-title">News and Events</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd">
 				<div class="top-news">
 					<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-', $firsttitle_events['content_title']));?>">
 						<img  class="img-responsive"  src="<?php echo base_url('elFindermaster/files/post/image_feature/').$firsttitle_events['content_image_feature']?>" alt="<?php echo $firsttitle_events['content_title']?>"/>
@@ -42,11 +52,13 @@
 			</div>
 		</div>
 	</div>
-	
+</div>	
+
+<div class="container-fluid">
 	<div class="container">
 		<?php foreach ($title_events as $title) { ?>
-		<div class="row row-mg-bt">
-			<div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-xs-12">
+		<div class="row row-mg-bt row-mg-top">
+			<div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-xs-12 clear-pd">
 				<div class="sub-news">
 						<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-' ,$title->content_title));?>"> 
 							<img class="img-responsive"  src="<?php echo base_url()?>elFindermaster/files/post/image_feature/<?php echo $title->content_image_feature ?>" alt="<?php echo $title->content_title ?>" />

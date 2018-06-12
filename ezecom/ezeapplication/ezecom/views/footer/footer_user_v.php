@@ -60,6 +60,7 @@
 						<li><a href="<?php echo base_url()?>media-center/news-events">News & Events</a></li>
 						<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
 						<li><a href="<?php echo base_url()?>media-center/live-traffic-camera">Live Traffic Camera</a></li>
+						<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>
 					</ul>
 					
 				</div>

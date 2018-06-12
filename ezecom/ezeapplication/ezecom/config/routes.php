@@ -238,6 +238,7 @@ $route['media-center/news-events/(:num)'] = 'frontend/media_center_c/media_cente
 $route['media-center/news-detail/(:any)'] = 'frontend/media_center_c/news_detail_c/$1';
 $route['media-center/live-cambodia-radio'] = 'frontend/live_radio_c/live_radio';
 $route['media-center/live-traffic-camera'] = 'frontend/live_traffice_camera_c/live_traffice_camera';
+$route['media-center/promotion'] = 'frontend/media_center_c/promotion';
 
 // Contact
 $route['contact-us'] = 'frontend/contact_us_c/contact_us';
