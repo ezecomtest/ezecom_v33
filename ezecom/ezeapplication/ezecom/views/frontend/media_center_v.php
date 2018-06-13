@@ -15,10 +15,12 @@
 <body>
 
 <div class="container-fluid">
-	<div class="container">
+	<div class="container container-top-mar">
 		<div class="row">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h2 class="full-title">News and Events</h2>
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd">
+				<div class="slide-header">
+					<img class="img-responsive" src="<?php echo base_url()?>images/media/news-and-event-slide.jpg" alt="Company Profile"/>
+				</div>
 			</div>
 		</div>
 	</div>

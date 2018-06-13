@@ -23,6 +23,13 @@
 	padding-right:0;
 }
 
+.slide-header{
+	margin-bottom:80px;
+}
+
+.container-top-mar{
+	margin-top:-1px;
+}
 
 .top-news p{
 	font-family:myNeutra,serif,sans-serif;
@@ -105,9 +112,19 @@
 	margin-bottom:60px;
 }
 @media screen and (max-width:1000px){
+	
+	.top-news{
+		padding:10px;
+	}
+	
+	.slide-header{
+		margin-bottom:40px;
+	}
+	
 	.top-news img{
 		padding:0 0 10px 0;
 	}
+	
 	.sub-news img{
 		float:none;
 		max-width:100%;
