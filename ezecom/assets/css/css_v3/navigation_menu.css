@@ -358,6 +358,10 @@ nav{width:100%;}
 	.burger-menu{
 		display:none;
 	}
+	
+	#menu-fix{
+		display:none;
+	}
 	.glyphicon{
 		float:right;
 	}
