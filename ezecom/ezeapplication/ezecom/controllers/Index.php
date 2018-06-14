@@ -200,15 +200,17 @@ class Index extends CI_Controller {
 			
 		  $this->load->library('email', $config);
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
+		  $this->email->to('chan.raksmey@ezecomcorp.com');
+		  
+		  //$this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  //$this->email->to('eang.chhenghong@ezecomcorp.com');
 		  //$this->email->cc("sour.piset@ezecomcorp.com");
-		  $this->email->subject("SIGN ME UP");
+		  $this->email->subject("Sign Me Up");
 
 		$package = $this->input->post("package");
 		if($package !=""){
 			 $contain = "\n"."Dear Sir/Madam, "."\n\n" .
-				"You received a customer's message from website Ezecom. Sender's Information detail show below: "."\n\n".
+				"You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\n".
 				"Name: " .
 				ucwords($eml_name).
 				"\n" .
@@ -217,25 +219,26 @@ class Index extends CI_Controller {
 				"Phone: " .
 				ucwords($eml_phone).
 				"\n" .
-				"Details:\n" .
+				"Details:" .
 				$eml_details.
 				"\n" .
-				"Package that ".$eml_name. " interest is coporate package : ".$package.
-				"\n\n** Automatic sent mail from website ezecom **\n" ;
+				"Package that ".$eml_name. " interest is Dedicate package : ".$package.
+				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 		  $this->email->message($contain);
 		  
+		  $base_url = base_url();
 		  if($this->email->send()){
 			$this->homepage_m->insert_signme_up($data);
-		  	return true;
+		  	header("Location:".$base_url.'thank-you');
 		  }else{
-		  	return false;
+		  	header("Location:".$base_url);
 		  }
 
 		}
 		$prempackage = $this->input->post("prempackage");
 		if($prempackage !=""){
 			 $contain = "\n"."Dear Sir/Madam, "."\n\n" .
-				"You received a customer's message from website Ezecom. Sender's Information detail show below: "."\n\n".
+				"You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\n".
 				"Name: " .
 				ucwords($eml_name).
 				"\n" .
@@ -244,23 +247,47 @@ class Index extends CI_Controller {
 				"Phone: " .
 				ucwords($eml_phone).
 				"\n" .
-				"Details:\n" .
+				"Details:" .
 				$eml_details.
 				"\n" .
-				"Package that ".$eml_name. " interest is coporate premium : ".$prempackage.
-				"\n\n** Automatic sent mail from website ezecom **\n" ;
+				"Package that ".$eml_name. " interest is EzeBiz : ".$prempackage.
+				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 		  $this->email->message($contain);
 		  
+		  $base_url = base_url();
 		  if($this->email->send()){
-		  	return true;
+			$this->homepage_m->insert_signme_up($data);
+		  	header("Location:".$base_url.'thank-you');
 		  }else{
-		  	return false;
+		  	header("Location:".$base_url);
 		  }
 		}
-
 		
+		if($prempackage =="" AND $package==""){
+			$contain = "\n"."Dear Sir/Madam, "."\n\n" .
+				"You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\n".
+				"Name: " .
+				ucwords($eml_name).
+				"\n" .
+				"Email: " .$eml_email.
+				"\n" .
+				"Phone: " .
+				ucwords($eml_phone).
+				"\n" .
+				"Details:" .
+				$eml_details.
+				"\n" . "\n\n** Automatic sent mail from website EZECOM **\n" ;
+		  $this->email->message($contain);
+		  
+		  $base_url = base_url();
+		  if($this->email->send()){
+			$this->homepage_m->insert_signme_up($data);
+		  	header("Location:".$base_url.'thank-you');
+		  }else{
+		  	header("Location:".$base_url);
+		  }
+		}
 		
-
 
 	}
 }

@@ -360,7 +360,7 @@
 		<div class="col-xs-8 col-sm-8">
 			<div id="moremenu" class="morehover">
 				<div class="mid">	
-					  <form id="formsignup_form" name="signup" class="thickbox" title="Nice title" method="post">
+					  <form id="formsignup_form" method="post" action="<?php echo base_url() ?>index/signmeup_email" name="signup" class="thickbox" title="Nice title" >
 						<div class="col-xs-7 col-sm-6">
 						   <p class="help_me_choose"><b>Which packages interest you:</b></p>
 						   <div class="packagebox">
@@ -418,12 +418,12 @@
 							  <h5 class="help_me_choose">Contact Us</h5>
 							  
 							  <p class="help_me_choose">Call us now on <strong>‎023 238 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
-							   <label class="help_me_choose" for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
-							   <label class="help_me_choose" for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
-							   <label class="help_me_choose" for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
+							   <label class="help_me_choose" for="eml_name">Full Name:</label> <input type="text" name="eml_name"  required id="eml_name" /><br />
+							   <label class="help_me_choose" for="eml_email">Email Address:</label> <input type="text" name="eml_email"  required id="eml_email" /><br />
+							   <label class="help_me_choose" for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone"  required id="eml_phone" /><br />
 							   <label class="help_me_choose" for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
 							   <label class="help_me_choose" for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
-							   <input type="button" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" onclick="check_email_verify_signmeup()" /></label>
+							   <input type="submit" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" /></label>
 							  
 						   </div>
 					   </div>

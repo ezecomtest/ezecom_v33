@@ -1,0 +1,24 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+.thank-block{
+	margin-bottom:100px;
+}
+.thank-block h2{
+	font-family:myNeutra,serif,sans-serif;
+	color:#6b53a2;
+	font-size:50px;
+	text-align:center;
+	padding-top:20px;
+	font-weight:bold;
+}
+
+.thank-block p{
+	font-family:myNeutra,serif,sans-serif;
+	color:#404041;
+	font-size:20px;
+	text-align:center;
+}

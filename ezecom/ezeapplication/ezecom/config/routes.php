@@ -243,8 +243,8 @@ $route['media-center/promotion'] = 'frontend/media_center_c/promotion';
 // Contact
 $route['contact-us'] = 'frontend/contact_us_c/contact_us';
 
-
-
+// page thank you 
+$route['thank-you'] = 'frontend/thank/thank_you';
 
 
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
