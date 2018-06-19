@@ -452,13 +452,13 @@
                               
                                 <form action="" id="step1" name="step1" class="thickbox" title="Nice title" method="post">
                                     
-                                     <label class="help_me_choose" for="home"><input type="radio" name="user" value="home" id="home"/> I use the internet at home</label><br />
-                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice"/> I work at home and need the internet for work and leisure</label><br />
-                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice"/> I work in a small office (less than 10 people)</label><br />
-                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice"/> I work in a large office (more than 10 people)</label><br />
+                                     <label class="help_me_choose" for="home"><input type="radio" name="user" value="home" id="home" onclick="check()" /> I use the internet at home</label><br />
+                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice" onclick="check()" /> I work at home and need the internet for work and leisure</label><br />
+                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice" onclick="check()" /> I work in a small office (less than 10 people)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice" onclick="check()" /> I work in a large office (more than 10 people)</label><br />
                                     <hr />
                                     
-                                    <input type="button" name="submit" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step1()" />
+                                    <input type="button" name="submit" id="submit-next-step-1" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step1()" disabled />
                                     <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()" />   
                                 </form>
                                 </div>
@@ -476,13 +476,13 @@
                                 <div class="col-lg-12">
                                 <form action="" id="step2" name="formname" class="thickbox" title="Nice title" method="post">
                                     
-                                     <label class="help_me_choose" for="home"><input type="radio" name="user2" value="home" id="home"/> Email</label><br />
-                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user2" value="homeoffice" id="homeoffice"/> Web Browsing</label><br />
-                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user2" value="smalloffice" id="smalloffice"/> Internet Radio</label><br />
-                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Internet Phone(e.g Skype phone calls)</label><br />
-                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Watching Videos (e.g. Youtube)</label><br />
-                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Video Chat (e.g. webcam on Skype)</label><br />
-                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> I download a lot</label><br />
+                                     <label class="help_me_choose" for="home"><input type="radio" name="user2" value="home" id="home" onclick="check_step_2()" /> Email</label><br />
+                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user2" value="homeoffice" id="homeoffice" onclick="check_step_2()"/> Web Browsing</label><br />
+                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user2" value="smalloffice" id="smalloffice" onclick="check_step_2()" /> Internet Radio</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> Internet Phone(e.g Skype phone calls)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> Watching Videos (e.g. Youtube)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> Video Chat (e.g. webcam on Skype)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> I download a lot</label><br />
 
                                         <p class="help_me_choose"><strong>How many people will use the connection at the same time (on different computers)?</strong><p>
                                         <label for="numberusers" style="clear:left;margin-top:15px;">
@@ -496,7 +496,7 @@
                                         </label>
                                     <hr />
                                     
-                                    <input type="button" name="submit" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step2()" />
+                                    <input type="button" name="submit" id="submit-next-step-2" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step2()" disabled />
                                     <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()"/>
                                     
                                 </form>
@@ -516,16 +516,16 @@
                               <h5 class="help_me_choose">Yes I am interested!</h5>
                                 <p class="help_me_choose">Call us now on <strong>023 238 181/ 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
                                 
-                                <form action="" name="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
+                                <form action="<?php echo base_url() ?>index/submit_help_me_choose" name="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
                                  <div class="form-group">
 
-                                <label class="help_me_choose" for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control"><br>
+                                <label class="help_me_choose" for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control" required /><br>
                                 </div>
                                  <div class="form-group">
-                                 <label class="help_me_choose" for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control"><br>
+                                 <label class="help_me_choose" for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control" required /><br>
                                  </div>
                                  <div class="form-group">
-                                 <label class="help_me_choose" for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control"><br>
+                                 <label class="help_me_choose" for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control" required /><br>
                                  </div>
                                  <div class="form-group">
                                  <label class="help_me_choose" for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
@@ -534,7 +534,7 @@
                                  <label class="help_me_choose" for="eml_submit">&nbsp;</label>
                                  </div>
                                 
-                                 <input type="button" value="SUBMIT" class="btn btn-default submit" id="eml_Help_submit" onclick="check_email_verify()">
+                                 <input type="submit" value="Submit" class="btn btn-default submit" id="eml_Help_submit" />
 
                                     <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()">
                                  <br>
@@ -1133,6 +1133,16 @@ $('.img-wrapper').hover( function(e) {
 		$(".img-wrapper-services .pro-services").stop().animate({top: (43)+'%'},500);
  });
  
+</script>
+
+<script>
+	function check() {
+	   document.getElementById("submit-next-step-1").disabled = false;
+	}
+	
+	function check_step_2(){
+		document.getElementById("submit-next-step-2").disabled = false;
+	}
 </script>
 </body>
 </html>

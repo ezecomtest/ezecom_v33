@@ -144,34 +144,34 @@ class Index extends CI_Controller {
  
 		  $this->load->library('email', $config);
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
-		  //$this->email->to('eang.chhenghong@ezecomcorp.com');
-		  //$this->email->cc("sour.piset@ezecomcorp.com");
+		  $this->email->to('chan.raksmey@ezecomcorp.com');
+		  //$this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  $this->email->subject("HELP ME CHOOSE AN INTERNET PACKAGE");
 
 		  $contain = "\n"."Dear Sir/Madam, "."\n\n" .
-				"You received a customer's message from website Ezecom. Sender's Information detail show below: "."\n\n".
+				"You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\n".
 				"Name: " .
-				ucwords($this->session->userdata("eml_help_name")).
+				ucwords($user['eml_help_name']).
 				"\n" .
-				"Email: " .$this->session->userdata("eml_help_email").
+				"Email: " .$user['eml_help_email'].
 				"\n" .
-				"Phone: " .
-				ucwords($this->session->userdata("eml_help_phone")).
+				"Phone: ".$user['eml_help_phone'].
+				
 				"\n" .
 				"Details:\n* Kind of user:" .
 				$this->session->userdata("user")."\n* Internet that I use for:".
 				$this->session->userdata("user2")."\n* Connection Number use at the same time:".
 				$this->session->userdata("numberusers").
 				"\n" .
-				"\n\n** Automatic sent mail from website ezecom **\n" ;
+				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 		  $this->email->message($contain);
+		  $base_url = base_url();
 		  
 		  if($this->email->send()){
 			$this->homepage_m->insert_help_me_choose($data);
-		  	return true;
+		  	header("Location:".$base_url.'thank-you');
 		  }else{
-		  	return false;
+		  	header("Location:".$base_url.'thank-you');
 		  }
 	}
 
