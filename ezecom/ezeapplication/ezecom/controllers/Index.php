@@ -156,6 +156,7 @@ class Index extends CI_Controller {
 				"Email: " .$user['eml_help_email'].
 				"\n" .
 				"Phone: ".$user['eml_help_phone'].
+				"\n"."Connection Detail:".$user['eml_help_details'].
 				
 				"\n" .
 				"Details:\n* Kind of user:" .
