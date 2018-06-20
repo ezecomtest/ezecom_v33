@@ -7,6 +7,7 @@ class Our_services_c extends CI_Controller {
     {
         parent::__construct();
         $this->load->model('frontend/homepage_m');
+		$this->load->model('frontend/our_services_m');
     }
 
 	
@@ -629,6 +630,150 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/live_stream_service',$data);
 		}
+	}
+	
+	/* Saving Product */
+	public function dedicatedSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'4'
+		);
+        $this->our_services_m->insert_dedicated($data);
+	}
+	
+	public function ezebizSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'1'
+		);
+        $this->our_services_m->insert_ezebiz($data);
+	}
+	
+	public function ezesurfSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'5'
+		);
+        $this->our_services_m->insert_ezesurf($data);
+	}
+	
+	public function iplcSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'6'
+		);
+        $this->our_services_m->insert_iplc($data);
+	}
+	
+	public function dplcSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'7'
+		);
+        $this->our_services_m->insert_dplc($data);
+	}
+	
+	public function mplsSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'8'
+		);
+        $this->our_services_m->insert_mpls($data);
+	}
+	
+	public function vplsSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'9'
+		);
+        $this->our_services_m->insert_vpls($data);
+	}
+	
+	public function ms365Saving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'2'
+		);
+        $this->our_services_m->insert_ms365($data);
+	}
+	
+	public function colocationSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'2'
+		);
+        $this->our_services_m->insert_colocation($data);
+	}
+	
+	public function web_hostingSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'2'
+		);
+        $this->our_services_m->insert_web_hosting($data);
+	}
+	
+	public function ddosSaving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'3'
+		);
+        $this->our_services_m->insert_ddos($data);
 	}
 	
 	

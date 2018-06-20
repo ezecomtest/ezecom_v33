@@ -52,19 +52,19 @@
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Full Name:</label>
 										<div class="col-sm-8">
-											<input type="text" class="form-control resize-textbox" name="name"/>
+											<input type="text" class="form-control resize-textbox" name="name" required />
 										</div>
 									  </div>
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Email Address:</label>
 										<div class="col-sm-8">
-											<input type="text" class="form-control resize-textbox" name="email"/>
+											<input type="text" class="form-control resize-textbox" name="email" required />
 										</div>
 									  </div>
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Phone Number:</label>
 										<div class="col-sm-8">
-											<input type="text" class="form-control resize-textbox" name="mobile"/>
+											<input type="text" class="form-control resize-textbox" name="mobile" required />
 										</div>
 									  </div>
 									  <div class="form-group">
@@ -79,6 +79,7 @@
 											<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
 										  </div>
 									  </div>
+									  <input type="hidden" value="<?php echo base_url() ?>" name="baseUrl" />
 									  <div class="form-group">        
 										  <div class="col-sm-offset-4 col-sm-8">
 											<input type="button" id="btn-close" name="close" value="Close" class="btn btn-default submit"/>

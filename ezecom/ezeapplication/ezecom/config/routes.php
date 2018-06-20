@@ -225,6 +225,19 @@ $route['our-services/value-added-service/voice-over-ip'] = 'frontend/our_service
 $route['our-services/value-added-service/EzeTV'] = 'frontend/our_services_c/ezetv';
 $route['our-services/value-added-service/live-stream-service'] = 'frontend/our_services_c/live_stream_service';
 
+/* Saving Product */
+$route['our-services/dedicated-saving'] = 'frontend/our_services_c/dedicatedSaving';
+$route['our-services/ezebiz-saving'] = 'frontend/our_services_c/ezebizSaving';
+$route['our-services/ezesurf-saving'] = 'frontend/our_services_c/ezesurfSaving';
+$route['our-services/iplc-saving'] = 'frontend/our_services_c/iplcSaving';
+$route['our-services/dplc-saving'] = 'frontend/our_services_c/dplcSaving';
+$route['our-services/mpls-saving'] = 'frontend/our_services_c/mplsSaving';
+$route['our-services/vpls-saving'] = 'frontend/our_services_c/vplsSaving';
+$route['our-services/ms365-saving'] = 'frontend/our_services_c/ms365Saving';
+$route['our-services/colocation-saving'] = 'frontend/our_services_c/colocationSaving';
+$route['our-services/web-hosting-saving'] = 'frontend/our_services_c/web_hostingSaving';
+$route['our-services/ddos-saving'] = 'frontend/our_services_c/ddosSaving';
+
 /* Support */
 $route['support/customer-service'] = 'frontend/customer_service_c/customer_services';
 $route['support/faq'] = 'frontend/customer_service_c/service_faq';

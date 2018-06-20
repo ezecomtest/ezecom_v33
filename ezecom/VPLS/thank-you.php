@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 
-<body class="cbp-spmenu-push">
+<body onload="customer_signup()" class="cbp-spmenu-push">
 
 
 <!-- sign-up -->
@@ -58,19 +58,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 	<div class="footer">
 	<div class="container">
-		<p>&copy; 2017 EZECOM LTD. All Rights Reserved.</p>
+		<p>&copy; 2018 EZECOM Co., Ltd. All Rights Reserved</p>
 	</div>
 	</div>
-
-
-<script>
-setTimeout(function () {
-   //window.location.href = "https://www.ezecom.com.kh/our-services/enterprise-network/vpls"; // (Real Server) will redirect to your blog page (an ex: blog.html)
-   window.location.href = "http://dev2.ezecom.com.kh/our-services/enterprise-network/vpls"; // (Server Test) will redirect to your blog page (an ex: blog.html)
-}, 5000);
-</script>
-
+	
 </body>
 </html>
+
+<script type="text/javascript">
+	var base_url = "<?php echo $_GET['url'] ?>";
+	function customer_signup(){
+		$.ajax({
+			type: "POST",
+			url: base_url+"our-services/vpls-saving",
+			data: {name:"<?php echo $_GET['name'] ?>", mobile:"<?php echo $_GET['phone'] ?>"},
+			success: function(data){
+				
+			}
+		});
+	}
+</script>
+
+<script>
+	setTimeout(function () {
+	   window.location.href = base_url+"our-services/enterprise-network/vpls"; // (Server Test) will redirect to your blog page (an ex: blog.html)
+	}, 5000);
+</script>
+
 
 

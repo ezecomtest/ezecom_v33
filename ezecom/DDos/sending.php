@@ -7,6 +7,7 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
   $mobile = $_POST["mobile"];
   $email = $_POST["email"];
   $des = $_POST["desciption"];
+  $url = $_POST["baseUrl"];
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
     $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
@@ -36,13 +37,14 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             // echo 'Mailer error: ' . $mail->ErrorInfo;
         } else {
             // echo 'Message has been sent.';
-            //header("Location: https://www.ezecom.com.kh/DDos/thank-you.php"); // (Real Server)
-			header("Location: http://dev2.ezecom.com.kh/DDos/thank-you.php"); // (Server Test)
+            header('Location:'.$url.'DDos/thank-you.php?name='.$name.'&phone='.$mobile.'&url='.$url);
+		
         }
 
     }else{
-        //header("Location: https://www.ezecom.com.kh/DDos/robot.php"); // (Real Server)
-		header("Location: http://dev2.ezecom.com.kh/DDos/robot.php"); // (Server Test)
+		
+        header('Location:'.$url.'DDos/robot.php');
+		
     }
 
 }
