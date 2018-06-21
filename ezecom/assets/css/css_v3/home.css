@@ -21,22 +21,36 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	background: #7961a9 !important;
 }
 
-.tag-text-slide-1{
+.tag-text-slide{
 	position:absolute;
-	bottom:50px;
-	opacity: 0.5;
-	background-color:#3d3d3e; 
-	min-width:607px;
-	height:50px;
-	left:280px;
+	max-width:430px;
+	height:auto;
+	left:5%;
+	top:10%;
 }
-.my-heading-1{
+.tag-text-slide .my-heading{
 	font-size:50px !important;
 	color:white;
-	position:absolute;
-	bottom:42px;
 	font-family:myNeutra,serif,sans-serif; 
-	left:290px;
+	font-weight:bold;
+	line-height:58px !important;
+}
+
+.tag-text-slide .content-descri{
+	font-size:18px;
+	color:white;
+	font-family:myNeutra,serif,sans-serif;
+	padding-left:7px !important;
+	padding-top:10px !important;
+}
+
+.tag-text-slide a{
+	color:white;
+	font-family:myNeutra,serif,sans-serif; 
+}
+.tag-text-slide a:hover{
+	color:white;
+	font-weight:bold;
 }
 
 .tag-text-slide-2{

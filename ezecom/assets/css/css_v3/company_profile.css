@@ -32,7 +32,18 @@ p span{
 .wrapper-technology{
 	border:1px solid #BBCAD2;
 	padding:25px 30px 0 30px;
-	min-height:375px;
+	min-height:656px;
+}
+.wrapper-technology a{
+	color:#7961AA !important;
+}
+
+.wrapper-technology a:hover{
+	text-decoration:none;
+}
+
+.wrapper-technology p{
+	padding-bottom:11px;
 }
 
 .wrapper-technology	h3{

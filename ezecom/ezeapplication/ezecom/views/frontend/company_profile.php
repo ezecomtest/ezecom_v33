@@ -45,11 +45,23 @@
 					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/technology.svg" alt="Technology" title="Technology"/>
 					<h3>Technology</h3>
 					<p>
-						Our company has incorporated its own fibre optic, VoIP, VPN and a custom-built, 
-						world-class Data Centre. Recognising the need for high quality, hassle-free, 
-						reliable internet services, EZECOM invested in a multitude of high quality infrastructures. 
+						Our company has incorporated its own fibre optic, VPLS, MPLS and a custom-built, 
+						world-class Data Centre. Recognizing the need for high quality, hassle-free, reliable 
+						internet services, EZECOM invested in a multitude of high quality infrastructures. 
 						These innovative solutions, along with the complete package of services EZECOM offers 
 						corporations, offices and home users, has made us the leader in our field.
+					</p>
+					<p>
+						EZECOM is the only ISP to own the first submarine cable system, Malaysia - Cambodia – Thailand (MCT), 
+						which spans approximately 1,300 kilometers that position Cambodia as the gateway to Asia and enable 
+						Cambodia to harvest the Asia Traffic as well as extend the connectivity to ASEAN and the rest of the 
+						world via Malaysia.
+					</p>
+					<p>
+						JUN 4th 18, EZECOM has partnered with NLX networks, a wholesale specialist providing intra-ASEAN terrestrial 
+						connectivity, have announced a strategic partnership to offer a combined connectivity solution 
+						which will bridge Cambodia, Laos, Myanmar, Vietnam and Thailand. More information, 
+						click here <a href="https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity">https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity</a>
 					</p>
 				</div>
 			</div>

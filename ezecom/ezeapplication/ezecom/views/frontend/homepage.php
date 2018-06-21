@@ -102,7 +102,7 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12 row-full" style="padding:0px">
 				<!-- Nextend Smart Slider 3 #6 - BEGIN -->
-				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4">
+				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="width: 1170px;margin: 0px;height: 400px;">
 					<div class="n2-ss-slider-1">
 						<div class="n2-ss-slider-2">
 							<div class="n2-ss-slider-3">
@@ -113,10 +113,14 @@
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
 						
-						<div class="tag-text-slide-1"></div>
-						<h3 class="my-heading-1">Your Internet is Everywhere</h3>
-						
-							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
+						<div class="tag-text-slide">
+							<h3 class="my-heading">Best Package For Your Business</h3>
+							<p class="content-descri">
+								With EzeBiz packages, you can now get a better
+								experience and performance with symmetrical 
+								upload & download speed ... <a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">MORE</a>
+							</p>
+						</div>
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>
 							
 						
@@ -124,9 +128,16 @@
 					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<div class="tag-text-slide-2"></div>
-						<h3 class="my-heading-2">Best Performance, Better Price</h3>
-							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
+						
+						<div class="tag-text-slide">
+							<h3 class="my-heading">A New and Better Way to Call Us</h3>
+							<p class="content-descri">
+								Proud to introduce our new official hotline number
+								023 23 81 81 - our old number will no longer in use
+								by 30th of Sep 2018 ... <a href="<?php echo base_url()?>media-center/news-events">MORE</a>
+							</p>
+						</div>
+							
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_2.jpg" style="width:100%"/>
 							
 						
@@ -134,10 +145,16 @@
 					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<div class="tag-text-slide-3"></div>
-						<h3 class="my-heading-3">A New and Better Way to Call Us!</h3>
-						<h4 class="phone-number">New Officail Hotline 023 23 81 81</h4>
-							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
+						
+						<div class="tag-text-slide">
+							<h3 class="my-heading">Your Internet is Everywhere</h3>
+							<p class="content-descri">
+								Cambodia's Premium internet provider with a 
+								nationwide fibre optic network - call our service line
+								or click here ... <a href="<?php echo base_url()?>our-company/company-profile">MORE</a>
+							</p>
+						</div>
+							
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_3.jpg" style="width:100%"/>
 							
 						
@@ -145,9 +162,15 @@
 					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<div class="tag-text-slide-4"></div>
-						<h3 class="my-heading-4">Special, Limited-Time Offer</h3>
-							<!--<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>-->
+						<div class="tag-text-slide">
+							<h3 class="my-heading">Dedicate Internet</h3>
+							<p class="content-descri">
+								the highest performance internet package designed
+								to fit <br/>the needs of large corporations, enterprises and 
+								<br/> organizations ... <a href="<?php echo base_url()?>our-company/company-profile">MORE</a>
+							</p>
+						</div>
+							
 							<img class="img-responsive" src="elFindermaster/files/slides/slide_4.jpg" style="width:100%"/>
 							
 						
