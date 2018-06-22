@@ -114,10 +114,10 @@
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
 						
 						<div class="tag-text-slide">
-							<h3 class="my-heading">Best Package For Your Business</h3>
+							<h3 class="my-heading">Best Package <br/>For Your Business</h3>
 							<p class="content-descri">
-								With EzeBiz packages, you can now get a better
-								experience and performance with symmetrical 
+								With EzeBiz packages, you can now get a better<br/>
+								experience and performance with symmetrical<br/> 
 								upload & download speed ... <a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">MORE</a>
 							</p>
 						</div>
@@ -133,8 +133,8 @@
 							<h3 class="my-heading">A New and Better Way to Call Us</h3>
 							<p class="content-descri">
 								Proud to introduce our new official hotline number
-								023 23 81 81 - our old number will no longer in use
-								by 30th of Sep 2018 ... <a href="<?php echo base_url()?>media-center/news-events">MORE</a>
+								<br/>023 23 81 81 - our old number will no longer in use
+								<br/>by 30th of Sep 2018 ... <a href="<?php echo base_url()?>media-center/news-events">MORE</a>
 							</p>
 						</div>
 							
@@ -147,11 +147,11 @@
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
 						
 						<div class="tag-text-slide">
-							<h3 class="my-heading">Your Internet is Everywhere</h3>
+							<h3 class="my-heading">Your Internet<br/>is Everywhere</h3>
 							<p class="content-descri">
 								Cambodia's Premium internet provider with a 
-								nationwide fibre optic network - call our service line
-								or click here ... <a href="<?php echo base_url()?>our-company/company-profile">MORE</a>
+								<br/>nationwide fibre optic network - call our service line
+								<br/>or click here ... <a href="<?php echo base_url()?>our-company/company-profile">MORE</a>
 							</p>
 						</div>
 							
@@ -163,11 +163,11 @@
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
 						<div class="tag-text-slide">
-							<h3 class="my-heading">Dedicate Internet</h3>
+							<h3 class="my-heading">Dedicate<br/>Internet</h3>
 							<p class="content-descri">
-								the highest performance internet package designed
-								to fit <br/>the needs of large corporations, enterprises and 
-								<br/> organizations ... <a href="<?php echo base_url()?>our-company/company-profile">MORE</a>
+								the highest performance internet package designed<br/>
+								to fit the needs of large corporations, enterprises and 
+								<br/> organizations ... <a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">MORE</a>
 							</p>
 						</div>
 							

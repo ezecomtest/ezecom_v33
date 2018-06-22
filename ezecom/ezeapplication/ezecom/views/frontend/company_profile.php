@@ -39,6 +39,67 @@
 			</div>
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
+		<div class="row">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+			<div class="timeline">
+			  <div class="container-milestone left">
+				<div class="content">
+					  <img align="right" class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-fibre.svg"/>
+					  <h2>2017, Q2</h2>
+					  <p>Launched with Full service provider, <br/>Fibre Optic, VOIP Gateway, Enterprise <br/>Solutions & VAS services</p>
+					  
+				</div>
+			  </div>
+			  <div class="container-milestone right">
+				<div class="content">
+				  <h2>2016</h2>
+				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				</div>
+			  </div>
+			  <div class="container-milestone left">
+				<div class="content">
+				  <img align="right" class="img-responsive resize-agg" src="<?php echo base_url()?>images/company_profile/milestone/milestone-AAG.jpg"/>
+				  <h2>2011</h2>
+				  <p class="sub-title-agg">
+					Asia-America Gateway(AAG)<br/>Cable System
+				  </p>
+				  <p>Partner in Asia America Gateway(AAG), <br/>trans Pacific submarine cable</p>
+				</div>
+			  </div>
+			  <div class="container-milestone right">
+				<div class="content">
+				  <h2>2012</h2>
+				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				</div>
+			  </div>
+			  <div class="container-milestone left">
+				<div class="content">
+				<img align="right" class="img-responsive resize-isp" src="<?php echo base_url()?>images/company_profile/milestone/milestone-bestISP.svg"/>
+				  <h2>2011,2012</h2>
+				  <p class="best-isp">Best ISP Award</p>
+				  <p>Two consecutive wins of “best ISP” <br/>award – voted by public and panel <br/>of experts 2011 & 2012</p>
+				</div>
+			  </div>
+			  <div class="container-milestone right">
+				<div class="content">
+				  <h2>2007</h2>
+				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				</div>
+			  </div>
+			  
+			  <div class="container-milestone left">
+				<div class="content">
+				<img align="right" class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ICT-awar.jpg"/>
+				  <h2>2016, JUNE</h2>
+				  <p class="sub-title-ict">Cambodia ICT Awards (CICTA)</p>
+				  <p>EZECOM received the Best ISP for<br/>Enterprise Award.</p>
+				</div>
+			  </div>
+			  
+			  
+			</div>
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+		</div>
 		<div class="row row-margin-bt">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
 				<div class="wrapper-technology">
