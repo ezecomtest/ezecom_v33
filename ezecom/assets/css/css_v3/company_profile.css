@@ -64,6 +64,7 @@ p span{
 .timeline {
     position: relative;
     max-width: 1200px;
+	max-height:1204px;
     margin: 0 auto;
 }
 
@@ -151,6 +152,50 @@ p span{
 	top:-70px;
     /* border-radius: 6px; */
 }
+.content .head-align-left{
+	font-family: myNeutra,serif,sans-serif;
+	font-weight:bold;
+	font-size:22px;
+	text-align:left;
+	padding-top:10px;
+}
+
+.content .detail-left{
+	font-family: myNeutra,serif,sans-serif;
+	font-size:15px;
+	text-align:left;
+}
+
+.content .sub-title-align-left{
+	color:#6b53a2;
+	font-weight: bold;
+	text-align:left;
+}
+
+.content .resize-tct{
+	width:130px;
+	margin-right:28px;
+}
+.content .resize-mct{
+	width:140px;
+	margin-right:28px;
+	margin-bottom:50px;
+}
+
+.content .resize-best-employer{
+	width:100px;
+	margin-right:28px;
+	margin-bottom:70px;
+}
+
+.content .resize-iso{
+	width:140px;
+	margin-right:28px;
+	margin-bottom:10px;
+}
+
+
+
 .content h2{
 	font-family: myNeutra,serif,sans-serif;
 	font-weight:bold;
@@ -160,18 +205,19 @@ p span{
 
 .content p{
 	font-family: myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:15px;
 	text-align:right;
 }
 
 .content .resize-icon{
-	width:134px;
+	width:120px;
 	margin-left:28px;
 }
 .content .resize-agg{
-	width:118px;
+	width:100px;
 	margin-left:28px;
 	margin-right:15px;
+	margin-bottom:10px;
 }
 
 .content .sub-title-agg{
@@ -193,6 +239,12 @@ p span{
 	color:#6b53a2;
 	font-weight: bold;
 }
+
+.add-top{
+	top:-100px;
+}
+
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {

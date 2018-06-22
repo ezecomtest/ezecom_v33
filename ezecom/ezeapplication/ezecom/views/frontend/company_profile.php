@@ -52,8 +52,11 @@
 			  </div>
 			  <div class="container-milestone right">
 				<div class="content">
-				  <h2>2016</h2>
-				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				<img align="left" class="img-responsive resize-tct" src="<?php echo base_url()?>images/company_profile/milestone/milestone-TCT.svg"/>
+				  <h2 class="head-align-left">2011,Q2</h2>
+				  <p class="sub-title-align-left">Telcotech Cambodia</p>
+				  <p class="detail-left">
+					Acquired wholesale provider in 2011 Q2 <br/>(Telcotech) – established fibre coverage nationwide</p>
 				</div>
 			  </div>
 			  <div class="container-milestone left">
@@ -68,8 +71,10 @@
 			  </div>
 			  <div class="container-milestone right">
 				<div class="content">
-				  <h2>2012</h2>
-				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				  <img align="left" class="img-responsive resize-iso" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ISO.jpg"/>
+				  <h2 class="head-align-left">2011, JUNE</h2>
+				  <p class="sub-title-align-left">ISO Certification</p>
+				  <p class="detail-left">Only ISP in Cambodia to be ISO certified</p>
 				</div>
 			  </div>
 			  <div class="container-milestone left">
@@ -82,13 +87,15 @@
 			  </div>
 			  <div class="container-milestone right">
 				<div class="content">
-				  <h2>2007</h2>
-				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				  <img align="left" class="img-responsive resize-mct" src="<?php echo base_url()?>images/company_profile/milestone/milestone-MCT.svg"/>
+				  <h2 class="head-align-left">2015, MARCH</h2>
+				  <p class="sub-title-align-left">MCT: Submarine Cable System</p>
+				  <p class="detail-left">EZECOM has launched the first submarine <br/>cable network in Cambodia history. MCT is a <br/>very powerful cable system spans <br/>aproximately 1,300km, and positions <br/>Cambodia a geteway to Asia.</p>
 				</div>
 			  </div>
 			  
 			  <div class="container-milestone left">
-				<div class="content">
+				<div class="content add-top">
 				<img align="right" class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ICT-awar.jpg"/>
 				  <h2>2016, JUNE</h2>
 				  <p class="sub-title-ict">Cambodia ICT Awards (CICTA)</p>
@@ -96,6 +103,20 @@
 				</div>
 			  </div>
 			  
+			   <div class="container-milestone right">
+				<div class="content">
+				  <img align="left" class="img-responsive resize-best-employer" src="<?php echo base_url()?>images/company_profile/milestone/milestone-best-employer.jpg"/>
+				  <h2 class="head-align-left">2017, AUGUST</h2>
+				  <p class="sub-title-align-left">Best Employer Brand Award 2017</p>
+				  <p class="detail-left">Singapore among 100 international brand <br/>companies in Asia.
+<br/>At EZECOM, one of our five core values are <br/>People, we provide equal opportunity to <br/>employee and select its member base on <br/>
+suitability and capability to the job regardless <br/>
+of age, origin, civil status or race follow by <br/>
+human right principles. We also strongly <br/>
+encourage women and offer opportunity to <br/>
+disable person to join our talented team. <br/>Move your career forward in ISP field.z</p>
+				</div>
+			  </div>
 			  
 			</div>
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
