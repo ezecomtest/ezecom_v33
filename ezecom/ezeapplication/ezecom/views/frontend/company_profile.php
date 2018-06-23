@@ -40,7 +40,7 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row">
-			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 remove-space">
 			<div class="timeline">
 			  <div class="container-milestone left">
 				<div class="content">
@@ -50,7 +50,7 @@
 					  
 				</div>
 			  </div>
-			  <div class="container-milestone right">
+			  <div class="container-milestone right reduce-space-telcotech">
 				<div class="content">
 				<img align="left" class="img-responsive resize-tct" src="<?php echo base_url()?>images/company_profile/milestone/milestone-TCT.svg"/>
 				  <h2 class="head-align-left">2011,Q2</h2>
@@ -59,7 +59,7 @@
 					Acquired wholesale provider in 2011 Q2 <br/>(Telcotech) – established fibre coverage nationwide</p>
 				</div>
 			  </div>
-			  <div class="container-milestone left">
+			  <div class="container-milestone left reduce-space-agg">
 				<div class="content">
 				  <img align="right" class="img-responsive resize-agg" src="<?php echo base_url()?>images/company_profile/milestone/milestone-AAG.jpg"/>
 				  <h2>2011</h2>
@@ -69,7 +69,7 @@
 				  <p>Partner in Asia America Gateway(AAG), <br/>trans Pacific submarine cable</p>
 				</div>
 			  </div>
-			  <div class="container-milestone right">
+			  <div class="container-milestone right reduce-space-iso">
 				<div class="content">
 				  <img align="left" class="img-responsive resize-iso" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ISO.jpg"/>
 				  <h2 class="head-align-left">2011, JUNE</h2>
@@ -77,7 +77,7 @@
 				  <p class="detail-left">Only ISP in Cambodia to be ISO certified</p>
 				</div>
 			  </div>
-			  <div class="container-milestone left">
+			  <div class="container-milestone left reduce-space-best-isp">
 				<div class="content">
 				<img align="right" class="img-responsive resize-isp" src="<?php echo base_url()?>images/company_profile/milestone/milestone-bestISP.svg"/>
 				  <h2>2011,2012</h2>
@@ -85,7 +85,7 @@
 				  <p>Two consecutive wins of “best ISP” <br/>award – voted by public and panel <br/>of experts 2011 & 2012</p>
 				</div>
 			  </div>
-			  <div class="container-milestone right">
+			  <div class="container-milestone right reduce-space-MCT">
 				<div class="content">
 				  <img align="left" class="img-responsive resize-mct" src="<?php echo base_url()?>images/company_profile/milestone/milestone-MCT.svg"/>
 				  <h2 class="head-align-left">2015, MARCH</h2>
@@ -94,7 +94,7 @@
 				</div>
 			  </div>
 			  
-			  <div class="container-milestone left">
+			  <div class="container-milestone left reduce-space-ICT">
 				<div class="content add-top">
 				<img align="right" class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ICT-awar.jpg"/>
 				  <h2>2016, JUNE</h2>
@@ -103,7 +103,7 @@
 				</div>
 			  </div>
 			  
-			   <div class="container-milestone right">
+			   <div class="container-milestone right reduce-space-brand-award">
 				<div class="content">
 				  <img align="left" class="img-responsive resize-best-employer" src="<?php echo base_url()?>images/company_profile/milestone/milestone-best-employer.jpg"/>
 				  <h2 class="head-align-left">2017, AUGUST</h2>
@@ -119,7 +119,10 @@ disable person to join our talented team. <br/>Move your career forward in ISP f
 			  </div>
 			  
 			</div>
-			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+			
+			</div>
+			
+			
 		</div>
 		<div class="row row-margin-bt">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
