@@ -582,6 +582,7 @@ $(document).ready(function () {
 <script>
       var zoomLevel = 7;
 	  var image = "<?php echo base_url()?>images/contact/pin.png";
+	  
 	  // EZECOM Head Office
       function initialize_Head() {
 		
