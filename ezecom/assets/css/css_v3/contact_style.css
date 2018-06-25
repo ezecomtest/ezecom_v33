@@ -22,8 +22,8 @@
 	text-align:center;
 }
 
-.active-now{
-	border:4px solid #7961AA !important;
+.active-now p{
+	font-size:18px;
 	color:white !important;
 	text-decoration:none !important;
 }
@@ -54,6 +54,11 @@
 
 .Sihanouk{
 	background-image:url('../../../images/contact/office/office-SHV.jpg');
+	background-repeat:no-repeat;
+}
+
+.Siem-Reap{
+	background-image:url('../../../images/contact/office/office-SR.jpg');
 	background-repeat:no-repeat;
 }
 
