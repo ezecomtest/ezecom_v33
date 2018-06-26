@@ -141,9 +141,9 @@
 				<div class="package-plan">
 					<p class="text-center">Packages Plan</p>
 					<ul>
-						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-10mb.svg"/></li>
-						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-20mb.svg"/></li>
-						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-30mb.svg"/></li>
+						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-10mb.svg"/></li>
+						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-20mb.svg"/></li>
+						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-30mb.svg"/></li>
 					</ul>
 				</div>
 			</div>
@@ -187,7 +187,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-download" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-up-download.svg"/>
+					<img class="img-responsive img-download" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-dedicated.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Dedicated 1:1 Internet Sharing</h4>
@@ -201,7 +201,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-double-speed" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-x500.svg"/>
+					<img class="img-responsive img-double-speed" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-twice-uploa-power.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Twice the upload power</h4>
@@ -214,7 +214,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-popular-content" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-speed-50Mbps.svg"/>
+					<img class="img-responsive img-popular-content" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-x500.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Off-peak double speed </h4>
@@ -227,7 +227,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-availability" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-maximum-availability.svg"/>
+					<img class="img-responsive img-availability" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-speed-50Mbps.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Bonus speed for local content</h4>
@@ -244,7 +244,7 @@
 		<div class="row last-row">
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-left clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-modem-rental" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-modem.svg"/>
+					<img class="img-responsive img-modem-rental" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-maximum-availability.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Ultimate availability</h4>
@@ -258,7 +258,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-no-deposit" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-no-deposit.svg"/>
+					<img class="img-responsive img-no-deposit" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-service-level-agreement.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Service-level agreement</h4>
@@ -272,7 +272,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 clear-pd-right">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-support" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-call-24hours.svg"/>
+					<img class="img-responsive img-support" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-best-performance.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>Best performance to top destinations</h4>
@@ -285,7 +285,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="wrapper-feature">
-					<img class="img-responsive img-flexibility" src="<?php echo base_url()?>images/our-services/Ezebiz/icon-flexibility.svg"/>
+					<img class="img-responsive img-flexibility" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-call-24hours.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
 						<h4>24/7 support</h4>

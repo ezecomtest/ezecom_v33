@@ -46,7 +46,7 @@
 			  <div class="container-milestone left">
 				<div class="content">
 					  <img class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-fibre.svg"/>
-					  <h2>2017, Q2</h2>
+					  <h2>2007, Q2</h2>
 					  <p>Launched with Full service provider, <br/>Fibre Optic, VOIP Gateway, Enterprise <br/>Solutions & VAS services</p>
 					  
 				</div>
@@ -144,7 +144,7 @@ disable person to join our talented team. <br/>Move your career forward in ISP f
 						world via Malaysia.
 					</p>
 					<p>
-						JUN 4th 18, EZECOM has partnered with NLX networks, a wholesale specialist providing intra-ASEAN terrestrial 
+						JUN 4th 18, EZECOM has partnered with NXT Networks, a wholesale specialist providing intra-ASEAN terrestrial 
 						connectivity, have announced a strategic partnership to offer a combined connectivity solution 
 						which will bridge Cambodia, Laos, Myanmar, Vietnam and Thailand. More information, 
 						click here <a href="https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity">https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity</a>
