@@ -25,4 +25,15 @@ class Career_detail_c extends CI_Controller {
 		$this->load->view('frontend/career_detail',$data);
 
 	}
+	
+	public function career_list_bellow_description($id){
+		$title_strrep = strtoupper(str_replace('-', ' ', $id));
+		$data['title'] = "Career";
+		$data['active'] = " ";
+		$lan = $this->session->userdata("language");
+		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+		$data['get_title'] = $this->career_m->get_career_detail($title_strrep);
+		$data['career_list_bellow'] = $this->career_m->get_career_list_bellow();
+		$this->load->view('frontend/career_detail',$data);
+	}
 }

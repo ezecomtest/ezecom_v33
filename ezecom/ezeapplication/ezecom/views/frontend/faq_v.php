@@ -96,7 +96,7 @@
 									<h2>General</h2>
 									<h1 id="q1" class="faqheading q1"  style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a1">What is EZECOM's internet service coverage in the country?</h1>
 									<div id="a1" class="panel-collapse collapse">
-									<p style="font-size: 16px;">Our fibreinternet and network infrastructures covers all cities and provinces throughout the Kingdom of Cambodia.</p>
+									<p style="font-size: 16px;">Our fibre internet and network infrastructures covers all cities and provinces throughout the Kingdom of Cambodia.</p>
 									</div>
 									<h1 id="q2" class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#a2">What is the fastest internet option I can purchase from EZECOM?</h1>
 									<div id="a2" class="panel-collapse collapse">
@@ -455,7 +455,7 @@ Once you have signed in to your webmail, you can also manage Autoreply, forwardi
 						</div>
 						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="english">
-								<h2 class="text-center">English speaking</h2>
+								<h2 class="text-center">Chinese speaking</h2>
 								<p class="text-center desk-num">help desk number</p>
 								<p class="text-center working-hour">(Mon - Fri: 8:00am 5:30pm)</p>
 								<p class="text-center working-hour">(Sat: 8:00am - 12.00am)</p>

@@ -24,14 +24,14 @@
 					<h6>Cloud Service</h6>
 					<ul>
 						<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Services</a></li>
-						<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+						<!--<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>-->
 					</ul>
 					<h6>Hosting</h6>
 					<ul>
 						<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Co-location</a></li>
-						<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+						<!--<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>-->
 						<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
-						<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
+						<!--<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>-->
 					</ul>
 				</div>
 			</div>
@@ -40,8 +40,8 @@
 					<h6>Cyber Security</h6>
 					<ul>
 						<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
-						<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
-						<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
+						<!--<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>-->
+						<!--<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>-->
 					</ul>
 					<h6>VAS</h6>
 						<ul>

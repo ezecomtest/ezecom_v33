@@ -283,7 +283,7 @@
 					<div class="overlay-products">
 						<ul>
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud	Service</a></li>
-							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>-->
 						</ul>
 					</div>
 				</div>
@@ -304,9 +304,9 @@
 					<div class="overlay-products">
 						<ul>
 							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Data Co-location</a></li>
-							<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>-->
 							<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
-							<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>-->
 						</ul>
 					</div>
 				</div>
@@ -325,8 +325,8 @@
 					<div class="overlay-products">
 						<ul>
 							<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation	Service</a></li>
-							<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web	Application	Firewall</a></li>
-							<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed	Network	Security</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web	Application	Firewall</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed	Network	Security</a></li>-->
 						</ul>
 					</div>
 				</div>
@@ -344,8 +344,8 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/value-added-service/voice-over-ip">Voice Over Internet	Protocol (VoIP)</a></li>
-							<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/live-stream-service'>Live Stream Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>-->
 						</ul>
 					</div>
 				</div>
@@ -1109,7 +1109,8 @@ $('.img-wrapper').hover( function(e) {
  $('.img-wrapper-cloud').hover( function(e) {
 		/* mousehover Cloud */	
 		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services-hover.png";
-		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (40)+'px'},500);
+		//$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (40)+'px'},500);
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (65)+'px'},500);
 	},
 	
 	function(){
@@ -1121,7 +1122,7 @@ $('.img-wrapper').hover( function(e) {
   $('.img-wrapper-hosting').hover( function(e) {
 		/* mousehover Hosting */
 		document.getElementById("data-center").src="<?php echo base_url()?>images/homepage/data-center-hover.png";
-		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (20)+'px'},500);
+		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (65)+'px'},500);
 	},
 	
 	function(){
@@ -1132,26 +1133,26 @@ $('.img-wrapper').hover( function(e) {
  
  
  $('.img-wrapper-security').hover( function(e) {
-		/* mousehover Cloud */	
+		/* mousehover Cyber Security */	
 		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security-hover.png";
-		$(".img-wrapper-security .pro-security").stop().animate({top: (40)+'px'},500);
+		$(".img-wrapper-security .pro-security").stop().animate({top: (90)+'px'},500);
 	},
 	
 	function(){
-		/* mouseout Cloud */
+		/* mouseout Cyber Security */
 		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security.png";
-		$(".img-wrapper-security .pro-security").stop().animate({top: (43)+'%'},500);
+		$(".img-wrapper-security .pro-security").stop().animate({top: (45)+'%'},500);
  });
  
  
   $('.img-wrapper-services').hover( function(e) {
-		/* mousehover Cloud */
+		/* mousehover Value Added Services */
 		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services-hover.png";
-		$(".img-wrapper-services .pro-services").stop().animate({top: (40)+'px'},500);
+		$(".img-wrapper-services .pro-services").stop().animate({top: (80)+'px'},500);
 	},
 	
 	function(){
-		/* mouseout Cloud */
+		/* mouseout Value Added Services */
 		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services.png";
 		$(".img-wrapper-services .pro-services").stop().animate({top: (43)+'%'},500);
  });

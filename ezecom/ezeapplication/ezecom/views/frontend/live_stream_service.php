@@ -16,7 +16,7 @@
 <div class="container-fluid">
 	<div class="container">	
 		<h1 class="text-center">Live Stream Service</h1>
-		<h2 class="text-center pd-bt">“Potential Service Planned for the Future, But Still in Development or <br/>NOT Developed Yet” </h2>
+		<h2 class="text-center pd-bt">Coming Soon</h2>
 	</div>
 </div>          
 <!-- FOOTER -->

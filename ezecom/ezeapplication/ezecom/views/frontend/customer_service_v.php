@@ -49,7 +49,7 @@ If you have any questions regarding our connection or if you are in need of tech
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
 				<div class="english">
-					<h2 class="text-center">English speaking </h2>
+					<h2 class="text-center">Chinese speaking </h2>
 					<p class="text-center desk-num">help desk number</p>
 					<p class="text-center working-hour">(Mon - Fri: 8:00am 5:30pm)</p>
 					<p class="text-center working-hour">(Sat: 8:00am - 12.00am)</p>

@@ -49,22 +49,22 @@
 					  <li><a>Cloud Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
-							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>-->
 						 </ul>
 					  </li>
 					  <li><a>Data Centre & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Co-location</a></li>
-							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
+							<!--<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>-->
 							<li><a href='<?php echo base_url()?>our-services/hosting/cpanel-web-hosting'>Web Hosting</a></li>
-							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
+							<!--<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>-->
 						 </ul>
 					  </li>
 					  <li><a>Cyber Security <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/cyber-security/ddos'>DDoS Mitigation Service</a></li>
-							<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>
-							<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>
+							<!--<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>-->
+							<!--<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>-->
 						 </ul>
 					  </li>
 					  <li><a>Value Added Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
@@ -152,22 +152,22 @@
 					  <li><a>Cloud Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
-							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>-->
 						 </ul>
 					  </li>
 					  <li><a>Data Centre & Hosting <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Co-location</a></li>
-							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
+							<!--<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>-->
 							<li><a href='<?php echo base_url()?>our-services/hosting/cpanel-web-hosting'>Web Hosting</a></li>
-							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
+							<!--<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>-->
 						 </ul>
 					  </li>
 					  <li><a>Cyber Security <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
 						 <ul>
 							<li><a href='<?php echo base_url()?>our-services/cyber-security/ddos'>DDoS Mitigation Service</a></li>
-							<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>
-							<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>
+							<!--<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>-->
+							<!--<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>-->
 						 </ul>
 					  </li>
 					  <li><a>Value Added Services <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
@@ -266,16 +266,16 @@
 											<strong>Cloud Services</strong>
 											<ul class="cloud_services">
 												<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
-												<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+												<!--<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>-->
 											</ul>
 										</li>
 										<li>
 											<strong>Data Centre & Hosting</strong>
 											<ul class="hosting">
 												<li><a href="<?php echo base_url();?>our-services/hosting/colocation">Co-location</a></li>
-												<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+												<!--<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>-->
 												<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
-												<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
+												<!--<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>-->
 											</ul>
 										</li>
 									
@@ -289,8 +289,8 @@
 											<strong>Cyber Security</strong>
 											<ul class="security-services">
 												<li><a href="<?php echo base_url();?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
-												<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
-												<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
+												<!--<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>-->
+												<!--<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>-->
 											</ul>
 										</li>
 										<li>

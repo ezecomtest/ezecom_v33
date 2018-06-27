@@ -16,6 +16,19 @@
 	left:94px;
 	z-index:1000;
 }
+
+.desciption-block{
+	width:100%;
+	height:auto;
+	border:1px solid #919191;
+	padding:15px;
+}
+
+.desciption-block p{
+	font-size:17px;
+	font-family:myNeutra,serif,sans-serif;
+}
+
 .about-ezesurf p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;

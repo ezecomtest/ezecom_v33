@@ -160,7 +160,7 @@ $route['our-company/career-opportunities'] = 'frontend/our_company_c/career_oppo
 // end our company
 
 // start our career
-$route['career-detail/(:any)'] = 'frontend/career_detail_c/career/$1';
+$route['career-detail/(:any)'] = 'frontend/career_detail_c/career_list_bellow_description/$1';
 
 
 

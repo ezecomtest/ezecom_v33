@@ -133,16 +133,25 @@
 		</div>
 		<div class="row mg-bt">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
-			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
 				<div class="term-condition">
 					<p>TERMS & CONDITIONS</p>
 					<ul>
 						<li>No deposit required</li>
-						<li>Free modem/TV box rental</li>
+						<li>Free modem rental</li>
 						<li>6 months upfront payment is required</li>
 						<li>Other conditions apply</li>
 					</ul>
 				</div>
+			</div>
+			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<div class="desciption-block">
+						<p>
+							We are offering the best available packages to the selected borey
+							borey location. please contact our <b>websales@ezecom.com.kh</b> or 
+							call <b>023 238 181</b> for more information.
+						</p>
+					</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
 		</div>
