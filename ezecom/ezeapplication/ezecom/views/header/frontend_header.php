@@ -1,3 +1,8 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+ 
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -8,6 +13,7 @@
   ga('send', 'pageview');
 
 </script>
+
 <meta name="Description" content="EZECOM, Cambodia's premium internet provider, founded in 2007 to serve the rapidly expanding business and home user internet market in Cambodia. Today it is a leading provider of a wide variety of innovative communication services, including fibre optic, VoIP, virtual private networks and other Internet-based & Cloud solutions.." />
 <meta name="keywords"  content="Premium ISP, World class ISP, Submarine Cable, Cambodia's premium internet, cambodia isp, internet service provider,internet in Cambodia,enterprise solutions(IPLC, DPLC),Corporate & Premium Packages, VOIP, Web Hosting, Data co-location, Data Centre" />
 <!--Start of Zendesk Chat Script-->

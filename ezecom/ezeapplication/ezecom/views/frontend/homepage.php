@@ -208,8 +208,8 @@
 	<!-- Our Services -->
 	<div class="container" style="padding:0">
 		<div class="row">
-				<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
-				<div class="col-md-8 col-sm-8 col-xs-8" style="padding:0">
+				<div class="col-md-2 col-sm-2 col-xs-0" style="padding:0"></div>
+				<div class="col-md-8 col-sm-8 col-xs-11" style="padding:0">
 					<div class="our_services">
 						<h3>Our Services</h3>
 						<p>
@@ -222,7 +222,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
+				<div class="col-md-2 col-sm-2 col-xs-0" style="padding:0"></div>
 		</div>
 		
 		<!-- our services -->

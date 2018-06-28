@@ -134,7 +134,15 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 @media screen and (max-width:1000px){
 	.wrapper-signme-hlepme p{
-		font-size:15px;
+		font-size:14px;
+	}
+	
+	/* Block Help me choose and Sign me up */
+	.wrapper-signme-hlepme h3 {
+		color: #6b53a2;
+		font-weight: bold;
+		font-size: 20px;
+		margin: 20px 0 20px 0;
 	}
 }
 
@@ -849,17 +857,21 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 @media screen and (max-width:1000px){
 	.our_services h3{
 		font-family:myNeutra,serif,sans-serif; 
-		font-size:64px; 
+		font-size:20px; 
 		font-style:normal; 
 		font-weight:bold;
 		color:#7961AA;
 		text-align:center;
 		padding:0 0 10px 0 ;
+		margin-top: 30px;
+		margin-bottom: 0px;
 	}
 	.our_services p{ 
-		font-size:15px; 
+		font-size:10px; 
 		color:#3F3F3F;
 		padding-bottom:30px;
+		text-align:left;
+		padding:0 20px 20px 20px;
 	}
 }
 
@@ -964,91 +976,221 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 		width:100%;
 	}
 	
-	.tag-text-slide-1{
+	.tag-text-slide{
 		position:absolute;
-		bottom:30px;
-		opacity: 0.5;
-		background-color:#3d3d3e; 
-		width:100%;
-		height:40px;
-		left:0;
+		width:480px;
+		height:auto;
+		left:5%;
+		top:2%;
 	}
-	.my-heading-1{
+	
+	.tag-text-slide .my-heading{
 		font-size:20px !important;
 		color:white;
-		position:absolute;
-		bottom:35px;
 		font-family:myNeutra,serif,sans-serif; 
-		left:20%;
-		right:10%;
+		font-weight:bold;
+		line-height:30px !important;
+	}
+
+	.tag-text-slide .content-descri{
+		font-size:10px !important;
+		color:white;
+		font-family:myNeutra,serif,sans-serif !important;
+		padding-left:0px !important;
+		padding-top:5px !important;
 	}
 	
-	.tag-text-slide-2{
-		position:absolute;
-		bottom:30px;
-		opacity: 0.5;
-		background-color:#3d3d3e; 
-		width:100%;
-		height:40px;
-		left:0;
-	}
-	.my-heading-2{
-		font-size:20px !important;
-		color:white;
-		position:absolute;
-		bottom:35px;
-		font-family:myNeutra,serif,sans-serif; 
-		left:20%;
-		right:10%;
+	/* mobile our product */
+	/* Internet Access */
+	.img-wrapper .pro-internet span{
+		font-family: myNeutra,serif,sans-serif;
+		font-size: 20px;
+		color: #f1f1f2;
+		font-weight: bold;
+		padding-left: 10px;
+		margin: 0 auto;
 	}
 	
-	.tag-text-slide-3{
-		position:absolute;
-		bottom:40px;
-		opacity: 0.5;
-		background-color:#3d3d3e; 
-		width:100%;
-		height:40px;
-		left:0;
-	}
-	.my-heading-3{
-		font-size:19px !important;
-		color:white;
-		position:absolute;
-		bottom:48px;
-		font-family:myNeutra,serif,sans-serif; 
-		left:20%;
-		right:10%;
+	.img-wrapper .overlay-products ul li{
+		list-style-type:none;
+		font-size:13px;
+		font-family: myNeutra,serif,sans-serif;
 	}
 	
-	.phone-number{
-		font-size:15px !important;
-		color:white;
-		position:absolute;
-		bottom:20px;
-		font-family:myNeutra,serif,sans-serif; 
-		left:20%;
-		right:10%;
+	.img-wrapper .overlay-products{
+		position:absolute; 
+		bottom: 0; 
+		/*background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 92.5%;
+		transition: .5s ease;
+		opacity:0;
+		padding:67px;
+		text-align: center;
 	}
 	
-	.tag-text-slide-4{
-		position:absolute;
-		bottom:30px;
-		opacity: 0.5;
-		background-color:#3d3d3e; 
-		width:100%;
-		height:40px;
-		left:0;
+	/* Enterprise Network */
+	.img-wrapper-network .pro-network span{
+		font-family: myNeutra,serif,sans-serif;
+		font-size: 20px;
+		color: #f1f1f2;
+		font-weight: bold;
+		padding-left: 10px;
+		margin: 0 auto;
 	}
-	.my-heading-4{
-		font-size:20px !important;
-		color:white;
-		position:absolute;
-		bottom:35px;
-		font-family:myNeutra,serif,sans-serif; 
-		left:20%;
-		right:10%;
+	
+	.img-wrapper-network .overlay-products ul li{
+		list-style-type:none;
+		font-size:13px;
+		font-family: myNeutra,serif,sans-serif;
 	}
+	
+	.img-wrapper-network .overlay-products{
+		position:absolute; 
+		bottom: 0; 
+		/*background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 92.5%;
+		transition: .5s ease;
+		opacity:0;
+		padding:45px;
+		text-align: center;
+	}
+	
+	/* Cloud Services */
+	.img-wrapper-cloud .pro-cloud span{
+		font-family: myNeutra,serif,sans-serif;
+		font-size: 20px;
+		color: #f1f1f2;
+		font-weight: bold;
+		padding-left: 10px;
+		margin: 0 auto;
+	}
+	
+	.img-wrapper-cloud .overlay-products ul li{
+		list-style-type:none;
+		font-size:13px;
+		font-family: myNeutra,serif,sans-serif;
+	}
+	
+	.img-wrapper-cloud .overlay-products{
+		position:absolute; 
+		bottom: 0; 
+		/*background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 92.5%;
+		transition: .5s ease;
+		opacity:0;
+		padding:80px;
+		text-align: center;
+	}
+	
+	/* Data Center & Hosting */
+	.img-wrapper-hosting .pro-hosting span{
+		font-family: myNeutra,serif,sans-serif;
+		font-size: 20px;
+		color: #f1f1f2;
+		font-weight: bold;
+		padding-left: 10px;
+		margin: 0 auto;
+	}
+	
+	.img-wrapper-hosting .overlay-products ul li{
+		list-style-type:none;
+		font-size:13px;
+		font-family: myNeutra,serif,sans-serif;
+	}
+	
+	.img-wrapper-hosting .overlay-products{
+		position:absolute; 
+		bottom: 0; 
+		/*background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 92.5%;
+		transition: .5s ease;
+		opacity:0;
+		padding:65px;
+		text-align: center;
+	}
+	
+	/* Cyber Security */
+	.img-wrapper-security .pro-security span{
+		font-family: myNeutra,serif,sans-serif;
+		font-size: 20px;
+		color: #f1f1f2;
+		font-weight: bold;
+		padding-left: 10px;
+		margin: 0 auto;
+	}
+	
+	.img-wrapper-security .overlay-products ul li{
+		list-style-type:none;
+		font-size:13px;
+		font-family: myNeutra,serif,sans-serif;
+	}
+	
+	.img-wrapper-security .overlay-products{
+		position:absolute; 
+		bottom: 0; 
+		/*background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 92.5%;
+		transition: .5s ease;
+		opacity:0;
+		padding:65px;
+		text-align: center;
+	}
+	
+	/* Value Added Services */
+	.img-wrapper-services .pro-services span{
+		font-family: myNeutra,serif,sans-serif;
+		font-size: 20px;
+		color: #f1f1f2;
+		font-weight: bold;
+		padding-left: 10px;
+		margin: 0 auto;
+	}
+	
+	.img-wrapper-services .overlay-products ul li{
+		list-style-type:none;
+		font-size:13px;
+		font-family: myNeutra,serif,sans-serif;
+	}
+	
+	.img-wrapper-services .overlay-products{
+		position:absolute; 
+		bottom: 0; 
+		/*background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 92.5%;
+		transition: .5s ease;
+		opacity:0;
+		padding:65px;
+		text-align: center;
+	}
+	
+	/* what you looking for block */
+	.wrapper-looking h3{
+		font-size:20px;
+		padding:40px 0 10px 0;
+		text-align:left;
+	}
+	
+	.wrapper-looking p{
+		text-align:left;
+		font-size:12px;
+	}
+	
+	/* Achievment */
+	.wrapper-achievement h3{
+		padding: 50px 0 20px 0;
+		font-size:20px;
+	}
+	
+	.best-employer-award h4, .iso h4, .child-safe h4, .best-ISP h4{
+		font-size:20px;
+	}
+	
 	
 	
 }

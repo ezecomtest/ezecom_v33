@@ -318,6 +318,7 @@ div#emailform label{
 		list-style-type:none;
 	}
 	
+	
 }
 
 @media screen and (max-width:1024px){
@@ -331,11 +332,30 @@ div#emailform label{
 	
 	.wrapper-top span{
 		position:absolute;
-		top:70px;
-		left:30px;
+		top:92px;
+		left:22px;
 		z-index:1000;
 	
 	} 
+	
+	.wrapper-top .btn-signmeup{
+		width:80px;
+	}
+	
+	.about-ezebiz h3{
+		font-size:20px;
+		padding:0;
+	}
+	
+	.about-ezebiz p {
+		font-size: 10px;
+		font-family: myNeutra,serif,sans-serif;
+		padding-bottom: 10px;
+	}
+	
+	.ezebiz-work h3,.feature h3,.package-plan p{
+		font-size:20px;
+	}
 	
 }
 

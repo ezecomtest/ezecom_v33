@@ -331,11 +331,32 @@ div#emailform label{
 	
 	.wrapper-top span{
 		position:absolute;
-		top:70px;
-		left:30px;
+		top:86px;
+		left:25px;
 		z-index:1000;
 	
 	} 
+	
+	/* btn dedicated */
+	.wrapper-top .btn-signmeup{
+		width: 80px;
+	}
+	
+	.about-ezebiz h3{
+		font-size:20px;
+		padding:0;
+	}
+	
+	.about-ezebiz p {
+		font-size: 10px;
+		font-family: myNeutra,serif,sans-serif;
+		padding-bottom: 10px;
+	}
+	
+	.ezebiz-work h3,.feature h3,.package-plan p{
+		font-size:20px;
+	}
+	
 	
 }
 
@@ -346,9 +367,8 @@ div#emailform label{
 	.clear-pd-left{
 		padding-left:0;
 	}
+	
 }
-
-
 
 
 /* .container-top-mar{
