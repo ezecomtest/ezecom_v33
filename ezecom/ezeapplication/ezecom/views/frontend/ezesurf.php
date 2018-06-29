@@ -139,6 +139,7 @@
 					<ul>
 						<li>No deposit required</li>
 						<li>Free modem rental</li>
+						<li>$50 one-time installation fee</li>
 						<li>6 months upfront payment is required</li>
 						<li>Other conditions apply</li>
 					</ul>

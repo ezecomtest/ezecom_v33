@@ -8,6 +8,11 @@
 	font-size:18px;
 	padding:10px 0 10px 0;
 }
+
+.wrapper-text img{
+	margin:12px 0 20px 0;
+}
+
 .wrapper-text a{
 	font-family:myNeutra;
 	color:#7961a9;

@@ -101,7 +101,7 @@
 				</a>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-				<a href="<?=base_url();?>support/payment#download" data-toggle="tab" data-id="download">
+				<a href="<?=base_url()?>support/payment#payment" data-toggle="tab" data-id="payment">
 					<div class="download">
 						<p class="text-position">Download Book</p>
 					</div>
@@ -409,6 +409,21 @@
 						</div>
 					</div>
 			</div>
+			
+			<!-- Payment Book  -->
+			<div id="payment" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+					<div class="row"><h1 class="text-center top-header">Payment Options Book </h1></div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<div class="wrapper-content">
+								<p>Please download Payment Options Book bellow:</p>
+								<a href="<?php echo base_url()?>elFindermaster/files/pdf/payment-book.pdf">Download Book</a>
+							</div>
+						</div>
+					</div>
+			</div>
+			
 		</div>
 	</div>
 </div>          

@@ -147,7 +147,7 @@ disable person to join our talented team. <br/>Move your career forward in ISP f
 						JUN 4th 18, EZECOM has partnered with NXT Networks, a wholesale specialist providing intra-ASEAN terrestrial 
 						connectivity, have announced a strategic partnership to offer a combined connectivity solution 
 						which will bridge Cambodia, Laos, Myanmar, Vietnam and Thailand. More information, 
-						click here <a href="https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity">https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity</a>
+						<a href="https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity">click here</a> 
 					</p>
 				</div>
 			</div>

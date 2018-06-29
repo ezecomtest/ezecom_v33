@@ -33,7 +33,7 @@ class Career_detail_c extends CI_Controller {
 		$lan = $this->session->userdata("language");
 		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 		$data['get_title'] = $this->career_m->get_career_detail($title_strrep);
-		$data['career_list_bellow'] = $this->career_m->get_career_list_bellow();
+		$data['career_list_bellow'] = $this->career_m->get_career_list_bellow($title_strrep);
 		$this->load->view('frontend/career_detail',$data);
 	}
 }

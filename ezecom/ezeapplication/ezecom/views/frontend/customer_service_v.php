@@ -29,10 +29,7 @@ If you have any questions regarding our connection or if you are in need of tech
 
 					</p>
 					
-					<p class="second">
-						If you have any questions regarding your connection or if 
-						you are in need of technical support please feel free to call our help desk.
-					</p>
+					
 				</div>
 			</div>
 		</div>

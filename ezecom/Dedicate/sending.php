@@ -25,11 +25,12 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         $mail->Password   = "yT2hxYtgDA";
         // $mail->From     = "ezecom.com.kh";
 		$mail->From = "developer@ezecom.com.kh";
-		$mail->FromName = "Dedicated Internet Access";
+		$mail->FromName = "Dedicated Internet";
         $mail->AddAddress("websales@ezecom.com.kh");
+		//$mail->AddAddress("chan.raksmey@ezecomcorp.com");
 
-        $mail->Subject  = "Dedicated Internet Access";
-        $mail->Body     = "\n\nFullName: $name \n\nPhone Number: $mobile \n\nEmail Address: $email \n\nConnection Detail: $des ";
+        $mail->Subject  = "Dedicated Internet";
+        $mail->Body     = "\n"."Dear Sir/Madam, "."\n\n"."You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\nFullName: $name \n\nPhone Number: $mobile \n\nEmail Address: $email \n\nConnection Detail: $des "."\n\n** Automatic sent mail from website EZECOM **\n";
         $mail->WordWrap = 50;
 
         if(!$mail->Send()) {

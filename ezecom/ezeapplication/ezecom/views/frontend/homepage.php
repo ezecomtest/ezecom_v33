@@ -163,7 +163,7 @@
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
 						<div class="tag-text-slide">
-							<h3 class="my-heading">Dedicate<br/>Internet</h3>
+							<h3 class="my-heading">Dedicated<br/>Internet</h3>
 							<p class="content-descri">
 								the highest performance internet package designed<br/>
 								to fit the needs of large corporations, enterprises and 
@@ -240,7 +240,7 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet</a></li>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
 							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 						</ul>
@@ -386,8 +386,8 @@
 					  <form id="formsignup_form" method="post" action="<?php echo base_url() ?>index/signmeup_email" name="signup" class="thickbox" title="Nice title" >
 						<div class="col-xs-7 col-sm-6">
 						   <p class="help_me_choose"><b>Which packages interest you:</b></p>
-						   <div class="packagebox">
-							   <h5 class="help_me_choose">Dedicate Packages</h5>
+						   <!--<div class="packagebox">
+							   <h5 class="help_me_choose">Dedicated Internet</h5>
 							   <table border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td><input class="chkbox" type="checkbox" name="package" value="20Mbps $640 per month" id="corp1mbps"  /></td>
@@ -401,14 +401,14 @@
 										<td><input class="chkbox" type="checkbox" name="package" value="40Mbps $1,120 per month" id="corp3mbps"  /></td>
 										<td><label class="help_me_choose" for="corp3mbps"><strong>40Mbps</strong> $1,120 per month</label></td>
 									</tr>
-									<tr>
+									<!--<tr>
 										<td><input class="chkbox" type="checkbox" name="package" value="50Mbps $1,300 per month" id="corp4mbps"  /></td>
 										<td><label class="help_me_choose" for="corp4mbps"><strong>50Mbps</strong> $1,300 per month</label></td>
-									</tr>
+									</tr>-->
 									
-								</table>
+								<!--</table>
 								<div class="clearleft"></div>
-							</div>
+							</div>-->
 							<div class="packagebox" style="margin:0;">
 								<h5 class="help_me_choose">EzeBiz Packages</h5>
 								<table border="0" cellspacing="0" cellpadding="0">
@@ -425,10 +425,10 @@
 										<td><input class="chkbox" type="checkbox" name="prempackage" value="20Mbps  $230 per month" id="prem3mbps"  /></td>
 										<td><label class="help_me_choose" for="prem3mbps"><strong>20Mbps</strong> $230 per month</label></td>
 									</tr>
-									<tr>
+									<!--<tr>
 										<td><input class="chkbox" type="checkbox" name="prempackage" value="30Mbps $338 per month" id="prem4mbps"  /></td>
 										<td><label class="help_me_choose" for="prem4mbps"><strong>30Mbps</strong> $338 per month</label></td>
-									</tr>
+									</tr>-->
 									
 								</table>
 							

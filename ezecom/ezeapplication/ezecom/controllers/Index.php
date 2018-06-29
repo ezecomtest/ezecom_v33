@@ -144,8 +144,8 @@ class Index extends CI_Controller {
  
 		  $this->load->library('email', $config);
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  $this->email->to('chan.raksmey@ezecomcorp.com');
-		  //$this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
+		  //$this->email->to('chan.raksmey@ezecomcorp.com');
+		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  $this->email->subject("HELP ME CHOOSE AN INTERNET PACKAGE");
 
 		  $contain = "\n"."Dear Sir/Madam, "."\n\n" .
@@ -201,9 +201,9 @@ class Index extends CI_Controller {
 			
 		  $this->load->library('email', $config);
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  $this->email->to('chan.raksmey@ezecomcorp.com');
+		  //$this->email->to('chan.raksmey@ezecomcorp.com');
 		  
-		  //$this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
+		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  //$this->email->to('eang.chhenghong@ezecomcorp.com');
 		  //$this->email->cc("sour.piset@ezecomcorp.com");
 		  $this->email->subject("Sign Me Up");

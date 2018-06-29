@@ -30,7 +30,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         $mail->AddAddress("websales@ezecom.com.kh");
 
         $mail->Subject  = "EzeBiz";
-        $mail->Body     = "\n\nFullName: $name \n\nPhone Number: $mobile \n\nPackage: $package_name \n\nEmail Address: $email \n\nConnection Detail: $des ";
+        $mail->Body     = "\n"."Dear Sir/Madam, "."\n\n"."You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\nFullName: $name \n\nPhone Number: $mobile \n\nPackage: $package_name \n\nEmail Address: $email \n\nConnection Detail: $des "."\n\n** Automatic sent mail from website EZECOM **\n";
         $mail->WordWrap = 50;
 
         if(!$mail->Send()) {

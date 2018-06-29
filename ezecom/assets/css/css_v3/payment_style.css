@@ -170,6 +170,10 @@
 	padding:40px 5px 50px 5px;
 }
 
+.wrapper-content a{
+	color:#7961a9
+}
+
 .header{
 	color:#7961a9;
 	font-family:myNeutra,serif,sans-serif;

@@ -146,7 +146,7 @@
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 no-padding-right clear-pd-left">
 				<div class="package-plan">
-					<p class="text-center">Packages Plan</p>
+					<p class="text-center">Bestselling Packages</p>
 					<ul>
 						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-10mb.svg"/></li>
 						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-20mb.svg"/></li>

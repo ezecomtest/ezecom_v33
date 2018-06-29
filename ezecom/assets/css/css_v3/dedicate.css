@@ -21,7 +21,7 @@
 .about-ezebiz p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;
-	padding-bottom:40px;
+	padding-bottom:20px;
 }
 
 .about-ezebiz h3{
@@ -125,7 +125,7 @@
     font-weight: bold;
     font-size:30px;
     font-family: myNeutra,serif,sans-serif;
-	padding-top:40px;
+	/*padding-top:40px;*/
 	padding-bottom:60px;
 }
 
