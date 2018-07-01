@@ -242,4 +242,33 @@ a{
 	.bd-right{
 		border-bottom:1px solid #D1D2D4;
 	}
+	
+	.Head, .customer-service, .Siem-Reap, .Sihanouk, .Koh-Kong, .Battambang, .Bavet, .Poipet {
+		background-size:100% 100%;
+	}
+	
+	.top-header {
+		font-size:20px;
+	}
+	
+	.wrapper-text p{
+		text-align:left;
+	}
+	
+	.text-position{
+		font-size:13px;
+	}
+	
+	.active-now p{
+		font-size:13px;
+	}
+	
+	.wrapper-text p {
+		font-size:12px;
+		padding:20px 0 2px 0;
+	}
+	
+	.row-no-padding{
+		padding:0;
+	}
 }

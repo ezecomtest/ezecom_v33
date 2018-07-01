@@ -16,12 +16,12 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row top-mg">
-			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 pd-right clear-pd-left">
+			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 padding">
 				<div class="payment-option-img">
 					<img class="img-responsive" src="<?php echo base_url()?>images/support/payment/support-payment.jpg"/>
 				</div>
 			</div>
-			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 pd-left clear-pd-right">
+			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 padding">
 				<div class="payment-option">
 					<h3 class="ezeBill">Pay Your EZECOM Bill</h3>
 					<p class="first">Just a Few Mouse Clicks Away</p>
@@ -49,28 +49,28 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		</div>
 		<div class="row mg-bt">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url();?>support/payment#aba" data-toggle="tab" data-id="aba">
 					<div class="aba active-now">
 						<p class="text-position">ABA Bank</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url();?>support/payment#anz" data-toggle="tab" data-id="anz">
 					<div class="anz">
 						<p class="text-position">ANZ Royal</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url();?>support/payment#acleda" data-toggle="tab" data-id="acleda">
 					<div class="acleda">
 						<p class="text-position">ACLEDA Unity</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding ">
 				<a href="<?=base_url();?>support/payment#cellcard" data-toggle="tab" data-id="cellcard">
 					<div class="cellcard">
 						<p class="text-position">Cellcard Brand Office</p>
@@ -79,28 +79,28 @@
 			</div>
 		</div>
 		<div class="row mg-bt">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url();?>support/payment#Maybank" data-toggle="tab" data-id="Maybank">
 					<div class="Maybank">
 						<p class="text-position">Maybank</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url();?>support/payment#wing" data-toggle="tab" data-id="wing">
 					<div class="wing">
 						<p class="text-position">Wing</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url();?>support/payment#wing-app" data-toggle="tab" data-id="wing-app">
 					<div class="wing-app">
 						<p class="text-position">Wing Money App</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url()?>support/payment#payment" data-toggle="tab" data-id="payment">
 					<div class="download">
 						<p class="text-position">Download Book</p>

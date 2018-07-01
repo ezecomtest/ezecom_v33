@@ -22,7 +22,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 row-no-padding">
 				<div class="wrapper-text">
 					<p> EZECOM is honoured to have been a preferred provider of top quality 
 					and reliable internet connection in Cambodia. We have branches and offices 
@@ -33,7 +33,7 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		</div>
 		<div class="row mg-bt">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Head" data-toggle="tab" data-id="Head">
 						<div class="Head active-now">
@@ -42,7 +42,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#BKK" data-toggle="tab" data-id="BKK">
 						<div class="customer-service">
@@ -51,7 +51,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Siem-Reap" data-toggle="tab" data-id="Siem-Reap">
 						<div class="Siem-Reap">
@@ -60,7 +60,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Sihanouk" data-toggle="tab" data-id="Sihanouk">
 						<div class="Sihanouk">
@@ -71,7 +71,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Koh-Kong" data-toggle="tab" data-id="Koh-Kong">
 						<div class="Koh-Kong">
@@ -80,7 +80,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Battambang" data-toggle="tab" data-id="Battambang">
 						<div class="Battambang">
@@ -89,7 +89,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Bavet" data-toggle="tab" data-id="Bavet">
 						<div class="Bavet">
@@ -98,7 +98,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding">
 				<div class="wrapper-branch">
 					<a href="<?=base_url();?>contact-us#Poipet" data-toggle="tab" data-id="Poipet">
 						<div class="Poipet">
@@ -113,7 +113,7 @@
 			<div id="Head" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
 				<div class="row"><h1 class="text-center top-header">Head Office (Phnom Penh)</h1></div>
 				<div class="row contact-bg">
-					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 bd-right">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 bd-right row-no-padding">
 						<div class="address">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
 							<p>

@@ -217,20 +217,66 @@ a{
 	text-decoration:none !important;
 }
 @media screen and (max-width:1000px){
-	.pd-right{
-		padding-right:15px;
+	.mg-bt-location{
+		margin-bottom:30px;
 	}
-
-	.pd-left{
-		padding-left:15px;
+	
+	.row-no-padding{
+		padding:0;
+	}
+	
+	.padding{
+		padding:0
+	}
+	
+	
+	.payment-option-img{
+		min-height:0;
+	}
+	
+	.payment-option h3.ezeBill {
+		font-size:30px;
+		font-weight: bold;
+		color: white;
+		padding:20px 20px 0 20px;
+	}
+	
+	.payment-option p.first{
+		font-size:20px;
+		color: white;
+		padding-left:20px;
+	}
+	
+	.payment-option p.second{
+		font-size: 13px;
+		color: white;
+		padding: 0 40px 18px 23px;
+	}
+	
+	.top-header{
+		font-size:30px;
+		line-height: 30px;
+		padding: 0 40px 18px 44px;
+	}
+	
+	.header{
+		font-size:25px;
+	}
+	
+	.wrapper-content{
+		padding: 20px 5px 50px 5px;
+	}
+	
+	.wrapper-content p{
+		font-size:13px;
+	}
+	.wrapper-content ol{
+		font-size:13px;
 	}
 }
 
 @media screen and (min-width:1024px){
-	.clear-pd-left{
-		padding-left:0;
-	}
-	.clear-pd-right{
-		padding-right:0;
-	}
+	 .padding{
+		 padding:0
+	 }
 }
