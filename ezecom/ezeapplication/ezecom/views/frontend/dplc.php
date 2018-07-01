@@ -21,7 +21,7 @@
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DPLC/DPLC.jpg"/>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 row-no-padding">
 				<div class="DPLC_wrapper">
 					<h2>DPLC</h2>
 					<p class="full-title"><span>(Domestic Private Leased Circuit)</span></p>
@@ -33,7 +33,7 @@
 						Telcotech’s complete, end-to-end DWDM, MetroNetwork solutions give mobile network operators, 
 						ISPs the tools to build robust, sustainable network infrastructure and reach revenue objectives faster. Our fibre connectivity solutions are designed for maximum flexibility, incorporating plug-and-play, add-as-you-grow modular technology to simplify ordering and deployment and reduce total cost of ownership.
 					</p>
-					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/button-sign-me-up.svg"/>
+					<img id="pop-up-form" class="img-responsive btn-signmeup" src="<?php echo base_url()?>images/our-services/IPLC/button-sign-me-up.svg"/>
 				</div>	
 				<!-- Contact Form Dedicate -->
 					<div class="container">
@@ -94,7 +94,7 @@
 		</div>
 		
 		<div class="row mg-top-bt">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd-left clear-pd-right">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 row-no-padding">
 				<div class="DPLC-structure">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DPLC/DPLC-process.png"/>
 				</div>

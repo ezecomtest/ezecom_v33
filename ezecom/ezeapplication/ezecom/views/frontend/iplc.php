@@ -21,7 +21,7 @@
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/IPLC.jpg"/>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 row-no-padding">
 				<div class="IPLC_wrapper">
 					<h2>IPLC</h2>
 					<p class="full-title"><span>(International Private Leased Circuit)</span></p>
@@ -32,7 +32,7 @@
 						Customers gain the benefit of global coverage from Telcotech’s 
 						partnerships with Tier-1 operators worldwide.
 					</p>
-					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/button-sign-me-up.svg"/>
+					<img id="pop-up-form" class="img-responsive btn-signmeup" src="<?php echo base_url()?>images/our-services/IPLC/button-sign-me-up.svg"/>
 				</div>	
 				<!-- Contact Form Dedicate -->
 					<div class="container">
@@ -93,7 +93,7 @@
 		</div>
 		
 		<div class="row mg-top-bt">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd-left clear-pd-right ">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 row-no-padding">
 				<div class="IPLC-structure">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/IPLC-process.png"/>
 				</div>

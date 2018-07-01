@@ -137,21 +137,63 @@
 		width:100%;
 		padding-right:50px;
 	}
-	.first ul, .b-first ul, .b-second ul, .b-third ul ,.second ul,.third ul{
-		padding-left:20px;
-	}
+	
 	.IPLC-img img{
 		margin-top:50px;
 		position:relative;
 		left:0;
 	}
+	
+	.IPLC_wrapper h2{
+		font-size:20px;
+	}
+	
+	.IPLC_wrapper p span {
+		font-size:15px;
+	}
+	
+	.IPLC_wrapper {
+		margin-top: 0px;
+	}
+	
+	.IPLC_wrapper p{
+		font-size:10px;
+	}
+	
+	/* btn iplc */
+	.IPLC_wrapper .btn-signmeup{
+		width: 80px;
+	}
+	
+	.IPLC_wrapper img {
+		margin-top:0;
+	}
+	
+	.features {
+		font-size:20px;
+		padding:0 0 10px 0;
+	}
+	
+	.first ul, .b-first ul, .b-second ul, .b-third ul, .second ul, .third ul {
+		font-size:14px;
+		padding-left:20px;
+	}
+	
+	.mg-top-bt{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	
+	.row-no-padding{
+		padding:0;
+	}
+	
+	
 }
 
 @media screen and (min-width:1024px){
-	.clear-pd-left{
-		padding-left:0;
-	}
-	.clear-pd-right{
-		padding-right:0;
+.row-no-padding{
+		padding:0;
 	}
 }
+
