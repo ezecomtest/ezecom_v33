@@ -74,7 +74,7 @@
 						<li><a href="<?php echo base_url()?>support/payment">Payment Option</a></li>
 						<li><a href="<?php echo base_url()?>support/setup-email">EzeMail Setup</a></li>
 						<li><a href="http://ezecom.speedtest.net/" target="_blank">Speed Test</a></li>
-						<li><a href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/" target="_blank">User Account Managment</a></li>
+						<li><a href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/" target="_blank">User Account Management</a></li>
 					</ul>
 				</div>
 			</div>

@@ -11,6 +11,7 @@
 			$this->load->view('header/header_all');
 			$this->load->view('header/main_nav_user_v');
 	    ?>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 <body>
 <body>
@@ -77,7 +78,7 @@
 								</div>
 							</div>
 						</form>
-						<script src='https://www.google.com/recaptcha/api.js'></script>
+						
 					</div>
 				</div>
 		</div> <!-- end container -->
@@ -148,8 +149,8 @@
 			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
 					<div class="desciption-block">
 						<p>
-							We are offering the best available packages to the selected borey
-							borey location. please contact our <b>websales@ezecom.com.kh</b> or 
+							We are offering the best available packages to the selected boreys
+							only. Please contact us at <b>websales@ezecom.com.kh</b> or 
 							call <b>023 238 181</b> for more information.
 						</p>
 					</div>

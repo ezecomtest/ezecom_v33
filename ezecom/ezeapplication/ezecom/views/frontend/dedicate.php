@@ -11,6 +11,7 @@
 			$this->load->view('header/header_all');
 			$this->load->view('header/main_nav_user_v');
 	    ?>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 <body>
 <body>
@@ -90,7 +91,7 @@
 								</div>
 							</div>
 						</form>
-						<script src='https://www.google.com/recaptcha/api.js'></script>
+	
 					</div>
 				</div>
 		</div> <!-- end container -->

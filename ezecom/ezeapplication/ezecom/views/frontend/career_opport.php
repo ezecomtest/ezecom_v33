@@ -25,7 +25,7 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
 				<div class="wrapper-career">
 					<p>
-						EZECOM, Cambodia’sde premium internet provider, 
+						EZECOM, Cambodia's premium internet provider, 
 						was found in 2007 to serve the rapidly expanding 
 						business and residential markets in Cambodia. 
 						Our company has incorporated its own fibre optic, 

@@ -168,11 +168,25 @@ class Index extends CI_Controller {
 		  $this->email->message($contain);
 		  $base_url = base_url();
 		  
-		  if($this->email->send()){
-			$this->homepage_m->insert_help_me_choose($data);
-		  	header("Location:".$base_url.'thank-you');
-		  }else{
-		  	header("Location:".$base_url.'thank-you');
+		  if($_SERVER["REQUEST_METHOD"] === "POST"){
+			  
+			$recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$captcha = $_POST['g-recaptcha-response'];
+			$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
+			$response = json_decode($response, true);
+			
+			if($response["success"] === true){
+			  if($this->email->send()){
+				$this->homepage_m->insert_help_me_choose($data);
+				header("Location:".$base_url.'thank-you');
+			  }else{
+				header("Location:".$base_url);
+			  }
+			}else{
+				header("Location:".$base_url);
+			}
+			
 		  }
 	}
 
@@ -200,10 +214,10 @@ class Index extends CI_Controller {
 			);
 			
 		  $this->load->library('email', $config);
-		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  //$this->email->to('chan.raksmey@ezecomcorp.com');
+		  //$this->email->from('developer@ezecom.com.kh','Website EZECOM');
+		  $this->email->to('chan.raksmey@ezecomcorp.com');
 		  
-		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
+		  //$this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  //$this->email->to('eang.chhenghong@ezecomcorp.com');
 		  //$this->email->cc("sour.piset@ezecomcorp.com");
 		  $this->email->subject("Sign Me Up");
@@ -226,13 +240,27 @@ class Index extends CI_Controller {
 				"Package that ".$eml_name. " interest is Dedicate package : ".$package.
 				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 		  $this->email->message($contain);
-		  
 		  $base_url = base_url();
-		  if($this->email->send()){
-			$this->homepage_m->insert_signme_up($data);
-		  	header("Location:".$base_url.'thank-you');
-		  }else{
-		  	header("Location:".$base_url);
+		  
+		  
+		  if($_SERVER["REQUEST_METHOD"] === "POST"){
+			  
+			$recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$captcha = $_POST['g-recaptcha-response'];
+			$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
+			$response = json_decode($response, true);
+			
+			if($response["success"] === true){
+			  if($this->email->send()){
+				$this->homepage_m->insert_signme_up($data);
+				header("Location:".$base_url.'thank-you');
+			  }else{
+				header("Location:".$base_url);
+			  }
+			}else{
+				header("Location:".$base_url);
+			}
 		  }
 
 		}
@@ -254,14 +282,29 @@ class Index extends CI_Controller {
 				"Package that ".$eml_name. " interest is EzeBiz : ".$prempackage.
 				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 		  $this->email->message($contain);
-		  
 		  $base_url = base_url();
-		  if($this->email->send()){
-			$this->homepage_m->insert_signme_up($data);
-		  	header("Location:".$base_url.'thank-you');
-		  }else{
-		  	header("Location:".$base_url);
-		  }
+		   if($_SERVER["REQUEST_METHOD"] === "POST"){
+			   
+			$recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$captcha = $_POST['g-recaptcha-response'];
+			$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
+			$response = json_decode($response, true);
+			
+			if($response["success"] === true){
+			  if($this->email->send()){
+				$this->homepage_m->insert_signme_up($data);
+				header("Location:".$base_url.'thank-you');
+			  }else{
+				header("Location:".$base_url);
+			  }
+			  
+			}else{
+				header("Location:".$base_url);
+			}
+			
+		   }
+		  
 		}
 		
 		if($prempackage =="" AND $package==""){
@@ -279,14 +322,28 @@ class Index extends CI_Controller {
 				$eml_details.
 				"\n" . "\n\n** Automatic sent mail from website EZECOM **\n" ;
 		  $this->email->message($contain);
-		  
 		  $base_url = base_url();
-		  if($this->email->send()){
-			$this->homepage_m->insert_signme_up($data);
-		  	header("Location:".$base_url.'thank-you');
-		  }else{
-		  	header("Location:".$base_url);
-		  }
+		  
+		   if($_SERVER["REQUEST_METHOD"] === "POST"){
+			   
+			$recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$captcha = $_POST['g-recaptcha-response'];
+			$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
+			$response = json_decode($response, true);
+		
+			if($response["success"] === true){
+			  if($this->email->send()){
+				$this->homepage_m->insert_signme_up($data);
+				header("Location:".$base_url.'thank-you');
+			  }else{
+				header("Location:".$base_url);
+			  }
+			}else{
+				header("Location:".$base_url);
+			}
+			
+		   }
 		}
 		
 

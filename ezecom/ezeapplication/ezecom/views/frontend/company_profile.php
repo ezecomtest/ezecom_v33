@@ -47,17 +47,17 @@
 				<div class="content">
 					  <img class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-fibre.svg"/>
 					  <h2>2007, Q2</h2>
-					  <p>Launched with Full service provider, <br/>Fibre Optic, VOIP Gateway, Enterprise <br/>Solutions & VAS services</p>
+					  <p>Launched as a full service provider, <br/>Fibre Optic, VoIP Gateway, Enterprise <br/>Solutions & VAS services</p>
 					  
 				</div>
 			  </div>
 			  <div class="container-milestone right reduce-space-telcotech">
 				<div class="content">
 				<img  class="img-responsive resize-tct" src="<?php echo base_url()?>images/company_profile/milestone/milestone-TCT.svg"/>
-				  <h2 class="head-align-left">2011,Q2</h2>
+				  <h2 class="head-align-left">2011, Q2</h2>
 				  <p class="sub-title-align-left">Telcotech Cambodia</p>
 				  <p class="detail-left">
-					Acquired wholesale provider in 2011 Q2 <br/>(Telcotech) – established fibre coverage nationwide</p>
+					Acquired wholesale provider Telcotech in Q2 of 2011 – established fibre coverage nationwide</p>
 				</div>
 			  </div>
 			  <div class="container-milestone left reduce-space-agg">
@@ -65,9 +65,9 @@
 				  <img class="img-responsive resize-agg" src="<?php echo base_url()?>images/company_profile/milestone/milestone-AAG.jpg"/>
 				  <h2>2011</h2>
 				  <p class="sub-title-agg">
-					Asia-America Gateway(AAG)<br/>Cable System
+					Asia-America Gateway (AAG)<br/>Cable System
 				  </p>
-				  <p>Partner in Asia America Gateway(AAG), <br/>trans Pacific submarine cable</p>
+				  <p>Partner in Asia America Gateway (AAG), <br/> a trans Pacific submarine cable</p>
 				</div>
 			  </div>
 			  <div class="container-milestone right reduce-space-iso">
@@ -75,23 +75,23 @@
 				  <img  class="img-responsive resize-iso" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ISO.jpg"/>
 				  <h2 class="head-align-left">2011, JUNE</h2>
 				  <p class="sub-title-align-left">ISO Certification</p>
-				  <p class="detail-left">Only ISP in Cambodia to be ISO certified</p>
+				  <p class="detail-left">First ISP in Cambodia to be ISO certified</p>
 				</div>
 			  </div>
 			  <div class="container-milestone left reduce-space-best-isp">
 				<div class="content">
 				<img class="img-responsive resize-isp" src="<?php echo base_url()?>images/company_profile/milestone/milestone-bestISP.svg"/>
-				  <h2>2011,2012</h2>
+				  <h2>2011, 2012</h2>
 				  <p class="best-isp">Best ISP Award</p>
-				  <p>Two consecutive wins of “best ISP” <br/>award – voted by public and panel <br/>of experts 2011 & 2012</p>
+				  <p>Two consecutive wins of Best ISP Award <br/> – voted by public and panel <br/>of experts 2011 & 2012</p>
 				</div>
 			  </div>
 			  <div class="container-milestone right reduce-space-MCT">
 				<div class="content">
 				  <img class="img-responsive resize-mct" src="<?php echo base_url()?>images/company_profile/milestone/milestone-MCT.svg"/>
 				  <h2 class="head-align-left">2015, MARCH</h2>
-				  <p class="sub-title-align-left">MCT: Submarine Cable System</p>
-				  <p class="detail-left">EZECOM has launched the first submarine <br/>cable network in Cambodia history. MCT is a <br/>very powerful cable system spans <br/>aproximately 1,300km, and positions <br/>Cambodia a geteway to Asia.</p>
+				  <p class="sub-title-align-left">MCT Submarine Cable System</p>
+				  <p class="detail-left">EZECOM launched the first submarine <br/>cable network in Cambodian that history. MCT is a <br/>very powerful cable system spans <br/>approximately 1,300km, and positions <br/>Cambodia as a gateway to Asia.</p>
 				</div>
 			  </div>
 			  
@@ -100,7 +100,7 @@
 				<img class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-ICT-awar.jpg"/>
 				  <h2>2016, JUNE</h2>
 				  <p class="sub-title-ict">Cambodia ICT Awards (CICTA)</p>
-				  <p>EZECOM received the Best ISP for<br/>Enterprise Award.</p>
+				  <p>EZECOM received the <br/>Best ISP for Enterprise Award.</p>
 				</div>
 			  </div>
 			  
@@ -109,13 +109,13 @@
 				  <img class="img-responsive resize-best-employer" src="<?php echo base_url()?>images/company_profile/milestone/milestone-best-employer.jpg"/>
 				  <h2 class="head-align-left">2017, AUGUST</h2>
 				  <p class="sub-title-align-left">Best Employer Brand Award 2017</p>
-				  <p class="detail-left">Singapore among 100 international brand <br/>companies in Asia.
-<br/>At EZECOM, one of our five core values are <br/>People, we provide equal opportunity to <br/>employee and select its member base on <br/>
-suitability and capability to the job regardless <br/>
-of age, origin, civil status or race follow by <br/>
+				  <p class="detail-left"> Competed in Singapore among 100 international brand companies in Asia.
+At EZECOM, one of our five core values is People. We provide equal opportunity to employee and select its member base on <br/>
+suitability and capability for the job regardless <br/>
+of age, origin, civil status or race followed by <br/>
 human right principles. We also strongly <br/>
 encourage women and offer opportunity to <br/>
-disable person to join our talented team. <br/>Move your career forward in ISP field.z</p>
+disabled people to join our talented teams.</p>
 				</div>
 			  </div>
 			  
@@ -147,7 +147,7 @@ disable person to join our talented team. <br/>Move your career forward in ISP f
 						JUN 4th 18, EZECOM has partnered with NXT Networks, a wholesale specialist providing intra-ASEAN terrestrial 
 						connectivity, have announced a strategic partnership to offer a combined connectivity solution 
 						which will bridge Cambodia, Laos, Myanmar, Vietnam and Thailand. More information, 
-						<a href="https://www.ezecom.com.kh/newsdetail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity">click here</a> 
+						<a href="<?php echo base_url() ?>media-center/news-detail/ezecom-partners-with-lxt-networks-to-boost-international-capacity-and-cross-border-connectivity">click here.</a> 
 					</p>
 				</div>
 			</div>

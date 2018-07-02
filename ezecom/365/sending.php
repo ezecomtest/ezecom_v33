@@ -12,8 +12,11 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
   $url = $_POST["baseUrl"];
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
+	
     $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
-    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$_POST['g-recaptcha-response']);
+	$ip = $_SERVER['REMOTE_ADDR'];
+	$captcha = $_POST['g-recaptcha-response'];
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
     $response = json_decode($response, true);
 	
     if($response["success"] === true){

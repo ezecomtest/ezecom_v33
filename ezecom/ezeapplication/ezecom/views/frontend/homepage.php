@@ -2,7 +2,7 @@
 <html lang="en-gb" dir="ltr" class='com_content view-article itemid-435 j34'>
 <head>
 	<meta name="google-site-verification" content="5OJ8M92HIl7UggddG1chxGf3MQlodkBtrwC_R6nL9jE" />
-	<title>ezecom.com.kh, Cambodia's premium internet provider</title>
+	<title>EZECOM, Cambodia's Premium Internet Provider</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/css_v3/home.css"/>
   	
@@ -79,7 +79,8 @@
 	}));
 
 	</script>
-	<title><?php echo $title;?></title>
+	<!-- Script Recapch -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -445,12 +446,18 @@
 							   <label class="help_me_choose" for="eml_email">Email Address:</label> <input type="text" name="eml_email"  required id="eml_email" /><br />
 							   <label class="help_me_choose" for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone"  required id="eml_phone" /><br />
 							   <label class="help_me_choose" for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
+							   
+							   <label class="help_me_choose" for="eml_details" style="width:auto;">
+									<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+							   </label>
+							   
 							   <label class="help_me_choose" for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
 							   <input type="submit" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" /></label>
 							  
 						   </div>
 					   </div>
 					  </form>
+					  
 					<br/>
 				</div> <!-- mid -->
 				<div class="bottom"></div>
@@ -553,6 +560,14 @@
                                  <div class="form-group">
                                  <label class="help_me_choose" for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
                                  </div>
+								 
+								 <div class="form-group">
+									<!-- Recapcha display -->
+									<label class="help_me_choose" for="eml_help_details">
+										<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+									</label>
+								 </div>
+								 
                                  <div class="form-group">
                                  <label class="help_me_choose" for="eml_submit">&nbsp;</label>
                                  </div>
