@@ -827,6 +827,12 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-weight:bold;
 }
 
+/* Our Achievment img */
+
+.mg-left-img{
+	margin-left:15px;
+}
+
 /* Zoom In */
 
 .img-wrapper-services:hover img {

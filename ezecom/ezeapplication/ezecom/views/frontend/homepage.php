@@ -848,7 +848,7 @@
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="best-employer-award">
 							<a href="<?php echo base_url()?>media-center/news-detail/ezecom-the-first-isp-in-cambodia-to-win-asia’s-best-employer-brands-award-2017">
-								<img src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017">
+								<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017">
 								<h4>
 									Best Employer <br/>Brand Award 2017
 								</h4>
@@ -858,7 +858,7 @@
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="iso">
 								<a href="<?php echo base_url()?>our-company/quality-management-system">
-									<img src="<?php echo base_url()?>images/homepage/archivement-ISO.png" alt="EZECOM Achievement ISO" title="EZECOM Achievement ISO"/>
+									<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-ISO.png" alt="EZECOM Achievement ISO" title="EZECOM Achievement ISO"/>
 								</a>
 								<h4>
 									ISO <br/>Certified
@@ -868,7 +868,7 @@
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="child-safe">
 								<a href="<?php echo base_url()?>our-company/childsafe-certification">
-									<img src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
+									<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
 								</a>
 								<h4> ChildSafe <br/>Certified</h4>
 							</div>
@@ -876,7 +876,7 @@
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="best-ISP">
 							<a href="<?php echo base_url()?>media-center/news-detail/ezecom-awarded-2017-best-isp-for-business-at-4g-ltd-conference">
-								<img src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
+								<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
 								<h4>
 									Best ISP <br/>for Business
 								</h4>
