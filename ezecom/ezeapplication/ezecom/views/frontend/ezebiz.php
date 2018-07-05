@@ -160,7 +160,7 @@
 					<ul>
 						<li>- Free modem rental </li>
 						<li>- Installation fee: $75</li>
-						<li>- Upload/download : symmetric speed</li>
+						<li>- Upload/download: symmetric speed</li>
 						<li>- Off-peak speed: x 200%</li>
 						<li>- Bonus local speed: minimum 50 mbps</li>
 						

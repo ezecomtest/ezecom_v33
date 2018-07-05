@@ -125,8 +125,8 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel : 023 238 181<br/>
-								Fax : 023 882 961
+								Tel: 023 238 181<br/>
+								Fax: 023 882 961
 							</p>
 						</div>
 					</div>

@@ -205,7 +205,7 @@
 					<img class="img-responsive img-double-speed" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-twice-uploa-power.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>Twice the upload power</h4>
+						<h4>Twice the Upload Power</h4>
 						<p>
 							Get two times the speed you bargained for every task where an upload is involved. 
 							Massive upside for organizations that sends a lot of data. 
@@ -218,7 +218,7 @@
 					<img class="img-responsive img-popular-content" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-x500.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>Off-peak double speed </h4>
+						<h4>Off-Peak Double Speed </h4>
 						<p>
 							Get a special leg up during the unconventional operating time. 
 							Enjoy twice the purchased speed at night and weekend.
@@ -231,7 +231,7 @@
 					<img class="img-responsive img-availability" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-speed-50Mbps.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>Bonus speed for local content</h4>
+						<h4>Bonus Speed for Local Content</h4>
 						<p>
 							Enjoy a massive bonus speed for lightning fast performance on some of 
 							the most used social services including Google, 
@@ -248,7 +248,7 @@
 					<img class="img-responsive img-modem-rental" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-maximum-availability.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>Ultimate availability</h4>
+						<h4>Ultimate Availability</h4>
 						<p>
 							Dedicated Internet has 99.99% uptime with optional 1+1 protection, 
 							which is the ultimate standard for internet. This means you practically 
@@ -262,7 +262,7 @@
 					<img class="img-responsive img-no-deposit" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-service-level-agreement.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>Service-level agreement</h4>
+						<h4>Service-Level Agreement</h4>
 						<p>
 							Benefit from extra level of customization and commitment 
 							from your service provider with an 
@@ -276,7 +276,7 @@
 					<img class="img-responsive img-support" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-best-performance.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>Best performance to top destinations</h4>
+						<h4>Best Performance to Top Destinations</h4>
 						<p>
 							Take advantage of our express routes to 
 							various top destinations such as China, EU and more.
@@ -289,7 +289,7 @@
 					<img class="img-responsive img-flexibility" src="<?php echo base_url()?>images/our-services/Dedicated/dedicated-feature-benefits/icon-call-24hours.svg"/>
 					<div class="border-bottom"></div>
 					<div class="text">
-						<h4>24/7 support</h4>
+						<h4>24/7 Support</h4>
 						<p>
 							Real-time, around the clock hotline and on-site support 
 							gives you complete confidence and peace of 

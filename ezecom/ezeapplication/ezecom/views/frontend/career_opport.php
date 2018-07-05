@@ -34,7 +34,7 @@
 						along with our world-class 24/7 technical support.
 					</p>
 					<p class="color-for-p">
-						We are now looking for dynamic, energetic and committed candidates to fill the position as:
+						We are now looking for dynamic, energetic and committed candidates to fill the positions of:
 					</p>
 				</div>
 			</div>
