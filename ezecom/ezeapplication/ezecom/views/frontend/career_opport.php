@@ -21,8 +21,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
-			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-career">
 					<p>
 						EZECOM, Cambodia's premium internet provider, 
@@ -41,8 +41,8 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row mg-bt">
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-career">
 					<table class="table" id="example" border="0px">
 						<thead>
@@ -63,7 +63,7 @@
 							  </td>
 							  <td>
 								<br/>
-								<strong>Dateline:&nbsp;&nbsp;<?php echo $careers->career_end_date;?></strong>
+								<strong class="dateline">Dateline:&nbsp;&nbsp;<?php echo $careers->career_end_date;?></strong>
 							 </td>
 							  <td>
 								<br/>
@@ -75,7 +75,7 @@
 					</table>
 				</div>
 			</div>
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 	</div>
 </div>

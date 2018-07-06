@@ -22,7 +22,7 @@
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/server.jpg"/>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 				<div class="Colo_wrapper">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/icon-Data_colocation.svg"/>
 					<h2>Co-location</h2>
@@ -100,14 +100,14 @@
 			</div>
 		</div>
 		<div class="row mg-bt">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-left pd-right">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 remove-pd">
 				<div class="colocation">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-server.jpg"/>
 				</div>
 			</div>
 		</div>
 		<div class="row mg-bt mg-top">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-1.svg"/>
 				<div class="wrapper-package">
 					<div class="row">
@@ -132,7 +132,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-2.svg"/>
 				<div class="wrapper-setup">
 					<h3>Set Up Fees Apply</h3>

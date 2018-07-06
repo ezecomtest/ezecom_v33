@@ -23,7 +23,7 @@
 	
 	<div class="container container-top-mar">
 		<div class="row row-margin-top row-margin-bt">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left remove-pd">
 				<div class="wrapper-text">
 					<img class="img-responsive" src="<?php echo base_url()?>images/community/community-ico-1.png" alt="Power of Investment" title="Power of Investment"/>
 					<p class="p-left">
@@ -35,7 +35,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right remove-pd">
 				<div class="wrapper-text">
 					<img class="img-responsive" src="<?php echo base_url()?>images/community/community-ico-2.png" alt="Innovation and Progress" title="Innovation and Progress"/>
 					<p class="p-right">

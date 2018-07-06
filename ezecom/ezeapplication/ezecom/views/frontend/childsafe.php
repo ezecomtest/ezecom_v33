@@ -28,7 +28,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
-			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-childsafe">
 					<p>
 						On November 18th, 2014, EZECOM became the first company to 

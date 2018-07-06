@@ -28,7 +28,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
-			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-certificate">
 					<p>
 						On June 21, 2011, EZECOM became the first Internet Service Provider (ISP) in 
@@ -53,7 +53,7 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row row-margin-bt">
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 remove-pd">
 				<div class="core-value">
 					<h3>Our Core Values</h3>
 					<p><span>Excellence</span></p>
@@ -68,7 +68,7 @@
 					<p><span class="tab-in">The core of our business</span></p>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 remove-pd">
 				<div class="qms">
 					<h3>Quality Management System</h3>
 					<p>
@@ -80,7 +80,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 remove-pd">
 				<div class="policy">
 					<h3>Our Quality Policy</h3>
 					<p>

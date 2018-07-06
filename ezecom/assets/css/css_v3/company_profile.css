@@ -292,7 +292,7 @@ p span{
 	  top:80px;
 	}
 	.wrapper-technology{
-		min-height:756px;
+		min-height:0;
 	}
 	
     .remove-space {
@@ -320,15 +320,23 @@ p span{
   .content h2{
 		font-family: myNeutra,serif,sans-serif;
 		font-weight: bold;
-		font-size: 22px;
+		font-size:20px;
 		clear: left;
 		text-align:left;
 	}
 	
 	.content p{
 		font-family: myNeutra,serif,sans-serif;
-		font-size: 15px;
+		font-size: 12px;
 		text-align:left;
+	}
+	
+	.content .head-align-left{
+		font-size:20px;
+	}
+	
+	.content .detail-left{
+		font-size: 12px;
 	}
 	
 	.content .resize-agg {
@@ -356,7 +364,7 @@ p span{
 	}
 	
 	.remove-space {
-		margin-bottom:770px;
+		margin-bottom:250px;
 	}
 	
 	.reduce-space-agg{
@@ -423,12 +431,28 @@ p span{
 	.wrapper-profile{
 		padding: 20px 0 20px 0;
 	}
-}
-@media screen and (max-width:1024px){
+	
 	.clear-pd-left{
 		padding-left:0;
 	}
 	.clear-pd-right{
 		padding-right:0;
 	}
+	
+	.profile-detail{
+		font-size: 12px;
+	}
+	
+	.wrapper-technology	h3{
+		font-size:20px;
+	}
+	
+	.wrapper-technology p{
+		font-size:12px;
+	}
+	
+	.row-margin-bt {
+		margin-bottom: 10px;
+	}
+	
 }

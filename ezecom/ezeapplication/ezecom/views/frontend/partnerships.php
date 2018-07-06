@@ -33,7 +33,7 @@
 				<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 			</div>
 			<div class="row">
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 					<div class="wrapper-text">
 						<h3>Goodwill</h3>
 						<h5><strong>Investing in Communities and Fostering Opportunity</strong></h5>
@@ -45,7 +45,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 					<div class="wrapper-text padding-bt-EzeCampus">
 						<h3>EzeCampus</h3>
 						<p>
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 			<div class="row btmar-nearfooter">
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 					<div class="wrapper-text">
 						<img class="img-responsive padding-img" src="<?php echo base_url()?>images/partnerships/logo-partnership.jpg"/>
 						<h3>Mith Samlanh (Friends)</h3>
@@ -74,7 +74,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 					<div class="wrapper-text padding-bt-development-invo">
 						<img class="img-responsive padding-img" src="<?php echo base_url()?>images/partnerships/development-inovation.png" alt="Development Innovation" title="Development Innovation"/>
 						<h3 class="di">Development Innovations and 5D Lab</h3>
@@ -108,7 +108,7 @@
 				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			</div>
 			<div class="row mg-bt">
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 						<div class="content-left">
 							<h3>The first step in the EzeCampus gave 65,000 students access to high speed internet.</h3>
 							<p>
@@ -123,7 +123,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
 						<div class="content-right">
 							<h3>The second step expanded the number of students benefiting from this project by another ten thousand.</h3>
 							<p>

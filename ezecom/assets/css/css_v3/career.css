@@ -46,3 +46,23 @@ strong{
 .mg-bt{
 	margin-bottom:60px;
 }
+
+@media screen and (max-width:1024px){
+	
+	.wrapper-career p{
+		 font-size: 12px;
+	}
+	
+	.remove-pd{
+		padding:0;
+	}
+	
+	div.dataTables_wrapper div.dataTables_filter{
+		text-align:right;
+	}
+	
+	.wrapper-career .col-sm-7{
+		margin-left:15%;
+	}
+	
+}

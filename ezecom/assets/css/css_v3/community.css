@@ -42,4 +42,22 @@
 	.clear-pd-right{
 		padding-right:0;
 	}
+	
+	
+}
+
+@media screen and (max-width:1024px){
+	.remove-pd{
+		padding:0;
+		margin-bottom:60px;
+	}
+	
+	.wrapper-text p{
+		font-size:12px;
+	}
+	
+	.row-margin-bt{
+		margin-bottom:0;
+	}
+	
 }

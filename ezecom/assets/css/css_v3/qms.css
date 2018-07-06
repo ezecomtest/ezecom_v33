@@ -65,3 +65,26 @@
 .row-margin-bt{
 	margin-bottom:50px
 }
+
+@media screen and (max-width:1024px){
+	.remove-pd{
+		padding:0;
+	}
+	
+	.wrapper-certificate{
+		padding:5px;
+	}
+	
+	.wrapper-certificate p{
+		font-size:12px
+	}
+	
+	.core-value h3, .qms h3, .policy h3{
+		font-size:20px;
+	}
+	
+	.qms p, .policy p{
+		font-size:12px;
+	}
+	
+}

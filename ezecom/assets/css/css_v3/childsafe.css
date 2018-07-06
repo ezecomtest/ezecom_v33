@@ -25,3 +25,18 @@
 .mg-bt{
 	margin-bottom:80px;
 }
+
+@media screen and (max-width:1024px){
+	.wrapper-childsafe p {
+		font-size: 12px;
+	}
+	
+	.remove-pd{
+		padding:0;
+	}
+	
+	.wrapper-childsafe .childsafe-logo{
+		margin-left:13px;
+	}
+	
+}

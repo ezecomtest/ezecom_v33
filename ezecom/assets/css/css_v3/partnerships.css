@@ -29,7 +29,7 @@
 	background-color:#F6F5F4;
 }
 .padding-bt-EzeCampus{
-	padding-bottom:50px;
+	padding-bottom:30px;
 }
 
 .wrapper-text h3{
@@ -135,4 +135,46 @@
 	.clear-pd-left{
 		padding-left:0;
 	}
+	
+}
+
+@media screen and (max-width:1024px){
+	
+	.wrapper-partnerships h3{
+		font-size:30px;
+		padding-top:30px;
+	}
+	
+	.wrapper-partnerships p{
+		font-size:12px;
+	}
+	
+	.remove-pd{
+		padding:0;
+	}
+	
+	.wrapper-text h3{
+		font-size:20px;
+	}
+	
+	.ezecampus-desc h2{
+		font-size:30px;
+	}
+	
+	.ezecampus-desc p{
+		font-size: 12px;
+	}
+	
+	.content-left h3, .content-right h3{
+		font-size:20px;
+	}
+	
+	.wrapper-text h5 strong{
+		font-size: 12px;
+	}
+	
+	.wrapper-text p{
+		font-size: 12px;
+	}
+	
 }

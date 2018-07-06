@@ -60,7 +60,7 @@
 .wrapper-setup{
 	padding:50px 30px 4px 30px;
 	border:1px solid #7A7A7A;
-	min-height:200px;
+	max-height:249px;
 }
 
 .wrapper-package .package{
@@ -180,7 +180,11 @@
 	.form-wrapper{
 		width:100%;
 		padding-right:50px;
+		position:relative;
+		overflow:hidden;
+		z-index:1000;
 	}
+	
 	.first ul, .b-first ul, .b-second ul, .b-third ul ,.second ul,.third ul{
 		padding-left:20px;
 	}
@@ -202,6 +206,7 @@
 	
 	.wrapper-package,.wrapper-setup{
 		margin-bottom:100px;
+		max-height:290px;
 	}
 	
 	.img-position{
@@ -210,14 +215,31 @@
 		left:37%;
 		top:-15%;
 	}
+	
 	.Colo_wrapper p{
-		padding-left:0
+		padding-left:0;
+		font-size:12px;
 	}
+	
 	.signup{
 		margin-left:0;
 	}
+	
 	.wrapper-package .package p{
 		font-size:17px;
+	}
+	
+	.Colo_wrapper h2{
+		font-size:30px;
+		padding-left:0;
+	}
+	
+	.remove-pd{
+		padding:0;
+	}
+	
+	.mg-bt{
+		margin-bottom:30px;
 	}
 	
 }

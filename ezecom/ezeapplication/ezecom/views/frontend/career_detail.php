@@ -21,8 +21,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
-			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-career">
 					<p>
 						EZECOM, Cambodia’s premium internet service provider, was found in 2007 to serve the rapidly expanding business and residential market in Cambodia. Our company has incorporated its own fibre optic, world Class Data center, MPLS, VPLS, Cloud services and other VAS services for enterprise solutions with our world class 24/7 technical support.
@@ -35,19 +35,19 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row">
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="career-detail">
 				<?php foreach($get_title as $title ) {?>
 					<?php echo $title->career_description ?> 
 				<?php } ?>
 				</div>
 			</div>
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row">
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-career">
 					<table class="table" id="example" border="0px">
 						<thead>
@@ -80,7 +80,7 @@
 					</table>
 				</div>
 			</div>
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 	</div>
 </div>

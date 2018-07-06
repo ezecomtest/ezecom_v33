@@ -34,3 +34,45 @@ div.dataTables_paginate{
 	margin-bottom:20px;
 	margin-top:20px;
 }
+
+@media screen and (max-width:1024px){
+	.remove-pd{
+		padding:0;
+	}
+	
+	.wrapper-career p{
+		 font-size: 12px;
+	}
+	
+	div.dataTables_wrapper div.dataTables_filter{
+		text-align:right;
+	}
+	
+	.wrapper-career .col-sm-7{
+		margin-left:15%;
+	}
+	
+	.career-detail{
+		padding:20px;
+	}
+	
+	.career-detail p{
+		font-family:myNeutra,serif,sans-serif !important;
+		font-size:12px !important;
+	}
+	
+	.wrapper-career span{
+		font-weight:530;
+		font-family:myNeutra,serif,sans-serif ;
+		color:#7961AA;
+		font-size:19px;
+	}
+	
+	.wrapper-career label{
+		font-weight:10;
+		font-family:myNeutra,serif,sans-serif ;
+		color:black;
+		font-size:12px;
+	}
+	
+}
