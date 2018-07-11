@@ -15,41 +15,43 @@
 <body>
 <div class="container-fluid">
 	<div class="container">
-		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h3><?php echo $news_events['content_title']; ?></h3>
-			<div class="wrapper-text">
-				<?php echo $news_events['content_description'] ?>
-			</div>
-			<h3>Check out other articles below:</h3>
-			<div class="infinity-carousel">
-				  <button class="nav prev"></button>
-				  <button class="nav next"></button>
-				  <div class="center">
-						<div class="slides">
-						<?php foreach($slides_news_event as $row){ ?>
-						  <div> 
-							<!-- anything in here -->
-							<div class="img-wrap">
-								<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-', $row->content_title)) ?>">
-									<img class="" src="<?php echo base_url()?>elFindermaster/files/post/image_feature/<?php echo $row->content_image_feature ?>" />
-								</a>
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 remove-pd">
+				<h3><?php echo $news_events['content_title']; ?></h3>
+				<div class="wrapper-text">
+					<?php echo $news_events['content_description'] ?>
+				</div>
+				<h3>Check out other articles below:</h3>
+				<div class="infinity-carousel">
+					  <button class="nav prev"></button>
+					  <button class="nav next"></button>
+					  <div class="center">
+							<div class="slides">
+							<?php foreach($slides_news_event as $row){ ?>
+							  <div> 
+								<!-- anything in here -->
+								<div class="img-wrap">
+									<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-', $row->content_title)) ?>">
+										<img class="" src="<?php echo base_url()?>elFindermaster/files/post/image_feature/<?php echo $row->content_image_feature ?>" />
+									</a>
+								</div>
+								<p class="event_title">
+									<?php 
+										if(strlen($row->content_title) > 50){
+											$url = base_url()."media-center/news-detail/".strtolower(str_replace(' ', '-', $row->content_title));
+											echo "<a class='ev-title' href='".$url."'>".mb_substr($row->content_title, 0, 40,'UTF-8') . '...'."</a>";
+										}else{
+											$url = base_url()."media-center/news-detail/".strtolower(str_replace(' ', '-', $row->content_title));
+											echo "<a class='ev-title' href='".$url."' >".$row->content_title."</a>";
+										}
+									?>
+								</p>
+								<!--<p class="text">Text 1</p>-->
+							  </div>
+							<?php } ?>
 							</div>
-							<p class="event_title">
-								<?php 
-									if(strlen($row->content_title) > 50){
-										$url = base_url()."media-center/news-detail/".strtolower(str_replace(' ', '-', $row->content_title));
-										echo "<a class='ev-title' href='".$url."'>".mb_substr($row->content_title, 0, 40,'UTF-8') . '...'."</a>";
-									}else{
-										$url = base_url()."media-center/news-detail/".strtolower(str_replace(' ', '-', $row->content_title));
-										echo "<a class='ev-title' href='".$url."' >".$row->content_title."</a>";
-									}
-								?>
-							</p>
-							<!--<p class="text">Text 1</p>-->
-						  </div>
-						<?php } ?>
-						</div>
-			     </div>
+					 </div>
+				</div>
 			</div>
 		</div>
 	</div>

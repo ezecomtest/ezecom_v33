@@ -11,6 +11,8 @@
 
 .wrapper-text img{
 	margin:12px 0 20px 0;
+	width:100% !important;
+	height:auto !important;
 }
 
 .wrapper-text a{
@@ -29,4 +31,17 @@ h3{
 	font-family:myNeutra;
 	color:#7961a9;
 	text-decoration:none;
+}
+
+@media screen and (max-width:1024px){
+	.wrapper-text{
+		font-size:12px;
+	}
+	
+	h3{
+		line-height:32px
+	}
+	.remove-pd{
+		padding:0;
+	}
 }
