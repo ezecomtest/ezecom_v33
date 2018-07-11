@@ -94,7 +94,7 @@
 						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-traffic-camera'>Live Traffic Camera</a></li>
-						<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>
+						<!--<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>-->
 					</ul>
 				</li>
 				<li class="<?php if($this->uri->segment(1)=="contact-us"){echo "active";} ?>" ><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
@@ -197,7 +197,7 @@
 						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-traffic-camera'>Live Traffic Camera</a></li>
-						<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>
+						<!--<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>-->
 					</ul>
 				</li>
 				<li class="<?php if($this->uri->segment(1)=="contact-us"){echo "active";} ?>" ><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
@@ -313,7 +313,7 @@
 										<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
 										<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
 										<li><a href="<?php echo base_url();?>media-center/live-traffic-camera">Live Traffic Camera</a></li>
-										<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>
+										<!--<li><a href='<?php echo base_url()?>media-center/promotion'>Promotion</a></li>-->
 																						   
 									</ul>
 								</div>
