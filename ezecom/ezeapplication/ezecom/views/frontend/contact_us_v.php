@@ -125,8 +125,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 023 238 181<br/>
-								Fax: 023 882 961
+								Tel: 023 238 181
 							</p>
 						</div>
 					</div>
@@ -165,8 +164,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 023 5000 466 <br/>
-								Fax: 023 882 961
+								Tel: 023 5000 466 
 							</p>
 						</div>
 					</div>
@@ -208,8 +206,8 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 063 768 181<br/>
-								Fax: 063 764 081
+								Tel: 063 768 181
+
 							</p>
 						</div>
 					</div>
@@ -250,8 +248,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 034 934 625 <br/>
-								Fax: 034 934 625
+								Tel: 034 934 625 
 							</p>
 						</div>
 					</div>
