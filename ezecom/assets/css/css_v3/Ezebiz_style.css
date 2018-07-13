@@ -359,6 +359,16 @@ div#emailform label{
 	
 }
 
+@media screen and (max-width:375px){
+.wrapper-top span{
+		position:absolute;
+		top:92px;
+		left:25px;
+		z-index:1000;
+	
+	} 
+}
+
 @media screen and (min-width:1024px){
 	.clear-pd-right{
 		padding-right:0;
