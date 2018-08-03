@@ -120,7 +120,7 @@
 			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 no-padding-left">
 				<div class="bonus-for">
 					<ul>
-						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/five-hundred.png"/></li>
+						<li><img class="img-responsive five-hundred" src="<?php echo base_url()?>images/our-services/Ezesurf/five-hundred.svg"/></li>
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/youtube.png"/></li>
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/fb.png"/></li>
 						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/playstore.png"/></li>
@@ -151,7 +151,7 @@
 						<p>
 							We are offering the best available packages to the selected boreys
 							only. Please contact us at <b>websales@ezecom.com.kh</b> or 
-							call <b>023 238 181</b> for more information.
+							call <b>+855(0)23 23 81 81</b> for more information.
 						</p>
 					</div>
 			</div>

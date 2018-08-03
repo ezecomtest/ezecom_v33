@@ -112,6 +112,11 @@
 	display:inline-block;
 	padding-right:20px;
 }
+
+.bonus-for ul li .five-hundred{
+	width:143px;
+}
+
 .no-padding-left{
     padding-left: 0 !important;
 }

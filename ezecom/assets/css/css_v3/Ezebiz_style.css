@@ -102,6 +102,11 @@
 	color:#ffffff;
 	font-family: myNeutra,serif,sans-serif;
 }
+
+.special-offer ul li strong{
+	font-size:20px;
+}
+
 .bonus-speed ul{
 	list-style-type:none;
 	padding-left:16px;
