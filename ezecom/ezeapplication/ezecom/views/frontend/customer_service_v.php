@@ -39,8 +39,8 @@ If you have any questions regarding our connection or if you are in need of tech
 					<h2 class="text-center">Khmer / English speaking</h2>
 					<p class="text-center desk-num">help desk number (24/7)</p>
 					<p class="text-center phone-num">
-						+855(0)23 238 181
-						<br/>+855(0)85 888 181
+						+855(0)23 23 81 81
+						<br/>+855(0)85 88 81 81
 					</p>
 				</div>
 			</div>
@@ -50,7 +50,7 @@ If you have any questions regarding our connection or if you are in need of tech
 					<p class="text-center desk-num">help desk number</p>
 					<p class="text-center working-hour">(Mon - Fri: 8:00am 5:30pm)</p>
 					<p class="text-center working-hour">(Sat: 8:00am - 12.00am)</p>
-					<p class="text-center phone-num">+855(0)89 777 696</p>
+					<p class="text-center phone-num">+855(0)89 77 76 96</p>
 				</div>
 			</div>
 		</div>

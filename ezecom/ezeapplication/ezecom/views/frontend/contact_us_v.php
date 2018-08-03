@@ -125,7 +125,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 023 238 181
+								Tel: +855(0)23 23 81 81
 							</p>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 023 5000 466 
+								Tel: +855(0)23 500 04 66 
 							</p>
 						</div>
 					</div>
@@ -206,7 +206,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 063 768 181
+								Tel: +855(0)63 76 81 81
 
 							</p>
 						</div>
@@ -248,7 +248,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 034 934 625 
+								Tel: +855(0)34 93 46 25 
 							</p>
 						</div>
 					</div>
@@ -289,7 +289,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 035 936 381 / 035 936 281<br/>
+								Tel: +855(0)35 93 63 81 / +855(0)35 93 62 81<br/>
 							</p>
 						</div>
 					</div>
@@ -330,7 +330,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 053 952 481 / 053 952 381<br/>
+								Tel: +855(0)53 95 24 81 / +855(0)53 95 23 81<br/>
 							</p>
 						</div>
 					</div>
@@ -371,7 +371,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 044 715 783<br/>
+								Tel: +855(0)44 71 57 83<br/>
 							</p>
 						</div>
 					</div>
@@ -412,7 +412,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								Tel: 054 967 769<br/>
+								Tel: +855(0)54 96 77 69<br/>
 							</p>
 						</div>
 					</div>

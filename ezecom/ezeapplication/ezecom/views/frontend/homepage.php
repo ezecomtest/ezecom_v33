@@ -441,7 +441,7 @@
 						  <div id="emailform">
 							  <h5 class="help_me_choose">Contact Us</h5>
 							  
-							  <p class="help_me_choose">Call us now on <strong>‎023 238 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+							  <p class="help_me_choose">Call us now on <strong>‎+855(0)23 23 81 81/ +855(0)85 88 81 81</strong> or fill in your information here and a member of our sales team will get back to you.</p>
 							   <label class="help_me_choose" for="eml_name">Full Name:</label> <input type="text" name="eml_name"  required id="eml_name" /><br />
 							   <label class="help_me_choose" for="eml_email">Email Address:</label> <input type="text" name="eml_email"  required id="eml_email" /><br />
 							   <label class="help_me_choose" for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone"  required id="eml_phone" /><br />
@@ -544,7 +544,7 @@
                             <div id="emailform" class="col-sm-6" style="width:390px!important;margin-top:-10px !important;padding:5px -1px;">
                             <div class="row">
                               <h5 class="help_me_choose">Yes I am interested!</h5>
-                                <p class="help_me_choose">Call us now on <strong>023 238 181/ 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+                                <p class="help_me_choose">Call us now on <strong>+855(0)23 23 81 81/ +855(0)85 88 81 81</strong> or fill in your information here and a member of our sales team will get back to you.</p>
                                 
                                 <form action="<?php echo base_url() ?>index/submit_help_me_choose" name="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
                                  <div class="form-group">

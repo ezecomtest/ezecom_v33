@@ -47,7 +47,7 @@
 				<div class="content">
 					  <img class="img-responsive resize-icon" src="<?php echo base_url()?>images/company_profile/milestone/milestone-fibre.svg"/>
 					  <h2>2007, Q2</h2>
-					  <p>Launched as a full service provider, <br/>Fibre Optic, VoIP Gateway, Enterprise <br/>Solutions & VAS services</p>
+					  <p>Launched as a full service provider, <br/>Fibre Optic, Enterprise Solutions <br/>& VAS services</p>
 					  
 				</div>
 			  </div>
