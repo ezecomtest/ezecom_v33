@@ -11,6 +11,7 @@
 			$this->load->view('header/header_all');
 			$this->load->view('header/main_nav_user_v');
 	    ?>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 <body>
 <div class="container-fluid">
@@ -41,6 +42,7 @@
 				<?php foreach($get_title as $title ) {?>
 					<?php echo $title->career_description ?> 
 				<?php } ?>
+				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myForm">Apply Now</button>
 				</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
@@ -82,6 +84,123 @@
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
+		
+		 <!-- Modal -->
+            <div id="myForm" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form" method="post" id="reused_form" >
+                                <div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<div class="form-group">
+										 <label>First Name:<label class="red">*</label></label>
+											<input type="text" class="form-control input-md" name="firstName" required />
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<div class="form-group">
+										 <label>Last Name:<label class="red">*</label></label>
+										 <input type="text" class="form-control input-md" name="lastName" required />
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="form-group">
+										 <label>Apply for the position of:<label class="red">*</label></label>
+											<input type="text" class="form-control input-md" name="positionName" required />
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="form-group">
+										 <label>Location:<label class="red">*</label></label>
+											<select class="form-control">
+											  <option>Phnom Penh</option>
+											  <option>Siem Reap</option>
+											  <option>Sihanoukville</option>
+											  <option>Koh Kong</option>
+											  <option>Battambang</option>
+											  <option>Bavet</option>
+											  <option>Poipet</option>
+											</select>
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="form-group">
+											<label>Upload your CV (must be smaller than 2mb):<label class="red">*</label></label>
+											<div class="input-group input-file">
+											  <div class="form-control">
+												<a href="/path/to/your/current_file_name.pdf" target="_blank"></a>
+											  </div>
+											  <span class="input-group-addon">
+												<a class='btn btn-primary' href='javascript:;'>
+												  Browse
+												  <input type="file" name="field_name" onchange="$(this).parent().parent().parent().find('.form-control').html($(this).val());">
+												</a>
+											  </span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="form-group">
+											<label>Comment:</label>
+											<textarea class="form-control rounded-0" rows="3"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="form-group">
+											<div  class="g-recaptcha push-right" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<div class="form-group">
+											<div class="btn-right">
+												<input type="reset" class="btn btn-default"  value="Reset">
+												<input type="submit" class="btn btn-default"  value="Submit">
+											</div>
+										</div>
+									</div>
+								</div>
+								
+                                <!--<div class="form-group">
+                                    <label for="name"> Name:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"> Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name"> Message:</label>
+                                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
+                                </div> -->
+                                <!--<button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Post It! &rarr;</button>-->
+                            </form>
+                            <!-- <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
+                            <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+		
 	</div>
 </div>
 
@@ -200,4 +319,4 @@ $(document).ready(function() {
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery-1.12.3.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/bootstrap.js"></script> script 

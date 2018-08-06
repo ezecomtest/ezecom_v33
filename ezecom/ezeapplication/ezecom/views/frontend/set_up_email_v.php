@@ -11,6 +11,7 @@
 			$this->load->view('header/header_all');
 			$this->load->view('header/main_nav_user_v');
 	    ?>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 <body>
 <div class="container-fluid">
@@ -21,7 +22,7 @@
 				<div class="form-wrapper">
 					<p>Don't you have an EZECOM email account yet?<br/>
 					Sign up is easy and free!</p>
-					<form id="setupEmail" action="" method="post" >
+					<form id="setupEmail" action="send-mail" method="post">
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<div class="form-group">
@@ -54,7 +55,7 @@
 								<div class="form-group">
 									<label>Request Email Address<label class="red">*</label></label>
 									<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-										<input type="email" class="form-control input-md" required name="userName"/>
+										<input type="email" class="form-control input-md" required name="email"/>
 									</div>
 								</div>
 							</div>
@@ -82,6 +83,15 @@
 								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							</div>
 						</div>
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -135,6 +145,33 @@
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
+<script>
+function resizeReCaptcha() {
+
+  var width = $( ".g-recaptcha" ).parent().width();
+
+  if (width < 302) {
+      var scale = width / 302;
+  } else {
+      var scale = 1;
+  }
+
+  $( ".g-recaptcha" ).css('transform', 'scale(' + scale + ')');
+  $( ".g-recaptcha" ).css('-webkit-transform', 'scale(' + scale + ')');
+  $( ".g-recaptcha" ).css('transform-origin', '0 0');
+  $( ".g-recaptcha" ).css('-webkit-transform-origin', '0 0');
+};
+
+$( document ).ready(function() {
+
+    $( window ).on('resize', function() {
+        resizeReCaptcha();
+    });
+
+    resizeReCaptcha();
+
+});
+</script>
 
 <script type="text/javascript">
  $(document).ready(function() {

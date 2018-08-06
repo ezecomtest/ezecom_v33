@@ -243,6 +243,7 @@ $route['support/customer-service'] = 'frontend/customer_service_c/customer_servi
 $route['support/faq'] = 'frontend/customer_service_c/service_faq';
 $route['support/payment'] = 'frontend/customer_service_c/service_payment_options';
 $route['support/setup-email'] = 'frontend/set_up_email_c/set_up_email';
+$route['support/send-mail'] = 'frontend/set_up_email_c/submit_data';
 
 
 /* Media Center */
