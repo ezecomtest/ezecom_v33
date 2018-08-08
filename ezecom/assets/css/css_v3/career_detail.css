@@ -83,6 +83,35 @@ label.red{
 	color:black;
 }
 
+.profile{
+	width:190px;
+	height:144px;
+	position:relative;
+	right:20px;
+	margin-bottom:50px;
+}
+
+/* .profile img{
+	width:190px;
+	height:150px;
+	border-radius:50%;
+} */
+
+.profile .limit-size{
+	text-align:center;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:12px;
+	padding:10px 0 20px 0 !important;
+}
+
+.myprofile{
+	position:absolute;
+	top:110px;
+	left:50px;
+	opacity:0;
+	/*font-size:60px;*/
+}
+
 
 
 @media screen and (max-width:1024px){

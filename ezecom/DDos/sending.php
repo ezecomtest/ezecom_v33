@@ -28,10 +28,10 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         $mail->Password   = "yT2hxYtgDA";
         // $mail->From     = "ezecom.com.kh";
 		$mail->From = "developer@ezecom.com.kh";
-		$mail->FromName = "DDos";
+		$mail->FromName = "DDoS";
         $mail->AddAddress("websales@ezecom.com.kh");
 
-        $mail->Subject  = "DDos";
+        $mail->Subject  = "DDoS";
         $mail->Body     = "\n\nFullName: $name \n\nPhone Number: $mobile \n\nEmail Address: $email \n\nConnection Detail: $des ";
         $mail->WordWrap = 50;
 

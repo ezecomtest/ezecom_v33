@@ -33,7 +33,7 @@
 					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
-									<form class="form-horizontal" action="<?php echo base_url()?>Hosting/sending.php" method="post">
+									<form class="form-horizontal" action="<?php echo base_url()?>DDos/sending.php" method="post">
 										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="formEmail">
 												  <h5>Contact Us</h5>

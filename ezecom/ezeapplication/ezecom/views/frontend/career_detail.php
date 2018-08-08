@@ -11,7 +11,9 @@
 			$this->load->view('header/header_all');
 			$this->load->view('header/main_nav_user_v');
 	    ?>
+		
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		
 	</head>
 <body>
 <div class="container-fluid">
@@ -90,11 +92,23 @@
                 <div class="modal-dialog">
                     <!-- Modal content-->
                     <div class="modal-content">
-                        <div class="modal-header">
+                        <!--<div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
+                        </div>-->
                         <div class="modal-body">
-                            <form role="form" method="post" id="reused_form" >
+                            <form role="form" method="post" id="reused_form">
+								<div class="row">
+									<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+									<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+										<div class="profile">
+											<img src="<?php echo base_url()?>images/careers/profile.png" id="uploadPreview1" title="Profile" alt="Profile"/>
+											<input type="file" class="myprofile" id="uploadImage1" onchange="PreviewImage(1)" name="profile"/>
+											<p class="limit-size">Must be smaller than 2mb</p>
+										</div>
+										
+									</div>
+									<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+								</div>
                                 <div class="row">
 									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 										<div class="form-group">
@@ -156,7 +170,7 @@
 									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<div class="form-group">
 											<label>Comment:</label>
-											<textarea class="form-control rounded-0" rows="3"></textarea>
+											<textarea class="form-control rounded-0" rows="2"></textarea>
 										</div>
 									</div>
 								</div>
@@ -297,6 +311,50 @@
 </body>
 </html>
 <script type="text/javascript">
+
+function PreviewImage(no){
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("uploadImage"+no).files[0]);
+        
+        var fileInput = document.getElementById("uploadImage1").files[0];
+        var allowed = ["jpeg","png"];
+        var found = false;
+        var fsize=((fileInput.size) * 0.000001);
+        var fsize_mb=(fsize.toFixed(5));
+        
+        allowed.forEach(function(extension) {
+           
+            if (fileInput.type.match('image/'+extension) && fsize_mb <=2) {
+                found = true;
+                oFReader.onload = function (oFREvent) {
+                    document.getElementById("uploadPreview"+no).src = oFREvent.target.result;
+                    document.getElementById("clear-message").value=""; //Clear message (please choose image.)
+					
+                };
+				
+				document.getElementById("uploadPreview1").style.width = "150px";
+				document.getElementById("uploadPreview1").style.height = "150px";
+				document.getElementById("uploadPreview1").style.left = "20px";
+				document.getElementById("uploadPreview1").style.position = "relative";
+				document.getElementById("uploadPreview1").style.borderRadius= "50%";
+                            
+            }
+                
+        })
+        if(found==false){
+          alert("Upload only file(jpeg , png) and less than 2MB");
+		  //document.getElementById("filenotfound").innerHTML="Upload only file(jpeg , png) and less than 2MB";
+          document.getElementById("uploadPreview1").src = "<?php echo base_url()?>images/careers/profile.png";
+          document.getElementById("uploadImage1").value="";
+          
+        }else{
+            document.getElementById("filenotfound").innerHTML="";
+        }
+        
+ }
+</script>
+
+<script type="text/javascript">
 	(function($) {
 		// Back to top
 		$('#back-to-top').on('click', function(){
@@ -315,8 +373,9 @@ $(document).ready(function() {
 });
 </script>
 
+
 <!-- JS -->		
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery-1.12.3.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/js/bootstrap.js"></script> script 
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/bootstrap.js"></script> 

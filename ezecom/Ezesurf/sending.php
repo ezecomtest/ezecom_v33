@@ -30,6 +30,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 		$mail->From = "developer@ezecom.com.kh";
 		$mail->FromName = "EzeSurf";
         $mail->AddAddress("websales@ezecom.com.kh");
+		//$mail->AddAddress("chan.raksmey@ezecomcorp.com");
 
         $mail->Subject  = "EzeSurf";
         $mail->Body     = "\n\nFullName: $name \n\nPhone Number: $mobile \n\nEmail Address: $email \n\nConnection Detail: $des ";
