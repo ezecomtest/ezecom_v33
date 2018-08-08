@@ -343,6 +343,12 @@ function PreviewImage(no){
         })
         if(found==false){
           alert("Upload only file(jpeg , png) and less than 2MB");
+		  
+		  document.getElementById("uploadPreview1").style.width = "100%";
+		  document.getElementById("uploadPreview1").style.height = "100%";
+		  document.getElementById("uploadPreview1").style.position = "relative";
+		  document.getElementById("uploadPreview1").style.borderRadius= "50%";
+		  
 		  //document.getElementById("filenotfound").innerHTML="Upload only file(jpeg , png) and less than 2MB";
           document.getElementById("uploadPreview1").src = "<?php echo base_url()?>images/careers/profile.png";
           document.getElementById("uploadImage1").value="";
