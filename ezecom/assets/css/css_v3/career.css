@@ -13,6 +13,109 @@
 .wrapper-career{
 	padding:10px 0 10px 0;
 }
+
+/* CSS pop up form */
+.btn-design{
+	font-size:15px;
+	font-family:myNeutra,serif,sans-serif;
+	margin-top:30px;
+    float:right ;
+	background-color:#7961a9 !important;
+    color:white !important;
+}
+
+.btn-reset{
+	background-color:#4D4D4F !important;
+    color:white !important;
+}
+
+.btn-submit{
+	background-color:#7961a9 !important;
+    color:white !important;
+}
+
+
+.wrapper-career .clear-pd{
+	padding:0;
+}
+
+.btn-design:hover {
+    background-color: #7961a9;
+    color:white;
+	opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+
+
+.modal-body{
+	padding:30px 50px 30px 50px !important;
+}
+
+label.red{
+	color:red;
+}
+
+.push-right{
+	float:right;
+}
+
+.btn-right{
+	float:right;
+}
+
+.btn-right .btn-default{
+	margin:20px 0 0 10px;
+	width:100px;
+}
+
+.input-file { position: relative; } /* Remove margin, it is just for stackoverflow viewing */
+.input-file .input-group-addon { border: 0px; padding: 0px;}
+.input-file .input-group-addon .btn { border-radius: 0 4px 4px 0 }
+.input-file .input-group-addon input { cursor: pointer; position:absolute; width:100%; z-index:2;top:0;right:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0; background-color:#d1d2d4; color:transparent; }
+
+.btn-primary{
+	background-color:#d1d2d4;
+	border-color:#d1d2d4 !important;
+	color:black;
+}
+
+.btn-primary:hover{
+	background-color:#d1d2d4;
+	color:black;
+}
+
+.profile{
+	width:190px;
+	height:144px;
+	position:relative;
+	right:20px;
+	margin-bottom:50px;
+}
+
+/* .profile img{
+	width:190px;
+	height:150px;
+	border-radius:50%;
+} */
+
+.profile .limit-size{
+	text-align:center;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:12px;
+	padding:10px 0 20px 0 !important;
+}
+
+.myprofile{
+	position:absolute;
+	top:110px;
+	left:50px;
+	opacity:0;
+	/*font-size:60px;*/
+}
+
+/* End pop up form */
+
 p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;

@@ -247,4 +247,28 @@ class Our_company_c extends CI_Controller {
 			$this->load->view('frontend/career_opport',$data);
 		}
 	}
+	
+	public function submitEmail(){
+		
+		$config['upload_path']          = './elFindermaster/files/profile/';
+		$config['allowed_types']        = 'gif|jpg|png';
+		$config['max_size']             = 0;
+		$config['encrypt_name']         = FALSE;
+		$this->load->library('upload', $config);
+		
+		$firstName = $this->input->post("firstName");
+		$lastName = $this->input->post("lastName");
+		$position = $this->input->post("positionName");
+		$location = $this->input->post("location");
+		$comment = $this->input->post("comment");
+		
+		if ( ! $this->upload->do_upload('profile')){
+			$error = array('error' => $this->upload->display_errors());
+			print_r($error);
+        }else{
+			$data = array('upload_data' => $this->upload->data());
+			$this->load->view('upload_success', $data);
+		}
+	}
+	
 }
