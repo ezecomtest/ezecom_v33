@@ -156,7 +156,7 @@ $route['our-company/our-partnerships'] = 'frontend/our_company_c/partnerships';
 $route['our-company/corporate-social-responsibility'] = 'frontend/our_company_c/social_responsibility';
 $route['our-company/community'] = 'frontend/our_company_c/community';
 $route['our-company/career-opportunities'] = 'frontend/our_company_c/career_opport';
-$route['our-company/submit-eamil'] = 'frontend/our_company_c/submitEmail';
+$route['our-company/submit-eamil'] = 'frontend/our_company_c/upload_profile';
 
 // end our company
 

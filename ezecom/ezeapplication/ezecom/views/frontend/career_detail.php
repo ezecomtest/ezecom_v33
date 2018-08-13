@@ -42,7 +42,7 @@
 				<?php foreach($get_title as $title ) {?>
 					<?php echo $title->career_description ?> 
 				<?php } ?>
-				<button type="button"  class="btn btn-default" data-toggle="modal" data-target="#myForm">Apply Now</button>
+				
 				</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>

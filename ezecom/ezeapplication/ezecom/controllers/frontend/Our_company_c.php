@@ -248,13 +248,78 @@ class Our_company_c extends CI_Controller {
 		}
 	}
 	
-	public function submitEmail(){
+	public function upload_cv($tmp_name,$name_cv){
+		$tmp_name = $tmp_name;
+		$name = './elFindermaster/files/cv/'.$name_cv;
+		move_uploaded_file($tmp_name, $name);
+	}
+	
+	public function send_mail($firstName,$lastName,$position,$location,$comment,$name_cv,$name_profile){
+		//if($_SERVER["REQUEST_METHOD"] === "POST"){
+		$base_url = base_url();	
+		$config = Array(
+		    'protocol' => 'smtp',
+		    'smtp_host' => 'smtp.ezecom.com.kh',
+		    'smtp_port' => 587,
+		    'smtp_user' => 'developer@ezecom.com.kh', 
+		    'smtp_pass' => 'yT2hxYtgDA', 
+		    'mailtype' => 'html',
+		    'charset' => 'iso-8859-1',
+		    'wordwrap' => TRUE
+  		); 
 		
+		  $this->load->library('email', $config);
+		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
+		  $this->email->to('chan.raksmey@ezecomcorp.com');
+		  //$this->email->to('careers@ezecomcorp.com');
+		  $this->email->subject("EZECOM Career Opportunities");
+
+		  $contain = "\n"."Dear Sir/Madam, "."\n\n" .
+				"You received a customer's message from website EZECOM. Sender's Information detail show below: "."\n\n".
+				"First Name: ".
+				$firstName.
+				"\n" .
+				"Last Name: " .$lastName.
+				"\n" .
+				"Position: ".$position.
+				"\n"."Location:".$location.
+				"\n".
+				"Download Profile:".$base_url."elFindermaster/files/profile/".$name_profile.
+				"\n".
+				"Download CV:".$base_url."elFindermaster/files/cv/".$name_cv.
+				"\n\n** Automatic sent mail from website EZECOM **\n" ;
+				
+		  $this->email->message($contain);
+		  
+			
+		/* $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
+		$ip = $_SERVER['REMOTE_ADDR'];
+		$captcha = $_POST['g-recaptcha-response'];
+		$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
+		$response = json_decode($response, true); */
+		
+		//if($response["success"] === true){
+			 if($this->email->send()){
+				header("Location:".$base_url.'thank-you');
+			 }else{
+				header("Location:".$base_url);
+			 }
+		//}
+	//}
+}
+	
+	public function upload_profile(){
 		$config['upload_path']          = './elFindermaster/files/profile/';
 		$config['allowed_types']        = 'gif|jpg|png';
 		$config['max_size']             = 0;
 		$config['encrypt_name']         = FALSE;
 		$this->load->library('upload', $config);
+		
+		$name_cv = $_FILES["field_name"]["name"];
+		$name_profile = $_FILES["profile"]["name"];
+		$tmp_name = $_FILES["field_name"]["tmp_name"];
+		
+		$this->upload_cv($tmp_name,$name_cv);
 		
 		$firstName = $this->input->post("firstName");
 		$lastName = $this->input->post("lastName");
@@ -267,7 +332,7 @@ class Our_company_c extends CI_Controller {
 			print_r($error);
         }else{
 			$data = array('upload_data' => $this->upload->data());
-			$this->load->view('upload_success', $data);
+			$this->send_mail($firstName,$lastName,$position,$location,$comment,$name_cv,$name_profile);
 		}
 	}
 	
