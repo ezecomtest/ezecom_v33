@@ -105,7 +105,7 @@
 											<a href="#" onclick="document.getElementById('uploadImage1').click(); return false;" >
 												<img src="<?php echo base_url()?>images/careers/profile.png" id="uploadPreview1" title="Profile" alt="Profile"/>
 											</a>
-											<input type="file" class="myprofile" id="uploadImage1" onchange="PreviewImage(1)" name="profile" required />
+											<input type="file" class="myprofile" id="uploadImage1" accept="image/x-png,image/jpeg" onchange="PreviewImage(1)" name="profile" required />
 											<p class="limit-size">Must be smaller than 2mb</p>
 										</div>
 										
@@ -130,7 +130,13 @@
 									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<div class="form-group">
 										 <label>Apply for the position of:<label class="red">*</label></label>
-											<input type="text" class="form-control input-md" name="positionName" required />
+											<select class="form-control" name="positionName">
+											 <?php foreach ($career as $careers) {?>
+											  <option value="<?php echo ucwords(strtolower($careers->career_title)) ?>">
+												<?php echo ucwords(strtolower($careers->career_title)) ?>
+											  </option>
+											 <?php }?>
+											</select>
 										</div>
 									</div>
 								</div>
@@ -162,7 +168,7 @@
 											  <span class="input-group-addon">
 												<a class='btn btn-primary' href='javascript:;'>
 												  Browse
-												  <input type="file" name="field_name" id="cvUpload" onchange="$(this).parent().parent().parent().find('.form-control').html($(this).val()); check_fileupload() " required />
+												  <input type="file" name="field_name" accept="application/pdf, application/vnd.ms-word" id="cvUpload" onchange="$(this).parent().parent().parent().find('.form-control').html($(this).val()); check_fileupload() " required />
 												</a>
 											  </span>
 											</div>
@@ -355,7 +361,8 @@ function PreviewImage(no){
 		var oFReader = new FileReader();
         oFReader.readAsDataURL(document.getElementById("cvUpload").files[0]);
         var fileInput = document.getElementById("cvUpload").files[0];
-   
+		
+		var allowed = ["docx","pdf"];
         var found = false; 
         var fsize = ((fileInput.size) * 0.000001);
         var fsize_mb = (fsize.toFixed(5));
