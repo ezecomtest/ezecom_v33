@@ -162,7 +162,7 @@ $route['our-company/submit-eamil'] = 'frontend/our_company_c/upload_profile';
 
 // start our career
 $route['career-detail/(:any)'] = 'frontend/career_detail_c/career_list_bellow_description/$1';
-
+$route['career/(:any)'] = 'frontend/career_detail_c/career_list_bellow_description/$1';
 
 
 // start our partnership

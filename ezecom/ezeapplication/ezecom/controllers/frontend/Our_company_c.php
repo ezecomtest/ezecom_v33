@@ -255,7 +255,7 @@ class Our_company_c extends CI_Controller {
 	}
 	
 	public function send_mail($firstName,$lastName,$position,$location,$comment,$name_cv,$name_profile){
-		//if($_SERVER["REQUEST_METHOD"] === "POST"){
+		if($_SERVER["REQUEST_METHOD"] === "POST"){
 		$base_url = base_url();	
 		$config = Array(
 		    'protocol' => 'smtp',
@@ -284,28 +284,28 @@ class Our_company_c extends CI_Controller {
 				"Position: ".$position.
 				"\n"."Location:".$location.
 				"\n".
-				"Download Profile:".$base_url."elFindermaster/files/profile/".$name_profile.
+				"Profile:".$base_url."elFindermaster/files/profile/".$name_profile.
 				"\n".
-				"Download CV:".$base_url."elFindermaster/files/cv/".$name_cv.
+				"CV:".$base_url."elFindermaster/files/cv/".$name_cv.
 				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 				
 		  $this->email->message($contain);
 		  
 			
-		/* $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
+		$recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$captcha = $_POST['g-recaptcha-response'];
 		$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$captcha."&remoteip=".$ip);
-		$response = json_decode($response, true); */
+		$response = json_decode($response, true); 
 		
-		//if($response["success"] === true){
+		if($response["success"] === true){
 			 if($this->email->send()){
 				header("Location:".$base_url.'thank-you');
 			 }else{
 				header("Location:".$base_url);
 			 }
-		//}
-	//}
+		}
+	}
 }
 	
 	public function upload_profile(){

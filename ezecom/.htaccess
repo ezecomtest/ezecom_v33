@@ -3,10 +3,14 @@
   # !IMPORTANT! Set your RewriteBase here and don't forget trailing and leading
   #  slashes.
   # If your page resides at
-  #  http://www.example.com/mypage/test1
+  #  https://www.example.com/mypage/test1
   # then use
   # RewriteBase /mypage/test1/
-  #RewriteBase /
+  RewriteBase /
+  
+  #news detail
+  RewriteRule "/technical-service-officer-(chinese-speaker)" https://www.ezecom.com.kh/career-detail/technical-service-officer-(chinese-speaker) [R=301,L]
+  
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(.*)$ index.php?/$1 [L]
@@ -19,3 +23,4 @@
 
   ErrorDocument 404 /index.php
 </IfModule>
+

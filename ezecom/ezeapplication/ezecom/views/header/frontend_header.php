@@ -185,7 +185,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <?php }?>
 
 <!-- Start Career Detail -->
-<?php if($this->uri->segment(1) == "career-detail") {?>
+<?php if($this->uri->segment(1) == "career-detail" OR $this->uri->segment(1) == "career" ) {?>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
