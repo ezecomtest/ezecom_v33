@@ -270,8 +270,8 @@ class Our_company_c extends CI_Controller {
 		
 		  $this->load->library('email', $config);
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  $this->email->to('chan.raksmey@ezecomcorp.com');
-		  //$this->email->to('careers@ezecomcorp.com');
+		  //$this->email->to('chan.raksmey@ezecomcorp.com');
+		  $this->email->to('careers@ezecomcorp.com');
 		  $this->email->subject("EZECOM Career Opportunities");
 
 		  $contain = "\n"."Dear Sir/Madam, "."\n\n" .
