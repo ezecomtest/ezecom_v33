@@ -13,7 +13,7 @@
 					<div class="language">
 						<!--<span><img src="<?php echo base_url()?>images/flags/kh.svg" id="2" onclick="change_language(this.id)" alt="Khmer" title="Khmer"></span>-->
 						<span><img src="<?php echo base_url()?>images/flags/en.svg" id="1" onclick="change_language(this.id)" alt="English" title="English"></span>
-						<!--<span><img src="<?php echo base_url()?>images/flags/ch.svg" id="3" onclick="change_language(this.id)" alt="Chinese" title="Chinese"></span>-->
+						<span><img src="<?php echo base_url()?>images/flags/ch.svg" id="3" onclick="change_language(this.id)" alt="Chinese" title="Chinese"></span>
 					</div>
 				</div>
 			</div>

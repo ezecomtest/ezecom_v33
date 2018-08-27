@@ -72,6 +72,9 @@
 .padding-bt-development-invo{
 	padding-bottom:48px;
 }
+.padding-bt-development-invo-ch{
+	padding-bottom:27px;
+}
 .btmar-nearfooter{
 	margin-bottom:50px;
 	margin-top:10px;
@@ -100,9 +103,17 @@
 .content-left, .content-right{
 	background:#F6F5F4;
 	margin-bottom:20px;
+	height:360px;
 }
+
+.content-left-ch, .content-right-ch{
+	background:#F6F5F4;
+	margin-bottom:20px;
+	height:242px;
+}
+
 .content-right{
-	padding-bottom:49px;
+	/*padding-bottom:49px;*/
 }
 .content-left h3,.content-right h3{
 	font-family:myNeutra,serif,sans-serif;

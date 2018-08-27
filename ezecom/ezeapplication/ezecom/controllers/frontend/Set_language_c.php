@@ -28,13 +28,19 @@ class Set_language_c extends CI_Controller {
 
 		$id = $this->input->post("id");
 
-		if($id !=""){
-
+		if($id == 1){
 			//$lang_session['language'] = $this->input->post("id");
 			$lang_session['language'] = 1;
 	        $this->session->set_userdata($lang_session);
 	        echo $this->session->userdata("language");
+			
+		}else if($id==3){
+			$lang_session['language'] = 3;
+	        $this->session->set_userdata($lang_session);
+	        echo $this->session->userdata("language");
+			
 		}else{
+			
 			$lang_session['language'] = 1;
 	        $this->session->set_userdata($lang_session);
 	        echo $this->session->userdata("language");

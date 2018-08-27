@@ -33,13 +33,15 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/our_company_kh_v',$data);
 		}
+		*/
+		
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Our Company";
 			$data['active'] = "Our Company";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/our_company_ch_v',$data);
-		} */
+			$this->load->view('frontend/company_profile_ch_v',$data);
+		}
 
 		if($this->session->userdata("language")== ""){
 			$data['title'] = "company_profile";
@@ -66,13 +68,15 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/qms_kh_v',$data);
 		}
+		*/
+
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Quality Management System";
 			$data['active'] = "Quality Management System";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/qms_ch_v',$data);
-		} */
+		}
 
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Quality Management System";
@@ -98,13 +102,15 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/childsafe_kh_v',$data);
 		}
+		*/
+		
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Childsafe Certification";
 			$data['active'] = "Childsafe Certification";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/childsafe_ch_v',$data);
-		} */
+		}
 
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Childsafe Certification";
@@ -130,13 +136,14 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/partnerships_kh_v',$data);
 		}
+		*/
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Our Partnerships";
 			$data['active'] = "Our Partnerships";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/partnerships_ch_v',$data);
-		} */
+		}
 
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Our Partnerships";
