@@ -16,18 +16,6 @@
 
 <meta name="Description" content="EZECOM, Cambodia's premium internet provider, founded in 2007 to serve the rapidly expanding business and home user internet market in Cambodia. Today it is a leading provider of a wide variety of innovative communication services, including fibre optic, VoIP, virtual private networks and other Internet-based & Cloud solutions.." />
 <meta name="keywords"  content="Premium ISP, World class ISP, Submarine Cable, Cambodia's premium internet, cambodia isp, internet service provider,internet in Cambodia,enterprise solutions(IPLC, DPLC),Corporate & Premium Packages, VOIP, Web Hosting, Data co-location, Data Centre" />
-
-<!-- FB meta -->
-<!--<meta property="fb:pages" content="">-->
-<meta property="fb:app_id" content="401460883592404">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://www.ezecom.com.kh/">	
-<meta property="og:title" content="EZECOM">
-<meta property="og:description" content="EZECOM, Cambodia's premium internet provider">	
-<meta property="og:image" content="<?php echo base_url() ?>images/homepage/internet-access.png">
-<meta property="og:image:url" content="<?php echo base_url() ?>images/homepage/internet-access.png">
-<meta property="og:image:width" content="400">
-<meta property="og:image:height" content="225">
 	
 <!--Start of Zendesk Chat Script-->
 <script type="text/javascript">

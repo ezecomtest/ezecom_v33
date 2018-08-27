@@ -141,10 +141,7 @@
 	});
 </script>
 <!-- BACK TO TOP BUTTON -->
-
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
+<script src="<?php echo base_url()?>assets/js/bootstrap_validate/bootstrapvalidator.js"></script>
 <script>
 function resizeReCaptcha() {
 
