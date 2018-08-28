@@ -16,11 +16,29 @@ class Ezebiz extends CI_Controller {
 		$this->ezebiz();
 	}
 	public function ezebiz(){
-		$data['title'] = "EzeBiz";
-		$data['active']= "EzeBiz";
-		$lan = 1;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/ezebiz',$data);
+		if($this->session->userdata("language")==1){
+			$data['title'] = "EzeBiz";
+			$data['active']= "EzeBiz";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezebiz',$data);
+		}
+		
+		if($this->session->userdata("language")==3){
+			$data['title'] = "EzeBiz";
+			$data['active']= "EzeBiz";
+			$lan = 3;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezebiz_ch_v',$data);
+		}
+		
+		if($this->session->userdata("language")==""){
+			$data['title'] = "EzeBiz";
+			$data['active']= "EzeBiz";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezebiz',$data);
+		}
 	}
 
 }

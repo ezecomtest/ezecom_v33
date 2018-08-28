@@ -16,6 +16,7 @@ class Customer_service_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/faq_v',$data);
 		}
+		
 		/* if($this->lang==2){
 			$data['title'] = "FAQ'S";
 			$data['active'] = "FAQ'S";
@@ -23,13 +24,16 @@ class Customer_service_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/faq_kh_v',$data);
 			}
-		if($this->lang==3){
+		*/
+		
+		if($this->session->userdata("language")==3){
 			$data['title'] = "FAQ'S";
 			$data['active'] = "FAQ'S";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/faq_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = " FAQ'S ";
 			$data['active'] = "FAQ'S";

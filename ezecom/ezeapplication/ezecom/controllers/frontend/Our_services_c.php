@@ -11,82 +11,6 @@ class Our_services_c extends CI_Controller {
     }
 
 	
-	public function index()
-	{
-		//$this->our_services();
-	}
-
-	public function our_services(){
-		if($this->lang==1){
-		$data['title'] = "Our Services";
-		$data['active'] = "Our Services";
-		$lan = $this->lang;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/our_services_v',$data);
-		}
-		if($this->lang==2){
-		$data['title'] = "អាជីវកម្ម";
-		$data['active'] = "Our Services";
-		$lan = $this->lang;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/our_services_kh_v',$data);
-		}
-		if($this->lang==3){
-		$data['title'] = "Our Services";
-		$data['active'] = "Our Services";
-		$lan = $this->lang;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/our_services_ch_v',$data);
-		}
-
-		if($this->lang== ""){
-		$data['title'] = "Our Services";
-		$data['active'] = "Our Services";
-		$lan = 1;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/our_services_v',$data);
-		}
-	}
-
-	public function enterprise_solutions(){
-		if($this->lang ==1){
-		$data['title'] = "Enterprise Solutions";
-		$data['active'] = "Our Services";
-		$lan = $this->lang;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/enterprise_solutions_v',$data);
-	}
-	if($this->lang==2){
-		$data['title'] = "Enterprise Solutions";
-		$data['active'] = "Our Services";
-		$lan = $this->lang;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/enterprise_solutions_kh_v',$data);
-		}
-	if($this->lang==3){
-		$data['title'] = "Enterprise Solutions";
-		$data['active'] = "Our Services";
-		$lan = $this->lang;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/enterprise_solutions_ch_v',$data);
-		}
-	if($this->lang == ""){
-		$data['title'] = "Enterprise Solutions";
-		$data['active'] = "Our Services";
-		$lan = 1;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/enterprise_solutions_v',$data);
-	}
-
-}
-
-	public function beedoo_could_service_by_ezecom(){
-		$data['title'] = "BeeDoo Could Service by Ezecom_ Don't just back up move forward!";
-		$lan = 1;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/beedoo_could_service_by_ezecom_v',$data);
-	}
-	
 	public function iplc(){
 		if($this->session->userdata("language")==1){
 			$data['title'] = "IPLC";
@@ -102,13 +26,16 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/iplc_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		
+		if($this->session->userdata("language")==3){
 			$data['title'] = "IPLC";
 			$data['active'] = "Our Services";
-			$lan = $this->lang;
+			$lan = 3;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/iplc_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "IPLC";
 			$data['active'] = "IPLC";
@@ -134,13 +61,15 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/dplc_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		if($this->session->userdata("language")==3){
 			$data['title'] = "DPLC";
 			$data['active'] = "DPLC";
-			$lan = $this->lang;
+			$lan = 3;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/dplc_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "DPLC";
 			$data['active'] = "DPLC";
@@ -165,13 +94,16 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/mpls_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		
+		if($this->session->userdata("language")==3){
 			$data['title'] = "MPLS";
 			$data['active'] = "MPLS";
-			$lan = $this->lang;
+			$lan = 3;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/mpls_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "MPLS";
 			$data['active'] = "MPLS";
@@ -196,13 +128,15 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/vpls_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		if($this->session->userdata("language")==3){
 			$data['title'] = "VPLS";
 			$data['active'] = "VPLS";
-			$lan = $this->lang;
+			$lan = 3;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/vpls_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "VPLS";
 			$data['active'] = "VPLS";
@@ -213,11 +147,29 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function Office_365(){
-		$data['title'] = "Office 365";
-		$data['active']= "Office 365";
-		$lan = 1;
-        $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/ms_365',$data);
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Office 365";
+			$data['active']= "Office 365";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ms_365',$data);
+		}
+		
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Office 365";
+			$data['active']= "Office 365";
+			$lan = 3;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ms_365_ch_v',$data);
+		}
+		
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Office 365";
+			$data['active']= "Office 365";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ms_365',$data);
+		}
 	}
 	
 	public function dedicate(){
@@ -235,50 +187,21 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/dedicate_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		if($this->session->userdata("language")==3){
 			$data['title'] = "Dedicated Internet Access";
 			$data['active'] = "Dedicated Internet Access";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/dedicate_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Dedicated Internet Access";
 			$data['active'] = "Dedicated Internet Access";
 			$lan = 1;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/dedicate',$data);
-		}
-	}
-	
-	public function ezebiz(){
-		if($this->lang ==1){
-			$data['title'] = "EzeBiz";
-			$data['active'] = "EzeBiz";
-			$lan = $this->lang;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/ezebiz',$data);
-		}
-		if($this->lang==2){
-			$data['title'] = "EzeBiz";
-			$data['active'] = "EzeBiz";
-			$lan = $this->lang;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/ezebiz_kh_v',$data);
-		}
-		if($this->lang==3){
-			$data['title'] = "EzeBiz";
-			$data['active'] = "EzeBiz";
-			$lan = $this->lang;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/ezebiz_ch_v',$data);
-		}
-		if($this->lang == ""){
-			$data['title'] = "EzeBiz";
-			$data['active'] = "EzeBiz";
-			$lan = 1;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/ezebiz',$data);
 		}
 	}
 	
@@ -297,13 +220,15 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/ezesurf_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		if($this->session->userdata("language")==3){
 			$data['title'] = "EzeSurf";
 			$data['active'] = "EzeSurf";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/ezesurf_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "EzeSurf";
 			$data['active'] = "EzeSurf";
@@ -360,13 +285,16 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/colocation_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		
+		if($this->session->userdata("language")==3){
 			$data['title'] = "Colocation";
 			$data['active'] = "Colocation";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/colocation_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Colocation";
 			$data['active'] = "Colocation";
@@ -424,13 +352,16 @@ class Our_services_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/web_hosting_kh_v',$data);
 		}
-		if($this->lang==3){
+		*/
+		
+		if($this->session->userdata("language")==3){
 			$data['title'] = "Web Hosting";
 			$data['active'] = "Web Hosting";
-			$lan = $this->lang;
+			$lan = 3;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/web_hosting_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Web Hosting";
 			$data['active'] = "Web Hosting";
@@ -478,6 +409,14 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/ddos',$data);
+		}
+		
+		if($this->session->userdata("language")==3){
+			$data['title'] = "DDoS";
+			$data['active']= "Our Services";
+			$lan = 3;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ddos_ch_v',$data);
 		}
 		
 		if($this->session->userdata("language")==""){
@@ -621,6 +560,14 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/live_stream_service',$data);
+		}
+		
+		if($this->session->userdata("language") ==3){
+			$data['title'] = "Live Stream Service";
+			$data['active'] = "Live Stream Service";
+			$lan = 3;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/live_stream_service_ch_v',$data);
 		}
 		
 		if($this->session->userdata("language") == ""){

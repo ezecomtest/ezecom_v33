@@ -169,13 +169,14 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/social_responsibility_kh_v',$data);
 		}
+		*/
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Corporate Social Responsibility";
 			$data['active'] = "Corporate Social Responsibility";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/social_responsibility_ch_v',$data);
-		} */
+		}
 
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Corporate Social Responsibility";
@@ -201,14 +202,14 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/community_kh_v',$data);
 		}
+		*/
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Community";
 			$data['active'] = "Community";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$data['career'] = $this->career_m->get_career();
 			$this->load->view('frontend/community_ch_v',$data);
-		} */
+		}
 
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Community";
@@ -236,6 +237,7 @@ class Our_company_c extends CI_Controller {
 			$data['career'] = $this->career_m->get_career();
 			$this->load->view('frontend/career_opport_kh_v',$data);
 		}
+		*/
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Career Opportunities";
 			$data['active'] = "Career Opportunities";
@@ -243,7 +245,7 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$data['career'] = $this->career_m->get_career();
 			$this->load->view('frontend/career_opport_ch_v',$data);
-		} */
+		}
 
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Career Opportunities";

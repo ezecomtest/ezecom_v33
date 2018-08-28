@@ -16,10 +16,28 @@ class Ddos extends CI_Controller {
 		$this->ddos_mitigation();
 	}
 	public function ddos_mitigation(){
-		$data['title'] = "DDoS";
-		$data['active']= "Our Services";
-		$lan = 1;
-        $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/ddos',$data);
+		if($this->session->userdata("language")==1){
+			$data['title'] = "DDoS";
+			$data['active']= "Our Services";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ddos',$data);
+		}
+		
+		if($this->session->userdata("language")==3){
+			$data['title'] = "DDoS";
+			$data['active']= "Our Services";
+			$lan = 3;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ddos_ch_v',$data);
+		}
+		
+		if($this->session->userdata("language")==""){
+			$data['title'] = "DDoS";
+			$data['active']= "Our Services";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ddos',$data);
+		}
 	}
 }
