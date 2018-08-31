@@ -58,13 +58,15 @@ class Customer_service_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/payment_option_kh_v',$data);
 			}
-		if($this->lang==3){
+		*/
+		if($this->session->userdata("language")==3){
 			$data['title'] = "Payment Options";
 			$data['active'] = "Payment Options";
-			$lan = $this->lang;
+			$lan = 3;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/payment_option_ch_v',$data);
-		} */
+		}
+		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Payment Options";
 			$data['active'] = "Payment Options";
@@ -91,13 +93,15 @@ class Customer_service_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/customer_service_kh_v ',$data);
 		}
+		*/
+		
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Customer Services";
 			$data['active'] = "Customer Service";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/customer_service_ch_v',$data);
-		} */
+		}
 		
 		if($this->session->userdata("language")==""){
 			$data['title'] = "Customer Services";
