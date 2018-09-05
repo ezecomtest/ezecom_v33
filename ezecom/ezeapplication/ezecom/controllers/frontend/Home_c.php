@@ -51,15 +51,17 @@ class Home_c extends CI_Controller {
 		$data['get_slider'] = $this->homepage_m->get_homepage_slider($sessionid);
 		$this->load->view('frontend/homepage _kh_v',$data);
 	}
+	*/
+	
 	if($this->session->userdata("language")==3){
-		$sessionid = 1;
+		//$sessionid = 1;
 		$data['title'] = "Home";
 		$data['active'] = "Home";
 		$lan = $this->session->userdata("language");
 		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['get_slider'] = $this->homepage_m->get_homepage_slider($sessionid);
+		//$data['get_slider'] = $this->homepage_m->get_homepage_slider($sessionid);
 		$this->load->view('frontend/homepage_ch_v',$data);
-	}	 */
+	}
 
 	if($this->session->userdata("language")== ""){
 		$sessionid = 1;

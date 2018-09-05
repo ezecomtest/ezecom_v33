@@ -24,7 +24,7 @@ class Media_center_c extends CI_Controller {
 		$data['title'] = "News Events";
 		$data['active']="News Events";
 
-        if($this->session->userdata("language") == 1){
+        if($this->session->userdata("language") == 1 OR $this->session->userdata("language") == 3){
             $config['base_url'] = base_url().'media-center/news-events/';
             $config['total_rows'] = $this->media_center_m->get_all_events();
 
@@ -102,44 +102,7 @@ class Media_center_c extends CI_Controller {
             $this->load->view('frontend/media_center_v',$data);
         }
 
-        if($this->session->userdata("language") == 3){
-            $config['base_url'] = base_url().'media-center/news-events/';
-            $config['total_rows'] = $this->media_center_m->get_all_events();
-
-            $config['per_page'] = 5;
-            $config["uri_segment"] = 3;
-            $config['full_tag_open'] = '<ul class="pagination">';
-            $config['full_tag_close'] = '</ul>';
-            $config['first_link'] = false;
-            $config['last_link'] = false;
-            $config['first_tag_open'] = '<li>';
-            $config['first_tag_close'] = '</li>';
-            $config['prev_link'] = '以前';
-            $config['prev_tag_open'] = '<li class="prev">';
-            $config['prev_tag_close'] = '</li>';
-            $config['next_link'] = '下一个';
-            $config['next_tag_open'] = '<li>';
-            $config['next_tag_close'] = '</li>';
-            $config['last_tag_open'] = '<li>';
-            $config['last_tag_close'] = '</li>';
-            $config['cur_tag_open'] = '<li class="active"><a href="#">';
-            $config['cur_tag_close'] = '</a></li>';
-            $config['first_link'] = '第一';
-            $config['last_link'] = '持续';
-            $config['num_tag_open'] = '<li>';
-            $config['num_tag_close'] = '</li>';
-            $config['num_links'] = 5;
-
-            $this->pagination->initialize($config);
-            $data['page'] = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
-            $data['firsttitle_events'] = $this->media_center_m->first_title_events();
-            $data['title_events'] = $this->media_center_m->title_events($config["per_page"],$data['page']);
-            // print_r($data['title_events']);exit;
-            $lan = $this->session->userdata("language");
-            $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-            $data['pagination'] = $this->pagination->create_links();
-            $this->load->view('frontend/media_center_v',$data);
-        }
+       
 
          if($this->session->userdata("language") == ""){
             $config['base_url'] = base_url().'media-center/news-events/';

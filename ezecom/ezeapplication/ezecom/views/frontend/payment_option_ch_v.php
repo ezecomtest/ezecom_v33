@@ -248,46 +248,46 @@
 								<li>金边有5个地点，全国有4个地方可以支付您的EZECOM发票：</li>
 							</ol>
 
-							<p><b>金边Cellcard总部 </b> <br/>地址：金边市隆边区四壁湾分区西哈努克大道门牌33号
+							<p><b>金边Cellcard总部 </b> <br/>地址：No. 33 Preah Sihanouk. Blvd, Sangkat Chak Tomouk, Khan Daun Penh, Phnom Penh
 							</p> 
 							
 
-							<p><b>金边客户服务和销售中心（堆谷）<br/></b>
-								地址：金边市堆谷区万古湖1分区289号路门牌46号 
+							<p><b>金边客户服务和销售中心（Toul Kork)<br/></b>
+								地址：No. 46, St. 289, Beung Kok 1, Toul Kok, Phnom Penh
 							</p> 
 							
 
-							<p><b>金边客户服务和销售中心（俄罗斯市场）<br/></b>
-								地址：金边市桑园区朱德奔1分区155号路门牌166（E0, E1）号
+							<p><b>金边客户服务和销售中心（Russian Market)<br/></b>
+								地址： No. 166, (E0,E1), St. 155, S. Toul Tompong 1, K. Chamkamorn, Phnom Penh
 							</p> 
 							
 
-							<p><b>金边客户服务和销售中心（干隆街）</b><br/>
-								地址：金边市玛卡拉区友谊分区128号和169号转角门牌219号
+							<p><b>金边客户服务和销售中心（Kampuchea Krom)</b><br/>
+								地址： No. 219, Corner of St. 128 and St. 169, S. Methapheap, K. 7 Makara, Phnom Penh
 							</p> 
 							
 
-							<p><b>金边客户服务和销售中心（金满城）</b> <br/>
-							地址：金边市桑园区水坝分区钻石路（金满城购物中心主入口对面）门牌D25号 
+							<p><b>金边客户服务和销售中心（Sovanna) </b> <br/>
+							地址： No. D25, Diamond Street, S. Tomnob Toek, K. Chamkamorn, Phnom Penh (金满城购物中心主入口对面)
 							</p> 
 							
 
-							<p><b>暹粒代表处</b><br/>
-							地址：暹粒省暹粒县Svay Dangkum分区Sivutha路门牌50号 
+							<p><b>Siem Reap 代表处</b><br/>
+							地址： No. 50, Sivutha Street, SangKat Svay Dongkum, District Siem Reap, Siem Reap 
 							</p> 
 							<p></p>
 
-							<p><b>马德望代表处</b><br/>
-							地址：马德望省马德望县 Svai Pau乡20 Usaphea村第38组门牌98-100号
+							<p><b>Battambang代表处</b><br/>
+							地址： No. 98-100, Group 38, Phum 20 Usaphea, Khum Svai Pau, Srok Battambang, Battambang
 							</p> 
 							
 
-							<p><b>西哈努克神代表处</b><br/>
-							地址：西哈努克省西哈努克市4号分区2号村独立路门牌118号
+							<p><b>Sihaknoukville 代表处</b><br/>
+							地址： No. 118, St. Ekareak, Phum 2 Sangkat 4, Krong Preah Sihanouk, Sihanouk province
 							</p> 
 						
-							<p><b>磅针代表处</b><br/>
-							地址：磅针省磅针县Veal Vong乡4号村 
+							<p><b>Kampong Cham 代表处</b><br/>
+							地址： No. Phun No. 4, Khum Veal Vong, Srok Kompong Cham, Kompong Cham 
 							</p> 
 							
 

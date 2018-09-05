@@ -2,7 +2,7 @@
 <html lang="en-gb" dir="ltr" class='com_content view-article itemid-435 j34'>
 <head>
 	<meta name="google-site-verification" content="5OJ8M92HIl7UggddG1chxGf3MQlodkBtrwC_R6nL9jE" />
-	<title>EZECOM, Cambodia's Premium Internet Provider</title>
+	<title>EZECOM-Cambodia's Premium Internet Provider</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/css_v3/home.css"/>
   	

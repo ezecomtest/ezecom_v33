@@ -1,14 +1,10 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
-
-
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr" class='com_content view-article itemid-435 j34'>
 <head>
-
+	<meta name="google-site-verification" content="5OJ8M92HIl7UggddG1chxGf3MQlodkBtrwC_R6nL9jE" />
+	<title>EZECOM-Cambodia's Premium Internet Provider</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/css_v3/home.css"/>
   	
   	<?php 
 		$this->load->view('header/frontend_header');
@@ -25,30 +21,19 @@
 		});
 		jQuery.noConflict();
   	</script>
-	
-<!-- META FOR IOS & HANDHELD -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<style type="text/stylesheet">
-			@-webkit-viewport   { width: device-width; }
-			@-moz-viewport      { width: device-width; }
-			@-ms-viewport       { width: device-width; }
-			@-o-viewport        { width: device-width; }
-			@viewport           { width: device-width; }
-		</style>
-		<script type="text/javascript">
-			//<![CDATA[
-			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-				var msViewportStyle = document.createElement("style");
-				msViewportStyle.appendChild(
-					document.createTextNode("@-ms-viewport{width:auto!important}")
-				);
-				document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-			}
-			//]]>
-		</script>
-		<meta name="HandheldFriendly" content="true"/>
-		<meta name="apple-mobile-web-app-capable" content="YES"/>
-<!-- //META FOR IOS & HANDHELD -->
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+	<meta name="HandheldFriendly" content="true"/>
+	<meta name="apple-mobile-web-app-capable" content="YES"/>
 
 <!-- You can add Google Analytics here or use T3 Injection feature -->
 	<script type="text/javascript">window.N2PRO=0;window.N2GSAP=1;window.N2PLATFORM="joomla";window.nextend={localization: {}, deferreds:[], loadScript: function(url){n2jQuery.ready(function () {nextend.deferreds.push(n2.ajax({url:url,dataType:"script",cache:true,error:function(){console.log(arguments)}}))})}, ready: function(cb){n2.when.apply(n2, nextend.deferreds).done(function(){cb.call(window,n2)})}};window.N2SSPRO=0;window.N2SSWHYPRO="http://smartslider3.com/why-upgrade-to-pro/";
@@ -94,11 +79,12 @@
 	}));
 
 	</script>
-	<title><?php echo $title;?></title>
+	<!-- Script Recapch -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
-	<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+	
 	
 <!-- HEADER -->
 	<?php
@@ -112,211 +98,387 @@
 ?>
 <!-- //MAIN NAVIGATION -->
 
-<div class="home">
-<!-- HOME SL 1 -->
-	<div class="wrap t3-sl t3-sl-1 bg-color-gray ">
-		<div class="container">
-				
-<!-- Nextend Smart Slider 3 #6 - BEGIN -->
-<div id="n2-ss-6-align" class="n2-ss-align">
-<div class="n2-padding">
-<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
-    <div class="n2-ss-slider-1" style="">
-        <div class="n2-ss-slider-2">
-            <div class="n2-ss-slider-3">
+<div class="container-fluid">
+	<div class="container slide-top-margin">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 row-full" style="padding:0px">
+				<!-- Nextend Smart Slider 3 #6 - BEGIN -->
+				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="width: 1170px;margin: 0px;height: 400px;">
+					<div class="n2-ss-slider-1">
+						<div class="n2-ss-slider-2">
+							<div class="n2-ss-slider-3">
 
-<!-- =-================================= -->
-<?php foreach($get_slider as $rowslide){ ?>
-                <div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active" style="">
-                    <div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
-                    <img title="" style="width: 100%;height: auto;margin-top: -335px;opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div>
-                    <div class="n2-ss-layers-container" style="">
-                    <div class="n2-ss-layer" style="z-index:1;overflow:visible;text-align:left;left:-303px;top:0px;width:365px;height:365px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Power-Your-World.png" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="-303" data-desktopportraittop="0" data-desktopportraitwidth="365" data-desktopportraitheight="365" data-desktopportraitalign="center" data-desktopportraitvalign="middle" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-                    <div class="" style="overflow:hidden;">
-                    <img src="elFindermaster/files/slides/<?= $rowslide->slide_img ?>" class="" title="" style="max-width: 100%; width: ;height: auto;"></img></div></div>
-                    <div class="n2-ss-layer" style="z-index:2;overflow:visible;text-align:left;left:671px;top:113px;width:auto;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Layer #5" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="671" data-desktopportraittop="113" data-desktopportraitwidth="auto" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-                    <div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"></div>
-                    </div>
-                    <div class="n2-ss-layer" style="z-index:3;overflow:visible;text-align:left;left:650px;top:151px;width:400px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="POWERYOURWORLD" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="650" data-desktopportraittop="100" data-desktopportraitwidth="400" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-                    	<div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-5c29efa662f7feff5ba1cea9df33117e-paragraph  "><?php echo $rowslide->slide_title; ?></p>
+				<!-- =-================================= -->
+				<?php //foreach($get_slider as $rowslide){ ?>
+								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
+									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
+									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
+						
+						<div class="tag-text-slide">
+							<h3 class="my-heading">最适合您业务的套餐</h3>
+							<p class="content-descri">
+								使用EzeBiz软件包，您现在可以通过对称的上传和下载速度获得更好的体验和性能 ... <a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">更多</a>
+							</p>
 						</div>
+							<img class="img-responsive" src="elFindermaster/files/slides/slide_1.jpg" style="width:100%"/>
+							
+						
 					</div>
-					<div class="n2-ss-layer" style="z-index:4;overflow:visible;text-align:left;left:564px;top:236px;width:606px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Fromthelatestsolutionsforbusinesses" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="564" data-desktopportraittop="160" data-desktopportraitwidth="606" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-						<div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-320aaf0854f2cd79362f03cc65535f92-paragraph  "><?php echo $rowslide->slide_description; ?></p>
+					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
+									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
+									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
+						
+						<div class="tag-text-slide">
+							<h3 style="font-size:47px !important" class="my-heading">给我们打电话的新方法</h3>
+							<p class="content-descri">
+								我们很自豪地介绍我们的新官方热线电话 023 23 81 81 - 我们的旧号码将在2018年9月30日停止使用 ... <a href="<?php echo base_url()?>media-center/news-events">更多</a>
+							</p>
 						</div>
+							
+							<img class="img-responsive" src="elFindermaster/files/slides/slide_2.jpg" style="width:100%"/>
+							
+						
 					</div>
-		</div>
-	</div>
+					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
+									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
+									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
+						
+						<div class="tag-text-slide">
+							<h3 class="my-heading">您的互联网无处不在</h3>
+							<p class="content-descri">
+								柬埔寨的高级互联网提供商，拥有全国性的光纤网络 - 请致电我们的服务热线或点击此处 ... <a href="<?php echo base_url()?>our-company/company-profile">更多</a>
+							</p>
+						</div>
+							
+							<img class="img-responsive" src="elFindermaster/files/slides/slide_3.jpg" style="width:100%"/>
+							
+						
+					</div>
+					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
+									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
+									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
+						<div class="tag-text-slide">
+							<h3 class="my-heading">专用互联网</h3>
+							<p class="content-descri">
+								最高性能的互联网套餐，旨在满足大型企业，企业和组织的需求 ... <a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">更多</a>
+							</p>
+						</div>
+							
+							<img class="img-responsive" src="elFindermaster/files/slides/slide_4.jpg" style="width:100%"/>
+							
+						
+					</div>
 
-<?php }?>
-<!-- =-================================= -->
+				<?php //}?>
+				<!-- =-================================= -->
 
 
-</div>
-</div>
-</div>
+				</div>
+				</div>
+				</div>
 
-	<div data-ssleft="0+15" data-sstop="height/2-previousheight/2" id="n2-ss-6-arrow-previous" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile nextend-arrow n2-ib nextend-arrow-previous  nextend-arrow-animated-fade" style="position: absolute;">
-		<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTEuNDMzIDE1Ljk5MkwyMi42OSA1LjcxMmMuMzkzLS4zOS4zOTMtMS4wMyAwLTEuNDItLjM5My0uMzktMS4wMy0uMzktMS40MjMgMGwtMTEuOTggMTAuOTRjLS4yMS4yMS0uMy40OS0uMjg1Ljc2LS4wMTUuMjguMDc1LjU2LjI4NC43N2wxMS45OCAxMC45NGMuMzkzLjM5IDEuMDMuMzkgMS40MjQgMCAuMzkzLS40LjM5My0xLjAzIDAtMS40MmwtMTEuMjU3LTEwLjI5IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjgiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==" alt="arrow" />
-	</div>
-	<div data-ssright="0+15" data-sstop="height/2-nextheight/2" id="n2-ss-6-arrow-next" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile nextend-arrow n2-ib nextend-arrow-next  nextend-arrow-animated-fade" style="position: absolute;">
-		<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNzIyIDQuMjkzYy0uMzk0LS4zOS0xLjAzMi0uMzktMS40MjcgMC0uMzkzLjM5LS4zOTMgMS4wMyAwIDEuNDJsMTEuMjgzIDEwLjI4LTExLjI4MyAxMC4yOWMtLjM5My4zOS0uMzkzIDEuMDIgMCAxLjQyLjM5NS4zOSAxLjAzMy4zOSAxLjQyNyAwbDEyLjAwNy0xMC45NGMuMjEtLjIxLjMtLjQ5LjI4NC0uNzcuMDE0LS4yNy0uMDc2LS41NS0uMjg2LS43NkwxMC43MiA0LjI5M3oiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" alt="arrow" />
-	</div>
-	<div data-ssleft="width/2-bulletwidth/2" data-ssbottom="0+10" data-offset="10" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover nextend-bullet-bar nextend-bullet-bar-horizontal" style="text-align: center;position: absolute;">
+					
+					<div data-ssleft="width/2-bulletwidth/2" data-ssbottom="0+10" data-offset="10" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover nextend-bullet-bar nextend-bullet-bar-horizontal" style="text-align: center;position: absolute;">
 
-		
-		<?php foreach($get_slider as $slide_active){ ?>
-			<div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot n2"></div>
-	
-		<?php }?>
-		
-	</div>
-</div>
-<div class="clear"></div></div></div>
-<!-- Nextend Smart Slider 3 #6 - END -->
-
+						
+						<?php foreach($get_slider as $slide_active){ ?>
+							<div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot"></div>
+					
+						<?php }?>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+				<!-- Nextend Smart Slider 3 #6 - END -->
 			</div>
 		</div>
-
-<div class="wrap t3-sl t3-sl-2 t3-home-2 ">
-
-<div class="container">
-				<!-- <div id="more-btn">
-	<p><a></a></p>
-</div> -->
-<div class="col-xs-8 col-sm-8">
-	<div id="moremenu" class="morehover">
-	   <!--  <div class="top" id="more-btn-over">
-	    	<p></p>
-	    </div> -->
-	    <div class="mid">
-	    	<br/>
-	    	
-	        <FORM id="formsignup_form" name="signup" class="thickbox" title="Nice title" method="post">
-	            <div class="col-xs-7 col-sm-6">
-		           <p>Which packages interest you:</p>
-		           <div class="packagebox">
-		               <h5>Corporate</h5>
-		               <table border="0" cellspacing="0" cellpadding="0">
-		                  
-		                    
-		                     <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="1mbps $59 per month" id="corp1mbps"  /></td>
-		                        <td><label for="corp1mbps"><strong>1mbps</strong> $40 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="2mbps $118 per month" id="corp2mbps"  /></td>
-		                        <td><label for="corp2mbps"><strong>2mbps</strong> $80 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="3mbps $177 per month" id="corp3mbps"  /></td>
-		                        <td><label for="corp3mbps"><strong>3mbps</strong> $120 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="4mbps $236 per month" id="corp4mbps"  /></td>
-		                        <td><label for="corp4mbps"><strong>4mbps</strong> $152 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="5mbps $285 per month" id="corp5mbps"  /></td>
-		                        <td><label for="corp5mbps"><strong>5mbps</strong> $190 per month</label></td>
-		                    </tr>
-		                </table>
-		                <div class="clearleft"></div>
-		            </div>
-		            <div class="packagebox" style="margin:0;">
-		                <h5>Premium</h5>
-		                <table border="0" cellspacing="0" cellpadding="0">
-		                    
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="1mbps $40 per month" id="prem1mbps"  /></td>
-		                        <td><label for="prem1mbps"><strong>1mbps</strong> $30 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="2mbps $80 per month" id="prem2mbps"  /></td>
-		                        <td><label for="prem2mbps"><strong>2mbps</strong> $60 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="3mbps  $120 per month" id="prem3mbps"  /></td>
-		                        <td><label for="prem3mbps"><strong>3mbps</strong> $90 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="4mbps $160 per month" id="prem4mbps"  /></td>
-		                        <td><label for="prem4mbps"><strong>4mbps</strong> $108 per month</label></td>
-		                    </tr>
-		                	
-		                     <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="5mbps $200 per month" id="prem5mbps"  /></td>
-		                        <td><label for="prem5mbps"><strong>5mbps</strong> $135 per month</label></td>
-		                    </tr>
-		                </table>
-		            
-		            <div class="clearleft"></div>
-		            </div>
-	           </div>
-
-	           <div class="col-xs-7 col-sm-6">
-		          <div id="emailform">
-		              <h5>Contact Us</h5>
-		              
-		              <p>Call us now on <strong>023 228 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
-		               <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
-		               <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
-		               <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
-		               <label for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
-		               <label for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
-		               <input type="button" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" onclick="check_email_verify_signmeup()" /></label>
-		               
-
-		               
-		           </div>
-		       </div>
-		      
-	          </FORM>
-	    	
-	        <br/>
-	    </div>
-
-	    <div class="bottom"></div>
+		
 	</div>
-
 </div>
+
+
+<div class="container-fluid">
+	<!-- Our Services -->
+	<div class="container" style="padding:0">
+		<div class="row">
+				<div class="col-md-2 col-sm-2 col-xs-0" style="padding:0"></div>
+				<div class="col-md-8 col-sm-8 col-xs-11" style="padding:0">
+					<div class="our_services">
+						<h3>我们的服务</h3>
+						<p>
+							EZECOM为您提供满足您需求的最佳配套，从为您的企业或家庭特别设计的配套到国际水平，为全球企业提供专用连接！了解我们以下的全方位服务。
+						</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-0" style="padding:0"></div>
+		</div>
+		
+		<!-- our services -->
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive image-resize" id="internet-access" src="<?php echo base_url()?>images/homepage/internet-access.png" alt="Internet Access" title="Internet Access"/>
+					</figure>
+					<div class="pro-internet">
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/internet-access-ico.png" alt="Internet Access" title="Internet Access"/><span>INTERNET ACCESS</span></li>
+						</ul>-->
+						<span>互联网</span>
+					</div>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper-network">
+					<figure>
+						<img class="img-responsive image-resize" id="enterprise-network" src="<?php echo base_url()?>images/homepage/enterprise-network.png" alt="Enterprise Network" title="Enterprise Network"/>
+					</figure>
+					<div class="pro-network">
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/enterprise-network-ico.png" alt="Enterprise Network" title="Enterprise Network"/><span>ENTERPRISE NETWORK</span></li>
+						</ul>-->
+						<span>企业网络</span>
+					</div>
+					
+					<div class="overlay-products">
+						<ul>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper-cloud">
+					<figure>
+						<img class="img-responsive image-resize" id="cloud-services" src="<?php echo base_url()?>images/homepage/cloud-services.png" alt="Cloud Services" title="Cloud Services"/>
+					</figure>
+					<div class="pro-cloud">
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/cloud-services-ico.png" alt="Cloud Services" title="Cloud Services"/><span>CLOUD SERVICES</span></li>
+						</ul>-->
+						<span>云服务</span>
+					</div>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud	Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper-hosting">
+					<figure>
+						<img class="img-responsive image-resize" id="data-center" src="<?php echo base_url()?>images/homepage/data-center.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
+					</figure>
+					<div class="pro-hosting">
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/data-center-ico.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/><span>DATA CENTRE & HOSTING</span></li>
+						</ul>-->
+						<span>数据中心和托管</span>
+					</div>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Data Co-location</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>-->
+							<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper-security">
+					<figure>
+						<img class="img-responsive image-resize" id="cyber-security" src="<?php echo base_url()?>images/homepage/cyber-security.png" alt="Cyber Security" title="Cyber Security"/>
+					</figure>
+					<div class="pro-security">
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/cyber-security-ico.png" alt="Cyber Security" title="Cyber Security"/><span>CYBER SECURITY</span></li>
+						</ul>-->
+						<span>网络安全</span>
+					</div>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation	Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web	Application	Firewall</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed	Network	Security</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper-services">
+					<figure>
+						<img class="img-responsive image-resize" id="add-services" src="<?php echo base_url()?>images/homepage/add-services.png" alt="Value Added Services" title="Value Added Services"/>
+					</figure>
+					<div class="pro-services">
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/add-services-ico.png" alt="Value Added Services" title="Value Added Services"/><span>VALUE ADDED SERVICES</span></li>
+						</ul>-->
+						<span>增值服务</span>
+					</div>
+					<div class="overlay-products">
+						<ul>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/live-stream-service'>Live Stream Service</a></li>
+							<!--<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End Services -->
+
+	<!-- Sign Up -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-2"></div>
+			<div class="col-md-6 col-sm-6 col-xs-8">
+				<div class="wrapper-signme-hlepme">
+					<div id="help_more-btn-over" class="pull-left">
+						<div class="imghelphover"></div>
+						<h3 class="text-center">帮我选择</h3>
+						<p class="text-center">告诉我们您的需求，<br/>我们的系统会建议您提供合适的配套！</p>
+					</div>
+					<div id="more-btn-over" class="pull-right">
+						<div class="imghover"></div>
+						<h3 class="text-center">注册我</h3>
+						<p class="text-center">
+						点击这里告诉我们您的兴趣，<br/>我们会与您联系！
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-2"></div>
+		</div>
+	</div> <!-- End Sign Up -->
+
+<!-- HTML Form Help me choose and sign me up -->
+<div class="home">
+	<div class="container">
+		<div class="col-xs-8 col-sm-8">
+			<div id="moremenu" class="morehover">
+				<div class="mid">	
+					  <form id="formsignup_form" method="post" action="<?php echo base_url() ?>index/signmeup_email" name="signup" class="thickbox" title="Nice title" >
+						<div class="col-xs-7 col-sm-6">
+						   <p class="help_me_choose"><b>Which packages interest you:</b></p>
+						   <!--<div class="packagebox">
+							   <h5 class="help_me_choose">Dedicated Internet</h5>
+							   <table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="20Mbps $640 per month" id="corp1mbps"  /></td>
+										<td><label class="help_me_choose" for="corp1mbps"><strong>20Mbps</strong> $640 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="30Mbps $900 per month" id="corp2mbps"  /></td>
+										<td><label class="help_me_choose" for="corp2mbps"><strong>30Mbps</strong> $900 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="40Mbps $1,120 per month" id="corp3mbps"  /></td>
+										<td><label class="help_me_choose" for="corp3mbps"><strong>40Mbps</strong> $1,120 per month</label></td>
+									</tr>
+									<!--<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="50Mbps $1,300 per month" id="corp4mbps"  /></td>
+										<td><label class="help_me_choose" for="corp4mbps"><strong>50Mbps</strong> $1,300 per month</label></td>
+									</tr>-->
+									
+								<!--</table>
+								<div class="clearleft"></div>
+							</div>-->
+							<div class="packagebox" style="margin:0;">
+								<h5 class="help_me_choose">EzeBiz Packages</h5>
+								<table border="0" cellspacing="0" cellpadding="0">
+									
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="5Mbps $60 per month" id="prem1mbps"  /></td>
+										<td><label class="help_me_choose" for="prem1mbps"><strong>5Mbps</strong> $60 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="10Mbps $118 per month" id="prem2mbps"  /></td>
+										<td><label class="help_me_choose" for="prem2mbps"><strong>10Mbps</strong> $118 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="20Mbps  $230 per month" id="prem3mbps"  /></td>
+										<td><label class="help_me_choose" for="prem3mbps"><strong>20Mbps</strong> $230 per month</label></td>
+									</tr>
+									<!--<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="30Mbps $338 per month" id="prem4mbps"  /></td>
+										<td><label class="help_me_choose" for="prem4mbps"><strong>30Mbps</strong> $338 per month</label></td>
+									</tr>-->
+									
+								</table>
+							
+							<div class="clearleft"></div>
+							</div>
+					   </div>
+
+					   <div class="col-xs-7 col-sm-6">
+						  <div id="emailform">
+							  <h5 class="help_me_choose">Contact Us</h5>
+							  
+							  <p class="help_me_choose">Call us now on <strong>‎+855(0)23 23 81 81/ +855(0)85 88 81 81</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+							   <label class="help_me_choose" for="eml_name">Full Name:</label> <input type="text" name="eml_name"  required id="eml_name" /><br />
+							   <label class="help_me_choose" for="eml_email">Email Address:</label> <input type="text" name="eml_email"  required id="eml_email" /><br />
+							   <label class="help_me_choose" for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone"  required id="eml_phone" /><br />
+							   <label class="help_me_choose" for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
+							   
+							   <label class="help_me_choose" for="eml_details" style="width:auto;">
+									<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+							   </label>
+							   
+							   <label class="help_me_choose" for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
+							   <input type="submit" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" /></label>
+							  
+						   </div>
+					   </div>
+					  </form>
+					  
+					<br/>
+				</div> <!-- mid -->
+				<div class="bottom"></div>
+			</div><!-- more menu -->
+		</div> <!-- end col -->
+	</div> <!-- end container -->
 
 <div class="container">
     <div class="custom">
         <div class="row">
-        <div class="help_morehover col-lg-4" style="position: absolute;">
-
+        <div class="help_morehover col-lg-6" style="position:absolute;">
             <div class="col-sm-12 col-md-12 col-xs-6">
                 <div class="help_mid">
                 	<?php if($this->session->userdata("step") == "") {?>
                 	<div style="margin-left:auto; margin-left:auto;" class="col-lg-12">
                     	<br/>
-                    	<h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+                    	<h5 class="help_me_choose">HELP ME CHOOSE AN INTERNET PACKAGE</h5>
                         <br/>
                          
-            				    <p><strong>What kind of user are you?</strong><p>
+            				    <p class="help_me_choose"><strong>What kind of user are you?</strong><p>
                                 <div class="col-lg-12">
                               
                                 <form action="" id="step1" name="step1" class="thickbox" title="Nice title" method="post">
                                     
-                                     <label for="home"><input type="radio" name="user" value="home" id="home"/> I use the internet at home</label><br />
-                                     <label for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice"/> I work at home and need the internet for work and leisure</label><br />
-                                     <label for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice"/> I work in a small office (less than 10 people)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice"/> I work in a large office (more than 10 people)</label><br />
+                                     <label class="help_me_choose" for="home"><input type="radio" name="user" value="home" id="home" onclick="check()" /> I use the internet at home</label><br />
+                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice" onclick="check()" /> I work at home and need the internet for work and leisure</label><br />
+                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice" onclick="check()" /> I work in a small office (less than 10 people)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice" onclick="check()" /> I work in a large office (more than 10 people)</label><br />
                                     <hr />
                                     
-                                    <input type="button" name="submit" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step1()" />
-                                    <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()" />
-                                    
+                                    <input type="button" name="submit" id="submit-next-step-1" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step1()" disabled />
+                                    <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()" />   
                                 </form>
-                              
-
-                               
                                 </div>
-            				            			                      
-                        
-                        
-                        
                 	</div>
 
                 	<?php } ?>
@@ -324,22 +486,22 @@
                 	 <?php if($this->session->userdata("step") == 2) {?>
                         <div style="margin-left:auto; margin-left:auto;" class="col-lg-12">
                      			<br/>
-			                     <h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+			                     <h5 class="help_me_choose">HELP ME CHOOSE AN INTERNET PACKAGE</h5>
 			                        <br/>
 			                         
-			                    <p><strong>As a home user, please select what you use the internet for:</strong><p>
+			                    <p class="help_me_choose"><strong>As a home user, please select what you use the internet for:</strong><p>
                                 <div class="col-lg-12">
                                 <form action="" id="step2" name="formname" class="thickbox" title="Nice title" method="post">
                                     
-                                     <label for="home"><input type="radio" name="user2" value="home" id="home"/> Email</label><br />
-                                     <label for="homeoffice"><input type="radio" name="user2" value="homeoffice" id="homeoffice"/> Web Browsing</label><br />
-                                     <label for="smalloffice"><input type="radio" name="user2" value="smalloffice" id="smalloffice"/> Internet Radio</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Internet Phone(e.g Skype phone calls)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Watching Videos (e.g. Youtube)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> Video Chat (e.g. webcam on Skype)</label><br />
-                                     <label for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice"/> I download a lot</label><br />
+                                     <label class="help_me_choose" for="home"><input type="radio" name="user2" value="home" id="home" onclick="check_step_2()" /> Email</label><br />
+                                     <label class="help_me_choose" for="homeoffice"><input type="radio" name="user2" value="homeoffice" id="homeoffice" onclick="check_step_2()"/> Web Browsing</label><br />
+                                     <label class="help_me_choose" for="smalloffice"><input type="radio" name="user2" value="smalloffice" id="smalloffice" onclick="check_step_2()" /> Internet Radio</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> Internet Phone(e.g Skype phone calls)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> Watching Videos (e.g. Youtube)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> Video Chat (e.g. webcam on Skype)</label><br />
+                                     <label class="help_me_choose" for="largeoffice"><input type="radio" name="user2" value="largeoffice" id="largeoffice" onclick="check_step_2()" /> I download a lot</label><br />
 
-                                        <p><strong>How many people will use the connection at the same time (on different computers)?</strong><p>
+                                        <p class="help_me_choose"><strong>How many people will use the connection at the same time (on different computers)?</strong><p>
                                         <label for="numberusers" style="clear:left;margin-top:15px;">
                                          <select name="numberusers" id="numberusers">
                                           <option value="1">1</option>
@@ -351,7 +513,7 @@
                                         </label>
                                     <hr />
                                     
-                                    <input type="button" name="submit" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step2()" />
+                                    <input type="button" name="submit" id="submit-next-step-2" value="NEXT" class="btn btn-default submit" onclick="help_me_choose_step2()" disabled />
                                     <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()"/>
                                     
                                 </form>
@@ -363,33 +525,41 @@
 
                         <div style="margin-left:auto; margin-right:auto;" class="col-lg-12" style="width:40.333333%">
                      <br>
-                     <h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+                     <h5 class="help_me_choose">HELP ME CHOOSE AN INTERNET PACKAGE</h5>
                         <br>
                                                 
-                            <div id="emailform" class="col-sm-6" style="width:390px !important;margin-top:-10px !important;padding:5px -1px;">
+                            <div id="emailform" class="col-sm-6" style="width:390px!important;margin-top:-10px !important;padding:5px -1px;">
                             <div class="row">
-                              <h5>Yes I am interested!</h5>
-                                <p>Call us now on <strong>028 888 181/ 095 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+                              <h5 class="help_me_choose">Yes I am interested!</h5>
+                                <p class="help_me_choose">Call us now on <strong>+855(0)23 23 81 81/ +855(0)85 88 81 81</strong> or fill in your information here and a member of our sales team will get back to you.</p>
                                 
-                                <form action="" name="formheplmechoosepackage" id="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
+                                <form action="<?php echo base_url() ?>index/submit_help_me_choose" name="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
                                  <div class="form-group">
 
-                                <label for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control"><br>
+                                <label class="help_me_choose" for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control" required /><br>
                                 </div>
                                  <div class="form-group">
-                                 <label for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control"><br>
+                                 <label class="help_me_choose" for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control" required /><br>
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control"><br>
+                                 <label class="help_me_choose" for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control" required /><br>
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
+                                 <label class="help_me_choose" for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
                                  </div>
+								 
+								 <div class="form-group">
+									<!-- Recapcha display -->
+									<label class="help_me_choose" for="eml_help_details">
+										<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+									</label>
+								 </div>
+								 
                                  <div class="form-group">
-                                 <label for="eml_submit">&nbsp;</label>
+                                 <label class="help_me_choose" for="eml_submit">&nbsp;</label>
                                  </div>
                                 
-                                 <input type="button" value="SUBMIT" class="btn btn-default submit" id="eml_Help_submit" onclick="check_email_verify()">
+                                 <input type="submit" value="Submit" class="btn btn-default submit" id="eml_Help_submit" />
 
                                     <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close" onclick="unset_session()">
                                  <br>
@@ -399,20 +569,36 @@
 
                          <div id="help_packagebox" class="col-sm-5" style="padding-top:0%">
                              
-                                <fieldset class="scheduler-border">
-                                <legend><h5>Recommended for you:</h5></legend>     
-                                    <h4>PREMIUM 1mbps</h4>
-                                    <p>Our premium connections are perfect for office, home office, and leisure use.</p>
-                                    <h4>$40 per month</h4>
-                                    <div class="clearleft"></div>
-                                </fieldset>                                 
-                </div>
+											<?php 
+												$package_provide = $this->session->userdata('user'); 
+											?>
+											
+											<?php if($package_provide=="home" OR $package_provide=="homeoffice" OR $package_provide=="smalloffice"){?>
+												<div class="box-recommendation">
+													<h4 class="help_me_choose"><b>Recommended for you:</b></h4>
+													<img class="img-responsive" style="width:100px;margin-left:44px;margin-bottom:10px" src="<?php echo base_url()?>images/homepage/icon-EzeBiz.svg"/>
+													<h4 class="help_me_choose" style="font-size:13px"><b>EzeBiz 5mbps ($60 per month)</b></h4>
+													<p class="help_me_choose" style="font-size:12px">EzeBiz connections are perfect for your small and home office and leisure use.</p>
+												</div>
+											<?php } ?>
+											
+											<?php if($package_provide=="largeoffice"){?>
+											<div class="box-recommendation">
+												<h4><b>Recommended for you:</b></h4>
+												<img class="img-responsive" style="width:100px;margin-left:44px;margin-bottom:10px" src="<?php echo base_url()?>images/homepage/icon-Dedicated.svg"/>
+												<h4 style="font-size:12px"><b>Didecate 5mbps ($175 per month)</b></h4>
+												<p style="font-size:12px">Dedicate connections are fit the need of large corporations, 
+														enterprises and organizations to full fill high-end demand for ultimate speed 
+														reliability and security.
+												</p>
+											</div>
+											<?php } ?>                          
+							</div>
                  </div>
 
                         <?php } ?>
                     <br/>
                
-            </div>
             </div>
     <div class="help_bottom"></div>
   </div>
@@ -531,9 +717,6 @@
         display: inline-block !important;
     }
 </style>
-<!-- <div id="help_more-btn">
-	<p><a></a></p>
-</div> -->
 
 <script type="text/javascript">
 	
@@ -542,33 +725,6 @@
 			$('.help_morehover').toggle('500');
 		}
 		
-		/*$(".submit").click(function(){
-			if($('input[name=user]:checked').length<=0)
-			{
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=largeoffice[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=smalloffice[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=homeoffice[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=homeuser[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!"); 
-				 return false;
-			}
-		});*/
         // chhenghong added
 		$('#btn_close').click(function(e) {
              if (e.keyCode === 27 ) { // ESC
@@ -580,9 +736,6 @@
         });
 
         // end chhenghong code
-
-
-		
 		$('#help_more-btn').click(function() {
 			$('.help_morehover').toggle('500');
 		});
@@ -602,131 +755,136 @@
 </script>
 
 
-<div class="custom"  >
-	<div class="row" style="margin-top: -50px;">
-<div class="col-sm-12 col-md-6 col-xs-12"><img class="img-responsive" src="images/homepage/lady_new.png" alt="Ezecom Call to Action" width="250" height="301" /></div>
-<div class="col-sm-12 col-md-6 col-xs-12" style="margin-top: -90px;">
-<div class="col-sm-12 col-md-6 col-xs-12">
-<div class="col-xs-12 col-sm-12 col-md-12">
-<blockquote>
-<h3> </h3>
-</blockquote>
- </div>
-<div id="help_more-btn-over" class="help_top"><br /><br /><br /><br /><br /><br /><br />
-<div class="imghelphover"> </div>
-</div>
-<h3>帮我选择</h3>
-<p style="font-size: 14px; color: #444;">Tell us your requirement to get the best suitable internet package.</p>
-</div>
-<div class="col-sm-12 col-md-6 col-xs-12">
-<div class="col-xs-12 col-sm-12 col-md-12">
-<blockquote>
-<h3> </h3>
-</blockquote>
- </div>
-<div id="more-btn-over" class="top"><br /><br /><br /><br /><br /><br /><br />
-<div class="imghover"> </div>
-</div>
-<h3>让我注册</h3>
-<p style="font-size: 14px; color: #444;">Let us know your interest on our package choice and keep in touch with our latest update.</p>
-</div>
-</div>
-</div></div>
-
 			</div>
 		</div>
-		<!-- //HOME SL 2 -->
-	        <section class="t3-home-3">       
-			<!-- HOME SL 3 -->
-		<div class="wrap t3-sl t3-sl-3 ">
-			<div class="container">
-				
-
-<div class="custom"  >
-	<div style="height: 20px; width: 100%;"> </div>
-<div class="container-fluid">
-<div class="col-xs-12 col-sm-6 col-md-4"><a href="<?php echo base_url();?>mediacenter">
-<div class="newandeventhover"> </div>
-<h3>News and Events</h3>
-<p style="font-size: 14px; color: #444;">Check this section for the latest on EZECOM events. Our sponsorship and our latest partnerships.</p></a>
 </div>
-<div class="col-xs-12 col-sm-6 col-md-4"><a href="<?php echo base_url();?>cameralive">
-<div class="livecamerahover"> </div>
-<h3>Live Traffic Camera</h3>
-<p style="font-size: 14px; color: #444;">Always know what is happening. Thanks to EZECOM's traffic camera in Phnom Penh.</p></a>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4"><a href="<?php echo base_url();?>liveradio">
-<div class="liveradiohover"> </div>
-<h3>Live Radio</h3>
-<p style="font-size: 14px; color: #444;">Click here to listen to your best favorite radio stations live stream in Cambodia.</p></a>
-</div>
-</div>
-<div style="height: 20px; width: 100%;"> </div></div>
-
-			</div>
-		</div>
-		<!-- //HOME SL 3 -->
-	        </section>
-			<!-- HOME SL 4 -->
-		<div class="wrap t3-sl t3-sl-4 ">
-			<div class="container">
-				
-
-<div class="custom"  >
-	<div class="custom" style="margin-top: -31px;">
-<div class="container module-content-container">
-<h2 style="color: #7c5ca8; font-weight: 400;"> Our Services</h2>
-<div class="col-xs-12 col-sm-12 col-md-2"> </div>
-<div class="col-xs-12 col-sm-12 col-md-8">
-<p style="font-size: 14px !important; color: #444; line-height: 25px;">EZECOM offers you the best available packages to fulfill your needs, from specially designed packages for your resident to international dedicated connections and your global enterprise solutions - click here for more packages information.</p>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4"> </div>
-<br />
-<div class="col-xs-12 col-sm-12 col-md-12"> 
-<div class="col-xs-12 col-sm-12 col-md-2"> </div>
-<div class="col-xs-12 col-sm-12 col-md-4"><a href="<?php echo base_url();?>ourservices">
-<div class="ourinternethover"></div>
-<h3>Our Internet</a></h3>
-<p style="font-size: 14px; color: #444444;"> </p></a>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4"><a href="<?php echo base_url();?>enterprise_solution">
-<div class="enterprisesolutions"> </div>
-<h3>Enterprise Solutions</h3>
-<p style="font-size: 14px; color: #444444;"> </p></a>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-2"> </div>
-</div>
-</div>
-</div></div>
-
-			</div>
-		</div>
-		<!-- //HOME SL 4 -->
 	
-			<!-- HOME SL 5 -->
-		<div class="wrap t3-sl t3-sl-5 ">
-			<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-				<?php foreach($feature_content as $feature){ ?>
-					<a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-				<?php } ?>
-			</marquee>
-
-		</div>
-		<!-- //HOME SL 5 -->
 	
+<!-- End Sign Pop up -->
+	
+	
+	
+	
+
+	<!-- Looking for -->
+	<div class="container bg-lookingfor">
+		<div class="row">
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-md-10 col-sm-10 col-xs-10">
+				<div class="wrapper-looking">
+					<h3 class="text-center">您在找什么？</h3>
+					<p class="text-center">在本节中，只需单击鼠标即可访问我们网站的一些有趣部分。</p>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="wrapper-news">
+								<a href="<?php echo base_url()?>media-center/news-events">
+									<figure>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/icon-news-and-event.svg" alt="News and Events" title="News and Events"/>
+									</figure>
+								</a>
+								<h3 class="text-center">新闻和活动</h3>
+								<p class="text-center txt-decr">
+									查看EZECOM的最新活动和活动，赞助和合作伙伴关系。
+								</p>
+							</div>
+							
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="wrapper-traffic-live">
+								<a href="<?php echo base_url()?>media-center/live-traffic-camera">
+									<figure>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/icon-live-traffic-camera.svg" alt="Live Traffic Camera" title="Live Traffic Camera"/>
+									</figure>
+								</a>
+								<h3 class="text-center">实时交通摄像头</h3>
+								<p class="text-center">
+									点击此处查看遍布金边的EZECOM的实时交通摄像头。
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="wrapper-live-radio">
+								<a href="<?php echo base_url()?>media-center/live-cambodia-radio">
+									<figure>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/icon-live-radio.svg" alt="Live Radio" title="Live Radio"/>
+									</figure>
+								</a>
+								<h3 class="text-center">直播电台</h3>
+								<p class="text-center">
+									聆听柬埔寨最喜爱的广播电台的直播。 
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+	</div> <!-- End Looking for -->
+
+	<!-- Our Achievement -->
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="wrapper-achievement">
+					<h3 class="text-center">我们的成就</h3>
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="best-employer-award">
+							<a href="<?php echo base_url()?>media-center/news-detail/ezecom-the-first-isp-in-cambodia-to-win-asia’s-best-employer-brands-award-2017">
+								<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017">
+								<h4>
+									2017年最佳雇主品牌奖
+								</h4>
+							</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="iso">
+								<a href="<?php echo base_url()?>our-company/quality-management-system">
+									<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-ISO.png" alt="EZECOM Achievement ISO" title="EZECOM Achievement ISO"/>
+								</a>
+								<h4>
+									ISO认证
+								</h4>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="child-safe">
+								<a href="<?php echo base_url()?>our-company/childsafe-certification">
+									<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
+								</a>
+								<h4>ChildSafe认证</h4>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="best-ISP">
+							<a href="<?php echo base_url()?>media-center/news-detail/ezecom-awarded-2017-best-isp-for-business-at-4g-ltd-conference">
+								<img class="img-responsive mg-left-img" src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
+								<h4>
+									最佳商业ISP
+								</h4>
+							</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
 </div>
 
-<!-- FOOTER -->
-	<?php 
-		$this->load->view('footer/footer_user_v');
-	?>
-<!-- END FOOTER-->
+<?php $this->load->view('footer/footer_user_v') ?>
 
 <!-- BACK TOP TOP BUTTON -->
  
 <div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
- 
-  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+ <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
  
 </div>
  
@@ -749,6 +907,7 @@
 </script>
  
 <!-- BACK TO TOP BUTTON -->
+
 
 <!-- chhenghong added -->
 
@@ -922,8 +1081,94 @@
 	}
 	
 </script>
+<script type="text/javascript">
+$('.img-wrapper').hover( function(e) {
+		/* mousehover Internet */
+		document.getElementById("internet-access").src="<?php echo base_url()?>images/homepage/internet-access-hover.png";
+		$(".img-wrapper .pro-internet").stop().animate({top: (40)+'px'},500);
+	},
+	
+	function(){
+		/* mouseout Internet */
+		document.getElementById("internet-access").src="<?php echo base_url()?>images/homepage/internet-access.png";
+		$(".img-wrapper .pro-internet").stop().animate({top: (43)+'%'},500);
+ });
+ 
+ 
+ $('.img-wrapper-network').hover( function(e) {
+		/* mousehover Network */
+		document.getElementById("enterprise-network").src="<?php echo base_url()?>images/homepage/enterprise-network-hover.png";
+		$(".img-wrapper-network .pro-network").stop().animate({top: (40)+'px'},500);
+	},
+	
+	function(){
+		/* mouseout Network */
+		document.getElementById("enterprise-network").src="<?php echo base_url()?>images/homepage/enterprise-network.png";
+		$(".img-wrapper-network .pro-network").stop().animate({top: (43)+'%'},500);
+ });
+ 
+ 
+ $('.img-wrapper-cloud').hover( function(e) {
+		/* mousehover Cloud */	
+		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services-hover.png";
+		//$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (40)+'px'},500);
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (65)+'px'},500);
+	},
+	
+	function(){
+		/* mouseout Cloud */
+		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services.png";
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (43)+'%'},500);
+ });
+ 
+  $('.img-wrapper-hosting').hover( function(e) {
+		/* mousehover Hosting */
+		document.getElementById("data-center").src="<?php echo base_url()?>images/homepage/data-center-hover.png";
+		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (65)+'px'},500);
+	},
+	
+	function(){
+		/* mouseout Hosting */
+		document.getElementById("data-center").src="<?php echo base_url()?>images/homepage/data-center.png";
+		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (43)+'%'},500);
+ });
+ 
+ 
+ $('.img-wrapper-security').hover( function(e) {
+		/* mousehover Cyber Security */	
+		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security-hover.png";
+		$(".img-wrapper-security .pro-security").stop().animate({top: (90)+'px'},500);
+	},
+	
+	function(){
+		/* mouseout Cyber Security */
+		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security.png";
+		$(".img-wrapper-security .pro-security").stop().animate({top: (45)+'%'},500);
+ });
+ 
+ 
+  $('.img-wrapper-services').hover( function(e) {
+		/* mousehover Value Added Services */
+		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services-hover.png";
+		$(".img-wrapper-services .pro-services").stop().animate({top: (80)+'px'},500);
+	},
+	
+	function(){
+		/* mouseout Value Added Services */
+		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services.png";
+		$(".img-wrapper-services .pro-services").stop().animate({top: (43)+'%'},500);
+ });
+ 
+</script>
 
-
-</div>
+<script>
+	function check() {
+	   document.getElementById("submit-next-step-1").disabled = false;
+	}
+	
+	function check_step_2(){
+		document.getElementById("submit-next-step-2").disabled = false;
+	}
+</script>
 </body>
 </html>

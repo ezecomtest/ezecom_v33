@@ -20,12 +20,33 @@ class Live_traffice_camera_c extends CI_Controller {
 		$this->Live_traffice_camera();
 	}
 	public function Live_traffice_camera(){
-		$data['title'] = "Live Traffic Camera";
-		$data['active']="Live Traffic Camera";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['get_cameras']= $this->live_camera_m->get_camera_display();
-		$this->load->view('frontend/live_traffice_camera_v',$data);
+		
+		if($this->session->userdata("language") == 1){
+			$data['title'] = "Live Traffic Camera";
+			$data['active']="Live Traffic Camera";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$data['get_cameras']= $this->live_camera_m->get_camera_display();
+			$this->load->view('frontend/live_traffice_camera_v',$data);
+		}
+		
+		if($this->session->userdata("language") == 3){
+			$data['title'] = "Live Traffic Camera";
+			$data['active']="Live Traffic Camera";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$data['get_cameras']= $this->live_camera_m->get_camera_display();
+			$this->load->view('frontend/live_traffice_camera_ch_v',$data);
+		}
+		
+		if($this->session->userdata("language") == ""){
+			$data['title'] = "Live Traffic Camera";
+			$data['active']="Live Traffic Camera";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$data['get_cameras']= $this->live_camera_m->get_camera_display();
+			$this->load->view('frontend/live_traffice_camera_v',$data);
+		}
 
 	}
 	public function set_session_camera(){

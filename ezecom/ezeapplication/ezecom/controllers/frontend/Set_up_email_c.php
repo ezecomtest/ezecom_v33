@@ -13,11 +13,29 @@ class Set_up_email_c extends CI_Controller {
 	}
 
 	public function set_up_email(){
-		$data['title'] = "Set Up Email";
-		$data['active'] = "Set Up Email";
-		$lan = $this->session->userdata("language");
-        $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/set_up_email_v',$data);
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Set Up Email";
+			$data['active'] = "Set Up Email";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/set_up_email_v',$data);
+		}
+		
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Set Up Email";
+			$data['active'] = "Set Up Email";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/set_up_email_ch_v',$data);
+		}
+		
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Set Up Email";
+			$data['active'] = "Set Up Email";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/set_up_email_v',$data);
+		}
 	}
 	
 	public function submit_data(){
