@@ -112,6 +112,27 @@
 	height:242px;
 }
 
+.content-left-ch h3, .content-right-ch h3{
+	font-family:myNeutra,serif,sans-serif;
+	color: #7961AA;
+	font-size:30px;
+	font-weight:bold;
+	padding: 25px 30px 12px 30px;
+	margin:0;
+}
+
+.content-left-ch p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+	padding: 0 30px 25px 30px;
+}
+.content-right-ch p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+	padding-bottom:23px;
+	padding: 0 30px 10px 30px;
+}
+
 .content-right{
 	/*padding-bottom:49px;*/
 }

@@ -325,12 +325,10 @@
 				<?php if($this->session->userdata("language")==""){?>
 					<li class="<?php if($this->uri->segment(1)=="contact-us"){echo "active";} ?>" ><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
 				<?php } ?>
-				
-				<li><a href='#' class="collection"><img class="img-responsive burger-menu" src="<?php echo base_url()?>assets/images/menu_v3_icon/burger-menu.svg"/></a></li>
 			</ul>
-			<span>
-				
-			</span>
+			
+			<a href='#' class="collection"><img class="img-responsive burger-menu" src="<?php echo base_url()?>assets/images/menu_v3_icon/burger-menu.svg"/></a>
+			
 	</nav>
 	</div>
 </div>
@@ -657,11 +655,8 @@
 					<li class="<?php if($this->uri->segment(1)=="contact-us"){echo "active";} ?>" ><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
 				<?php } ?>
 				
-				<li><a href='#' class="collection"><img class="img-responsive burger-menu" src="<?php echo base_url()?>assets/images/menu_v3_icon/burger-menu.svg"/></a></li>
 			</ul>
-			<span>
-				
-			</span>
+			<a href='#' class="collection"><img class="img-responsive burger-menu" src="<?php echo base_url()?>assets/images/menu_v3_icon/burger-menu.svg"/></a>
 	</nav>
 	</div>
 </div>

@@ -350,19 +350,24 @@ function PreviewImage(no){
 </script>
 
 <script type="text/javascript">
-	function check_fileupload(){
-		
+
+function check_fileupload(){
 		var oFReader = new FileReader();
         oFReader.readAsDataURL(document.getElementById("cvUpload").files[0]);
         var fileInput = document.getElementById("cvUpload").files[0];
-		
 		var allowed = ["docx","pdf"];
         var found = false; 
         var fsize = ((fileInput.size) * 0.000001);
         var fsize_mb = (fsize.toFixed(5));
 		
-		if (fsize_mb > 2){
-			alert("File upload less than 2MB");
+		 allowed.forEach(function(extension) {
+            if (fileInput.type.match('application/'+extension) && fsize_mb <=2) {
+                found = true;
+			}
+		 })
+		
+		if (found==false){
+			alert("Upload only file(pdf , docx) and less than 2MB");
 			document.getElementById("cvUpload").value="";
 			document.getElementById("show_file").innerHTML = "";
 		}

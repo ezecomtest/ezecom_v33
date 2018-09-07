@@ -84,7 +84,7 @@
 			</div>
 			<div class="row mg-bt">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
-						<div class="content-left">
+						<div class="content-left-ch">
 							<h3>EzeCampus的第一步为65,000名学生提供高速互联网接入。</h3>
 							<p>
 								2012年8月，我们宣布了EzeCampus项目的第二阶段。我们为全国50所公立中学和教师培训机构提供互联网服务和计算机设备。通过该协议，EZECOM能够为全国各省的课程提供更广泛的教育资源。这也意味着远程学习可能在不久的将来成为全国数十万学生的现实。以免费互联网服务和网络分期付款的形式捐赠价值数万美元。
@@ -92,7 +92,7 @@
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-pd">
-						<div class="content-right">
+						<div class="content-right-ch">
 							<h3>第二步将受益于该项目的学生人数再增加一万人。</h3>
 							<p>
 								关于该项目，EZECOM首席执行官Paul Blanche-Horgan表示，“EZECOM始终希望利用其IT能力为该国的发展做出贡献。这项计划将使我们能够利用我们长达9,000公里的光缆网络为全国各地的青少年提供教育机会。“在我们所有的企业社会责任项目中，教育都占有一席之地，我们一直在寻找为柬埔寨发展做出贡献的方法。 

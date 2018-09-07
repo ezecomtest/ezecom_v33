@@ -259,7 +259,7 @@ class Our_company_c extends CI_Controller {
 	
 	public function upload_cv($tmp_name,$name_cv){
 		$tmp_name = $tmp_name;
-		$name = './elFindermaster/files/cv/'.$name_cv;
+		$name = './elFindermaster/cv/'.$name_cv;
 		move_uploaded_file($tmp_name, $name);
 	}
 	
@@ -279,8 +279,8 @@ class Our_company_c extends CI_Controller {
 		
 		  $this->load->library('email', $config);
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
-		  //$this->email->to('chan.raksmey@ezecomcorp.com');
-		  $this->email->to('careers@ezecomcorp.com');
+		  $this->email->to('chan.raksmey@ezecomcorp.com');
+		  //$this->email->to('careers@ezecomcorp.com');
 		  $this->email->subject("EZECOM Career Opportunities");
 
 		  $contain = "\n"."Dear Sir/Madam, "."\n\n" .
@@ -293,9 +293,9 @@ class Our_company_c extends CI_Controller {
 				"Position: ".$position.
 				"\n"."Location:".$location.
 				"\n".
-				"Profile:".$base_url."elFindermaster/files/profile/".$name_profile.
+				"Profile:".$base_url."elFindermaster/profile/".$name_profile.
 				"\n".
-				"CV:".$base_url."elFindermaster/files/cv/".$name_cv.
+				"CV:".$base_url."elFindermaster/cv/".$name_cv.
 				"\n\n** Automatic sent mail from website EZECOM **\n" ;
 				
 		  $this->email->message($contain);
@@ -318,7 +318,7 @@ class Our_company_c extends CI_Controller {
 }
 	
 	public function upload_profile(){
-		$config['upload_path']          = './elFindermaster/files/profile/';
+		$config['upload_path']          = './elFindermaster/profile/';
 		$config['allowed_types']        = 'gif|jpg|png';
 		$config['max_size']             = 0;
 		$config['encrypt_name']         = FALSE;

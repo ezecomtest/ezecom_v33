@@ -367,8 +367,14 @@ function PreviewImage(no){
         var fsize = ((fileInput.size) * 0.000001);
         var fsize_mb = (fsize.toFixed(5));
 		
-		if (fsize_mb > 2){
-			alert("File upload less than 2MB");
+		allowed.forEach(function(extension) {
+            if (fileInput.type.match('application/'+extension) && fsize_mb <=2) {
+                found = true;
+			}
+		 })
+		
+		if (found==false){
+			alert("Upload only file (pdf or docx) and less than 2MB");
 			document.getElementById("cvUpload").value="";
 			document.getElementById("show_file").innerHTML = "";
 		}
