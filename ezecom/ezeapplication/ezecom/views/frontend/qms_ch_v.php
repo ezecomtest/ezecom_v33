@@ -47,7 +47,7 @@
 		<div class="row row-margin-bt">
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 remove-pd">
 				<div class="core-value">
-					<h3>O我们的核心价值观</h3>
+					<h3>我们的核心价值观</h3>
 					<p><span>卓越</span></p>
 					<p><span class="tab-in">我们做什么 - 我们做得很好</span></p>
 					<p><span>合作伙伴</span></p>
