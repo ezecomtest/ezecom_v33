@@ -4,6 +4,16 @@
     src: url(../fonts/NeutraText-Book.otf);
 }
 
+@font-face {
+    font-family:khHead;
+    src: url(../fonts/KhJrungThom.ttf);
+}
+
+@font-face {
+    font-family:khBody;
+    src: url(../fonts/KhBoeung.ttf);
+}
+
 .col-img-padding{
 	padding:0;
 }
@@ -17,6 +27,13 @@
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;
 }
+
+.profile-detail-kh{
+	font-size:18px;
+	font-family:myNeutra,khBody,serif,sans-serif;
+	line-height:35px;
+}
+
 p{
 	font-size:16px;
 	font-family:myNeutra,serif,sans-serif;
@@ -183,15 +200,20 @@ p span{
 	top:-70px;
 }
 .content .head-align-left{
-	font-family: myNeutra,serif,sans-serif;
+	font-family: myNeutra,khHead,serif,sans-serif;
 	font-weight:bold;
 	font-size:22px;
 	text-align:left;
 	padding-top:10px;
 }
 
+.content .head-align-left-kh{
+	font-weight:normal;
+	text-align:left;
+}
+
 .content .detail-left{
-	font-family: myNeutra,serif,sans-serif;
+	font-family: myNeutra,khBody,serif,sans-serif;
 	font-size:15px;
 	text-align:left;
 }
@@ -206,18 +228,19 @@ p span{
 	width:130px;
 	margin-right:28px;
 	float:left;
+	margin-bottom:5px;
 }
 .content .resize-mct{
 	width:140px;
 	margin-right:28px;
-	margin-bottom:50px;
+	margin-bottom:81px;
 	float:left;
 }
 
 .content .resize-best-employer{
 	width:100px;
 	margin-right:28px;
-	margin-bottom:70px;
+	margin-bottom:75px;
 	margin-left:30px;
 	float:left;
 }
@@ -232,14 +255,18 @@ p span{
 
 
 .content h2{
-	font-family: myNeutra,serif,sans-serif;
+	font-family: myNeutra,khHead,serif,sans-serif;
 	font-weight:bold;
 	font-size:22px;
 	text-align:right;
 }
 
+.content .kh-h2{
+	font-weight:normal;
+}
+
 .content p{
-	font-family: myNeutra,serif,sans-serif;
+	font-family: myNeutra,khBody,serif,sans-serif;
 	font-size:15px;
 	text-align:right;
 }
@@ -318,15 +345,19 @@ p span{
   }
   
   .content h2{
-		font-family: myNeutra,serif,sans-serif;
+		font-family: myNeutra,khHead,serif,sans-serif;
 		font-weight: bold;
 		font-size:20px;
 		clear: left;
 		text-align:left;
 	}
 	
+	.content .kh-h2{
+		font-weight:normal
+	}
+	
 	.content p{
-		font-family: myNeutra,serif,sans-serif;
+		font-family: myNeutra,khBody,serif,sans-serif;
 		font-size: 12px;
 		text-align:left;
 	}
@@ -441,6 +472,11 @@ p span{
 	
 	.profile-detail{
 		font-size: 12px;
+	}
+	
+	.profile-detail-kh{
+		font-size: 10px;
+		line-height:25px;
 	}
 	
 	.wrapper-technology	h3{

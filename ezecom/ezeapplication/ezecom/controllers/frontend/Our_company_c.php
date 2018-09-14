@@ -26,14 +26,15 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/company_profile',$data);
 		}
-		/* if($this->session->userdata("language")==2){
+		
+		if($this->session->userdata("language")==2){
 			$data['title'] = "អំពីក្រុមហ៊ុន";
-			$data['active'] = "Our Company";
+			$data['active'] = "អំពីក្រុមហ៊ុន";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/our_company_kh_v',$data);
+			$this->load->view('frontend/company_profile_kh_v',$data);
 		}
-		*/
+		
 		
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Our Company";
