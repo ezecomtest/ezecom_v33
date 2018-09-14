@@ -31,7 +31,7 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12 remove-pd">
 				<div class="wrapper-certificate">
 					<p>
-						On August 01, 2018, EZECOM became the first Internet Service Provider (ISP) in 
+						On September 2018, EZECOM became the first Internet Service Provider (ISP) in 
 						Cambodia to receive International Organization for Standardization’s 
 						certification (ISO) 9001:2015 status, with a year-long process initiated 
 						by the development of an internal documented Quality Management System.
