@@ -4,6 +4,16 @@
     src: url(../fonts/NeutraText-Book.otf);
 }
 
+@font-face {
+    font-family:khHead;
+    src: url(../fonts/KhJrungThom.ttf);
+}
+
+@font-face {
+    font-family:khBody;
+    src: url(../fonts/KhBoeung.ttf);
+}
+
 .wrapper-qms img{
 	margin:0 auto;
 	padding:60px 0 30px 0;
@@ -14,23 +24,37 @@
 
 .wrapper-certificate p{
 	font-size:18px;
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	padding-bottom:20px;
+}
+
+.wrapper-certificate .p-kh-top{
+	line-height:35px;
 }
 .core-value, .qms, .policy {
 	background-color:#f1f1f2;
 	height:370px;
 	margin-bottom:20px;
 }
+
+.extend-height-core-value, .extend-height-qms, .extend-height-policy{
+	height:390px;
+}
+
 .core-value h3, .qms h3, .policy h3{
 	color:#7961AA;
     font-weight: bold;
     font-size:30px;
-    font-family: myNeutra,serif,sans-serif;
+    font-family: myNeutra,khHead,serif,sans-serif;
 	padding-bottom:5px;
 	padding:25px 30px 5px 30px;
 	
 }
+
+.core-value .h3-title-1, .qms .h3-title-2, .policy .h3-title-3{
+	font-weight:normal;
+}
+
 .core-value{
 	padding-bottom:20px;
 }
@@ -40,9 +64,12 @@
 	font-size:18px;
 }
 .qms p, .policy p{
-	font-family: myNeutra,serif,sans-serif;
+	font-family: myNeutra,khBody,serif,sans-serif;
 	font-size:16px;
 	padding:0 30px 25px 30px;
+}
+.qms .pqms-kh, .policy .ppolicy-kh{
+	line-height:27px;
 }
 .core-value p{
 	font-family: myNeutra,serif,sans-serif;
@@ -59,7 +86,7 @@
 .core-value p span{
 	font-weight:bold;
 	color:#7961AA;
-	font-family: myNeutra,serif,sans-serif;
+	font-family: myNeutra,khBody,serif,sans-serif;
 	padding: 0 11px 11px 16px;
 }
 .row-margin-bt{
@@ -67,6 +94,11 @@
 }
 
 @media screen and (max-width:1024px){
+	
+	.tab-in{
+		font-size: 12px !important;
+	}
+	
 	.remove-pd{
 		padding:0;
 	}

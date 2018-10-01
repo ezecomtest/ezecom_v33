@@ -4,6 +4,16 @@
     src: url(../fonts/NeutraText-Book.otf);
 }
 
+@font-face {
+    font-family:khHead;
+    src: url(../fonts/KhJrungThom.ttf);
+}
+
+@font-face {
+    font-family:khBody;
+    src: url(../fonts/KhBoeung.ttf);
+}
+
 .wrapper-childsafe .childsafe-logo{
 	margin:0 auto;
 	padding:50px 0 40px 0;
@@ -14,8 +24,12 @@
 }
 .wrapper-childsafe p{
 	font-size:18px;
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	padding-bottom:20px;
+}
+
+.wrapper-childsafe .kh-p{
+	line-height:35px;
 }
 
 .col-img-padding{

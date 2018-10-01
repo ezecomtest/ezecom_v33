@@ -4,20 +4,38 @@
     src: url(../fonts/NeutraText-Book.otf);
 }
 
+@font-face {
+    font-family:khHead;
+    src: url(../fonts/KhJrungThom.ttf);
+}
+
+@font-face {
+    font-family:khBody;
+    src: url(../fonts/KhBoeung.ttf);
+}
+
 .wrapper-partnerships h3{
 	color: #7961AA;
     font-weight: bold;
     font-size:50px;
-    font-family: myNeutra,serif,sans-serif;
+    font-family: myNeutra,khHead,serif,sans-serif;
 	padding-top:80px;
 	padding-bottom:20px;
 	text-align:center;
 	margin:0;
 }
 
+.wrapper-partnerships .kh-our-partnership{
+	font-weight:normal;
+}
+
 .wrapper-partnerships p{
 	font-size:18px;
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
+}
+
+.wrapper-partnerships .kh-our-desc{
+	line-height:35px;
 }
 
 .row-margin-bt{
@@ -36,20 +54,46 @@
 	color: #7961AA;
     font-weight: bold;
     font-size: 30px;
-    font-family: myNeutra,serif,sans-serif;
+    font-family: myNeutra,khHead,serif,sans-serif;
 	padding: 25px 30px 12px 30px;
 	margin:0;
 }
+
+.wrapper-text .h3-goodwill{
+	font-weight:normal;
+}
+
+.wrapper-text .h3-friend-NGO{
+	font-weight:normal;
+}
+
+.wrapper-text .h3-5d-lab{
+	font-weight:normal;
+}
+
 .wrapper-text p{
 	font-size:16px;
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	padding: 0 30px 10px 30px;
 }
+
+.wrapper-text .p-kh-desc-goodwill{
+	line-height:27px
+}
+
+.wrapper-text .p-kh-desc-friend-NGO{
+	line-height:27px
+}
+
+.wrapper-text .p-kh-desc-dev-innova{
+	line-height:27px
+}
+
 .wrapper-text h5{
 	margin:0 0 10px 0;
 }
 .wrapper-text h5 strong{
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	font-size:18px;
 	padding-left:30px;
 }
@@ -72,6 +116,11 @@
 .padding-bt-development-invo{
 	padding-bottom:48px;
 }
+
+.kh-reduce-pd-bt-development-invo{
+	padding-bottom:15px;
+}
+
 .padding-bt-development-invo-ch{
 	padding-bottom:27px;
 }
@@ -96,14 +145,23 @@
 	margin:0;
 }
 .ezecampus-desc p{
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	font-size:18px;
 	padding-bottom:30px;
 }
+
+.ezecampus-desc .kh-ezecampus-desc{
+	line-height:35px;
+}
+
 .content-left, .content-right{
 	background:#F6F5F4;
 	margin-bottom:20px;
 	height:360px;
+}
+
+.extend-content-left,.extend-content-right{
+	height:490px;
 }
 
 .content-left-ch, .content-right-ch{
@@ -137,23 +195,37 @@
 	/*padding-bottom:49px;*/
 }
 .content-left h3,.content-right h3{
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khHead,serif,sans-serif;
 	color: #7961AA;
 	font-size:30px;
 	font-weight:bold;
 	padding: 25px 30px 12px 30px;
 	margin:0;
 }
+
+.content-left .h3-headingleft,.content-right .h3-headingright{
+	font-weight:normal;
+	line-height:45px;
+}
 .content-left p{
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	font-size:16px;
 	padding: 0 30px 25px 30px;
 }
+
+.content-left .p-left{
+	line-height:27px;
+}
+
 .content-right p{
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 	font-size:16px;
 	padding-bottom:23px;
 	padding: 0 30px 10px 30px;
+}
+
+.content-right .p-right{
+	line-height:27px;
 }
 
 .mg-bt{
@@ -208,5 +280,14 @@
 	.wrapper-text p{
 		font-size: 12px;
 	}
+	
+	.extend-content-left, .extend-content-right{
+		height:auto;
+	}
+	
+	.content-left p , .content-right p{
+		font-size:12px;
+	}
+	
 	
 }

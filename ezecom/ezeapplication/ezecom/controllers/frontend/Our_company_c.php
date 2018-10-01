@@ -62,14 +62,15 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/qms',$data);
 		}
-		/* if($this->session->userdata("language")==2){
-			$data['title'] = "Quality Management System";
-			$data['active'] = "Quality Management System";
+		
+		if($this->session->userdata("language")==2){
+			$data['title'] = "ប្រព័ន្ធគ្រប់គ្រងគុណភាព";
+			$data['active'] = "ប្រព័ន្ធគ្រប់គ្រងគុណភាព";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/qms_kh_v',$data);
 		}
-		*/
+		
 
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Quality Management System";
@@ -96,14 +97,15 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/childsafe',$data);
 		}
-		/* if($this->session->userdata("language")==2){
+		
+		if($this->session->userdata("language")==2){
 			$data['title'] = "Childsafe Certification";
 			$data['active'] = "Childsafe Certification";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/childsafe_kh_v',$data);
 		}
-		*/
+		
 		
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Childsafe Certification";
@@ -130,14 +132,16 @@ class Our_company_c extends CI_Controller {
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/partnerships',$data);
 		}
-		/* if($this->session->userdata("language")==2){
-			$data['title'] = "Our Partnerships";
-			$data['active'] = "Our Partnerships";
+		
+		if($this->session->userdata("language")==2){
+			$data['title'] = "ដៃគូរបស់យើង";
+			$data['active'] = "ដៃគូរបស់យើង";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/partnerships_kh_v',$data);
 		}
-		*/
+		
+		
 		if($this->session->userdata("language")==3){
 			$data['title'] = "Our Partnerships";
 			$data['active'] = "Our Partnerships";

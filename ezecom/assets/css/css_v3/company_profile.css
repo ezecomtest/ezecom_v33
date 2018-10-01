@@ -36,7 +36,7 @@
 
 p{
 	font-size:16px;
-	font-family:myNeutra,serif,sans-serif;
+	font-family:myNeutra,khBody,serif,sans-serif;
 }
 p span{
 	color:#7961AA;
@@ -51,6 +51,12 @@ p span{
 	border:1px solid #BBCAD2;
 	padding:25px 30px 0 30px;
 	min-height:650px;
+}
+.extend-height-kh{
+	height:891px;
+}
+.wrapper-technology .technology-p{
+	line-height:30px;
 }
 .wrapper-technology a{
 	color:#7961AA !important;
@@ -68,7 +74,11 @@ p span{
 	color: #7961AA;
     font-weight: bold;
     font-size:30px;
-    font-family: myNeutra,serif,sans-serif;
+    font-family: myNeutra,khHead,serif,sans-serif;
+}
+
+.wrapper-technology	.h3-technology{
+	font-weight:normal;
 }
 
 .wrapper-technology img{
@@ -85,6 +95,10 @@ p span{
 	top:40px;
 	position:relative;
 	padding-bottom:0 !important;
+}
+
+.extend-timeline{
+	height:1029px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -217,6 +231,9 @@ p span{
 	font-size:15px;
 	text-align:left;
 }
+.content .line-space{
+	line-height:27px;
+}
 
 .content .sub-title-align-left{
 	color:#6b53a2;
@@ -228,19 +245,19 @@ p span{
 	width:130px;
 	margin-right:28px;
 	float:left;
-	margin-bottom:5px;
+	margin-bottom:17px;
 }
 .content .resize-mct{
 	width:140px;
 	margin-right:28px;
-	margin-bottom:81px;
+	margin-bottom:117px;
 	float:left;
 }
 
 .content .resize-best-employer{
 	width:100px;
 	margin-right:28px;
-	margin-bottom:75px;
+	margin-bottom:114px;
 	margin-left:30px;
 	float:left;
 }
@@ -248,7 +265,7 @@ p span{
 .content .resize-iso{
 	width:140px;
 	margin-right:28px;
-	margin-bottom:10px;
+	margin-bottom:15px;
 	float:left;
 }
 
@@ -269,6 +286,10 @@ p span{
 	font-family: myNeutra,khBody,serif,sans-serif;
 	font-size:15px;
 	text-align:right;
+}
+
+.content .milestone-p{
+	line-height:27px;
 }
 
 .content .resize-icon{
@@ -330,7 +351,7 @@ p span{
 @media screen and (max-width: 600px){
   /* Place the timelime to the left */
   .timeline {
-	  height:2300px;
+	  height:3000px;
 	  top:80px;
   }
   .timeline::after {
@@ -482,6 +503,7 @@ p span{
 	.wrapper-technology	h3{
 		font-size:20px;
 	}
+	
 	
 	.wrapper-technology p{
 		font-size:12px;

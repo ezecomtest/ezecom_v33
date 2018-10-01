@@ -110,6 +110,23 @@
 
 				<!-- =-================================= -->
 				<?php //foreach($get_slider as $rowslide){ ?>
+				<a href="<?php echo base_url()?>media-center/news-detail/ezecom-creates-convenience-for-customers-with-paygo-deal">
+					<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
+						<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
+						<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
+						
+						<div class="tag-text-slide">
+							<h3 class="my-heading">EZECOM bill can now be paid via PayGo!</h3>
+							<p class="content-descri">
+								Another great way for making payments
+							</p>
+						</div>
+							
+								<img class="img-responsive" src="elFindermaster/files/slides/Front-slide-banner-about-PayGo.jpg" style="width:100%"/>
+							
+						
+					</div>
+				</a>
 								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>

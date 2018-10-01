@@ -62,7 +62,7 @@
     padding: 0 40px 18px 44px;
 }
 
-.aba,.anz,.acleda,.cellcard,.Maybank,.wing,.wing-app,.download{
+.aba,.anz,.acleda,.cellcard,.Maybank,.wing,.wing-app,.download,.paygo{
 	padding:20px 30px 40px 30px;
 	border:1px solid #D1D2D4;
 	text-align:center;
@@ -158,6 +158,19 @@
 	text-decoration:none !important;
 	background-image:url('../../../images/support/payment/hover-download.png') !important;
 }
+
+.paygo{
+	background-image:url('../../../images/support/payment/paygo.png');
+	background-repeat:no-repeat;
+	background-position:center 20px;
+	min-height:150px;
+}
+.paygo:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+
 .bg-color{
 	background-color:#F6F6F6;
 }

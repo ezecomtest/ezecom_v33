@@ -247,7 +247,7 @@
 							<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
 							<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
 							<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-							<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+							<li><a target="_blank" href='http://bandwidth.ezecom.com.kh/'>Speed Test</a></li>
 							<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>User Account Management</a></li>
 						</ul>
 					</li>
@@ -261,7 +261,7 @@
 							<li><a href='<?php echo base_url()?>support/payment'>付款选项</a></li>
 							<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail设置</a></li>
 							<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-							<li><a target="_blank" href='http://ezecom.speedtest.net/'>速度测试</a></li>
+							<li><a target="_blank" href='http://bandwidth.ezecom.com.kh/'>速度测试</a></li>
 							<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>用户账户管理</a></li>
 						</ul>
 					</li>
@@ -275,7 +275,7 @@
 							<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
 							<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
 							<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-							<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+							<li><a target="_blank" href='http://bandwidth.ezecom.com.kh/'>Speed Test</a></li>
 							<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>User Account Management</a></li>
 						</ul>
 					</li>
@@ -576,7 +576,7 @@
 							<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
 							<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
 							<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-							<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+							<li><a target="_blank" href='http://bandwidth.ezecom.com.kh/'>Speed Test</a></li>
 							<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>User Account Management</a></li>
 						</ul>
 					</li>
@@ -590,7 +590,7 @@
 							<li><a href='<?php echo base_url()?>support/payment'>付款选项</a></li>
 							<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail设置</a></li>
 							<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-							<li><a target="_blank" href='http://ezecom.speedtest.net/'>速度测试</a></li>
+							<li><a target="_blank" href='http://bandwidth.ezecom.com.kh/'>速度测试</a></li>
 							<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>用户账户管理</a></li>
 						</ul>
 					</li>
@@ -604,7 +604,7 @@
 							<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
 							<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
 							<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-							<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+							<li><a target="_blank" href='http://bandwidth.ezecom.com.kh/'>Speed Test</a></li>
 							<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/'>User Account Management</a></li>
 						</ul>
 					</li>
@@ -997,7 +997,7 @@
 										<li><a href="<?php echo base_url();?>support/payment">Payment Options</a></li>
 										<li><a href="<?php echo base_url();?>support/setup-email">EzeMail Setup</a></li>
 										<li><a target="_blank" href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
-										<li><a target="_blank" href="http://ezecom.speedtest.net/">Speed Test</a></li>	
+										<li><a target="_blank" href="http://bandwidth.ezecom.com.kh/">Speed Test</a></li>	
 										<li><a target="_blank" href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/">User Account Management</a></li>
 																						 
 									</ul>
@@ -1013,7 +1013,7 @@
 										<li><a href="<?php echo base_url();?>support/payment">付款选项</a></li>
 										<li><a href="<?php echo base_url();?>support/setup-email">EzeMail设置</a></li>
 										<li><a target="_blank" href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
-										<li><a target="_blank" href="http://ezecom.speedtest.net/">速度测试</a></li>	
+										<li><a target="_blank" href="http://bandwidth.ezecom.com.kh/">速度测试</a></li>	
 										<li><a target="_blank" href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/">用户账户管理</a></li>
 																						 
 									</ul>
@@ -1029,7 +1029,7 @@
 										<li><a href="<?php echo base_url();?>support/payment">Payment Options</a></li>
 										<li><a href="<?php echo base_url();?>support/setup-email">EzeMail Setup</a></li>
 										<li><a target="_blank" href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
-										<li><a target="_blank" href="http://ezecom.speedtest.net/">Speed Test</a></li>	
+										<li><a target="_blank" href="http://bandwidth.ezecom.com.kh/">Speed Test</a></li>	
 										<li><a target="_blank" href="https://csm.ezecom.com.kh/uam/login.cgi?uri=/uam/customer/">User Account Management</a></li>
 																						 
 									</ul>

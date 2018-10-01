@@ -135,6 +135,19 @@
 							}
 						?>
 						</tr>
+						<tr>
+						<?php 
+							$i=0;
+							foreach($get_cameras as $camera){
+							$i++;
+							if($i >= 19){
+						?>
+								<td id="<?php echo $camera->traffic_cam_id?>" title="<?php echo $camera->name ?>" onclick='display_camera(this.id,this.title,"<?php echo $camera->secure_token; ?>")'><?php echo $camera->name; ?><span class="linetd">|</span></td>
+							
+						<?php }if($i==21){break;}
+							}
+						?>
+						</tr>
 					
 						</table>
 					</div>

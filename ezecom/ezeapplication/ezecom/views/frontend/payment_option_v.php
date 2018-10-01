@@ -100,10 +100,17 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
+			<!--<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
 				<a href="<?=base_url()?>support/payment#payment" data-toggle="tab" data-id="payment">
 					<div class="download">
 						<p class="text-position">Download Book</p>
+					</div>
+				</a>
+			</div>-->
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 row-no-padding mg-bt-location">
+				<a href="<?=base_url()?>support/payment#paygo" data-toggle="tab" data-id="paygo">
+					<div class="paygo">
+						<p class="text-position">PayGo</p>
 					</div>
 				</a>
 			</div>
@@ -423,6 +430,27 @@
 						</div>
 					</div>
 			</div>
+			<!-- PayGo Option Payment -->
+			<div id="paygo" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+					<div class="row"><h1 class="text-center top-header">Bill Payment with PayGo Wallet app</h1></div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<div class="wrapper-content">
+								<p>You can pay your EZECOM or Telcotech invoice through the PayGo Wallet app at any time and at no cost! Here’s how:</p>
+								<ol>
+									<li>Install and open your PayGo Wallet app and tap “Internet & TV” button </li>
+									<li>Tap <b>“EZECOM/Telcotech”</b> button</li>
+									<li>Enter your EZECOM account number or invoice number</li>
+									<li>Enter the amount of your bill </li>
+									<li>Tap <b>“PAY NOW”</b> button</li>
+									<li>Payment details will be displayed, and that’s it. You’ve successfully made your payment!</li>
+								</ol>
+								<p>For more information about our partner PayGo and their services, you can visit <a href="https://paygo.com.kh/" target="_blank" >www.paygo.com.kh!</a></p>
+							</div>
+						</div>
+					</div>
+			</div>
 			
 		</div>
 	</div>
@@ -469,6 +497,7 @@ $(document).ready(function () {
 		$('a .wing').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
@@ -485,6 +514,7 @@ $(document).ready(function () {
 		$('a .wing').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
@@ -501,6 +531,7 @@ $(document).ready(function () {
 		$('a .wing').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
@@ -517,6 +548,7 @@ $(document).ready(function () {
 		$('a .wing').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
@@ -533,6 +565,7 @@ $(document).ready(function () {
 		$('a .wing').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
@@ -549,6 +582,7 @@ $(document).ready(function () {
 		$('a .Maybank').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
@@ -565,12 +599,14 @@ $(document).ready(function () {
 		$('a .Maybank').removeClass('active-now');
 		$('a .wing').removeClass('active-now');
 		$('a .download').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
 		$(this).addClass('active-now');
 		e.preventDefault();
 	});
+	
 	
 	$('a .download').click(function(e) {
 		
@@ -581,11 +617,29 @@ $(document).ready(function () {
 		$('a .Maybank').removeClass('active-now');
 		$('a .wing').removeClass('active-now');
 		$('a .wing-app').removeClass('active-now');
+		$('a .paygo').removeClass('active-now');
 		/* Active bg */
 		var imageUrl = "<?php echo base_url()?>images/support/payment/hover-download.png";
 		$('.download').css('background-image', 'url(' + imageUrl + ')');
 		$(this).addClass('active-now');
 		e.preventDefault();
 	});
+	
+	$('a .paygo').click(function(e) {
+		$('a .aba').removeClass('active-now');
+		$('a .anz').removeClass('active-now');
+		$('a .acleda').removeClass('active-now');
+		$('a .cellcard').removeClass('active-now');
+		$('a .Maybank').removeClass('active-now');
+		$('a .wing').removeClass('active-now');
+		$('a .download').removeClass('active-now');
+		$('a .wing-app').removeClass('active-now');
+		/* Active bg */
+		var imageUrl = "<?php echo base_url()?>images/support/payment/paygo.png";
+		$('.paygo').css('background-image', 'url(' + imageUrl + ')');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
 }); 
 </script>
